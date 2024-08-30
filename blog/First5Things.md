@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.html
 title: "The First 5 Things to Teach a Computer"
 ---
 
