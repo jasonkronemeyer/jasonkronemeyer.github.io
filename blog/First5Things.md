@@ -1,3 +1,8 @@
+---
+layout: default
+title: "The First 5 Things to Teach a Computer"
+---
+
 **The First 5 Things to Teach a Computer**
 
 Computer science is a fascinating field that blends **logic, creativity**, and **problem-solving**. It's a realm where **students** often find themselves in the role of a **teacher**, imparting knowledge to their digital pupils—computers. The journey begins with simple commands and gradually builds up to more complex tasks. Here’s a glimpse into the foundational five concepts that not only teach the computer but also shape your mind as a **learner**.
