@@ -135,4 +135,99 @@ Using the Digital Compass Navigator ontology in a knowledge graph built for grap
    MATCH (dn:DigitalCompassNavigator)-[:PROVIDES_SERVICE]->(s:Service)
    RETURN dn.name, s.name;
    ```
+## Adding Research Papers to the Digital Skills Navigator
 
+To add research documents supporting the Digital Skills Navigator to the Knowledge Graph, you can follow these steps:
+
+1. **Define the Schema for Research Documents**:
+   Extend the ontology to include classes and properties for research documents. This involves defining classes for ResearchDocument, Author, and Publication, and properties to link these classes to Digital Skills Navigators and other relevant entities.
+
+2. **Ingest Research Documents**:
+   Populate the knowledge graph with instances of research documents, authors, and publications. This includes creating nodes for each research document and establishing relationships with Digital Skills Navigators, services, populations, skills, and programs.
+
+3. **Link Research Documents to Digital Skills Navigators**:
+   Establish relationships between research documents and Digital Skills Navigators to indicate which documents support or are relevant to specific aspects of the Digital Skills Navigator model.
+
+### Example Steps in Neo4j
+
+1. **Extend the Ontology**:
+   Define new classes and properties for research documents in the ontology.
+
+   ```python
+   from owlready2 import *
+
+   # Load the existing ontology
+   onto = get_ontology("path_to_your/digital_navigator.owl").load()
+
+   with onto:
+       # Define new classes for research documents
+       class ResearchDocument(Thing): pass
+       class Author(Thing): pass
+       class Publication(Thing): pass
+
+       # Define properties for research documents
+       class has_author(ObjectProperty):
+           domain = [ResearchDocument]
+           range = [Author]
+
+       class published_in(ObjectProperty):
+           domain = [ResearchDocument]
+           range = [Publication]
+
+       class supports_navigator(ObjectProperty):
+           domain = [ResearchDocument]
+           range = [DigitalSkillsNavigator]
+
+       class bibtex_entry(DataProperty):
+           domain = [ResearchDocument]
+           range = [str]
+
+   # Save the updated ontology to a file
+   onto.save(file="path_to_your/updated_digital_navigator.owl")
+
+   print("Extended ontology with research documents has been created and saved to updated_digital_navigator.owl.")
+   ```
+
+2. **Ingest Research Documents**:
+   Populate the knowledge graph with instances of research documents, authors, and publications.
+
+   ```cypher
+   CREATE (doc:ResearchDocument {title: "Digital Inclusion and Navigators", year: 2024})
+   CREATE (author:Author {name: "Jane Doe"})
+   CREATE (pub:Publication {name: "Journal of Digital Inclusion"})
+   CREATE (doc)-[:HAS_AUTHOR]->(author)
+   CREATE (doc)-[:PUBLISHED_IN]->(pub)
+   ```
+
+3. **Link Research Documents to Digital Skills Navigators**:
+   Establish relationships between research documents and Digital Skills Navigators.
+
+   ```cypher
+   MATCH (doc:ResearchDocument {title: "Digital Inclusion and Navigators"})
+   MATCH (dn:DigitalSkillsNavigator {name: "ExampleNavigator"})
+   CREATE (doc)-[:SUPPORTS_NAVIGATOR]->(dn)
+   ```
+
+### Explanation of the Properties
+
+1. **has_author**:
+   - **Domain**: ResearchDocument
+   - **Range**: Author
+   - **Description**: Indicates the author of a research document.
+
+2. **published_in**:
+   - **Domain**: ResearchDocument
+   - **Range**: Publication
+   - **Description**: Indicates the publication in which a research document was published.
+
+3. **supports_navigator**:
+   - **Domain**: ResearchDocument
+   - **Range**: DigitalSkillsNavigator
+   - **Description**: Indicates that a research document supports or is relevant to a specific Digital Skills Navigator.
+
+4. **bibtex_entry**:
+   - **Domain**: ResearchDocument
+   - **Range**: str
+   - **Description**: Contains the BibTeX entry for the research document.
+
+This is an example of how you can add research documents to the Knowledge Graph, linking them to Digital Skills Navigators and other relevant entities. This allows you to organize and analyze the supporting research comprehensively, enhancing the understanding and impact of digital inclusion efforts.
