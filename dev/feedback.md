@@ -186,4 +186,4 @@ The development of the Digital Compass Navigator, Infrastructure, and Skills ont
 
 10. **Visualization Tools**: Implement visualization tools to help users explore and understand the relationships within the knowledge graph more intuitively.
 
-These suggestions aim to create a more comprehensive and dynamic ontology and knowledge graph, enhancing the ability to analyze and improve digital inclusion efforts. For more details, you can view the full document [here](https://github.com/jasonkronemeyer/jasonkronemeyer.github.io/blob/main/dev/DigitalCompassNavigatorOntology.md).
+These suggestions will help create a more comprehensive and dynamic ontology and knowledge graph, enhancing the ability to analyze and improve digital inclusion efforts. For more details, you can view the full document [here](https://github.com/jasonkronemeyer/jasonkronemeyer.github.io/blob/main/dev/DigitalCompassNavigatorOntology.md).
