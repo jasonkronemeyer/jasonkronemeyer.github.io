@@ -1,4 +1,3 @@
-```markdown
 # Developing the Ontology for The Digital Compass Navigator and the Populations they Serve
 
 The following is towards developing an ontology for Digital Compass Navigators and the Target Populations they serve. This is accompanied by a detailed explanation of the various properties involved and thought brainstorming.
@@ -89,4 +88,3 @@ print("Combined ontology for Digital Compass Navigator and Target Populations ha
    - **Description**: This property indicates that a Digital Compass Navigator is part of a specific program. For example, a Digital Compass Navigator might be part of the American Connection Corp, 4-H Digital Changemakers, Tribal Elder Services, Community Action, United Way or other community service agencies.
 
 Building on these properties, the ontology provides a comprehensive framework for understanding the roles and functions of Digital Compass Navigators, the services they provide, the populations they serve, the skills they possess, and the programs they are part of. This structure allows for a detailed and organized representation of digital inclusion efforts.
-```
