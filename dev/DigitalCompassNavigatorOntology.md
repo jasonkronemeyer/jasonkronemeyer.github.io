@@ -1,6 +1,7 @@
 # Developing the Ontology for The Digital Compass Navigator and the Populations they Serve
 
-The following is towards developing an ontology for Digital Compass Navigators and the Target Populations they serve. This is accompanied by a detailed explanation of the various properties involved and thought brainstorming.
+The following is towards developing an ontology and assocated knowlegde graph for Digital Compass Navigators and the Populations they serve. This is accompanied by a detailed explanation of the various properties involved and thought brainstorming.
+This is for gathering and organizing thoughts and ideas and is a **working document** for development. (JK) 
 
 ## Ontology Code
 
@@ -231,3 +232,82 @@ To add research documents supporting the Digital Skills Navigator to the Knowled
    - **Description**: Contains the BibTeX entry for the research document.
 
 This is an example of how you can add research documents to the Knowledge Graph, linking them to Digital Skills Navigators and other relevant entities. This allows you to organize and analyze the supporting research comprehensively, enhancing the understanding and impact of digital inclusion efforts.
+
+### Linking Internet Infrastructure to Households
+
+To link the properties of the Digital Skills Navigator with the knowledge graph of the internet infrastructure along the road that the households live on, follow these steps:
+
+1. **Extend the Ontology**:
+   Add classes and properties to represent the internet infrastructure and its relationship with households.
+
+   ```python
+   from owlready2 import *
+
+   # Load the existing ontology
+   onto = get_ontology("path_to_your/digital_navigator.owl").load()
+
+   with onto:
+       # Define new classes for internet infrastructure
+       class Road(Thing): pass
+       class FiberOpticCable(Thing): pass
+       class AccessPoint(Thing): pass
+       class Household(Thing): pass
+
+       # Define properties for internet infrastructure
+       class located_on(ObjectProperty):
+           domain = [Household]
+           range = [Road]
+
+       class connected_to(ObjectProperty):
+           domain = [Road]
+           range = [FiberOpticCable]
+
+       class serves_household(ObjectProperty):
+           domain = [AccessPoint]
+           range = [Household]
+
+   # Save the updated ontology to a file
+   onto.save(file="path_to_your/updated_digital_navigator.owl")
+
+   print("Extended ontology with internet infrastructure has been created and saved to updated_digital_navigator.owl.")
+   ```
+
+2. **Ingest Internet Infrastructure Data**:
+   Populate the knowledge graph with instances of internet infrastructure.
+
+   ```cypher
+   CREATE (road:Road {name: "Main Street"})
+   CREATE (fiber:FiberOpticCable {name: "FiberOpticCable1"})
+   CREATE (access:AccessPoint {name: "AccessPoint1"})
+   CREATE (road)-[:CONNECTED_TO]->(fiber)
+   ```
+
+3. **Link Internet Infrastructure to Households**:
+   Establish relationships between the internet infrastructure and households.
+
+   ```cypher
+   MATCH (road:Road {name: "Main Street"})
+   MATCH (household:Household {name: "Household1"})
+   MATCH (access:AccessPoint {name: "AccessPoint1"})
+   CREATE (household)-[:LOCATED_ON]->(road)
+   CREATE (access)-[:SERVES_HOUSEHOLD]->(household)
+   ```
+
+### Explanation of the Properties
+
+1. **located_on**:
+   - **Domain**: Household
+   - **Range**: Road
+   - **Description**: Indicates that a household is located on a specific road.
+
+2. **connected_to**:
+   - **Domain**: Road
+   - **Range**: FiberOpticCable
+   - **Description**: Indicates that a road is connected to a specific fiber optic cable.
+
+3. **serves_household**:
+   - **Domain**: AccessPoint
+   - **Range**: Household
+   - **Description**: Indicates that an access point serves a specific household.
+
+This links the properties of the Digital Skills Navigator with the knowledge graph of the internet infrastructure along the road that the households live on. This allows you to create a comprehensive and interconnected representation of digital inclusion efforts and the supporting infrastructure.
