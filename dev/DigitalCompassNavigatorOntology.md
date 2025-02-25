@@ -8,7 +8,7 @@ The following is towards developing an ontology for Digital Compass Navigators a
 from owlready2 import *
 
 # Create a new ontology
-onto = get_ontology("http://example.org/digital_navigator.owl")
+onto = get_ontology(file="digital_navigator.owl")
 
 with onto:
     # Define classes
