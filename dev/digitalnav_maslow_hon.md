@@ -1,4 +1,4 @@
-# Digital Navigator Definition and Model for Digital Inclusion Update
+# Digital Navigator Definition and Model for Digital Inclusion Update (DRAFT)
 
 In 2020, the National Digital Inclusion Alliance (NDIA) established a definition for the term "digital navigator." This model for digital inclusion has evolved over the years to meet community needs and organizational capacities. In 2024, the definition was updated by the NDIA to reflect new standards and practices in digital inclusion. The digital navigator model is highly replicable and flexible to work in a variety of settings and target populations. Here is a summary of the model:
 
@@ -13,7 +13,7 @@ In 2020, the National Digital Inclusion Alliance (NDIA) established a definition
 
 The digital navigator model aligns well with Maslow's Hierarchy of Needs, addressing various levels of human motivation<sup>2</sup>(https://www.simplypsychology.org/maslow.html)<sup>3</sup>(https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs)<sup>4</sup>(https://www.verywellmind.com/what-is-maslows-hierarchy-of-needs-4136760).
 
-### Key Points
+### Key Relationships
 
 - **Physiological Needs**: Digital navigators help individuals meet basic needs by providing access to essential online services such as healthcare, food assistance, and housing resources.
 - **Safety Needs**: By ensuring secure internet access and educating users on online safety, digital navigators contribute to a sense of security and stability.
