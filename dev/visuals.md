@@ -98,3 +98,64 @@ To integrate the visualization of spatial properties and relationships into a Sh
   - **Print Quality**: SVGs are suitable for high-quality prints due to their resolution independence.
 
 These formats complement each other by providing both interactive web-based visualization (HTML) and high-quality, scalable graphics (SVG).
+
+# Shiny or Dash?
+
+Based on the information from the `py-shiny` repository, here’s a comparison and analysis to determine if `py-shiny` can be used instead of Dash for your application:
+
+### Step 1: Compare Features
+- **Documentation**:
+  - [py-shiny README](https://github.com/jasonkronemeyer/py-shiny/blob/main/README.md) highlights that Shiny for Python aims to build fast, beautiful web applications in Python, with resources like reactive programming and modules for large applications.
+  - Dash is known for its comprehensive documentation and extensive support for interactive web applications with Plotly visualizations.
+
+- **Core Features**:
+  - `py-shiny`: Focuses on reactive programming and interactive visualizations, similar to its R counterpart.
+  - Dash: Extensive support for interactive visualizations, integrates seamlessly with Plotly, and supports a wide range of components and interactive features.
+
+- **Community and Support**:
+  - `py-shiny`: Active development and community support, with resources available on their [Discord](https://discord.gg/yMGCamUMnS).
+  - Dash: Large community and extensive support resources, including forums, tutorials, and documentation.
+
+### Step 2: Analyze Integration Options
+- **Spatial Data Visualization**:
+  - `py-shiny`: While there is no direct mention of spatial data visualization plugins, Shiny for R has robust support for such features, which may be adapted for Python.
+  - Dash: Includes `dash-leaflet` for interactive maps and geographic data visualization.
+
+- **Ease of Integration**:
+  - Both libraries aim to provide a seamless experience for building interactive applications. The choice may depend on your familiarity with the respective frameworks and the specific requirements of your project.
+
+### Example: py-shiny Application
+Here’s how you could integrate spatial data visualization into a `py-shiny` application:
+
+1. **Install Required Packages**:
+   ```bash
+   pip install shiny geopandas folium matplotlib
+   ```
+
+2. **Create a Shiny for Python App**:
+   ```python
+   from shiny import App, ui, render
+   import geopandas as gpd
+   import folium
+
+   # Load spatial data
+   gdf = gpd.read_file('path_to_your_spatial_data.shp')
+
+   # Create a folium map
+   m = folium.Map(location=[latitude, longitude], zoom_start=10)
+   folium.GeoJson(gdf).add_to(m)
+   m.save('map.html')
+
+   # Shiny app layout
+   app_ui = ui.page_fluid(
+       ui.output_ui("map")
+   )
+
+   def server(input, output, session):
+       @output
+       @render.ui
+       def map():
+           return ui.HTML(f'<iframe src="map.html" width="100%" height="600"></iframe>')
+
+   app = App(app_ui, server)
+   ```
