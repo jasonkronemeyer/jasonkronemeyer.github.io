@@ -10,7 +10,7 @@ In 2020, the National Digital Inclusion Alliance (NDIA) established a definition
 3. **Holistic Support**: Digital navigators provide comprehensive, personalized support through ongoing interactions.
 4. **Variety of Roles**: Support services may be offered under different titles, such as digital navigators, digital ambassadors, and digital coaches.
 5. **Diverse Populations**: They serve a wide range of populations, including people with disabilities, justice-impacted individuals, migrants, refugees, students, and caregivers.
-6. **Updated Standards**: NDIA has updated the definition and established standards for digital navigator programs to reflect the lessons learned and daily realities faced by these programs.^1^
+6. **Updated Standards**: NDIA has updated the definition and established standards for digital navigator programs to reflect the lessons learned and daily realities faced by these programs.[^1]
 
 
 ## Digital Navigator Model and Maslow's Hierarchy of Needs
