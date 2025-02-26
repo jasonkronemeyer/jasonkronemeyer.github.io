@@ -10,7 +10,7 @@ In 2020, the National Digital Inclusion Alliance (NDIA) established a definition
 3. **Holistic Support**: Digital navigators provide comprehensive, personalized support through ongoing interactions.
 4. **Variety of Roles**: Support services may be offered under different titles, such as digital navigators, digital ambassadors, and digital coaches.
 5. **Diverse Populations**: They serve a wide range of populations, including people with disabilities, justice-impacted individuals, migrants, refugees, students, and caregivers.
-6. **Updated Standards**: NDIA has updated the definition and established standards for digital navigator programs to reflect the lessons learned and daily realities faced by these programs.[^1]
+6. **Updated Standards**: NDIA has updated the definition and established standards for digital navigator programs to reflect the lessons learned and daily realities faced by these programs.¹
 
 
 ## Digital Navigator Model and Maslow's Hierarchy of Needs
@@ -29,10 +29,10 @@ The model has been adapted by many organizations to meet the unique needs of the
 
 ## References
 
-^1^(https://www.digitalnavigatornews.org/updated-definition-and-new-standards): Zappie-Ferradino, K. (2024). Updated Digital Navigator Definition and New Standards. Digital Navigator News. Retrieved from [Digital Navigator News](https://www.digitalnavigatornews.org/updated-definition-and-new-standards)
-¹(https://www.simplypsychology.org/maslow.html): McLeod, S. (2024). Maslow’s Hierarchy of Needs. Simply Psychology. Retrieved from [Simply Psychology](https://www.simplypsychology.org/maslow.html)
+¹(https://www.digitalnavigatornews.org/updated-definition-and-new-standards): Zappie-Ferradino, K. (2024). Updated Digital Navigator Definition and New Standards. Digital Navigator News. Retrieved from [Digital Navigator News](https://www.digitalnavigatornews.org/updated-definition-and-new-standards)
+2(https://www.simplypsychology.org/maslow.html): McLeod, S. (2024). Maslow’s Hierarchy of Needs. Simply Psychology. Retrieved from [Simply Psychology](https://www.simplypsychology.org/maslow.html)
 ²(https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs): Maslow, A. (1943). A Theory of Human Motivation. Psychological Review, 50, 370-396. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs)
-(https://www.verywellmind.com/what-is-maslows-hierarchy-of-needs-4136760): Verywell Mind. (2024). Maslow's Hierarchy of Needs. Retrieved from [Verywell Mind](https://www.verywellmind.com/what-is-maslows-hierarchy-of-needs-4136760)
+<sup>4</sup>(https://www.verywellmind.com/what-is-maslows-hierarchy-of-needs-4136760): Verywell Mind. (2024). Maslow's Hierarchy of Needs. Retrieved from [Verywell Mind](https://www.verywellmind.com/what-is-maslows-hierarchy-of-needs-4136760)
 
 ## BibTeX Entries
 
