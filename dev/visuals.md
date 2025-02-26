@@ -159,6 +159,17 @@ Here’s how you could integrate spatial data visualization into a `py-shiny` ap
 
    app = App(app_ui, server)
    ```
+# R Libraries that export to SVG?
+
+### Here are some R spatial visualization libraries that can export to SVG:
+
+1. **ggplot2**: Use the `ggsave` function to save plots as SVG. Additional packages like `svglite` can provide more standards-compliant output. Refer to this [Stack Overflow post](https://stackoverflow.com/questions/12226822/how-to-save-a-plot-made-with-ggplot2-as-svg) for details.
+
+2. **svglite**: Provides more standards-compliant SVG output compared to the built-in `svg()` function. More information is available in this [R Graphics guide](https://r-graphics.org/recipe-output-vector-svg).
+
+3. **sf package**: Commonly used for spatial vector data in R, which can be integrated with `ggplot2` for visualization and saved as SVG. Learn more in this [r-spatial tutorial](https://r-spatial.org/r/2024/06/26/sf-load-save.html).
+
+These libraries and packages support creating and exporting spatial visualizations in SVG format.
 
 # What about Sedona Kepler?
 
