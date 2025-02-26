@@ -159,3 +159,34 @@ Here’s how you could integrate spatial data visualization into a `py-shiny` ap
 
    app = App(app_ui, server)
    ```
+
+# What about Sedona Kepler?
+
+### Sedona Kepler Overview
+Sedona Kepler is a visualization tool for geospatial data integrated with Apache Sedona, a cluster computing system for processing large-scale spatial data. It provides APIs for quick and interactive visualization of geospatial data in environments like Jupyter notebooks.
+
+### Key Functionalities of Sedona Kepler
+- Supports large-scale spatial data processing using Apache Sedona.
+- Offers interactive visualization capabilities for geospatial data.
+- Can be used in Jupyter notebook environments for easy integration and visualization.
+
+### Comparison with Dash and py-shiny
+- **Dash**:
+  - Interactive web applications with extensive support for visualizations via Plotly.
+  - Includes `dash-leaflet` for geographic data visualization.
+  - Strong community and documentation support.
+  
+- **py-shiny**:
+  - Focuses on reactive programming and interactive visualizations, similar to Shiny in R.
+  - Can be integrated with folium and geopandas for spatial data visualization.
+  - Active development and community support.
+
+- **Sedona Kepler**:
+  - Specializes in large-scale spatial data processing and interactive visualization.
+  - Integrated with Apache Sedona for efficient geospatial data handling.
+  - Best suited for use in Jupyter notebooks or lab environments.
+
+### Conclusion
+Sedona Kepler can be used for visualizing spatial properties and relationships, especially if you are working with large-scale geospatial data and prefer using Jupyter notebooks. However, for creating Shiny-like interactive web applications with extensive customization and embedding capabilities, Dash or py-shiny might still be more suitable depending on your specific requirements.
+
+For more information, you can refer to the official documentation [here](https://sedona.apache.org/1.5.0/api/sql/Visualization_SedonaKepler/).
