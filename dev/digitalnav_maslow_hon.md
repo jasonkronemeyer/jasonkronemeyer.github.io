@@ -1,7 +1,4 @@
-# Updated Digital Navigator Definition and New Standards
-
-**Date:** June 28, 2024  
-**Author:** Kristi Zappie-Ferradino
+# Digital Navigator Definition and Model for Digital Inclusion Update
 
 In 2020, the National Digital Inclusion Alliance (NDIA) established a definition for the term "digital navigator." This model for digital inclusion has evolved over the years to meet community needs and organizational capacities. In 2024, the definition was updated by the NDIA to reflect new standards and practices in digital inclusion. The digital navigator model is highly replicable and flexible to work in a variety of settings and target populations. Here is a summary of the model:
 
