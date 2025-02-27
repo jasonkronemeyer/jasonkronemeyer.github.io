@@ -1,4 +1,3 @@
-Certainly! Here's the explanation in Markdown format:
 ### Function to Truncate LineStrings within a Polygon
 
 This function takes two GeoDataFrames: one containing LineStrings and the other containing a Polygon. The function will truncate each LineString where it crosses outside the Polygon and remove the part of the LineString that is outside the Polygon.
