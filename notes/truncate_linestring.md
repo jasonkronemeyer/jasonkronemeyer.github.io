@@ -40,7 +40,7 @@ polygon_gdf = gpd.GeoDataFrame(geometry=[Polygon([(1, 1), (5, 1), (5, 5), (1, 5)
 # Truncate the lines
 truncated_gdf = truncate_lines_within_polygon(lines_gdf, polygon_gdf)
 print(truncated_gdf)
-'''
+```
 
 
 This function will:
