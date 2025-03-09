@@ -3,7 +3,7 @@
 ### Overview 
 A fun and engaging lesson for elementary students on Coordinate Reference Systems (CRS) and how they relate to CNC (Computer Numerical Control) and manufacturing process robotics, using Python.
 
-Here is an EUP example of how Superior Fabrication in Kincheloe Michigan uses Robots and CNC Machines in their manufacturing processes:
+Here is an EUP example of how Superior Fabrication in Kincheloe Michigan uses Robot welders and CNC Machines in their manufacturing processes:
 
 [![Robots and CNC at Superior Fabrication in Kincheloe Michigan](https://img.youtube.com/vi/m-r8qJJoS9Y/0.jpg)](https://youtu.be/m-r8qJJoS9Y?si=TGi9Rss5iJKmt8ov)
 
@@ -18,7 +18,7 @@ A Coordinate Reference System (CRS) helps us define and locate places using numb
 
 ### What are CNC Machines and Robots?
 - **CNC Machines**: These are machines that cut, shape, and create parts from materials like metal or wood. They follow specific coordinates to move in different directions and create precise shapes.
-- **Robots in Manufacturing**: Robots use coordinates to pick up items, move them, and assemble products. They follow a set path defined by coordinates to perform their tasks accurately.
+- **Robots in Manufacturing**: Robots use coordinates to pick up items, move them, and assemble (weld) products. They follow a set path defined by coordinates to perform their tasks accurately.
 
 ### Let's Play with Coordinates!
 Imagine we have a robot that needs to move to different spots on a grid. Each spot has a coordinate, like (2, 3). Let's use Python to move our robot to different coordinates!
