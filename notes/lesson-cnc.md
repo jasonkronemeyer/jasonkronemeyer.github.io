@@ -3,6 +3,8 @@
 ### Overview 
 A fun and engaging lesson for elementary students on Coordinate Reference Systems (CRS) and how they relate to CNC (Computer Numerical Control) and manufacturing process robotics, using Python.
 
+[![Robots and CNC at Superior Fabrication in Kincheloe Michigan](https://img.youtube.com/vi/m-r8qJJoS9Y/0.jpg)](https://youtu.be/m-r8qJJoS9Y?si=TGi9Rss5iJKmt8ov)
+
 ### Objectives
 - Understand what Coordinate Reference Systems (CRS) are.
 - Learn how robots use coordinates in manufacturing.
