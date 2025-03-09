@@ -1,9 +1,7 @@
-Lesson for a high school geometry and geography class on Coordinate Reference Systems (CRS) and distance calculations using Python:
-
----
-
 ## Lesson: Coordinate Reference Systems (CRS) and Distance Calculations with Python
 ---
+### Overview
+Lesson for a high school geometry and geography class on Coordinate Reference Systems (CRS) and distance calculations using Python.
 
 ### Objectives
 - Understand the concept of Coordinate Reference Systems (CRS) and their importance in geospatial data.
