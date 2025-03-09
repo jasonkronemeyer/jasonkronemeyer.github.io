@@ -1,4 +1,4 @@
-## Lesson: Exploring Coordinates with Robots in Manufacturing
+## Lesson: Exploring Coordinates with CNC and Robots in Manufacturing
 
 ### Overview 
 A fun and engaging lesson for elementary students on Coordinate Reference Systems (CRS) and how they relate to CNC (Computer Numerical Control) and manufacturing process robotics, using Python.
