@@ -22,6 +22,8 @@ Imagine we have a robot that needs to move to different spots on a grid. Each sp
 #### Installing Python (if needed)
 Before we start, make sure you have Python installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
 
+If you don't have a computer that allows you to install python locally there are a few web-based environments which can be used for free and a not supported by ads.
+
 #### Writing Python Code
 Here's a simple Python code to move a robot on a grid:
 
