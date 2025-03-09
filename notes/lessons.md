@@ -1,4 +1,4 @@
-Sure! Here's a fun and engaging lesson for elementary students on Coordinate Reference Systems (CRS) and how they relate to CNC (Computer Numerical Control) and manufacturing process robotics, using Python.
+A fun and engaging lesson for elementary students on Coordinate Reference Systems (CRS) and how they relate to CNC (Computer Numerical Control) and manufacturing process robotics, using Python.
 
 ---
 
@@ -69,7 +69,4 @@ Coordinates are like secret codes that help machines and robots move precisely. 
 - [Introduction to CNC](https://en.wikipedia.org/wiki/Numerical_control)
 - [Fun with Coordinates](https://www.mathsisfun.com/data/cartesian-coordinates.html)
 
-Feel free to ask any questions or explore more about coordinates and robotics! 🚀🤖
-
----
-Is there anything else you'd like to explore about CRS, CNC machines, or robotics with Python? 🚀
+Feel free to ask your teacher any questions or explore more about coordinates and robotics! 🚀🤖
