@@ -1,4 +1,8 @@
-# Checklist for Student Data Privacy in School District Data Science Projects
+<title>A Checklist for Student Data Privacy in School District Data Science Projects
+</title>
+
+# <p style="text-align: center;">A Checklist for Student Data Privacy in School District Data Science Projects
+</p>
 
 ## Data Science Ethics, Jason Kronemeyer
 
@@ -6,22 +10,21 @@
 
 ### Privacy Principles: **Transparency, Limitation of Use, Access and Correction, Data Quality, Security**
 
-
 #### **Purpose:** 
 To help districts meet legal and ethical requirements for protecting students’ personally identifiable information in data science projects.
 
-[ ] Has a diverse team been assembled to oversee the student data governance aspects of the project?
-- Does the project’s purpose provide benefit to the student?
-- Has a privacy policy been developed for the project?
-- Have relevant data sharing and/or access agreements been developed?
-- Has training for users been developed on privacy policies and procedures?
-- Is there a plan in place to protect and secure student data from unintended disclosure?
-- Have methods been considered to minimize exposure of student personally identifiable information (PII)?
-- Have we developed a schedule or plan to delete data after it is no longer needed?
-- Has a plan for monitoring privacy policies and procedures been developed?
-- Is data which is not relevant to the project removed from the datasets?
-- Do we have a process for parents to request removal or correction of their child’s PII used in the project?
-- Has informed parental consent been gathered?
+- [ ] Has a diverse team been assembled to oversee the student data governance aspects of the project?
+- [ ] Does the project’s purpose provide benefit to the student?
+- [ ] Has a privacy policy been developed for the project?
+- [ ] Have relevant data sharing and/or access agreements been developed?
+- [ ] Has training for users been developed on privacy policies and procedures?
+- [ ] Is there a plan in place to protect and secure student data from unintended disclosure?
+- [ ] Have methods been considered to minimize exposure of student personally identifiable information (PII)?
+- [ ] Have we developed a schedule or plan to delete data after it is no longer needed?
+- [ ] Has a plan for monitoring privacy policies and procedures been developed?
+- [ ] Is data which is not relevant to the project removed from the datasets?
+- [ ] Do we have a process for parents to request removal or correction of their child’s PII used in the project?
+- [ ] Has informed parental consent been gathered?
 
 #### **Design:**
 The Checklist for Student Data Privacy in School District Data Projects is designed for use in PreK-12 Education. This checklist is based off the Checklist for Developing School District Privacy Programs, a resource created by the Privacy Technical Assistance Center (PTAC) at the U.S. Department of Education (U.S. Department of Education, 2015). Additionally, concepts from the ethics checklist for data scientists open-source project deon (DRIVENDATA LABS) as well as Ethics in Data Science (Loukides, Mason, & Patil) were incorporated into this checklist.
@@ -45,7 +48,7 @@ The items listed in this student data privacy checklist should be directly incor
 
 To ensure transparency throughout the project all items should be checked off the list prior to gathering informed parental consent. Following this checklist will help improve communication and transparency with parents about data practices and reassure parents about the security of their child’s personal information. It will also help protect the students and the district from harm (U.S. Department of Education, 2015).
 
-#### References
+#### References:
 
 - DRIVENDATA LABS. (n.d.). deon An etchics checklist for data sceintists. Retrieved March 2021, from deon Project Website: [https://deon.drivendata.org](https://deon.drivendata.org/)
 - Loukides, M., Mason, H., & Patil, D. (n.d.). Ethics and Data Science. Retrieved March 2021, from [https://resources.oreilly.com/examples/0636920203964/](https://resources.oreilly.com/examples/0636920203964/)
