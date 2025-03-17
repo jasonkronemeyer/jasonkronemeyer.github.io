@@ -16,16 +16,27 @@ date: "2021-03-15"
 To help districts meet legal and ethical requirements for protecting students’ personally identifiable information in data science projects.
 
 [ ] Has a diverse team been assembled to oversee the student data governance aspects of the project?
+
 [ ] Does the project’s purpose provide benefit to the student?
+
 [ ] Has a privacy policy been developed for the project?
+
 [ ] Have relevant data sharing and/or access agreements been developed?
+
 [ ] Has training for users been developed on privacy policies and procedures?
+
 [ ] Is there a plan in place to protect and secure student data from unintended disclosure?
+
 [ ] Have methods been considered to minimize exposure of student personally identifiable information (PII)?
+
 [ ] Have we developed a schedule or plan to delete data after it is no longer needed?
+
 [ ] Has a plan for monitoring privacy policies and procedures been developed?
+
 [ ] Is data which is not relevant to the project removed from the datasets?
+
 [ ] Do we have a process for parents to request removal or correction of their child’s PII used in the project?
+
 [ ] Has informed parental consent been gathered?
 
 #### **Design:**
