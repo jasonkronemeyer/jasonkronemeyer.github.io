@@ -1,5 +1,8 @@
-<title>A Checklist for Student Data Privacy in School District Data Science Projects
-</title>
+---
+title: "A Checklist for Student Data Privacy in School District Data Science Projects"
+author: "Jason Kronemeyer"
+date: "2021-03-15"
+---
 
 # <p style="text-align: center;">A Checklist for Student Data Privacy in School District Data Science Projects
 </p>
