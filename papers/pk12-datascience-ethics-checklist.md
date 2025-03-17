@@ -4,8 +4,7 @@ author: "Jason Kronemeyer"
 date: "2021-03-15"
 ---
 
-# <p style="text-align: center;">A Checklist for Student Data Privacy in School District Data Science Projects
-</p>
+# Title: A Checklist for Student Data Privacy in School District Data Science Projects
 
 ## Data Science Ethics, Jason Kronemeyer
 
