@@ -10,7 +10,7 @@
 #### **Purpose:** 
 To help districts meet legal and ethical requirements for protecting students’ personally identifiable information in data science projects.
 
-- Has a diverse team been assembled to oversee the student data governance aspects of the project?
+[ ] Has a diverse team been assembled to oversee the student data governance aspects of the project?
 - Does the project’s purpose provide benefit to the student?
 - Has a privacy policy been developed for the project?
 - Have relevant data sharing and/or access agreements been developed?
