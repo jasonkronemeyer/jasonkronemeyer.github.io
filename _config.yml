@@ -44,8 +44,8 @@ port                : 4000
 host                : 127.0.0.1
 baseurl             : "" # does not include hostname
 show_dir_listing    : false
-domain: jasonkronemeyer.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://jasonkronemeyer.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+domain: www.jasonkronemeyer.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://www.jasonkronemeyer.com  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
 
 # Outputting
