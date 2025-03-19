@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Harnessing the Power of Knowledge Graphs and Generative AI: A Vision for the Future of Education"
+title: "Harnessing the Power of Knowledge Graphs and Generative AI: A Vision for the Future of Education"  
+author: "Jason Kronemeyer"
 date: 2025-03-19
 categories: education data-science
 ---
