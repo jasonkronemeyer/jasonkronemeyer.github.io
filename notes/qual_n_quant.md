@@ -1,5 +1,7 @@
 ### The Critical Role of Qualitative Inquiry in Data Science
 
+By: Jason Kronemeyer 
+
 In the realm of data science, the allure of diving straight into quantitative analysis can be strong. However, skipping the qualitative phase can lead to significant ethical, practical, and analytical drawbacks.
 
 #### The Importance of Starting with Qualitative Inquiry
