@@ -49,3 +49,11 @@ Extract the polygon from the GeoDataFrame.
 Define a helper function to truncate a single LineString.
 Apply this helper function to each LineString in the lines GeoDataFrame.
 Return a new GeoDataFrame containing the truncated LineStrings.
+
+### Why Truncate?
+
+Truncating a line string involves shortening or cutting down a line string geometry, which is typically used in spatial or GIS (Geographic Information Systems) applications. A line string represents a sequence of connected points, forming a path or shape.
+
+When you truncate a line string, you remove or "trim" parts of it—either from one or both ends—while keeping the remaining portion intact. This process is often used to adjust the length of a line string to fit specific requirements or constraints, such as a desired distance or spatial boundary.
+
+For example, if you have a line string that represents a road or path, truncating it might involve cutting off the first 10 meters or the last 20 meters, depending on the context or desired result.
