@@ -1,6 +1,6 @@
 ## Finding the Digital Divide with Bayesian Networks
 
-Author: Jason Kronemeyer 
+Author: Jason Kronemeyer - compiled from my notes with the assistance of AI
 
 In today's interconnected world, the digital divide remains a significant challenge. This gap between those who have access to modern digital technologies and those who do not can have profound implications for education, economic opportunities, and social inclusion. To tackle this issue, we can turn to Bayesian networks, a powerful tool for understanding complex relationships and making informed decisions.
 
