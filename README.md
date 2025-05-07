@@ -14,7 +14,7 @@ With over 25 years of experience in IT infrastructure, network systems, and educ
 
 ## 🚀 What Drives Me
 
-- **Digital Equity & Broadband Advocacy:** Much of my career has focused on bridging the digital divide—ensuring rural schools and communities have the connectivity, skills, and resources to thrive. I am honored to be recognized as a Broadband Champion for my efforts to expand broadband access and digital opportunity.
+- **Digital Equity & Broadband Advocacy:** Much of my career has focused on closing the digital divide—ensuring rural schools and communities have the connectivity, skills, and resources to thrive. I am honored to be recognized as a Broadband Champion for my efforts to expand broadband access and digital opportunity.
 - **Data Science for Good:** I apply data skills to address real-world problems, as showcased in my [Digital Equity Learning Project](https://github.com/jasonkronemeyer/DigitalEquityLearning.github.io).
 - **Lifelong Learning:** My journey is documented through hands-on practice and real-world applications in my [portfolio](https://github.com/jasonkronemeyer/jasonkronemeyer.github.io), where I strive to make my work accessible to all.
 - **Ethical Leadership:** I strive to balance innovation with responsibility, ensuring my work is grounded in fairness, transparency, and community impact.
