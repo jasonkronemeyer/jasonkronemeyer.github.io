@@ -50,14 +50,15 @@ Here are the key notes extracted from the transcript of the congressional hearin
 - Education and outreach are essential to demystify blockchain for rural communities.
 
 ### 🔌 Digital Connectivity
-The importance of **digital connectivity, literacy, and skills**, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain and digital assets.
-
-    - Several witnesses and members of Congress emphasized that rural broadband infrastructure is essential for deploying blockchain-based tools in agriculture and rural development.
-    - For example, Mark Tag (CattleProof Verified) and Mike Horton (Geodet Foundation) both highlighted that without reliable internet access, many of their blockchain-enabled solutions would be inaccessible to rural farmers and ranchers.
+The importance of **digital connectivity, literacy, and skills**, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain:
+- Several witnesses and members of Congress emphasized that rural broadband infrastructure is essential for deploying blockchain-based tools in agriculture and rural development.
+- For example, Mark Tag (CattleProof Verified) and Mike Horton (Geodet Foundation) both highlighted that without reliable internet access, many of their blockchain-enabled solutions would be inaccessible.
 
 ### 📚 Digital Literacy & Skills
 - There was a recurring theme around the need for education and outreach to help rural Americans understand and trust blockchain technology.
 - Mr. Tag specifically mentioned that blockchain and crypto can be intimidating to producers, and that tools should work in the background without requiring users to become tech experts.
 - Dr. Chris Brummer also emphasized the importance of making blockchain tools intuitive and user-friendly, so that people can benefit from them without needing deep technical knowledge.
+- 
 ### 🧠 Congressional Perspective
-    - Members like **Rep. Don Davis** and **Rep. Terri Sewell** asked how to ensure that rural communities are included in the innovation wave, and how to **educate both constituents and lawmakers** about the benefits and practical applications of blockchain.
+- Members like **Rep. Don Davis** and **Rep. Terri Sewell** asked how to ensure that rural communities are included in the innovation wave, and how to **educate both constituents and lawmakers** about blockchain's potential.
+- The discussion emphasized the importance of inclusive education and outreach efforts to bridge the gap between urban and rural areas in adopting blockchain technology.
