@@ -4,13 +4,13 @@ Draft
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
 
 ### 🏛️ Hearing Overview
-- Committee: Commodity Markets, Digital Assets, and Rural Development Subcommittee
-- Focus: Exploring real-world applications of blockchain technology beyond cryptocurrency.
-- Goal: Advance bipartisan digital asset market structure legislation (FIT 21).
+  - Committee: Commodity Markets, Digital Assets, and Rural Development Subcommittee
+  - Focus: Exploring real-world applications of blockchain technology beyond cryptocurrency.
+  - Goal: Advance bipartisan digital asset market structure legislation (FIT 21).
 ### 🎯 Key Themes
-- Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
-- Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
-- Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
+  - Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
+  - Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
+  - Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
 
 ### 👥 Witnesses & Highlights
 1. Bill Hughes (Consensys)
@@ -45,9 +45,9 @@ Here are the key notes extracted from the transcript of the congressional hearin
 - Rural Development: Leverage blockchain for broadband, finance, and infrastructure.
 
 ### 🧠 Key Takeaways
-Blockchain is solving real-world problems in agriculture, logistics, and compliance.
-U.S. risks falling behind without clear, supportive regulation.
-Education and outreach are essential to demystify blockchain for rural communities.
+- Blockchain is solving real-world problems in agriculture, logistics, and compliance.
+- U.S. risks falling behind without clear, supportive regulation.
+- Education and outreach are essential to demystify blockchain for rural communities.
 
 
 The importance of digital connectivity, literacy, and skills, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain and digital assets.
