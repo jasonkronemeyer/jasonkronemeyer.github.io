@@ -30,11 +30,11 @@ Here are the key notes extracted from the transcript of the congressional hearin
     - Built Geonet: A decentralized GPS network using blockchain.
     - Offers sub-inch GPS accuracy for precision agriculture.
     - Blockchain enabled rapid, low-cost infrastructure deployment.
-4. Dr. Chris Brummer (Georgetown University / Blueprint)
+4. **Dr. Chris Brummer (Georgetown University / Blueprint)**
     - Blockchain as a tool for automated legal and regulatory disclosures.
     - Blueprint helps developers embed compliance metadata on-chain.
     - Advocates for flexible, future-proof regulation.
-5. Corey Garrison (Steptoe LLP)
+5. **Corey Garrison (Steptoe LLP)**
     - Former SEC counsel; supports market structure legislation.
     - Warns of regulatory uncertainty driving innovation offshore.
     - Emphasizes need for SEC/CFTC coordination and spot market oversight.
@@ -49,11 +49,8 @@ Here are the key notes extracted from the transcript of the congressional hearin
 - U.S. risks falling behind without clear, supportive regulation.
 - Education and outreach are essential to demystify blockchain for rural communities.
 
-
-
-
 ### 🔌 Digital Connectivity
-The importance of **digital connectivity, literacy, and skills**, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain and digital assets. 
+The importance of **digital connectivity, literacy, and skills**, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain and digital assets.
     - Several witnesses and members of Congress emphasized that rural broadband infrastructure is essential for deploying blockchain-based tools in agriculture and rural development.
     - For example, Mark Tag (CattleProof Verified) and Mike Horton (Geodet Foundation) both highlighted that without reliable internet access, many of their blockchain-enabled solutions would be inaccessible to rural farmers and ranchers.
 ### 📚 Digital Literacy & Skills
