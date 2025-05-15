@@ -42,7 +42,7 @@ Technical expertise must be paired with ethical responsibility and thoughtful re
 ## 🏆 Highlights
 
 - **Broadband Champion** — Recognized for expanding broadband access and digital equity.
-- **Founder & CEO, Jason Kronemeyer LLC** — Leading strategic technology initiatives for educational and nonprofit organizations.
+- **Founder & CEO, Jason Kronemeyer LLC** — Leading strategic technology initiatives for commercial, governmental, educational and nonprofit organizations.
 - **Project Director, EUPConnect Collaborative** — Driving connectivity and digital equity in Michigan’s Upper Peninsula.
 - **Director of Technology, REMC 22, EUPISD** — Building infrastructure and capacity for 19 rural school districts.
 - **Distinguished Partnership Award** — Recognized by Michigan State University for community-engaged service.
