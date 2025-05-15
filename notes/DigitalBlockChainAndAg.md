@@ -1,10 +1,10 @@
 Draft
 
-📄 Source for All Summaries on this page:
-These summaries are based on the official transcript from the congressional hearing:
+📄 Source for All Summaries on this page:  
+These summaries are based on the official transcript from the congressional hearing:  
 
-🎥 Recording: YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development
-📌 Title: “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”
+🎥 Recording: YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development  
+📌 Title: “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”  
 
 #### American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
