@@ -18,7 +18,6 @@ Here are the key notes extracted from the transcript of the congressional hearin
     - Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
     - Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
     - Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
-
 ### 👥 Witnesses & Highlights
 1. **Bill Hughes (Consensys)**
     - Blockchain (Ethereum) enables decentralized apps and smart contracts.
