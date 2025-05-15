@@ -15,9 +15,9 @@ Here are the key notes extracted from the transcript of the congressional hearin
 ### 👥 Witnesses & Highlights
 1. Bill Hughes (Consensys)
 
-- Blockchain (Ethereum) enables decentralized apps and smart contracts.
-- MetaMask: A self-custody wallet with 100M+ users.
-- Urged for legal clarity to support U.S. blockchain innovation.
+ - Blockchain (Ethereum) enables decentralized apps and smart contracts.
+ - MetaMask: A self-custody wallet with 100M+ users.
+ - Urged for legal clarity to support U.S. blockchain innovation.
 2. Mark Tag (CattleProof Verified)
 
 - Uses blockchain for cattle traceability and USDA-certified data.
