@@ -10,14 +10,15 @@ These summaries are based on the official transcript from the congressional hear
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
 
 ### 🏛️ Hearing Overview
-    - Committee: Commodity Markets, Digital Assets, and Rural Development Subcommittee
-    - Focus: Exploring real-world applications of blockchain technology beyond cryptocurrency.
-    - Goal: Advance bipartisan digital asset market structure legislation (FIT 21).
+- Committee: Commodity Markets, Digital Assets, and Rural Development Subcommittee
+- Focus: Exploring real-world applications of blockchain technology beyond cryptocurrency.
+- Goal: Advance bipartisan digital asset market structure legislation (FIT 21).
 
 ### 🎯 Key Themes
-    - Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
-    - Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
-    - Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
+- Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
+- Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
+- Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
+
 ### 👥 Witnesses & Highlights
 1. **Bill Hughes (Consensys)**
     - Blockchain (Ethereum) enables decentralized apps and smart contracts.
@@ -59,7 +60,7 @@ The importance of **digital connectivity, literacy, and skills**, especially in 
 - There was a recurring theme around the need for education and outreach to help rural Americans understand and trust blockchain technology.
 - Mr. Tag specifically mentioned that blockchain and crypto can be intimidating to producers, and that tools should work in the background without requiring users to become tech experts.
 - Dr. Chris Brummer also emphasized the importance of making blockchain tools intuitive and user-friendly, so that people can benefit from them without needing deep technical knowledge.
-- 
+
 ### 🧠 Congressional Perspective
 - Members like **Rep. Don Davis** and **Rep. Terri Sewell** asked how to ensure that rural communities are included in the innovation wave, and how to **educate both constituents and lawmakers** about blockchain's potential.
 - The discussion emphasized the importance of inclusive education and outreach efforts to bridge the gap between urban and rural areas in adopting blockchain technology.
