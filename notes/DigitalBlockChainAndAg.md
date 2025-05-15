@@ -1,11 +1,15 @@
-Draft
+#### House Committee on Agriculture
+##### _American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_
 
-📄 Source for All Summaries on this page:  
-These summaries are based on the official transcript from the congressional hearing:  
+**Committe Description**
+The U.S. House Committee on Agriculture, led by Chairman Glenn "GT" Thompson (PA-15), is a standing committee of the United States House of Representatives. The Committee has general jurisdiction of federal agriculture policy and oversight of some federal agencies, as well as responsibility for recommending funding appropriations for various governmental agencies, programs, and activities, as defined by House rules. We address issues as varied as renewable energy, rural development, crop insurance, futures market regulation, agricultural research and development, and many others.
 
-🎥 Recording: YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development  
-📌 Title: “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”  
-
+📄 **Source:** Summaries on this page are the meeting transcripts.  
+🗓️ **Date:** April 9, 2025
+📌 **Title:** “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”  
+🎥 **Recording:** YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development
+- https://www.youtube.com/live/VXmY_5kR1oQ?si=16iuaNVJTaRePQQ2
+    
 #### American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
 
