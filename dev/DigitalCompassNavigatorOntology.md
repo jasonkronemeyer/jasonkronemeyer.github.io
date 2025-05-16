@@ -1,6 +1,6 @@
 # Developing the Ontology for The Digital Compass Navigator and the Populations they Serve
 
-The following is towards developing an ontology and assocated knowlegde graph for Digital Compass Navigators and the Populations they serve. 
+The following is towards developing an ontology and assocated knowledge graph for Digital Compass Navigators and the Populations they serve. 
 Ontology is defined as a formal representation of a set of concepts within a domain and the relationships between those concepts. It includes classes, properties, and instances to help organize and categorize information, enabling better understanding, sharing, and reuse of knowledge.
 
 This is accompanied by a detailed explanation of the various properties involved and thought brainstorming.
