@@ -7,7 +7,7 @@ The U.S. House Committee on Agriculture, led by Chairman Glenn "GT" Thompson (PA
 📄 **Source:** Summaries on this page are the meeting transcripts.  
 🗓️ **Date:** April 9, 2025
 📌 **Title:** “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”  
-🎥 **Recording:** YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development[^1^]
+🎥 **Recording:** YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development[^1]
     
 #### American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
@@ -21,7 +21,7 @@ Here are the key notes extracted from the transcript of the congressional hearin
 - Blockchain Beyond Crypto: Emphasis on practical, non-financial applications like agriculture, GPS, and legal compliance.
 - Rural Innovation: Blockchain tools are helping rural communities access modern financial and technological infrastructure.
 - Regulatory Clarity: Strong bipartisan support for clear, consistent rules to foster innovation and protect consumers.
-- The importance of **digital connectivity, literacy, and skills**, especially in the context of ensuring that rural communities are not left behind in the digital transformation enabled by blockchain
+- The importance of **digital connectivity, literacy, and skills**, ensuring that rural communities are not left behind in the digital transformation enabled by blockchain
 
 ### 👥 Witnesses & Highlights
 1. **Bill Hughes (Consensys)**
@@ -69,5 +69,5 @@ Here are the key notes extracted from the transcript of the congressional hearin
 - Education and outreach are essential to demystify blockchain for rural communities.
 
 
-1 https://www.youtube.com/live/VXmY_5kR1oQ?si=16iuaNVJTaRePQQ2
+[^1]: https://www.youtube.com/live/VXmY_5kR1oQ?si=16iuaNVJTaRePQQ2
 
