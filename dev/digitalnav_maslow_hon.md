@@ -1,4 +1,10 @@
-# Digital Navigator Definition and Model for Digital Inclusion Update (DRAFT)
+# Digital Navigation: Maslow’s Hierarchy of Needs
+
+**Author:** Jason Kronemeyer  
+**Date:** 2025-05-20
+> **DRAFT:** This article is a work in progress and subject to change.
+
+## Digital Navigator Definition and Model for Digital Inclusion
 
 In 2020, the National Digital Inclusion Alliance (NDIA) established a definition for the term "digital navigator." This model for digital inclusion has evolved over the years to meet community needs and continues to adapt to new challenges.<sup>[1]</sup>
 
