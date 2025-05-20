@@ -2,7 +2,7 @@
 #### Subcommittee on Commodity Markets, Digital Assets, and Rural Development
 #### "_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_"
 
-📝 **Author:** Jason Kronemeyer
+📝 **Summary Author:** Jason Kronemeyer
 
 📄 **Source:** Summaries on this page are the meeting transcripts.  
 🗓️ **Date:** April 9, 2025
