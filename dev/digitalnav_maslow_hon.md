@@ -2,14 +2,26 @@
 title: "Digital Navigation: Maslow’s Hierarchy of Needs"
 author: Jason Kronemeyer
 date: 2025-05-20
+last_modified_at: 2025-05-20
+categories: research-notes
+tags: [research, notes, draft]
+layout: post
+status: "in progress"
+summary: "Preliminary research notes exploring the intersection of digital navigation and Maslow’s hierarchy of needs."
+affiliation: ""
+keywords: [digital navigation, Maslow, digital equity]
+toc: true
 draft: true
+license: CC-BY-4.0
+permalink: /research/digital-navigation-maslow/
 ---
 
 # Digital Navigation: Maslow’s Hierarchy of Needs
 
 **Author:** Jason Kronemeyer  
 **Date:** 2025-05-20
-> **DRAFT:** This article is a work in progress and subject to change.
+> **Research Notes:**  
+> These are preliminary research notes and may be updated.
 
 ## Digital Navigator Definition and Model for Digital Inclusion
 
