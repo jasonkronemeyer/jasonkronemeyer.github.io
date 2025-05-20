@@ -1,14 +1,15 @@
-#### House Committee on Agriculture
-##### "_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_"
-
-**Committe Description**
-The U.S. House Committee on Agriculture, led by Chairman Glenn "GT" Thompson (PA-15), is a standing committee of the United States House of Representatives. The Committee has general jurisdiction of federal agriculture policy and oversight of some federal agencies, as well as responsibility for recommending funding appropriations for various governmental agencies, programs, and activities, as defined by House rules. We address issues as varied as renewable energy, rural development, crop insurance, futures market regulation, agricultural research and development, and many others.
+### House Committee on Agriculture
+#### Subcommittee on Commodity Markets, Digital Assets, and Rural Development
+#### "_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_"
 
 📄 **Source:** Summaries on this page are the meeting transcripts.  
 🗓️ **Date:** April 9, 2025
 📌 **Title:** “_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_”  
 🎥 **Recording:** YouTube – Subcommittee on Commodity Markets, Digital Assets, and Rural Development[^1]
-    
+
+**Committe Description**
+The U.S. House Committee on Agriculture, led by Chairman Glenn "GT" Thompson (PA-15), is a standing committee of the United States House of Representatives. The Committee has general jurisdiction of federal agriculture policy and oversight of some federal agencies, as well as responsibility for recommending funding appropriations for various governmental agencies, programs, and activities, as defined by House rules. We address issues as varied as renewable energy, rural development, crop insurance, futures market regulation, agricultural research and development, and many others.
+ 
 #### American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World
 Here are the key notes extracted from the transcript of the congressional hearing titled "American Innovation and the Future of Digital Assets: Onchain Tools for an Off-Chain World":
 
