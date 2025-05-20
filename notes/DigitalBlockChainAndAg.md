@@ -1,3 +1,26 @@
+---
+title: "American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World"
+date: 2025-04-09
+author: Jason Kronemeyer
+categories:
+  - Congressional Hearing
+  - Blockchain
+  - Agriculture
+tags:
+  - House Committee on Agriculture
+  - Digital Assets
+  - Blockchain Technology
+  - Rural Development
+  - Legislation
+  - FIT 21
+  - Regulatory Clarity
+  - Digital Literacy
+  - Digital Skills
+summary: >
+  Summary and key insights from the April 9, 2025 hearing of the U.S. House Committee on Agriculture Subcommittee on Commodity Markets, Digital Assets, and Rural Development, focusing on the real-world applications of blockchain technology beyond cryptocurrency, with an emphasis on rural innovation, regulatory clarity, and legislative priorities.
+source: "https://www.youtube.com/live/VXmY_5kR1oQ?si=16iuaNVJTaRePQQ2"
+repo: "jasonkronemeyer/jasonkronemeyer.github.io"
+---
 ### House Committee on Agriculture
 #### Subcommittee on Commodity Markets, Digital Assets, and Rural Development
 #### "_American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World_"
