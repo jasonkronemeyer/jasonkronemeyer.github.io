@@ -1,3 +1,10 @@
+---
+title: "Digital Navigation: Maslow’s Hierarchy of Needs"
+author: Jason Kronemeyer
+date: 2025-05-20
+draft: true
+---
+
 # Digital Navigation: Maslow’s Hierarchy of Needs
 
 **Author:** Jason Kronemeyer  
