@@ -36,4 +36,4 @@ For instance, imagine a Bayesian network that models the relationship between in
 
 ### Conclusion
 
-Bayesian networks offer a robust framework for understanding and addressing the digital divide. By modeling the complex relationships between various factors, we can make more informed decisions and implement effective strategies to ensure that everyone has access to the digital world. As we continue to explore and apply these tools, we move closer to a more inclusive and connected society.
+Bayesian networks offer a robust framework for understanding and addressing the digital divide. By modeling the complex relationships between various factors, we can make more informed decisions and implement effective interventions to ensure that everyone has access to the digital world. As we continue to explore and apply these tools, we move closer to a more inclusive and connected society.
