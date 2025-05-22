@@ -41,7 +41,7 @@ Technical expertise must be paired with ethical responsibility and thoughtful re
 
 ## 🏆 Highlights
 
-- **Broadband Champion** — Recognized for expanding broadband access and digital equity.
+- Recognized as a **Broadband Champion** by Dr. Pierrette Renée Dagg in the Benton Institute’s series, "Could It Be Me? Should It Be Me? Understanding What Makes Broadband Champions," for advancing broadband access and digital equity.
 - **Founder & CEO, Jason Kronemeyer LLC** — Leading strategic technology initiatives for commercial, governmental, educational and nonprofit organizations.
 - **Project Director, EUPConnect Collaborative** — Driving connectivity and digital equity in Michigan’s Upper Peninsula.
 - **Director of Technology, REMC 22, EUPISD** — Building infrastructure and capacity for 19 rural school districts.
