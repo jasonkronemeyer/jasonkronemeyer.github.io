@@ -1,6 +1,6 @@
 ## Finding the Digital Divide with Bayesian Networks
 
-Author: Jason Kronemeyer - compiled from my data science course notes with the assistance of AI
+Author: Jason Kronemeyer - compiled from my data science course / project notes.
 
 ---
 
