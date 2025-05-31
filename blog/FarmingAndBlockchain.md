@@ -2,7 +2,7 @@
 
 **By: Jason Kronemeyer**
 
-In today’s digital age, even the most traditional industries are undergoing a tech- driven digital transformation, agriculture is no exception. One of the most promising innovations making waves in the farming world is blockchain technology. And for dairy farms like Taylor Creek Farms, the possibilities are as rich as the milk they produce.
+In today’s digital age, even the most traditional industries are undergoing a tech-driven digital transformation, agriculture is no exception. One of the most promising innovations making waves in the farming world is blockchain technology. And for dairy farms like Taylor Creek Farms, the possibilities are as rich as the milk they produce.
 
 Imagine being able to trace a carton of milk all the way from the cow to the grocery store shelf. With blockchain, this vision becomes reality. By leveraging secure, transparent digital ledgers, Taylor Creek Farms can track every step of the milk production process. The Michigan Milk Association plays a key role in this system by testing and verifying the quality of the milk, ensuring it meets the highest standards before it enters the supply chain.
 
