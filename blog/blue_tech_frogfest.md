@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Fiber Optics, Digital Connectivity, and Blue Tech: Advancing Sustainable Natural Science Practices"
+date: 2025-06-19
+categories: blog blue-tech sustainability frogfest
+author: Jason Kronemeyer
+excerpt: "At the intersection of fiber connectivity and freshwater innovation, Michigan’s Eastern Upper Peninsula is forging a sustainable future through blue tech. Discover how communities, science, and digital infrastructure are working together—from Cedarville Bay to the Frog Festival."
+tags: [blue economy, freshwater, fiber optics, EUP, sustainability, frog festival, digital infrastructure, environmental science]
+draft: true
+---
+
+
 # Fiber Optics, Digital Connectivity, and Blue Tech: Advancing Sustainable Natural Science Practices
 
 ## Introduction  
@@ -45,10 +57,3 @@ As we celebrate the Frog Festival and the rich natural heritage of the Les Chene
 3. [Environmental Benefits of Fiber Internet](https://www.maverixbroadband.com/blog/environmental-benefits-of-fiber-internet) – Maverix Broadband  
 4. [Top 8 Environmental Benefits of Fiber Optic Technology](https://www.fiberquotes.com/environmental-benefits-of-fiber-optic-technology) – FiberQuotes  
 5. [Highline Announces Fiber Optic Expansion in the Upper Peninsula](https://www.highlinefast.com/news/fiber-optic-expansion-upper-peninsula) – Highline Fast
-
----
-
-**Supplemental Documentation (offline sources):**
-- *25-020 Sault Tribe Broadband Consultant Feasibility Study RFP*, last edited 1/29/2025 by Jason Kronemeyer  
-- *Highline Fiber Expo Draft*, modified 8/12/2024 by Jason Kronemeyer  
-- *EUPISD / EUPRPDC Final Broadband Infrastructure Planning Report–2020*, modified 10/10/2024 by Jason Kronemeyer
