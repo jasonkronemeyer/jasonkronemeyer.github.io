@@ -38,36 +38,17 @@ As we celebrate the Frog Festival and the rich natural heritage of the Les Chene
 
 **Sources:**
 
-Citations
-1
-Favicon type
-Within REASON: Expanding Great Lakes monitoring through protected ...
-michiganseagrant.org
-2
-Favicon type
-What is Blue Tech? - gbdmagazine.com
-gbdmagazine.com
-3
-Favicon type
-Environmental Benefits of Fiber Internet | Maverix Broadband
-maverixbroadband.com
-4
-Favicon type
-Top 8 Environmental Benefits of Fiber Optic Technology
-fiberquotes.com
-5
-Favicon type
-Highline Announces Fiber Optic Expansion in the Upper Peninsula
-highlinefast.com
-More
-PDF type
-25-020 Sault Tribe Broadband Consultant Feasibility Study RFP
-Last edited 1/29/2025 by Jason Kronemeyer
+## 📚 Citations
 
-Word type
-Highline Fiber Expo Draft
-Jason Kronemeyer modified on 8/12/2024
+1. [Within REASON: Expanding Great Lakes monitoring through protected sensors](https://www.michiganseagrant.org) – Michigan Sea Grant  
+2. [What is Blue Tech?](https://gbdmagazine.com/what-is-blue-tech) – Green Building & Design Magazine  
+3. [Environmental Benefits of Fiber Internet](https://www.maverixbroadband.com/blog/environmental-benefits-of-fiber-internet) – Maverix Broadband  
+4. [Top 8 Environmental Benefits of Fiber Optic Technology](https://www.fiberquotes.com/environmental-benefits-of-fiber-optic-technology) – FiberQuotes  
+5. [Highline Announces Fiber Optic Expansion in the Upper Peninsula](https://www.highlinefast.com/news/fiber-optic-expansion-upper-peninsula) – Highline Fast
 
-Word type
-EUPISD EUPRPDC Final Broadband Infrastructure Planning Report-2020
-Jason Kronemeyer modified on 10/10/2024
+---
+
+**Supplemental Documentation (offline sources):**
+- *25-020 Sault Tribe Broadband Consultant Feasibility Study RFP*, last edited 1/29/2025 by Jason Kronemeyer  
+- *Highline Fiber Expo Draft*, modified 8/12/2024 by Jason Kronemeyer  
+- *EUPISD / EUPRPDC Final Broadband Infrastructure Planning Report–2020*, modified 10/10/2024 by Jason Kronemeyer
