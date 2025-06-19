@@ -3,6 +3,8 @@ layout: post
 title: "Blue Tech + Fiber Optics: A Freshwater Frontier in the Eastern Upper Peninsula"
 date: 2025-06-19
 categories: blog blue-tech sustainability
+author: Jason Kronemeyer
+draft: true
 ---
 
 ## 🌊 Blue Tech + Fiber Optics: A Freshwater Frontier in the Eastern Upper Peninsula
