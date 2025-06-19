@@ -27,7 +27,7 @@ Fiber connectivity supports:
 
 ### 🧭 Empowering Rural Communities
 
-Programs like **Highline’s** fiber rollout and the **LIFT-UP initiative** are bringing major benefits to smaller towns:
+Programs like **Highline’s** fiber rollout and the **Merit Network LIFT-UP initiative** are bringing major benefits to smaller towns:
 
 - Remote students can access virtual labs and water tech careers  
 - Entrepreneurs can launch blue-focused startups with cloud services  
