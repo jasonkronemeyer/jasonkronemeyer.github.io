@@ -18,7 +18,11 @@ More than **2,500 students** nationwide are involved in the project, which aims 
 
 Sault Area High School’s involvement underscores its commitment to **STEAM education** and its role in preparing students for careers in science, engineering, and technology.
 
-🔗 Learn more about the SunRISE Ground Radio Lab at sunrise.engin.umich.edu
+🔗 Learn more about the SunRISE Ground Radio Lab at
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004114
+
+sunrise.engin.umich.edu
+
 
 ---
 
