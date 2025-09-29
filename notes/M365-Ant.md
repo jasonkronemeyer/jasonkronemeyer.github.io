@@ -1,3 +1,6 @@
+## Today's Vibe 
+### Anthropic Models come to M365
+
 The integration of Anthropic models—specifically Claude Sonnet 4 and Claude Opus 4.1—into Microsoft Copilot Studio brings several strategic and technical benefits that enhance the capabilities of enterprise AI agent development.
 
 1. Expanded Model Choice and Flexibility  
