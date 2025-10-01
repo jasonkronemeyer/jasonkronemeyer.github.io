@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSML Picture Speaker - Embedded Image</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+        
+        .info-panel {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-panel h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        .metadata-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .metadata-label {
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .ssml-content {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .status {
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        
+        .status.speaking {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        
+        .voice-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .voice-control-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .voice-control-group label {
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .voice-control-group select,
+        .voice-control-group input {
+            padding: 8px;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+        }
+
+        .toggle-panel {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .toggle-panel button {
+            background: #6c757d;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ SSML Picture Speaker</h1>
+        <p class="subtitle">Click the speaker button to hear the image speak!</p>
+        
+        <div id="statusDiv"></div>
+        
+        <div class="image-container">
+            <img id="displayImage" src="image_with_ssml.png" alt="Image with embedded SSML" onclick="speakSSML()">
+        </div>
+        
+        <div class="controls">
+            <button id="speakBtn" onclick="speakSSML()">🔊 Speak SSML</button>
+            <button id="stopBtn" onclick="stopSpeaking()">⏹️ Stop</button>
+            <button id="pauseBtn" onclick="pauseSpeaking()">⏸️ Pause</button>
+            <button id="resumeBtn" onclick="resumeSpeaking()">▶️ Resume</button>
+            <button onclick="speakPlainText()">💬 Speak Plain Text</button>
+        </div>
+        
+        <div class="voice-controls">
+            <div class="voice-control-group">
+                <label for="voiceSelect">Voice:</label>
+                <select id="voiceSelect"></select>
+            </div>
+            <div class="voice-control-group">
+                <label for="rateInput">Rate: <span id="rateValue">1.0</span></label>
+                <input type="range" id="rateInput" min="0.5" max="2" step="0.1" value="1">
+            </div>
+            <div class="voice-control-group">
+                <label for="pitchInput">Pitch: <span id="pitchValue">1.0</span></label>
+                <input type="range" id="pitchInput" min="0.5" max="2" step="0.1" value="1">
+            </div>
+            <div class="voice-control-group">
+                <label for="volumeInput">Volume: <span id="volumeValue">1.0</span></label>
+                <input type="range" id="volumeInput" min="0" max="1" step="0.1" value="1">
+            </div>
+        </div>
+
+        <div class="toggle-panel">
+            <button onclick="toggleInfo()">📋 Show/Hide Details</button>
+        </div>
+        
+        <div class="info-panel" id="infoPanel" style="display: none;">
+            <h3>📋 Image Metadata</h3>
+            <div id="metadataDisplay"></div>
+            
+            <h3>📝 SSML Content</h3>
+            <div id="ssmlDisplay" class="ssml-content"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentUtterance = null;
+        let isPaused = false;
+        let ssmlText = '';
+        let plainText = '';
+        let voices = [];
+        
+        // Initialize
+        window.onload = function() {
+            loadVoices();
+            setupEventListeners();
+            loadImageAndExtractSSML();
+        };
+        
+        function setupEventListeners() {
+            // Voice controls
+            document.getElementById('rateInput').addEventListener('input', (e) => {
+                document.getElementById('rateValue').textContent = e.target.value;
+            });
+            
+            document.getElementById('pitchInput').addEventListener('input', (e) => {
+                document.getElementById('pitchValue').textContent = e.target.value;
+            });
+            
+            document.getElementById('volumeInput').addEventListener('input', (e) => {
+                document.getElementById('volumeValue').textContent = e.target.value;
+            });
+
+            document.getElementById('voiceSelect').addEventListener('change', (e) => {
+                // Save the selected voice preference
+                localStorage.setItem('preferredVoice', e.target.value);
+            });
+        }
+        
+        async function loadImageAndExtractSSML() {
+            showStatus('Loading image and extracting SSML...', 'info');
+            
+            try {
+                console.log('Fetching image_with_ssml.png...');
+                const response = await fetch('image_with_ssml.png');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const blob = await response.blob();
+                console.log('Image loaded, size:', blob.size, 'bytes');
+                
+                const arrayBuffer = await blob.arrayBuffer();
+                console.log('ArrayBuffer size:', arrayBuffer.byteLength, 'bytes');
+                
+                const metadata = extractPNGMetadata(arrayBuffer);
+                console.log('Metadata keys found:', Object.keys(metadata));
+                
+                if (metadata.SSML) {
+                    ssmlText = metadata.SSML;
+                    plainText = extractTextFromSSML(metadata.SSML);
+                    displayMetadata(metadata);
+                    showStatus('✓ Ready! Click "🔊 Speak SSML" or click the image to hear it speak.', 'info');
+                    console.log('SSML successfully extracted, length:', ssmlText.length);
+                } else {
+                    const keys = Object.keys(metadata).join(', ');
+                    showStatus(`⚠️ No SSML metadata found. Found keys: ${keys || 'none'}`, 'error');
+                    console.error('Available metadata keys:', keys);
+                    
+                    // Still display whatever metadata we found
+                    if (Object.keys(metadata).length > 0) {
+                        displayMetadata(metadata);
+                    }
+                }
+            } catch (error) {
+                console.error('Error details:', error);
+                showStatus(`Error loading image: ${error.message}. Make sure image_with_ssml.png is in the same directory.`, 'error');
+            }
+        }
+        
+        function extractPNGMetadata(arrayBuffer) {
+            const view = new DataView(arrayBuffer);
+            const bytes = new Uint8Array(arrayBuffer);
+            const metadata = {};
+            
+            // Verify PNG signature
+            const signature = [137, 80, 78, 71, 13, 10, 26, 10];
+            for (let i = 0; i < signature.length; i++) {
+                if (bytes[i] !== signature[i]) {
+                    console.error('Invalid PNG signature');
+                    return metadata;
+                }
+            }
+            
+            console.log('✓ Valid PNG signature');
+            
+            // Skip PNG signature (8 bytes)
+            let offset = 8;
+            
+            try {
+                while (offset < bytes.length - 12) {
+                    // Read chunk length (4 bytes, big-endian)
+                    const length = view.getUint32(offset, false);
+                    offset += 4;
+                    
+                    // Read chunk type (4 bytes)
+                    const type = String.fromCharCode(
+                        bytes[offset],
+                        bytes[offset + 1],
+                        bytes[offset + 2],
+                        bytes[offset + 3]
+                    );
+                    offset += 4;
+                    
+                    console.log(`Chunk: ${type}, length: ${length}`);
+                    
+                    // Process text chunks
+                    if (type === 'tEXt' && length > 0 && offset + length <= bytes.length) {
+                        const chunkData = bytes.slice(offset, offset + length);
+                        
+                        // Find null terminator for keyword
+                        let nullIndex = 0;
+                        while (nullIndex < chunkData.length && chunkData[nullIndex] !== 0) {
+                            nullIndex++;
+                        }
+                        
+                        if (nullIndex < chunkData.length) {
+                            try {
+                                // Use latin1 decoder for PNG tEXt chunks (ISO-8859-1)
+                                const keyword = new TextDecoder('latin1').decode(chunkData.slice(0, nullIndex));
+                                const value = new TextDecoder('latin1').decode(chunkData.slice(nullIndex + 1));
+                                metadata[keyword] = value;
+                                console.log(`✓ Extracted "${keyword}": ${value.length} chars`);
+                            } catch (e) {
+                                console.error('Error decoding tEXt chunk:', e);
+                            }
+                        }
+                    } else if (type === 'iTXt' && length > 0 && offset + length <= bytes.length) {
+                        const chunkData = bytes.slice(offset, offset + length);
+                        
+                        // iTXt: keyword\0compression\0language\0translated_keyword\0text
+                        let nullIndex = 0;
+                        while (nullIndex < chunkData.length && chunkData[nullIndex] !== 0) {
+                            nullIndex++;
+                        }
+                        
+                        if (nullIndex < chunkData.length) {
+                            try {
+                                const keyword = new TextDecoder('utf-8').decode(chunkData.slice(0, nullIndex));
+                                // Skip compression flag and compression method
+                                let textStart = nullIndex + 3;
+                                // Skip language tag
+                                while (textStart < chunkData.length && chunkData[textStart] !== 0) {
+                                    textStart++;
+                                }
+                                textStart++; // Skip null
+                                // Skip translated keyword
+                                while (textStart < chunkData.length && chunkData[textStart] !== 0) {
+                                    textStart++;
+                                }
+                                textStart++; // Skip null
+                                
+                                const value = new TextDecoder('utf-8').decode(chunkData.slice(textStart));
+                                metadata[keyword] = value;
+                                console.log(`✓ Extracted iTXt "${keyword}": ${value.length} chars`);
+                            } catch (e) {
+                                console.error('Error decoding iTXt chunk:', e);
+                            }
+                        }
+                    }
+                    
+                    // Skip chunk data and CRC (4 bytes)
+                    offset += length + 4;
+                    
+                    // Stop at IEND chunk
+                    if (type === 'IEND') {
+                        console.log('✓ Reached IEND chunk');
+                        break;
+                    }
+                }
+            } catch (e) {
+                console.error('Error parsing PNG chunks:', e);
+            }
+            
+            console.log('All extracted metadata keys:', Object.keys(metadata));
+            return metadata;
+        }
+        
+        function extractTextFromSSML(ssml) {
+            // Simple SSML to plain text conversion
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(ssml, 'text/xml');
+            return doc.documentElement.textContent.trim();
+        }
+        
+        function displayMetadata(metadata) {
+            const metadataDisplay = document.getElementById('metadataDisplay');
+            const ssmlDisplay = document.getElementById('ssmlDisplay');
+            
+            let html = '';
+            for (const [key, value] of Object.entries(metadata)) {
+                if (key !== 'SSML') {
+                    html += `
+                        <div class="metadata-item">
+                            <span class="metadata-label">${key}:</span> ${value}
+                        </div>
+                    `;
+                }
+            }
+            metadataDisplay.innerHTML = html || '<p>No additional metadata found.</p>';
+            
+            // Display SSML with syntax highlighting
+            ssmlDisplay.textContent = metadata.SSML || 'No SSML content found.';
+        }
+        
+        function loadVoices() {
+            voices = speechSynthesis.getVoices();
+            const voiceSelect = document.getElementById('voiceSelect');
+            
+            if (voices.length === 0) {
+                // Voices not loaded yet, will retry when onvoiceschanged fires
+                return;
+            }
+            
+            voiceSelect.innerHTML = '';
+            
+            // Find Microsoft Ana voice index
+            let anaIndex = -1;
+            let defaultVoiceIndex = 0;
+            
+            voices.forEach((voice, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${voice.name} (${voice.lang})`;
+                
+                // Look for Microsoft Ana voice specifically
+                const voiceName = voice.name.toLowerCase();
+                if (voiceName.includes('microsoft') && voiceName.includes('ana')) {
+                    anaIndex = index;
+                    option.textContent += ' ⭐ (Default)';
+                }
+                
+                voiceSelect.appendChild(option);
+            });
+            
+            // Set Microsoft Ana as default if found, otherwise use saved preference or first voice
+            const savedVoice = localStorage.getItem('preferredVoice');
+            if (anaIndex !== -1) {
+                voiceSelect.value = anaIndex;
+                console.log('Microsoft Ana voice selected as default');
+            } else if (savedVoice !== null) {
+                voiceSelect.value = savedVoice;
+            } else {
+                voiceSelect.value = defaultVoiceIndex;
+            }
+        }
+        
+        // Load voices when they become available
+        speechSynthesis.onvoiceschanged = loadVoices;
+        
+        function speakSSML() {
+            if (!ssmlText) {
+                showStatus('No SSML content to speak! Loading...', 'info');
+                loadImageAndExtractSSML();
+                return;
+            }
+            
+            stopSpeaking();
+            
+            // Web Speech API doesn't directly support SSML, so we convert to plain text
+            const text = processSSMLForSpeech(ssmlText);
+            speak(text);
+        }
+        
+        function speakPlainText() {
+            if (!plainText) {
+                showStatus('No text content to speak!', 'error');
+                return;
+            }
+            
+            stopSpeaking();
+            speak(plainText);
+        }
+        
+        function processSSMLForSpeech(ssml) {
+            // Extract text and try to preserve some SSML features
+            let text = extractTextFromSSML(ssml);
+            
+            // Add pauses for break tags (approximation)
+            text = text.replace(/\s+/g, ' ').trim();
+            
+            return text;
+        }
+        
+        function speak(text) {
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            
+            // Apply voice settings
+            const selectedVoiceIndex = document.getElementById('voiceSelect').value;
+            if (voices[selectedVoiceIndex]) {
+                currentUtterance.voice = voices[selectedVoiceIndex];
+            }
+            
+            currentUtterance.rate = parseFloat(document.getElementById('rateInput').value);
+            currentUtterance.pitch = parseFloat(document.getElementById('pitchInput').value);
+            currentUtterance.volume = parseFloat(document.getElementById('volumeInput').value);
+            
+            currentUtterance.onstart = () => {
+                showStatus('🔊 Speaking...', 'speaking');
+                isPaused = false;
+            };
+            
+            currentUtterance.onend = () => {
+                showStatus('✓ Finished speaking. Click to speak again!', 'info');
+                currentUtterance = null;
+            };
+            
+            currentUtterance.onerror = (e) => {
+                showStatus(`Error: ${e.error}`, 'error');
+            };
+            
+            speechSynthesis.speak(currentUtterance);
+        }
+        
+        function stopSpeaking() {
+            speechSynthesis.cancel();
+            currentUtterance = null;
+            isPaused = false;
+            showStatus('⏹️ Stopped', 'info');
+        }
+        
+        function pauseSpeaking() {
+            if (speechSynthesis.speaking && !isPaused) {
+                speechSynthesis.pause();
+                isPaused = true;
+                showStatus('⏸️ Paused', 'info');
+            }
+        }
+        
+        function resumeSpeaking() {
+            if (isPaused) {
+                speechSynthesis.resume();
+                isPaused = false;
+                showStatus('▶️ Resumed', 'speaking');
+            }
+        }
+        
+        function toggleInfo() {
+            const infoPanel = document.getElementById('infoPanel');
+            if (infoPanel.style.display === 'none') {
+                infoPanel.style.display = 'block';
+            } else {
+                infoPanel.style.display = 'none';
+            }
+        }
+        
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('statusDiv');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+    </script>
+</body>
+</html>
