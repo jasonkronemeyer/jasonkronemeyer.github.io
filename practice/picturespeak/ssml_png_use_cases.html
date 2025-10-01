@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSML-in-PNG: Use Cases & Possibilities</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .controls-bar {
+            position: sticky;
+            top: 0;
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 2px solid #dee2e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .controls-bar button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .controls-bar button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .controls-bar button:active {
+            transform: translateY(0);
+        }
+        
+        .controls-bar select {
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 2px solid #667eea;
+            font-size: 14px;
+            background: white;
+            cursor: pointer;
+            min-width: 200px;
+        }
+        
+        .status {
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .status.speaking {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status.paused {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .status.stopped {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .intro {
+            background: #e7f3ff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .intro h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .intro p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+        
+        .category {
+            margin-bottom: 50px;
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .category-header:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .category-header .icon {
+            font-size: 2em;
+        }
+        
+        .category-header h2 {
+            flex: 1;
+            font-size: 1.8em;
+        }
+        
+        .category-header .speak-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .category-header .speak-btn:hover {
+            background: white;
+            color: #667eea;
+        }
+        
+        .use-cases {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+        
+        .use-case {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .use-case:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            background: #e7f3ff;
+        }
+        
+        .use-case h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .use-case p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+        
+        .use-case .number {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .advantages {
+            background: #d4edda;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            border-left: 5px solid #28a745;
+        }
+        
+        .advantages h2 {
+            color: #155724;
+            margin-bottom: 20px;
+        }
+        
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .advantage-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .advantage-item .check {
+            color: #28a745;
+            font-size: 1.5em;
+        }
+        
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 24px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s;
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .scroll-top.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+        
+        .scroll-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖼️ SSML-in-PNG Use Cases</h1>
+            <p>Discover the endless possibilities of embedding speech in images</p>
+        </header>
+        
+        <div class="controls-bar">
+            <button onclick="speakAll()">🔊 Speak All</button>
+            <button onclick="stopSpeaking()">⏹️ Stop</button>
+            <button onclick="pauseSpeaking()">⏸️ Pause</button>
+            <button onclick="resumeSpeaking()">▶️ Resume</button>
+            <select id="voiceSelect"></select>
+            <span id="status" class="status"></span>
+        </div>
+        
+        <div class="content">
+            <div class="intro">
+                <h2>What is SSML-in-PNG?</h2>
+                <p>
+                    Embedding Speech Synthesis Markup Language (SSML) in PNG images creates self-contained, 
+                    accessible multimedia files that combine visual and audio information. This innovative 
+                    approach opens up countless possibilities across education, accessibility, entertainment, 
+                    and professional applications. Each image becomes a rich, interactive experience that 
+                    can speak for itself.
+                </p>
+            </div>
+            
+            <div class="category" data-category="education">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">🎓</span>
+                    <h2>Education & Learning</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">1</span>
+                        <h3>Interactive Textbooks</h3>
+                        <p>Diagrams with embedded pronunciation guides and audio descriptions</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">2</span>
+                        <h3>Language Learning</h3>
+                        <p>Images with correct pronunciation of foreign words and phrases</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">3</span>
+                        <h3>Math & Science</h3>
+                        <p>Complex formulas and diagrams with step-by-step audio explanations</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">4</span>
+                        <h3>Children's Books</h3>
+                        <p>Picture books where each illustration can be read aloud with different voices</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">5</span>
+                        <h3>Flashcards</h3>
+                        <p>Study cards with embedded audio for effective memorization</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category" data-category="accessibility">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">♿</span>
+                    <h2>Accessibility</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">6</span>
+                        <h3>Screen Reader Enhancement</h3>
+                        <p>Rich audio descriptions beyond standard alt text</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">7</span>
+                        <h3>Museum Exhibits</h3>
+                        <p>Artwork with detailed audio tours embedded in exhibit photos</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">8</span>
+                        <h3>Wayfinding</h3>
+                        <p>Signage images with spoken directions for visually impaired users</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">9</span>
+                        <h3>Medical Diagrams</h3>
+                        <p>Complex anatomical images with detailed audio explanations</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">10</span>
+                        <h3>Emergency Instructions</h3>
+                        <p>Safety signs with spoken multi-language instructions</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category" data-category="social">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">📱</span>
+                    <h2>Social Media & Communication</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">11</span>
+                        <h3>Memes with Voice</h3>
+                        <p>Memes that speak their punchlines in different voices and accents</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">12</span>
+                        <h3>Audio Greeting Cards</h3>
+                        <p>Visual cards with personalized spoken messages</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">13</span>
+                        <h3>Social Stories</h3>
+                        <p>Sequential images with narration for autism support</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">14</span>
+                        <h3>Comic Strips</h3>
+                        <p>Comics where characters speak their dialogue with appropriate voices</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category" data-category="business">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">🏢</span>
+                    <h2>Business & Professional</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">15</span>
+                        <h3>Product Documentation</h3>
+                        <p>Technical diagrams with spoken assembly and usage instructions</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">16</span>
+                        <h3>Training Materials</h3>
+                        <p>Workflow diagrams with step-by-step audio guidance</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">17</span>
+                        <h3>Marketing Materials</h3>
+                        <p>Product images with embedded sales pitches</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">18</span>
+                        <h3>Real Estate</h3>
+                        <p>Property photos with audio descriptions of features</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">19</span>
+                        <h3>Presentations</h3>
+                        <p>Slide images that can narrate themselves</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category" data-category="creative">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">🎨</span>
+                    <h2>Creative & Entertainment</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">20</span>
+                        <h3>Interactive Art</h3>
+                        <p>Artwork that speaks about itself or its meaning</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">21</span>
+                        <h3>Audio Comics</h3>
+                        <p>Graphic novels with voice acting embedded in each panel</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">22</span>
+                        <h3>Game Assets</h3>
+                        <p>Character portraits with embedded voice lines</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">23</span>
+                        <h3>Music Visualizers</h3>
+                        <p>Album art with lyrics or artist commentary</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">24</span>
+                        <h3>Photography</h3>
+                        <p>Photos with photographer's notes in spoken form</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category" data-category="healthcare">
+                <div class="category-header" onclick="speakCategory(this)">
+                    <span class="icon">🏥</span>
+                    <h2>Healthcare</h2>
+                    <button class="speak-btn" onclick="event.stopPropagation(); speakCategory(this.parentElement)">🔊 Speak</button>
+                </div>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <span class="number">25</span>
+                        <h3>Patient Education</h3>
+                        <p>Medical procedure diagrams with calm, reassuring explanations</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">26</span>
+                        <h3>Medication Guides</h3>
+                        <p>Pill images with dosage and usage instructions</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">27</span>
+                        <h3>Therapy Materials</h3>
+                        <p>Visual aids with therapeutic audio scripts</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="number">28</span>
+                        <h3>Medical Charts</h3>
+                        <p>Diagnostic images with detailed findings</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advantages">
+                <h2>✅ Key Advantages of SSML-in-PNG</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Self-Contained:</strong> No external audio files needed</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Portable:</strong> Single file contains visual and audio</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Accessible:</strong> Works offline, no server required</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Future-Proof:</strong> Standard PNG format</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Privacy:</strong> No tracking or external API calls</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Multilingual:</strong> Easy to create localized versions</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Rich Audio:</strong> SSML provides prosody and emphasis</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check">✓</span>
+                        <span><strong>Universal:</strong> Works on any device with a browser</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>🎙️ SSML-in-PNG Technology Demo</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Click any category header or use the controls above to hear the content</p>
+            <p style="margin-top: 20px; opacity: 0.9;">© Copyright Jason Kronemeyer 2025</p>
+            <p style="margin-top: 5px; opacity: 0.9;">Hosted with ❤️ on GitHub Pages</p>
+            <p style="margin-top: 10px; opacity: 0.7; font-size: 0.9em;">Built with assistance from GitHub Copilot 🤖</p>
+        </footer>
+    </div>
+    
+    <div class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</div>
+
+    <script>
+        let currentUtterance = null;
+        let isPaused = false;
+        let voices = [];
+        let speechQueue = [];
+        let isSpeaking = false;
+        
+        window.onload = function() {
+            loadVoices();
+            setupScrollButton();
+        };
+        
+        function loadVoices() {
+            voices = speechSynthesis.getVoices();
+            const voiceSelect = document.getElementById('voiceSelect');
+            
+            if (voices.length === 0) {
+                return;
+            }
+            
+            voiceSelect.innerHTML = '';
+            
+            let anaIndex = -1;
+            
+            voices.forEach((voice, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${voice.name} (${voice.lang})`;
+                
+                const voiceName = voice.name.toLowerCase();
+                if (voiceName.includes('microsoft') && voiceName.includes('ana')) {
+                    anaIndex = index;
+                    option.textContent += ' ⭐';
+                }
+                
+                voiceSelect.appendChild(option);
+            });
+            
+            if (anaIndex !== -1) {
+                voiceSelect.value = anaIndex;
+                console.log(`Default voice set to: ${voices[anaIndex].name}`);
+            }
+            
+            // Log when user changes voice
+            voiceSelect.addEventListener('change', () => {
+                const selectedIndex = parseInt(voiceSelect.value);
+                if (voices[selectedIndex]) {
+                    console.log(`Voice changed to: ${voices[selectedIndex].name}`);
+                }
+            });
+        }
+        
+        speechSynthesis.onvoiceschanged = loadVoices;
+        
+        function speak(text, callback) {
+            if (!text) return;
+            
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            
+            // Always get the current selected voice from the dropdown
+            const voiceSelect = document.getElementById('voiceSelect');
+            const selectedVoiceIndex = parseInt(voiceSelect.value);
+            
+            if (voices && voices[selectedVoiceIndex]) {
+                currentUtterance.voice = voices[selectedVoiceIndex];
+                console.log(`Using voice: ${voices[selectedVoiceIndex].name}`);
+            }
+            
+            currentUtterance.rate = 1.0;
+            currentUtterance.pitch = 1.0;
+            currentUtterance.volume = 1.0;
+            
+            currentUtterance.onstart = () => {
+                isSpeaking = true;
+                updateStatus('🔊 Speaking...', 'speaking');
+            };
+            
+            currentUtterance.onend = () => {
+                isSpeaking = false;
+                if (callback) callback();
+                // Small delay before processing next item to ensure voice is applied
+                setTimeout(() => processQueue(), 50);
+            };
+            
+            currentUtterance.onerror = (e) => {
+                isSpeaking = false;
+                updateStatus(`Error: ${e.error}`, 'stopped');
+                processQueue();
+            };
+            
+            speechSynthesis.speak(currentUtterance);
+        }
+        
+        function processQueue() {
+            if (speechQueue.length > 0 && !isSpeaking) {
+                const next = speechQueue.shift();
+                speak(next.text, next.callback);
+            } else if (speechQueue.length === 0) {
+                updateStatus('✓ Finished', 'stopped');
+            }
+        }
+        
+        function speakCategory(headerElement) {
+            stopSpeaking();
+            
+            const category = headerElement.closest('.category');
+            const categoryName = headerElement.querySelector('h2').textContent;
+            const useCases = category.querySelectorAll('.use-case');
+            
+            speechQueue = [];
+            
+            // Add category introduction
+            speechQueue.push({
+                text: `Category: ${categoryName}`,
+                callback: null
+            });
+            
+            // Add each use case
+            useCases.forEach((useCase, index) => {
+                const title = useCase.querySelector('h3').textContent;
+                const description = useCase.querySelector('p').textContent;
+                const text = `Use case ${index + 1}: ${title}. ${description}`;
+                speechQueue.push({ text, callback: null });
+            });
+            
+            processQueue();
+        }
+        
+        function speakAll() {
+            stopSpeaking();
+            
+            speechQueue = [];
+            
+            // Intro
+            const intro = document.querySelector('.intro p').textContent;
+            speechQueue.push({
+                text: `Introduction: ${intro}`,
+                callback: null
+            });
+            
+            // All categories
+            const categories = document.querySelectorAll('.category');
+            categories.forEach(category => {
+                const categoryName = category.querySelector('h2').textContent;
+                speechQueue.push({
+                    text: `Category: ${categoryName}`,
+                    callback: null
+                });
+                
+                const useCases = category.querySelectorAll('.use-case');
+                useCases.forEach((useCase, index) => {
+                    const title = useCase.querySelector('h3').textContent;
+                    const description = useCase.querySelector('p').textContent;
+                    speechQueue.push({
+                        text: `${title}. ${description}`,
+                        callback: null
+                    });
+                });
+            });
+            
+            // Advantages
+            speechQueue.push({
+                text: 'Key Advantages of SSML in PNG technology:',
+                callback: null
+            });
+            
+            const advantages = document.querySelectorAll('.advantage-item span:last-child');
+            advantages.forEach(adv => {
+                speechQueue.push({
+                    text: adv.textContent,
+                    callback: null
+                });
+            });
+            
+            processQueue();
+        }
+        
+        function stopSpeaking() {
+            speechSynthesis.cancel();
+            speechQueue = [];
+            currentUtterance = null;
+            isPaused = false;
+            isSpeaking = false;
+            updateStatus('⏹️ Stopped', 'stopped');
+        }
+        
+        function pauseSpeaking() {
+            if (speechSynthesis.speaking && !isPaused) {
+                speechSynthesis.pause();
+                isPaused = true;
+                updateStatus('⏸️ Paused', 'paused');
+            }
+        }
+        
+        function resumeSpeaking() {
+            if (isPaused) {
+                speechSynthesis.resume();
+                isPaused = false;
+                updateStatus('▶️ Resumed', 'speaking');
+            }
+        }
+        
+        function updateStatus(message, className) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = 'status ' + className;
+        }
+        
+        function setupScrollButton() {
+            const scrollTop = document.getElementById('scrollTop');
+            
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    scrollTop.classList.add('visible');
+                } else {
+                    scrollTop.classList.remove('visible');
+                }
+            });
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
