@@ -327,3 +327,37 @@ body {
     min-width: auto;
   }
 }
+
+/* Enhanced blog intro styles */
+.blog-intro {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border-left: 4px solid #007acc;
+}
+
+.blog-intro .lead {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* Blog section headers */
+.blog-section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-section-header h2 {
+  margin-bottom: 0;
+}
+
+.blog-section-tagline {
+  font-style: italic;
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
