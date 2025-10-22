@@ -1,7 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink  <div class="expertise-item">
+    <h3>🏗️ Smart Infrastructure & Communications</h3>
+    <p>Designing advanced network infrastructure including passive optical LAN, and researching IT integration with energy management systems for intelligent building optimization</p>
+  </div>
 ---
 
 # About Jason Kronemeyer
@@ -11,19 +14,20 @@ Welcome! I'm Jason Kronemeyer, a passionate data scientist and educator dedicate
 
 ## What I Do
 
-I specialize in the intersection of **data science**, **education technology**, and **knowledge management**. My work focuses on:
+I specialize in the intersection of **data science**, **education technology**, and **community development**. My work focuses on:
 
 - **Knowledge Graphs & AI**: Harnessing the power of interconnected data and generative AI to enhance learning experiences
 - **Educational Innovation**: Developing data-driven approaches to personalize learning and improve educational outcomes  
-- **Geographic Information Systems**: Creating interactive maps and spatial analysis for educational and research purposes
-- **Research & Development**: Exploring emerging technologies like blockchain in agriculture and digital divide solutions
+- **Spatial Data & Community Development**: Leveraging spatial analytics to understand and support community growth, infrastructure planning, and equitable resource distribution
+- **Communications Systems & Passive Optical LAN**: Designing and implementing advanced network infrastructure solutions for educational institutions and communities
+- **Smart Buildings Research**: Currently investigating the intersection of information technology and energy systems in intelligent building management and optimization
 
 ## Expertise Areas
 
 <div class="expertise-grid">
   <div class="expertise-item">
     <h3>🧠 Data Science</h3>
-    <p>Machine learning, statistical analysis, and data visualization with a focus on educational applications</p>
+    <p>Machine learning, statistical analysis, and data visualization with a focus on educational and community applications</p>
   </div>
   
   <div class="expertise-item">
@@ -32,30 +36,55 @@ I specialize in the intersection of **data science**, **education technology**, 
   </div>
   
   <div class="expertise-item">
-    <h3>🗺️ GIS & Mapping</h3>
-    <p>Creating interactive maps and spatial analysis for research, policy, and educational purposes</p>
+    <h3>🏘️ Spatial Data & Community Development</h3>
+    <p>Analyzing spatial relationships to inform community planning, infrastructure development, and equitable resource allocation</p>
   </div>
   
   <div class="expertise-item">
-    <h3>🔗 Knowledge Graphs</h3>
-    <p>Building interconnected data systems that reveal hidden patterns and enhance decision-making</p>
+    <h3>� Communications Systems & Passive Optical LAN</h3>
+    <p>Designing and deploying advanced network infrastructure including passive optical LAN solutions for high-performance, scalable connectivity</p>
+  </div>
+  
+  <div class="expertise-item">
+    <h3>�🏢 Smart Buildings & Energy Systems</h3>
+    <p>Researching the integration of information technology with energy management systems for intelligent building optimization</p>
   </div>
 </div>
 
 ## Current Focus
 
-I'm currently exploring how **knowledge graphs** and **generative AI** can revolutionize education by:
-
+### Educational Innovation
+I'm exploring how **knowledge graphs** and **generative AI** can revolutionize education by:
 - Creating personalized learning pathways
 - Enhancing accessibility for diverse learners
 - Streamlining institutional operations
 - Unlocking new research possibilities through interconnected data
 
-{% include callout.html type="info" title="Let's Connect!" content="I believe in the power of collaboration and knowledge sharing. Whether you're an educator, researcher, developer, or simply curious about the intersection of technology and learning, I'd love to connect and explore how we can work together to drive innovation in education." %}
+### Community Development Through Spatial Data
+My work with **spatial data analytics** focuses on:
+- Understanding community growth patterns and infrastructure needs
+- Supporting equitable resource distribution and access
+- Analyzing the digital divide through geographic and demographic data
+- Informing policy decisions with data-driven community insights
+
+### Smart Infrastructure & Communications Research
+My work focuses on **advanced communications systems and intelligent building technologies**, including:
+- Designing high-performance network architectures with passive optical LAN solutions
+- Implementing scalable, future-proof connectivity for educational institutions
+- Optimizing network infrastructure to support digital equity initiatives
+- Investigating IoT sensors and data analytics for building energy optimization
+- Machine learning approaches to predictive energy management
+- Integration of renewable energy sources with intelligent building systems
+- Creating sustainable and efficient built environments through data-driven approaches
+
+{% include callout.html type="info" title="Current Research" content="I'm actively researching how information technology can optimize energy systems in smart buildings. This work explores the potential for data-driven approaches to reduce energy consumption, integrate renewable sources, and create more sustainable built environments through intelligent building management systems." %}
+
+{% include callout.html type="info" title="Let's Connect!" content="I believe in the power of collaboration and knowledge sharing. Whether you're an educator, researcher, developer, or simply curious about the intersection of technology, community development, and sustainable energy systems, I'd love to connect and explore how we can work together to drive innovation." %}
 
 ## Get In Touch
 
 - **Email**: [jason@jasonkronemeyer.com](mailto:jason@jasonkronemeyer.com)
+- **LinkedIn**: [linkedin.com/in/jasonkronemeyer](https://www.linkedin.com/in/jasonkronemeyer)
 - **GitHub**: [@jasonkronemeyer](https://github.com/jasonkronemeyer)
 - **Twitter**: [@jasonkronemeyer](https://twitter.com/jasonkronemeyer)
 
