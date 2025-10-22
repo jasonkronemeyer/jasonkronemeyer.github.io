@@ -69,3 +69,261 @@ body {
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
+
+/* About page styles */
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.expertise-item {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #007acc;
+  transition: transform 0.2s ease;
+}
+
+.expertise-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.expertise-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.expertise-item p {
+  margin-bottom: 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Blog index styles */
+.post-list {
+  margin: 2rem 0;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.post-preview:last-child {
+  border-bottom: none;
+}
+
+.post-preview h3 {
+  margin-bottom: 0.5rem;
+}
+
+.post-preview h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.post-preview h3 a:hover {
+  color: #007acc;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-excerpt {
+  color: #555;
+  line-height: 1.6;
+}
+
+.categories {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e1e4e8;
+}
+
+.category-tag {
+  display: inline-block;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+}
+
+.category-tag a {
+  background: #f1f3f4;
+  color: #333;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.category-tag a:hover {
+  background: #007acc;
+  color: white;
+}
+
+/* Resume styles */
+.resume {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.resume-title {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.contact-links {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.contact-links a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section h2 {
+  color: #333;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.resume-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume-list > li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.resume-list > li::before {
+  content: "•";
+  color: #007acc;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.resume-sublist {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.resume-sublist li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.skill-tag {
+  background: #f1f3f4;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-left: 3px solid #007acc;
+}
+
+.experience-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.year {
+  font-weight: 600;
+  color: #007acc;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.resume-image {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e4e8;
+}
+
+.resume-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .resume {
+    padding: 1rem;
+  }
+  
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+  
+  .skills-grid {
+    justify-content: center;
+  }
+  
+  .experience-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .year {
+    min-width: auto;
+  }
+}

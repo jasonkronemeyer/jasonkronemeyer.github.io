@@ -1,0 +1,111 @@
+---
+layout: default
+title: "Jason F. Kronemeyer - Resume"
+permalink: /
+---
+
+<div class="resume">
+  <header class="resume-header">
+    <h1>Jason F. Kronemeyer</h1>
+    <p class="resume-title"><strong>Veteran - United States Air Force</strong></p>
+    <p class="resume-title"><strong>Founder and CEO of Jason Kronemeyer LLC</strong></p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/jasonkronemeyer">linkedin.com/in/jasonkronemeyer</a> | 
+      <a href="https://github.com/jasonkronemeyer/">github.com/jasonkronemeyer</a>
+    </div>
+  </header>
+  
+  <section class="resume-section">
+    <h2>Summary</h2>
+    <p>Innovative and strategic technology leader with over 25 years of experience in IT infrastructure, network systems, and educational technology. Recently completed a Master of Applied Data Science from the University of Michigan. Founder of Jason Kronemeyer LLC, offering Data Science and Cloud IT engineering / consulting services. Seeking to leverage extensive background in IT infrastructure and data science expertise to drive digital transformation and deliver data-driven solutions.</p>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Education</h2>
+    <ul class="resume-list">
+      <li><strong>Master of Applied Data Science (MADS)</strong>, University of Michigan School of Information, 2024
+        <ul class="resume-sublist">
+          <li>Course Electives: SIADS 602 - Math Methods II and SIADS 673 - Cloud Computing</li>
+          <li>Application Course Elective: SIADS 688 - Data Science for Social Good</li>
+          <li>Milestone 2 and Capstone projects focused on Digital Equity, sample work is available in my GitHub repositories linked above.</li>
+          <li><a href="https://www.si.umich.edu/programs/master-applied-data-science/curriculum">Link to Full MADS Curriculum Site</a></li>
+        </ul>
+      </li>
+      <li><strong>Bachelor of Science in Information Technology</strong>, University of Phoenix, 2006</li>
+      <li><strong>National Cryptologic School (NSA) / Community College of the Air Force</strong>, 1995-1999 – TS-SCI Security Clearance – Signals Intelligence Analyst</li>
+    </ul>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Highlights of Qualifications</h2>
+    <ul class="resume-list">
+      <li>Leadership in information technology innovation, infrastructure and integration to the rural school districts and communities with a focus on equitable digital connectivity and skilling.</li>
+      <li>Over twenty-five years' experience working as an integral part of an outstanding information technology team in support of nineteen constituent school districts and their communities.</li>
+      <li>Proven reputation of providing leadership and fiscal planning to build capacity for all aspects of information technology services and infrastructure in a vast geographic region.</li>
+      <li>Organizes implementation and support of regional educational network and data systems.</li>
+      <li>Team player with ability to prioritize and manage multiple large-scale concurrent projects.</li>
+      <li>Excellent verbal and written communicator of complex technical concepts to leverage community partnerships and to maximize accessibility by reducing the digital divide though grant awards.</li>
+    </ul>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Relevant Experience</h2>
+    <ul class="resume-list">
+      <li>Directed the creation of the EUPSchools' Data Center which virtualized our hosting environment, reducing redundancy and overall costs for hosting multiple educational data systems.</li>
+      <li>Leadership in support of creating and implementing regional information systems and support.</li>
+      <li>Managed multimillion-dollar budget for the regional technology consortium.</li>
+      <li>Co-designed and lead initiatives to provide computing devices to K-12 students throughout the region and created the EUPSchools' Cloud and fostering anytime, anywhere, any place learning.</li>
+      <li>Unified network user identification by creating and migrating to a regional directory to manage data system security.</li>
+      <li>Negotiated multi-year contracts and made recommendations K-12 school leadership to ensure high quality operation of information technology consortium.</li>
+      <li>Designed, implemented and managed mission critical educational data systems, connecting regional districts to shared technology services, regional network, and the Internet.</li>
+      <li>Provided leadership and consulting to state organizations, legislative leaders, county and township officials, and EUPISD staff and constituent district teachers and administrators.</li>
+    </ul>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-tag">Dyslexic Thinker</span>
+      <span class="skill-tag">Data Science & Analytics</span>
+      <span class="skill-tag">IT Infrastructure & Network Systems</span>
+      <span class="skill-tag">Strategic Planning & Leadership</span>
+      <span class="skill-tag">Educational Technology & E-Learning</span>
+      <span class="skill-tag">Technical Communication & Consulting</span>
+    </div>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Professional Experience</h2>
+    <ul class="resume-list experience-list">
+      <li><span class="year">2024-Present:</span> <strong>Founder</strong>, Jason Kronemeyer LLC</li>
+      <li><span class="year">2021-Present:</span> <strong>Trustee</strong>, Bruce Township, Chippewa County, Michigan</li>
+      <li><span class="year">2021-Present:</span> <strong>Ex-Officio member</strong>, Bruce Township Planning Commission</li>
+      <li><span class="year">2021-2024:</span> <strong>Project Director</strong>, EUPConnect Collaborative</li>
+      <li><span class="year">2008-2024:</span> <strong>Director of Technology and REMC 22</strong>, EUPISD</li>
+      <li><span class="year">2000-2007:</span> <strong>Network Engineer</strong>, EUPISD</li>
+      <li><span class="year">1999-2000:</span> <strong>PC Client Technician</strong>, EUPISD</li>
+      <li><span class="year">1995-1999:</span> <strong>Signals Intelligence Analyst</strong>, United States Air Force</li>
+    </ul>
+  </section>
+  
+  <section class="resume-section">
+    <h2>Awards, Affiliations and Notable Presentations</h2>
+    <ul class="resume-list">
+      <li>Michigan State University 2022 Distinguished Partnership Award for Community-Engaged Service</li>
+      <li>Michigan Educational Technology Leadership (METL) Network Alumni</li>
+      <li>Michigan Data Hubs Advisory Member 2016 to 2024</li>
+      <li>Merit Network K-12 Advisory Committee Member 2016 to 2021</li>
+      <li>Voices from Michigan Legislative Summit, Microsoft selected Speaker-August 2014</li>
+      <li>REMC Association of Michigan Executive Committee Member at Large- 2011-2015</li>
+      <li>EUPISD Employee of the Year – 2003</li>
+      <li>Air Force Commendation Medal – January 1999</li>
+      <li>Air Force Achievement Medal – December 1998</li>
+      <li>692th Intelligence Group Technician of the Quarter – April 1998</li>
+      <li>324th Intelligence Squadron Technician of the Month – April 1998</li>
+    </ul>
+  </section>
+
+  <div class="resume-image">
+    <img src="{{ '/images/netart.jpeg' | relative_url }}" alt="Net art image">
+  </div>
+</div>
