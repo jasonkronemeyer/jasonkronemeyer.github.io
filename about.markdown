@@ -1,10 +1,7 @@
 ---
 layout: page
 title: About
-permalink  <div class="expertise-item">
-    <h3>🏗️ Smart Infrastructure & Communications</h3>
-    <p>Designing advanced network infrastructure including passive optical LAN, and researching IT integration with energy management systems for intelligent building optimization</p>
-  </div>
+permalink: /about/
 ---
 
 # About Jason Kronemeyer
@@ -41,14 +38,8 @@ I specialize in the intersection of **data science**, **education technology**, 
   </div>
   
   <div class="expertise-item">
-    <h3>🌐 Communications Systems & Passive Optical LAN</h3>
-    <p>Designing and deploying advanced network infrastructure including passive optical LAN solutions for high-performance, scalable connectivity</p>
-  </div>
-
-  
-  <div class="expertise-item">
-    <h3>🏢 Smart Buildings & Energy Systems</h3>
-        <p>Researching the integration of information technology with energy management systems for intelligent building optimization</p>
+    <h3>🏢 Smart Infrastructure & Communications</h3>
+        <p>Designing advanced network infrastructure including passive optical LAN, and researching IT integration with energy management systems for intelligent building optimization</p>
   </div>
 </div>
 
