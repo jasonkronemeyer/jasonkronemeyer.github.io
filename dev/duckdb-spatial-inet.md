@@ -1,6 +1,8 @@
 ---
 layout: default
 title: DuckDB Spatial and Inet Extensions: Performance and Use Cases
+hide_title: true
+---
 
 ### Geospatial and Internet Data Science at Scale, Simplified.
 
