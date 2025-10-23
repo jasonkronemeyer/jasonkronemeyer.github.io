@@ -1,5 +1,7 @@
 # DuckDB Spatial and Inet Extensions: Performance and Use Cases
 
+### Geospatial and Internet Data Science at Scale, Simplified.
+
 ## Abstract
 
 This report examines **DuckDB’s spatial (geospatial) extension** and **DuckDB’s inet (IP network) extension**, focusing on their performance characteristics and use cases. DuckDB’s spatial extension introduces a `GEOMETRY` data type and spatial SQL functions that integrate geographic data processing into the DuckDB analytics engine [1]. We analyze its capabilities (spatial joins, coordinate transformations, spatial indexing) and compare performance with traditional GIS databases (e.g., PostGIS) and libraries. DuckDB’s inet extension adds an `INET` data type for IPv4/IPv6 addresses (with CIDR prefixes), enabling efficient analysis of network traffic and cybersecurity datasets within DuckDB [2]. We evaluate how these extensions perform on large datasets and discuss real-world use cases and benchmarks. Comparative insights with other tools (PostGIS, GeoPandas, Apache Sedona for spatial; PostgreSQL inet for IP data) are provided to contextualize DuckDB’s strengths.
