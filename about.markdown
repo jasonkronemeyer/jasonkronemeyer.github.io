@@ -15,7 +15,7 @@ I specialize in the intersection of **data science**, **education technology**, 
 
 - **Knowledge Graphs & AI**: Harnessing the power of interconnected data and generative AI to enhance learning experiences
 - **Educational Innovation**: Developing data-driven approaches to personalize learning and improve educational outcomes  
-- **Spatial Data & Community Development**: Leveraging spatial analytics to understand and support community growth, infrastructure planning, and equitable resource distribution
+- **Spatial Data & Community Development**: Leveraging spatial data science to understand and support community growth, infrastructure planning, and equitable resource distribution
 - **Communications Systems & Passive Optical LAN**: Designing and implementing advanced network infrastructure solutions for educational institutions and communities
 - **Smart Buildings Research**: Currently investigating the intersection of information technology and energy systems in intelligent building management and optimization
 
