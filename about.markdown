@@ -53,7 +53,7 @@ I'm exploring how **knowledge graphs** and **generative AI** can revolutionize e
 - Unlocking new research possibilities through interconnected data
 
 ### Community Development Through Spatial Data
-My work with **spatial data analytics** focuses on:
+My work with **spatial data science** focuses on:
 - Understanding community growth patterns and infrastructure needs
 - Supporting equitable resource distribution and access
 - Analyzing the digital divide through geographic and demographic data
