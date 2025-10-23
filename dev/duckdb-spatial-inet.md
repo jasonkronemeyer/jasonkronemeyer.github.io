@@ -67,7 +67,7 @@ Compared to string parsing or regex, DuckDB’s approach is significantly faster
 
 - **Network Traffic Analysis**: Group by subnet, filter internal traffic.
 - **Geolocation**: Join IPs with region mappings for digital equity studies [8].
-- **Cybersecurity**: Match logs against blacklists using containment operators.
+- **Cybersecurity**: Match logs against blocklists using containment operators.
 
 ### 3.4 Comparison with Other Tools
 
