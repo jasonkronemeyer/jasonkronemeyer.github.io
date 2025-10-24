@@ -50,6 +50,7 @@ As we continue to innovate and expand access to technology, let us remember that
 
 In an era that often promises technological salvation, Toyama's work offers a grounding truth: the most powerful technology we have is our collective human effort, our institutional wisdom, and our community bonds. Everything else is amplification.
 
+Jason K
 ---
 
 *This post draws on the research of Kentaro Toyama, particularly his work "Technology as Amplifier in International Development" (iConference 2011) and "Geek Heresy: Rescuing Social Change from the Cult of Technology" (PublicAffairs, 2015). All insights and applications reflect my own experiences working in digital equity and community technology development.*
