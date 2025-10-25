@@ -8,7 +8,7 @@ tags: [AI, workforce, education, digital equity, storytelling]
 
 As a new generation steps into the workforce, they’re met not by open doors—but by algorithms. Entry-level jobs, once a rite of passage, are increasingly automated. The result? A job market where even college grads are struggling to find footing.
 
-According to the [Federal Reserve Bank of New York](https://www.newyorkfed.org/research/college-labor-market/college-labor-market_wages.html), the unemployment rate for recent college graduates (ages 22–27) has reached its highest point in over a decade, excluding the pandemic.
+According to the [Federal Reserve Bank of New York](https://www.newyorkfed.org/research/college-labor-market#--:explore:unemployment), the unemployment rate for recent college graduates (ages 22–27) has reached its highest point in over a decade, excluding the pandemic.
 
 But there’s hope—and action.
 
