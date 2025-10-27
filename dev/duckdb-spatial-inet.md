@@ -1,6 +1,7 @@
 ---
 layout: default
-title: DuckDB Spatial and Inet Extensions: Performance and Use Cases
+title: "DuckDB Spatial and Inet Extensions: Performance and Use Cases"
+author: Jason Kronemeyer
 hide_title: true
 ---
 # DuckDB Spatial and Inet Extensions: Performance and Use Cases
