@@ -2,6 +2,7 @@
 layout: post
 title: "The Last Entry-Level Human? Rethinking Work in the Age of AI"
 date: 2025-10-25
+author: Jason F. Kronemeyer
 categories: [future-of-work, youth, AI, community]
 tags: [AI, workforce, education, digital equity, storytelling]
 ---
@@ -41,4 +42,4 @@ Let’s help the next generation see themselves not as obsolete—but as irrepla
 
 ---
 
-*Written by Jason, township technologist and community storyteller. Inspired by the resilience of young minds and the power of human-centered design.*
+*Written by Jason K, community technologist and community storyteller. Inspired by the resilience of young minds and the power of human-centered design.*
