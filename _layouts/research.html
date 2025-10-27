@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="research-paper">
+  <header class="research-header">
+    <h1 class="research-title">{{ page.title }}</h1>
+    
+    {% if page.short_title %}
+    <p class="research-short-title">{{ page.short_title }}</p>
+    {% endif %}
+    
+    {% if page.tagline %}
+    <p class="research-tagline">{{ page.tagline }}</p>
+    {% endif %}
+    
+    <div class="research-meta">
+      {% if page.author %}
+      <p class="research-author">{{ page.author }}</p>
+      {% endif %}
+      
+      {% if page.date %}
+      <p class="research-date">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %Y" }}</time>
+      </p>
+      {% endif %}
+      
+      {% if page.tags and page.tags.size > 0 %}
+      <div class="research-tags">
+        <strong>Keywords:</strong>
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="research-content">
+    {{ content }}
+  </div>
+
+  {% if page.references %}
+  <footer class="research-footer">
+    <h2>References</h2>
+    <div class="references">
+      {{ page.references }}
+    </div>
+  </footer>
+  {% endif %}
+</article>
