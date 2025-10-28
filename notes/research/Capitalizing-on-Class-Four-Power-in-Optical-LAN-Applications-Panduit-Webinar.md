@@ -71,10 +71,12 @@ Mahmoud Ibrahim introduced Panduit’s Fault Managed Power System (FMPS), the ma
 - Class Four systems are governed by UL 1400-1 (systems) and UL 1400-2 (cables), covered by NEC Article 726 and 722, respectively.
 - The technology is new, with adoption accelerating as more states update to the 2023 NEC code.
 - Seven states have adopted Class Four, and twelve more are considering it.
+
 #### **Class Four System Architecture and Safety**
 - A Class Four deployment includes a transmitter and receiver connected by Class Four cable, with constant monitoring for faults.
 - The system instantly disables power in case of a fault, then self-heals and restarts when safe.
 - Compared to GFCI and AFCI outlets, Class Four covers a broader range of fault types, making it safer for distribution than conventional building wiring.
+
 #### **Class Four Cable Specifications**
 - Class Four cables are rated for at least 450 volts and come in various gauges, pair counts, and configurations (plenum, riser, indoor/outdoor, hybrid).
 - They are typically twisted for installation ease, and termination is vendor-specific.
@@ -97,11 +99,8 @@ Panduit’s FMPS integrates seamlessly with optical LAN architectures. It allows
 This webinar provided an in-depth look at the challenges of smart building network design, the benefits and architecture of passive optical LAN, and the new possibilities unlocked by Class Four Fault Managed Power systems. Both Tellabs and Panduit are available to assist with project design and answer further questions regarding the integration and benefits of these technologies.
 
 ---
-> **Watch the Original Video:**
-> [YouTube video, "Capitalizing on Class Four Power in Optical LAN Applications," presented by Tellabs and Panduit. Accessed 10/28/2025. https://youtu.be/OX1P7SaA2RQ?si=3f2VrNye26duK8nN]
->
-> [![Watch the webinar]([URL]])
->
-Watch the Original Video:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+*Watch the Original Webinar*:
+<CENTER> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <\CENTER>
+
+**Source:** "Capitalizing on Class Four Power in Optical LAN Applications," presented by Tellabs and Panduit. Accessed 10/28/2025. https://youtu.be/OX1P7SaA2RQ?si=3f2VrNye26duK8nN
