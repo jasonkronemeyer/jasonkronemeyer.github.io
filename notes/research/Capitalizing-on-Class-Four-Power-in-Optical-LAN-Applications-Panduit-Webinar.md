@@ -5,9 +5,9 @@
 ### Introduction
 
 Thank you to everyone who joined our webinar, "**Capitalizing on Class Four Power in Optical LAN Applications**." We were excited to welcome outstanding speakers from Tellabs and Panduit to discuss the latest advancements in Optical LAN and the introduction of a new Class Four Power Solution, highlighting its applications and benefits in optical LAN environments.
-
+  
 ---
-
+  
 ### Challenges in Designing Smart Building Networks
 *Presented by John Hoover, Marketing Director, Tellabs*
 John Hoover began by addressing the key challenges faced when implementing smart buildings and campuses. He identified five primary obstacles in designing and deploying these networks:
@@ -17,7 +17,7 @@ John Hoover began by addressing the key challenges faced when implementing smart
 - **Sustainability:** Energy usage, cooling requirements, and the accumulation of plastics and electronic waste all impact the building’s carbon footprint. Addressing these issues is vital for sustainable operations and achieving net-zero goals.
 - **Power Management:** Managing the power needs of numerous IoT endpoints, including power over Ethernet and backup solutions, is critical for the smooth operation of smart buildings. Reliable and scalable power delivery is increasingly important as networks expand.
 
----
+  
 ### Innovations for Smart Building Network Design
 John highlighted that passive optical LAN (POL) and innovations like Class Four Fault Managed Power are key solutions to these challenges:
 - **Scale and Reach:** Fiber-based networks can support five times the device density—and, in some cases, up to 128 times the Ethernet density—across a single-mode fiber. These networks also offer 100 times the reach, supporting up to 10, 40, and even 100 gigabit speeds.
@@ -26,14 +26,14 @@ John highlighted that passive optical LAN (POL) and innovations like Class Four 
 - **Sustainability:** By using fiber networks, both embodied and operational carbon impacts are reduced—less plastic, materials, and lower energy use for cooling, aiding organizations on their journey to net zero.
 - **Powering Innovations:** Class Four Fault Managed Power enables longer-distance, higher-capacity, and safer power delivery to IoT endpoints, supporting the growth of smart buildings and campuses.
 
----
+  
 ### Evolution of Power Delivery in Optical LAN
 John explained the progression of power delivery methods in passive optical LANs:
 1. **Local Powering:** Initially, optical line terminals (OLTs) and optical network terminals (ONTs) were powered locally, enabling up to 12 miles of reach. ONTs were responsible for delivering power over Ethernet to IoT devices.
 2. **Class Two Remote Powering:** With centralized or distributed architectures, class two remote powering allowed DC power to be pushed up to 2,000 feet using composite cabling. ONTs still delivered power to edge devices.
 3. **Class Four Fault Managed Power:** The latest advancement allows ONTs to be powered over distances exceeding one mile. This system supports direct connections or integration with class two systems for higher endpoint density, enabling safe, reliable, and scalable power distribution in smart buildings.
 
----
+  
 ### Overview of Passive Optical LAN Networks
 *Presented by Ian Merrill, Enterprise Account Executive, Tellabs*
 Ian Merrill provided a comprehensive comparison between traditional Ethernet networks and passive optical LAN (POL) solutions.
@@ -49,15 +49,16 @@ POL networks use a point-to-multipoint topology with four main components:
 - **Software:** The Panorama software manages all network devices centrally, drastically simplifying operations.
 Single-mode fiber allows thousands of devices to connect to a centralized OLT, extending network reach up to 18 miles—ideal for campus-wide deployments.
 
----
+  
 ### Key Benefits of Passive Optical LAN
 - **Simplicity:** Centralized management reduces the required staff and streamlines moves, adds, and changes, freeing up IT resources for more strategic work.
 - **Scalability:** Fiber infrastructure supports easy upgrades and mixed 1G/10G transmissions, accommodating future technologies like Wi-Fi 6/7 without major cable replacements.
 - **Security:** Fiber is inherently difficult to tap, and only the OLT console port needs physical security. ONTs have no console ports or IP addresses, making them useless to intruders. The system uses AES 128-bit encryption with a 60-second rotating key for enhanced data protection.
 - **Reliability:** Born from carrier-grade technology (e.g., Verizon FiOS), POL systems deliver five nines (99.999%) reliability, with advanced redundancy options (port, card, dual-chassis protection) further boosting uptime to six nines.
 - **Sustainability:** POL significantly reduces physical footprint, energy use, and cooling requirements. Single-mode fiber lasts decades, minimizing landfill waste. Large-scale deployments, like Sandia National Labs, have reported up to 65% energy savings and millions in operational cost reductions.
-
+  
 ---
+  
 ### Class Four Power and Fault Managed Power Systems
 *Presented by Mahmoud Ibrahim, Commercial Lead, Panduit*
 Mahmoud Ibrahim introduced Panduit’s Fault Managed Power System (FMPS), the market's first and only Class Four listed system, and detailed the evolution and standards behind Class Four power.
@@ -80,8 +81,9 @@ Mahmoud Ibrahim introduced Panduit’s Fault Managed Power System (FMPS), the ma
 #### **Class Four Cable Specifications**
 - Class Four cables are rated for at least 450 volts and come in various gauges, pair counts, and configurations (plenum, riser, indoor/outdoor, hybrid).
 - They are typically twisted for installation ease, and termination is vendor-specific.
-
+  
 ---
+  
 ### Panduit Fault Managed Power System (FMPS) Overview
 The Panduit FMPS consists of:
 - **Transmitter Unit:** Converts AC to pulsed current for Class Four circuits, with network management for monitoring and control.
@@ -89,19 +91,22 @@ The Panduit FMPS consists of:
 - **Receiver Unit:** Wall or rack-mounted, converts Class Four input to 48V DC, with up to three input channels for aggregated power delivery at long distances.
 - **Cabling:** Three-pair, 16-gauge Class Four cable, optimized for the receiver’s three-channel topology.
 Centralized power enables backup with a single UPS, centralized monitoring, remote control, scalability, and easy moves, adds, and changes. The system is suitable for a wide range of applications, with particular value in smart buildings and optical LANs.
-
+  
 ---
+  
 ### Panduit FMPS in Optical LAN Applications
 Panduit’s FMPS integrates seamlessly with optical LAN architectures. It allows long-distance, high-power delivery alongside fiber—either directly powering ONTs or supplying Class Two power distribution at the edge. This provides flexibility for various deployment scenarios and supports efficient, safe, and scalable power delivery throughout the building or campus.
-
+  
 ---
+  
 ### Conclusion
 This webinar provided an in-depth look at the challenges of smart building network design, the benefits and architecture of passive optical LAN, and the new possibilities unlocked by Class Four Fault Managed Power systems. Both Tellabs and Panduit are available to assist with project design and answer further questions regarding the integration and benefits of these technologies.
-
+  
 ---
+  
 
 *Watch the Original Webinar*:
 <CENTER> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </CENTER>
-
+  
 
 **Source:** "Capitalizing on Class Four Power in Optical LAN Applications," presented by Tellabs and Panduit. Accessed 10/28/2025. https://youtu.be/OX1P7SaA2RQ?si=3f2VrNye26duK8nN
