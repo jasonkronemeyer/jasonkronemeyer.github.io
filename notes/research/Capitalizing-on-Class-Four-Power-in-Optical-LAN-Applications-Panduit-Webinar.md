@@ -1,9 +1,11 @@
 # Capitalizing on Class Four Power in Optical LAN Applications | Panduit Webinar
 
-## Webinar Recap and In-Depth Overview
+## *Webinar Recap and In-Depth Overview*
 
 ### Introduction
+
 Thank you to everyone who joined our webinar, "**Capitalizing on Class Four Power in Optical LAN Applications**." We were excited to welcome outstanding speakers from Tellabs and Panduit to discuss the latest advancements in Optical LAN and the introduction of a new Class Four Power Solution, highlighting its applications and benefits in optical LAN environments.
+
 ---
 ### Challenges in Designing Smart Building Networks
 *Presented by John Hoover, Marketing Director, Tellabs*
@@ -79,11 +81,17 @@ Centralized power enables backup with a single UPS, centralized monitoring, remo
 ---
 ### Panduit FMPS in Optical LAN Applications
 Panduit’s FMPS integrates seamlessly with optical LAN architectures. It allows long-distance, high-power delivery alongside fiber—either directly powering ONTs or supplying Class Two power distribution at the edge. This provides flexibility for various deployment scenarios and supports efficient, safe, and scalable power delivery throughout the building or campus.
+
 ---
 ### Conclusion
 This webinar provided an in-depth look at the challenges of smart building network design, the benefits and architecture of passive optical LAN, and the new possibilities unlocked by Class Four Fault Managed Power systems. Both Tellabs and Panduit are available to assist with project design and answer further questions regarding the integration and benefits of these technologies.
+
 ---
 > **Watch the Original Video:**
 > [YouTube video, "Capitalizing on Class Four Power in Optical LAN Applications," presented by Tellabs and Panduit. Accessed 10/28/2025. https://youtu.be/OX1P7SaA2RQ?si=3f2VrNye26duK8nN]
 >
 > [![Watch the webinar]([URL]])
+>
+Watch the Original Video:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
