@@ -101,7 +101,7 @@ This webinar provided an in-depth look at the challenges of smart building netwo
 ---
 
 *Watch the Original Webinar*:
-<CENTER> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <\CENTER>  
+<CENTER> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OX1P7SaA2RQ?si=GWdV9kORE0iZFKxC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </CENTER>
 
 
 **Source:** "Capitalizing on Class Four Power in Optical LAN Applications," presented by Tellabs and Panduit. Accessed 10/28/2025. https://youtu.be/OX1P7SaA2RQ?si=3f2VrNye26duK8nN
