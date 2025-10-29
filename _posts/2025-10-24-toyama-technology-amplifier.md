@@ -12,7 +12,7 @@ excerpt: "Technology magnifies existing forces rather than creating new ones fro
 
 ## Introduction
 
-With over 25 years working at the intersection of technology and community development, I've witnessed firsthand the transformative power of digital infrastructure and its limitations. Throughout my career in rural educational technology and broadband advocacy, I've learned that technology alone is never the answer. It's a powerful tool, yes, but only when it amplifies the human capacity, institutional strength, and community engagement that already exists.
+With over 25 years working at the intersection of technology and community development, I've witnessed firsthand the transformative power of digital infrastructure and its limitations. Throughout my career in rural educational technology and advocacy for digital connectivity, I've learned that technology alone is never the answer. It's a powerful tool, yes, but only when it amplifies the human capacity, institutional strength, and community engagement that already exists.
 
 This lesson resonates deeply with the research of Kentaro Toyama, whose "Law of Amplification" provides a framework for understanding what I've observed in practice: technology magnifies existing forces rather than creating new ones from nothing. As someone who has spent years working to close the digital divide, I find Toyama's insights essential for anyone committed to using technology for social good. His work challenges the notion of technological solutionism and calls us back to what matters most: people, institutions, and communities.
 
