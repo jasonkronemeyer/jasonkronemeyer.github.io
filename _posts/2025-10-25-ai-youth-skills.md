@@ -31,15 +31,15 @@ Organizations like [NPower](https://www.npower.org/) and [Per Scholas](https://p
 
 ## 🎙️ What This Means for Us
 
-This moment calls for more than training. It calls for storytelling.
+This moment calls for more than training. It calls for digital storytelling.
 
 In our community work, we can:
-- Use narrative formats—comics, podcasts, visual explainers—to demystify AI and empower youth.
-- Partner with local schools and nonprofits to amplify these grant-funded programs.
+- Use narrative digital storytelling, podcasts, visual explainers—to demystify AI and empower youth.
+- Partner locally with schools, nonprofits, industry and governments to amplify these grant-funded programs.
 - Reframe the conversation: not “AI vs. humans,” but “AI + human wisdom.”
 
 Let’s help the next generation see themselves not as obsolete—but as irreplaceable.
 
 ---
 
-*Written by Jason K, community technologist and community storyteller. Inspired by the resilience of young minds and the power of human-centered design.*
+*Written by Jason Kronemeyer, community technologist and storyteller. Inspired by the resilience of young minds and the power of human-centered design.*
