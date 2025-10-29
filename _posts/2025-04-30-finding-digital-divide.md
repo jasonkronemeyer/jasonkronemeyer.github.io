@@ -32,7 +32,7 @@ The digital divide is influenced by various factors, including:
 - **Aspiration**: The desire and motivation to use digital technologies.
 - **Relevance**: Availability of relevant opportunities, skills and literacy.
 - **Quality**: The user experience, encompassing the quality, capacity, and reliability of internet connections.
-- **Affordability**: Cost of accessing digital technologies.
+- **Affordability**: The economic capacity to sustain digital access—balancing the costs of devices, connectivity, and services against household income and competing essential needs.
 
 ### Applying Bayesian Networks to the Digital Divide
 
