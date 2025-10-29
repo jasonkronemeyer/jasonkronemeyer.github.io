@@ -77,7 +77,7 @@ POL uses a point-to-multipoint topology:
 Class Four Fault Managed Power and Passive Optical LAN are redefining what’s possible for K-12 schools. They offer the scale, safety, and sustainability needed for modern learning environments. If you’re planning a new build or renovation, it’s time to look beyond traditional power and network designs.
 
 **Want to learn more?**  
-Check out my research notes from the full Panduit webinar: [Watch here](notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html)
+Check out my research notes from the Panduit webinar: [Read Here](https://www.jasonkronemeyer.com/notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html)
 
 ---
 
