@@ -714,3 +714,40 @@ body {
     font-size: 1.3rem;
   }
 }
+
+/* Site-wide footer disclaimer styling */
+.site-disclaimer {
+  margin: 2rem 0 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 3px solid #6c757d;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.site-disclaimer p {
+  margin: 0;
+}
+
+.site-disclaimer em {
+  font-weight: 600;
+  color: #333;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-top: 1rem;
+}
+
+/* Mobile adjustments for footer */
+@media (max-width: 768px) {
+  .site-disclaimer {
+    font-size: 0.85rem;
+    padding: 0.75rem;
+    margin: 1.5rem 0 1rem 0;
+  }
+}
