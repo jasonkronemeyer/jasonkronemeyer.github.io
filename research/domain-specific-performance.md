@@ -7,7 +7,7 @@ permalink: /research/domain-specific-performance/
 # Domain‑Specific Performance: DuckDB Extensions, DuckLake, and Bayesian Network Inference
 
 {:.lead}
-An academic evaluation of computational characteristics and suitability for targeted analytics workloads.
+Research notes computational characteristics and suitability for targeted analytics workloads.
 
 **Author**: Jason Kronemeyer  
 **Date**: October 2025  
@@ -80,9 +80,9 @@ This comparative study employed:
 
 ---
 
-## Full Research Paper
+## Full Technical Report
 
-{% include callout.html type="info" title="Complete Analysis" content="The full technical paper includes detailed benchmarks, implementation details, and comprehensive comparisons with alternative approaches. Contact for access to the complete research document." %}
+[Read the complete technical report with detailed benchmarks and implementation analysis →](/notes/research/BayesDuck.html)
 
 **Research Categories**: Database Systems, Spatial Computing, Probabilistic Models, Performance Analysis
 

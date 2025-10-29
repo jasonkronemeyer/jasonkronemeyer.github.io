@@ -23,6 +23,8 @@ With over 25 years of experience in IT infrastructure, network systems, and educ
 
 ## 📘 My GitHub Journey
 
+> **Note on Content Philosophy:** This repository and my website represent a practice of **learning in public**. The content here is experimental and exploratory—documenting my curiosity, research notes, and evolving understanding rather than claiming definitive expertise. I believe in transparency in the learning process and invite feedback, questions, and collaboration. Nothing here is the final word; everything is subject to revision as my knowledge grows.
+
 From my first repository, [hello-world](https://github.com/jasonkronemeyer/hello-world), I have continuously explored new technologies and methods, building not just technical skills but also a deeper understanding of how technology can be leveraged for social good. My repositories reflect my evolving interests—from early scripting to advanced analytics and digital equity initiatives.
 
 ### Discovering Data Science
