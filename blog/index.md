@@ -13,7 +13,9 @@ From teaching my first computer "Hello World" in 1983 to collaborating with AI s
 
 This is where I share discoveries, challenges, and insights from the frontier of **educational technology**, **community development through data**, and **intelligent infrastructure systems**. Whether you're an educator exploring AI integration, a researcher investigating smart buildings, or a community leader interested in spatial data applications, there's something here for you.
 
-{% include callout.html type="warning" title="A Note on These Posts" content="These blog posts emerge from my research notes, curiosities, and experiments. They represent my learning journey rather than definitive statements. I practice 'learning in public'—sharing works-in-progress, asking questions, and inviting dialogue. Your perspectives, corrections, and contributions are always welcome." %}
+<div class="site-disclaimer">
+  <p>🔬 <em>Learning in Public</em> — This site is my digital laboratory—a space for curiosity, experimentation, and evolving ideas. The content here reflects my ongoing experimentation and learning process, and may be revised as my understanding deepens over time.</p>
+</div>
 
 ## Latest Explorations
 
