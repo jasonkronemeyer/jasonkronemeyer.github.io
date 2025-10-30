@@ -1,6 +1,6 @@
 ---
 title: "The Last Mile, the Last Chance"
-date: 2025-11-05 08:00:00 -0400
+date: 2025-10-30-08:00:00 -0400
 author: Jason Kronemeyer
 layout: post
 tags: [broadband, BEAD, NTIA, public-private partnership, digital equity, MSU Quello Center, Merit Network, Michigan Moonshot]
