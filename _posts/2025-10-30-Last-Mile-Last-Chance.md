@@ -23,7 +23,7 @@ We talk about BEAD being the largest investment in history. But as a matter of p
 I want to thank the members of the **EUPConnect Collaborative**, whose trust and commitment to working collectively has accelerated digital connectivity across our region. Their dedication to community-driven planning and shared investment has laid the groundwork for sustainable infrastructure and equitable access.
 
 
-This will catapult us into the digital economy via the **Fourth Industrial Revolution**, and we will finally be able to aspire all the opportunities that come with it. Marking the end of the perpetual disadvantage we have endured for so long.
+This will catapult us into the digital economy via the **Fourth Industrial Revolution**, and we will finally be able to realize and aspire for all the digital opportunities that come with it. Marking the end of the perpetual disadvantage we have endured for so long.
 
 ---
 
