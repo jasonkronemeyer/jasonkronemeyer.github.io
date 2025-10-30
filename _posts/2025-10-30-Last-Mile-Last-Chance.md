@@ -6,7 +6,7 @@ layout: post
 tags: [broadband, BEAD, NTIA, public-private partnership, digital equity, MSU Quello Center, Merit Network, Michigan Moonshot]
 ---
 
-I live at a 911 service address that previous broadband subsidies never reached. Not because the terrain was too rugged or the technology too new—but because the policy design was flawed. It left communities like mine stranded, waiting for promises that never materialized.
+I live at a 911 service address that broadband subsidies prior to the Broadband DATA Act never reached. Not because the terrain was too rugged or the technology too new—but because the policy design was flawed. It left communities like mine stranded, waiting for promises that never materialized.
 
 All too often, we watched private companies and FCC announcements promoting the latest subsidy that was finally going to serve rural areas—only to see it perpetuate the disadvantage of people with no voice. We are only about 10% of the population of the United States, and the penalties for defaulting were designed in ways that made it seem like private enterprises could take the money and run.
 
