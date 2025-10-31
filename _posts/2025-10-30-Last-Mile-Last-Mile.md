@@ -18,12 +18,17 @@ This isn’t just a policy pivot, it is a mindset shift. For those of us who’v
 
 Through our partnership with the **Quello Center** at Michigan State University and **Merit Network’s Michigan Moonshot Initiative**, we finally had amplification of our local voice through data and policy research. We were blessed to participate in the K–12 Citizen Science project, which helped quantify the effect that poor policy design has on communities with no voice, culminating in the **Broadband and Student Performance Gaps**. Through data and research, our voice was finally loud enough to inform national, state, and local policy.
 
+> The Research becaume our voice: *When communities lack Internet access—due to missing infrastructure, unclear value, or uncertainty about whether they could afford it, they’re cut off from opportunity. Without it, they can’t build the digital skills needed to compete. That creates a lasting disadvantage we couldn't afford to ignore.*
+
 We talk about BEAD being the largest investment in history. But as a matter of policy and investment, we must recognize that in my region, BEAD really is only the **last 10%** of investment needed to achieve universal availability. I am grateful to the service providers and their investment in my communities—this is how public-private collaboration and policy unite for lasting success of all parties involved.
 
 I want to thank the members of the **EUPConnect Collaborative**, whose trust and commitment to working collectively has accelerated digital connectivity across our region. Their dedication to community-driven planning and shared investment has laid the groundwork for sustainable infrastructure and equitable access.
 
 
 This will catapult us into the digital economy via the **Fourth Industrial Revolution**, and we will finally be able to realize and aspire for all the digital opportunities that come with it. Marking the end of the perpetual disadvantage we have endured for so long. For me, the mission is safe, secure, connected communities. Failure is not an option.
+
+---
+
 
 <CENTER><iframe width="560" height="315" src="https://www.youtube.com/embed/hnMn1GbPfCc?si=RMUMUROQ0MrMx4LG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></CENTER>
 
