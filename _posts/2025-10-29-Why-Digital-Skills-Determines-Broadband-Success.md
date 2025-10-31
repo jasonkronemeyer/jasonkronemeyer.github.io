@@ -112,4 +112,4 @@ In Toyama's terms, the most powerful technology we have is our collective human 
 
 ---
 
-*This post draws on the research of Kentaro Toyama, particularly his work "Technology as Amplifier in International Development" (iConference 2011) and "Geek Heresy: Rescuing Social Change from the Cult of Technology" (PublicAffairs, 2015). All insights reflect my own experiences working in digital equity and rural broadband development.*
+*This post draws on the research of Kentaro Toyama, particularly his work "Technology as Amplifier in International Development" (iConference 2011) and "Geek Heresy: Rescuing Social Change from the Cult of Technology" (PublicAffairs, 2015). All insights reflect my own observations working in K-12 Education, digital equity ctivity and rural broadband infrastucture development.*
