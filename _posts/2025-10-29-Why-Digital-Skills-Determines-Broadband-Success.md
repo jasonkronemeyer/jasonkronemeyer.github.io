@@ -76,7 +76,7 @@ Without intentional capacity building, the same infrastructure investment can am
 
 The COVID-19 pandemic provided a real-world test of Toyama's amplification theory through emergency hotspot lending programs. Districts with strong digital literacy foundations, engaged families, and robust remote learning infrastructure saw these programs work effectively. Districts lacking these foundations found that simply providing connectivity didn't close achievement gaps—it sometimes widened them.
 
-The lesson for ISPs is clear: connectivity without capacity building can actually amplify existing inequities, creating frustrated customers and underutilized infrastructure.
+The lesson for communities is clear: connectivity without capacity building can actually amplify existing inequities, creating frustrated customers and underutilized infrastructure.
 
 ## Building Capacity for Mutual Success
 
@@ -112,4 +112,4 @@ In Toyama's terms, the most powerful technology we have is our collective human 
 
 ---
 
-*This post draws on the research of Kentaro Toyama, particularly his work "Technology as Amplifier in International Development" (iConference 2011) and "Geek Heresy: Rescuing Social Change from the Cult of Technology" (PublicAffairs, 2015). All insights reflect my own observations working in K-12 Education, digital equity ctivity and rural broadband infrastucture development.*
+*This post draws on the research of Kentaro Toyama, particularly his work "Technology as Amplifier in International Development" (iConference 2011) and "Geek Heresy: Rescuing Social Change from the Cult of Technology" (PublicAffairs, 2015). All insights reflect my own observations working in K-12 Education, digital equity advocacy and rural broadband infrastucture development.*
