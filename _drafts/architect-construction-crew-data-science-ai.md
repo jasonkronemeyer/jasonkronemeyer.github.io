@@ -71,7 +71,3 @@ If you're thinking about integrating AI into your educational technology stackâ€
 The question isn't really "Should we use AI?" It's "What data do we need to collect and analyze first to make AI genuinely useful for our community?"
 
 That's where the real work begins, and where the most meaningful impact happens.
-
----
-
-*What challenges are you facing in your educational or community technology initiatives? I'd love to explore how data science and AI might work together to address them. Feel free to reach outâ€”let's sketch out what that could look like for your specific context.*
