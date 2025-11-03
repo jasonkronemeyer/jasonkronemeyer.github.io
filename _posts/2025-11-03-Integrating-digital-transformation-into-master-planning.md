@@ -24,7 +24,7 @@ In my work, I focus on translating these digital concepts into concrete planning
 
 **Data-Driven Decisions**: Developing asset inventories, maps, and performance measures that enable iterative plan updates and evidence-based investment strategies.
 
-**Capacity Building**: Convening stakeholders, training staff on digital tools and equity considerations, and pursuing funding for broadband and digital inclusion initiatives.
+**Capacity Building**: Convening stakeholders to align goals; building local digital skills through training and workforce development; and pursuing grants, public–private partnerships, and pilot funding to support innovation and equitable technology deployment.
 
 These practical actions connect digital transformation directly to the goals of resilient, accessible, and people-centered master planning.
 
