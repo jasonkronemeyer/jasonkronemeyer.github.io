@@ -8,7 +8,7 @@ tags: [master planning, broadband, redevelopment, digital nomads, infrastructure
 excerpt: "This post explores how digital transformation is reshaping master planning, highlighting the need for innovative approaches to infrastructure, engagement, and redevelopment."
 ---
 
-The digital transformation of communities is reshaping how we plan, build, and engage. Technology-driven change requires not only new tools, but also updated planning approaches to infrastructure, governance, and community engagement.
+The digital transformation of communities is reshaping how we plan, build, and engage. Technology-driven change requires not only new tools, but also updated planning approaches to infrastructure, governance, and community engagement. As technology evolves at an extraordinary rate, it presents both opportunities and challenges that warrant careful consideration. This transition goes beyond merely adopting new technologies; it necessitates a reevaluation of how we engage with the world around us.
 
 Key considerations from Michigan State University Extension Citizen Planner for integrating digital transformation into master planning:
 
@@ -25,7 +25,7 @@ Key considerations from Michigan State University Extension Citizen Planner for 
 ## Community and infrastructure
 
 ### Community engagement
-- Digital tools expand engagement opportunities but require strategies to include digitally underserved populations.
+- Digital tools expand engagement opportunities but require strategies to include digitally underrepresented populations.
 - Retention and attraction of residents remains critical to support local initiatives.
 
 ### Broadband infrastructure
@@ -44,6 +44,6 @@ Key considerations from Michigan State University Extension Citizen Planner for 
 - Warehouses and fulfillment centers influence land use and logistics planning.
 - Strategies to retain and attract people are central to successful redevelopment.
 
-Integrating digital transformation into master planning means building resilience, flexibility, and equity into plans so communities can adapt as technologies and behaviors evolve.
+These points highlight the significant impact of digital transformation on community planning, infrastructure, and engagement. Leveraging technology for better community planning can help communities build a vision for more resilient and adaptable to future changes through digital transformation.
 
-*Source: Michigan State University Extension. (2025). Citizen Planner: Session 5 - Using Innovative Planning and Zoning.*
+*Insights from: Michigan State University Extension. (2025). Citizen Planner: Session 5 - Using Innovative Planning and Zoning.*
