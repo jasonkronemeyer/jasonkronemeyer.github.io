@@ -39,4 +39,3 @@ The **new digital divide** refers to a shift in how we understand disparities in
 
 [^3]: Adams, L. & Eckard, D. (2024). *The Digital Divide Persists. Now Is The Time To Close It*. Forbes. [Link](https://www.forbes.com/sites/nokia-industry-40/2024/08/12/the-digital-divide-persists-now-is-the-time-to-close-it/) [\[forbes.com\]](https://www.forbes.com/sites/nokia-industry-40/2024/08/12/the-digital-divide-persists-now-is-the-time-to-close-it/)
 
-***
