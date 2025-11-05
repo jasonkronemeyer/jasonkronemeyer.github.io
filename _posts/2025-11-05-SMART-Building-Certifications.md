@@ -13,12 +13,26 @@ In today's SMART building landscape, technology integration and energy efficienc
 
 One certification gaining traction is the **SPIRE Smart Building Certification**[^1], developed by UL and TIA. SPIRE provides a **holistic framework** that evaluates six key dimensions:
 
-- **Power & Energy**
-- **Health & Well-being** 
-- **Life & Property Safety**
-- **Connectivity**
-- **Cybersecurity**
-- **Sustainability**
+> ### SPIRE's Six Key Performance Dimensions
+> 
+> **⚡ Power & Energy**  
+> Energy efficiency, optimization, and renewable integration
+> 
+> **❤️ Health & Well-being**  
+> Indoor air quality, occupant comfort, and wellness
+> 
+> **🛡️ Life & Property Safety**  
+> Fire and life safety systems, emergency response capabilities
+> 
+> **🔗 Connectivity**  
+> Network infrastructure, system integration, and interoperability
+> 
+> **🔒 Cybersecurity**  
+> Data protection, privacy, network security, and resilience
+> 
+> **🌱 Sustainability**  
+> Environmental impact and resource conservation
+
 
 SPIRE helps building owners and managers benchmark performance through a self-assessment tool and optional third-party verification. This approach makes it accessible without requiring specialized credentials.
 
