@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Navigating SMART Building Certifications: From SPIRE to WELL"
+title: "Navigating SMART Building Certifications: From SPIRE to LEED to WELL"
 date: 2025-11-05
 categories: [SMART Buildings, Sustainability, Certifications]
 tags: [SMART-buildings, certifications, sustainability, energy-efficiency, operational technology, information technology]
-excerpt: "A summary guide to SMART building certifications, from SPIRE's holistic approach to WELL's focus on human health and well-being."
+excerpt: "A strategic guide to navigating SMART building certifications—from SPIRE's holistic technology framework to LEED's sustainability standards and WELL's focus on occupant health—with actionable insights on OT/IT convergence, NEC 2026 updates, and future-ready infrastructure."
 ---
 
 In today's SMART building landscape, technology integration and energy efficiency are central to modern design. Whether you're renovating a commercial property or managing an existing structure, aligning with recognized certifications can enhance sustainability, operational performance, and long-term value.
