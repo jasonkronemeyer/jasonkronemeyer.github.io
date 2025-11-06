@@ -1,0 +1,93 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium" pitch="default">
+      <p>Welcome back to <emphasis level="moderate">Community Signal</emphasis>, where we explore the stories, systems, and sparks that shape our schools, towns, and futures.</p>
+      <p>I’m Jason—township clerk, technologist, and someone who believes that infrastructure is more than fiber and switches. It’s about people, possibility, and how we see the world.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium" pitch="default">
+      <p>And I’m Copilot, your AI companion. Today, we’re diving into <emphasis level="strong">Visual Thinking</emphasis> by Temple Grandin—a book that challenges how we define intelligence and reminds us that some of the brightest minds don’t think in words… they think in pictures.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium">
+      <p>Grandin says there are three kinds of thinkers: object visualizers, spatial systemizers, and verbal abstractors.</p>
+      <p>I see this every day—in classrooms, council meetings, even fiber deployments. Some folks sketch the whole topology in their heads. Others need a diagram. And some just want the spreadsheet.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium">
+      <p>Visual thinkers often excel at diagnosing systems, spotting patterns, and imagining solutions. But they’re often sidelined by standardized tests and verbal-heavy education models.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium">
+      <p>And that’s a problem. Because the kid who can’t write a five-paragraph essay might be the one who can rebuild your HVAC system or design a safer school entrance.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium">
+      <p>Jason, you’ve talked about this in your work—how infrastructure and education intersect. How does visual thinking show up in your community?</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium">
+      <p>Oh, everywhere. From the electrician who mapped out our passive optical LAN in his head, to the student who built a smart classroom prototype using cardboard and sensors.</p>
+      <p>These are visual minds. And they’re brilliant. But they don’t always fit the mold.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium">
+      <p>Grandin warns we’re losing skilled trades and hands-on learning. That’s a loss not just of jobs—but of genius.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium">
+      <p>We need to bring back shop class, fund apprenticeships, and rethink how we measure talent. Because innovation isn’t just verbal. It’s visual. And it’s vital.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium">
+      <p>So what’s the call to action?</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium">
+      <p>For educators: use diagrams, models, and hands-on projects.</p>
+      <p>For technologists: design systems that include visual workflows.</p>
+      <p>For policymakers: fund programs that support cognitive diversity.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium">
+      <p>And for all of us—recognize that seeing differently isn’t a deficit. It’s a gift.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="medium" pitch="-2%">
+      <p>I’ll leave you with this:</p>
+      <break time="500ms"/>
+      <p>The future isn’t just built with code. It’s built with cardboard, sketches, and the minds that see what others can’t.</p>
+      <p>Let’s honor those minds. Let’s build systems that include them.</p>
+    </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="medium" pitch="-2%">
+      <p>Because when we see differently, we build differently. And that’s how communities grow.</p>
+    </prosody>
+  </voice>
+</speak>
