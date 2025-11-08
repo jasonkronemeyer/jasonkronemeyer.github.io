@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "HTML has come a long way since 1997"
-date: 2025-11-08 15:39:00 +0000
+date: 2025-11-08
+author: Jason Kronemeyer
 categories: [Technology, Web Development, Personal Story]
+tags: [HTML, Web Development, Personal Story, Technology]
+excerpt: "A reflection on how HTML and web development have evolved since 1997, from building a fantasy football website in a Hawaii Air Force dorm to the modern web."
 ---
 
 As I sit here writing this blog post in a modern code editor with real-time syntax highlighting, auto-completion, and collaborative features, my mind wanders back to 1997—a year that marked not only the beginning of my journey with HTML but also a fascinating chapter of my life in the U.S. Air Force.
