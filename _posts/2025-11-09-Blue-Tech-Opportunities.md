@@ -2,7 +2,7 @@
 layout: post
 title: "Blue Tech Opportunities in Michigan's Eastern Upper Peninsula: Building a Sustainable Economy Through Innovation"
 date: 2025-11-08
-categories: blog
+categories: Blue Tech
 author: Jason Kronemeyer
 ---
 
@@ -37,7 +37,7 @@ Lake Superior State University (LSSU) is a regional leader in blue tech, thanks 
 
 ---
 
-## BMCC: Connecting Programs to Blue Tech
+## BMCC: Connecting Anishinaabe to Blue Tech
 Bay Mills Community College (BMCC), a tribal college in Brimley, Michigan, plays an important role in contributing to blue tech through programs that intersect with the field:
 
 - **Geographic Information Systems (GIS):** BMCC’s GIS expertise provides valuable tools for mapping and monitoring Great Lakes ecozones, water systems, and habitats—key areas within the blue tech industry.
