@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blue Tech Opportunities in Michigan: Building a Sustainable Economy Through Innovation"
+title: "Blue Tech Opportunities in Michigan's Eastern Upper Peninsula: Building a Sustainable Economy Through Innovation"
 date: 2025-11-08
 categories: blog
 author: Jason Kronemeyer
