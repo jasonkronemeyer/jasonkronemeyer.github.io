@@ -6,6 +6,8 @@ categories: blog
 author: Jason Kronemeyer
 ---
 
+DRAFT 
+
 Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. As we explore the potential of blue tech, it’s crucial to consider how regional institutions like Lake Superior State University (LSSU) and Bay Mills Community College (BMCC) contribute to building aspirations for growth in this vital sector.
 
 ## The Case for Blue Tech in Michigan
