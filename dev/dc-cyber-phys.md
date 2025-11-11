@@ -1,5 +1,5 @@
 ---
-title: "DC Fault Managed Power Systems in the CPS Framework"
+title: "DC Fault Managed Power Systems in the NIST Cyber-Physical System (CPS) Framework"
 date: 2025-11-11
 categories: [smart-buildings, microgrids, dc-power]
 tags: [FMPS, CPS, NIST, ROI, energy-efficiency]
