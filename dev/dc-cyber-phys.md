@@ -6,7 +6,7 @@ tags: [FMPS, CPS, NIST, ROI, energy-efficiency]
 ---
 
 <!-- Mermaid.js for client-side diagram rendering -->
-<script>https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js</script>
+<script>https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js </script>
 <script>
   mermaid.initialize({
     startOnLoad: true,
