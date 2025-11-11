@@ -45,6 +45,8 @@ DC power distribution offers compelling return on investment (ROI) opportunities
 
 ### 📊 CPS-FMPS Mapping Diagram
 
+**Note: I am still teaching computer how to draw this gragh**.  
+
 ```mermaid
 graph TD
     A[CPS Framework] --> B[Aspects]
