@@ -1,7 +1,7 @@
 ---
 title: "Blockchain Beyond the Buzz: Trust, Transparency, and Transformation"
 date: 2025-11-14
-author: Jason
+author: Jason Kronemeyer
 tags: [blockchain, public infrastructure, education, digital equity, outreach]
 layout: post
 ---
