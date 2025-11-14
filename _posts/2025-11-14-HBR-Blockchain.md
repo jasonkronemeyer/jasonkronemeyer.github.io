@@ -75,3 +75,5 @@ As we design future-ready schools and municipal networks, let’s ask:
 **How can blockchain help us tell a better story—one where trust is built into the infrastructure itself?**
 
 ---
+  
+Harvard Business Review, Tucker, C., Tapscott, D., Iansiti, M., & Ross, J. T. (Narrator). (2019). *Blockchain: The insights you need from Harvard Business Review* [Audiobook]. Gildan Media. https://www.audible.com/pd/Blockchain-Audiobook/1469076411
