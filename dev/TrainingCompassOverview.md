@@ -308,7 +308,7 @@ Reality: Without growth mindset, people quit when challenged
 **What it is:** Capabilities converted to achieved outcomes, gaps closing
 
 **Measurement:**
-- Gini coefficient (Dr. Stoev's Hájek Estimator)
+- Gini coefficient (Dr. Stilian Stoev's Hájek Estimator)
 - Achievement gap reduction
 - Inclusion rate increases
 - Economic, health, civic outcomes
@@ -364,7 +364,7 @@ Result: Skills develop → Equity increases
 ```
 University of Michigan:
   - Toyama: Amplification theory
-  - Dr. Stoev: Gini coefficient methodology
+  - Dr. Stilian Stoev: Gini coefficient methodology
   - Dagg (Merit Network): Measurement framework
 
 Michigan State University (Quello Center):
@@ -674,5 +674,5 @@ This is research-to-practice integration at its finest.
 
 **Version:** 1.0  
 **Last Updated:** November 2025  
-**Part of:** Digital Equity Intelligence System Training Materials  
+**Part of:** Project Compass - Digital Opportunities Intelligence Network (DOIN)  
 **Author:** Based on framework developed through Michigan digital equity research ecosystem

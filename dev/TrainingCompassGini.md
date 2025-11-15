@@ -145,7 +145,7 @@ print(f"Gini coefficient: {gini:.3f}")
 
 **Solution:** Hájek Estimator adjusts for sampling design and weights.
 
-**Credit:** Dr. Boyan Stoev, University of Michigan Statistics Department, taught methodology for applying Hájek Estimator to digital equity measurement.
+**Credit:** Dr. Stilian Stoev, University of Michigan Statistics Department, taught methodology for applying Hájek Estimator to digital equity measurement.
 
 **Why Hájek?**
 - Survey samples don't equally represent population
@@ -687,7 +687,7 @@ Conclusion: Intervention reduced inequality with high confidence.
 ---
 
 **Acknowledgments:**
-- Dr. Boyan Stoev, University of Michigan Statistics Department, for Hájek Estimator methodology
+- Dr. Stilian Stoev, University of Michigan Statistics Department, for Gini coefficient application to digital equity and Hájek Estimator methodology
 - Dagg et al. (2023), Merit Network, for Digital Opportunities Compass framework
 - Amartya Sen (1999), for theoretical grounding of equity measurement
 
@@ -695,4 +695,4 @@ Conclusion: Intervention reduced inequality with high confidence.
 
 **Version:** 1.0  
 **Last Updated:** November 2025  
-**Part of:** Digital Equity Intelligence System Training Materials
+**Part of:** Project Compass - Digital Opportunities Intelligence Network (DOIN)
