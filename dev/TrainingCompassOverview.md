@@ -1,6 +1,17 @@
-# Digital Equity Intelligence System - Complete Framework Overview
+# Project Compass: Digital Opportunities Intelligence Network (DOIN)
+## Complete Framework Overview
 
-**Start here.** This document provides a comprehensive overview of the theoretical, empirical, and methodological foundations of the Digital Equity Intelligence System.
+**Start here.** This document provides a comprehensive overview of the theoretical, empirical, and methodological foundations of the **Digital Opportunities Intelligence Network (DOIN)** - the core framework of **Project Compass**.
+
+### **What is Project Compass?**
+
+**Project Compass** is an initiative to transform digital equity policy from guesswork to evidence-based decision-making. The **Digital Opportunities Intelligence Network (DOIN)** is the framework that makes this possible by combining:
+
+- **Digital Opportunities:** Measured using the Dagg et al. Compass framework
+- **Intelligence:** Bayesian networks (prediction) + GraphRAG (AI Q&A) for evidence-based decisions
+- **Network:** Knowledge graphs connecting research, data, and stakeholders
+
+---
 
 ## **What This Framework Is:**
 
