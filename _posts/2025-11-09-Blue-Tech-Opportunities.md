@@ -6,7 +6,11 @@ categories: [Blue Tech, Education, Digital Equity]
 author: Jason Kronemeyer
 ---
 
-Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. This post presents a framework for strengthening connections between Lake Superior State University (LSSU), Bay Mills Community College (BMCC), and the blue tech industry, creating pathways for students, researchers, and communities in Michigan's Eastern Upper Peninsula.
+Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. 
+
+As an adjunct instructor at Bay Mills Community College (BMCC), where I teach CS204 Web Page Design and CS221 Computer Programming, I see firsthand the potential and challenges facing students in Michigan's Eastern Upper Peninsula. My students—many from tribal communities and rural areas—possess creativity, determination, and deep connections to the Great Lakes. What they often lack are clear pathways connecting their education to emerging blue tech careers just an hour north at Lake Superior State University (LSSU).
+
+This post presents a framework for strengthening these connections, creating tangible pathways for students, researchers, and communities across the region.
 
 ## The Case for Blue Tech in Michigan
 With 84% of North America’s surface freshwater flowing through the Great Lakes, Michigan has unparalleled access to natural water resources. Blue tech presents transformative opportunities in:
@@ -22,27 +26,99 @@ Lake Superior State University (LSSU) is a regional leader in blue tech, thanks 
 
 ### Key Initiatives:
 1. **AMORE Team (Autonomous Marine Operations & Robotics Engineering):**
-   Undergraduate students develop autonomous vessels and technology to monitor freshwater quality, detect oil spills, and study aquatic ecosystems. [Learn more](https://robonation.org/lssu-mathworks-students-blog/)
+   Undergraduate students develop autonomous vessels and technology to monitor freshwater quality, detect oil spills, and study aquatic ecosystems.[1]
 
 2. **Invasive Species Research:**
-   Collaboration efforts are tackling the invasive European frog-bit plant and its ecological impact on the St. Marys River. Techniques include biological controls, genetic study, and fish population recovery. [Read about their research](https://www.efbcollaborative.net/current-research/)
+   Collaboration efforts are tackling the invasive European frog-bit plant and its ecological impact on the St. Marys River. Techniques include biological controls, genetic study, and fish population recovery.[2]
 
 3. **Oil Spill Response Program:**
-   In partnership with Algoma University and the U.S. Coast Guard, researchers are exploring new remediation technologies to respond to environmental disasters. [Discover more](https://www.sooleader.com/local-news/lssu-and-algoma-university-team-up-to-research-oil-spill-effects-on-the-great-lakes-11323276)
+   In partnership with Algoma University and the U.S. Coast Guard, researchers are exploring new remediation technologies to respond to environmental disasters.[8]
 
 4. **Robotics Engineering and Tech:**
    As the pioneer of the first U.S. undergraduate Robotics Engineering Technology degree, LSSU is helping position Michigan as a technical training hub for global blue economy advancements.
 
+5. **MiWaterNet: Real-Time Water Monitoring Network:**
+   LSSU's Center for Freshwater Research and Education (CFRE) operates MiWaterNet,[3] a regional network of affordable water sensors providing real-time data on water quality and hydrology across northern Michigan streams. With over 20 sensors deployed as of 2021, the system enables natural resource managers and scientists to monitor stream conditions, detect watershed changes, and study climate impacts. **Critically, MiWaterNet already partners with local schools and Career Technical Education programs**—including Les Cheneaux Schools and **Brimley-LSSU Career and Technical Education in Natural Resources**—engaging students as citizen scientists in data collection and analysis.[4]
+
 ---
 
-## BMCC: Connecting Anishinaabe to Blue Tech
-Bay Mills Community College (BMCC), a tribal college in Brimley, Michigan, plays an important role in contributing to blue tech through programs that intersect with the field:
+## BMCC: Connecting Anishinaabe Communities to Blue Tech
 
-- **Geographic Information Systems (GIS):** BMCC’s GIS expertise provides valuable tools for mapping and monitoring Great Lakes ecozones, water systems, and habitats—key areas within the blue tech industry.
+Bay Mills Community College, where I teach in the Computer Information Systems program, occupies a unique position in the blue tech ecosystem. As a tribal college serving primarily Anishinaabe students from Bay Mills Indian Community and surrounding areas, BMCC has the potential to connect technology education with Indigenous values of water stewardship and environmental responsibility.
 
-- **Community Partnerships:** BMCC’s collaborations—such as the Waganakising Odawa Career and Technical Education Program (WOCTEP)—equip students with skills focusing on sustainability, ecological monitoring, and technology integration, which align with blue tech aspirations. [Explore current programs](https://bmcc.edu/academics/programs/index.html)
+**What I See in My Classrooms:**
 
-Although BMCC does not offer a dedicated blue tech program, its focus on community-driven education and technology underscores its importance in Michigan’s contribution to this sector.
+In CS204 (Web Page Design), I teach students to build responsive websites and data visualization tools—skills that could be directly applicable to presenting water quality data, mapping aquatic ecosystems, and communicating blue tech research. While we don't yet have explicit blue tech projects, the foundational skills my students learn—HTML, CSS, JavaScript, responsive design—are exactly what's needed to build interfaces for environmental monitoring systems.
+
+In CS221 (Computer Programming), students develop computational thinking and problem-solving skills using Python and other languages. We cover standard programming fundamentals, but I can see the clear pathway: these same skills could be applied to analyzing sensor data, automating environmental monitoring, and building applications for blue tech research. When I occasionally mention real-world applications—analyzing data, mapping systems, tracking changes over time—students lean in with interest.
+
+**BMCC's Blue Tech Potential:**
+
+- **Geographic Information Systems (GIS):** BMCC's GIS program provides essential tools for mapping Great Lakes ecozones, tribal waters, and aquatic habitats—foundational skills for blue tech careers.
+
+- **Computer Information Systems:** The CIS program equips students with web development, programming, and database skills that are increasingly critical for blue tech data management and communication, even though we haven't yet developed explicit blue tech curriculum.
+
+- **Community Partnerships:** Collaborations like the Waganakising Odawa Career and Technical Education Program (WOCTEP) focus on sustainability, ecological monitoring, and technology integration that could align with blue tech aspirations.[5]
+
+**The Opportunity:**
+
+BMCC doesn't offer a dedicated blue tech program yet, and currently, my courses follow standard CIS curriculum. But the foundation is here: technical skills, community connections, proximity to LSSU, and students deeply connected to the Great Lakes. What's missing are the explicit pathways, partnerships, and projects that would transform general technology education into blue tech career preparation. That's the bridge we need to build.
+
+**A Model Already Exists: Brimley-LSSU CTE Partnership**
+
+Interestingly, LSSU already partners with Brimley schools (just miles from BMCC's campus) through the **Brimley-LSSU Career and Technical Education in Natural Resources** program, which participates in MiWaterNet. High school students engage in hands-on water quality monitoring, learning to deploy sensors, collect data, and analyze stream conditions. They gain exposure to LSSU's research facilities and faculty, building aspiration for Great Lakes science careers.
+
+This partnership demonstrates what's possible—but it currently bypasses BMCC. Students go from Brimley High School directly to LSSU (or elsewhere), when a more natural pathway might include BMCC as a bridge institution for those who aren't ready for immediate four-year enrollment, need to stay close to family and community, or want to explore technical skills before committing to a specific major.
+
+**What if my CS courses at BMCC integrated with MiWaterNet?**
+- Web design students could build public dashboards visualizing MiWaterNet sensor data
+- Programming students could write scripts to analyze water temperature trends or detect anomalies
+- BMCC could host a MiWaterNet sensor on campus, giving students direct access to real-time environmental data
+- CIS students could collaborate with Brimley CTE students and LSSU researchers on data visualization projects
+
+This wouldn't require building new infrastructure—MiWaterNet exists, the sensors are deployed, the data is flowing. We'd be adding educational pathways to existing research infrastructure.
+
+---
+
+## The EUP Innovation Ecosystem: Blue Tech Meets Space Tech
+
+The Eastern Upper Peninsula isn't just building blue tech capacity—it's emerging as a multi-sector innovation hub where water, space, and advanced technology converge. Three major initiatives demonstrate the region's technical sophistication:
+
+### **1. MiWaterNet: Freshwater Monitoring Network**
+LSSU's Center for Freshwater Research operates 20+ sensors across northern Michigan, with Brimley-LSSU CTE students conducting hands-on water quality research.[3][4]
+
+### **2. SunRISE Ground Radio Lab: Space Weather Monitoring**
+Sault Area High School is one of 18 schools nationwide selected for NASA's SunRISE mission, where students operate dual dipole antennas detecting solar radio bursts that could disrupt satellites and power grids. The program, led by University of Michigan's College of Engineering, trains over 2,500 students in radio astronomy and awards NASA certificates for contributions to space weather forecasting.[9]
+
+### **3. CHARGE-UP Lab: Space, Cyber, and AI Innovation**
+The Chippewa Homestead Aerospace Research and Ground Enterprise (CHARGE-UP) Lab, launched June 2025 in Kincheloe, is a state-of-the-art facility bridging industry, government, and academia in space technology, cybersecurity, and artificial intelligence. The Lab features the Homestead Mission Operations Center (MOC) for Digital Engineering and Digital Twinning development, providing students and startups access to simulation environments for space and cyber systems.[10]
+
+### **The Missing Link: BMCC's Role**
+
+These three initiatives prove that:
+- **Local students excel in advanced technical work** (SunRISE: high schoolers doing NASA research)
+- **Research infrastructure exists** (MiWaterNet: operational sensor network; CHARGE-UP: mission operations center)
+- **University partnerships work** (LSSU with Brimley schools; U-M with Sault High School)
+- **Industry collaboration is possible** (CHARGE-UP brings together government, academia, startups)
+
+**Yet BMCC—the regional tribal college serving many of these students' peers and younger siblings—isn't formally integrated into this ecosystem.**
+
+**What if my BMCC computer science students:**
+- Built web interfaces for MiWaterNet sensor data visualization
+- Developed data analysis tools for SunRISE radio astronomy measurements  
+- Created applications for CHARGE-UP Lab's digital twin simulations
+- Learned programming through real projects supporting local space and water research
+
+**The technical skills are identical:** sensor data analysis, database management, web development, scientific computing. Whether monitoring solar storms or water quality, the computational approach is the same. My CS204 and CS221 students are learning these exact capabilities—we just need to connect them to the research infrastructure already operating an hour north.
+
+**From Blue Tech to "Blue & Beyond" Tech:** Water isn't separate from space—both require:
+- Remote sensing and telemetry
+- Real-time data processing
+- Predictive modeling and simulation
+- IoT sensor networks
+- Scientific data visualization
+
+BMCC could become the bridge institution connecting K-12 programs (Brimley CTE, Sault High SunRISE) to university research (LSSU blue tech, U-M partnerships) and industry applications (CHARGE-UP Lab startups). Students would see clear pathways: learn programming at BMCC → contribute to local research projects → transfer to LSSU or other universities → work in emerging EUP tech sector.
 
 ---
 
@@ -52,29 +128,49 @@ Building meaningful connections between LSSU, BMCC, and the blue tech industry r
 
 ### 1. Educational Pathways and Student Mobility
 
-**BMCC to LSSU Transfer Pipeline:**
-- Develop articulation agreements for seamless transfer from BMCC's GIS and natural resources programs to LSSU's robotics engineering, environmental science, and related blue tech programs
-- Create a "2+2" pathway where students complete foundational courses at BMCC and advanced studies at LSSU
-- Establish dual enrollment opportunities allowing BMCC students to take LSSU blue tech courses remotely or in hybrid formats
-- Implement reverse transfer agreements where students who start at LSSU but don't complete can receive BMCC credentials for completed coursework
+**The Current Reality:**
 
-**Bridge Programs:**
-- Summer intensive programs introducing BMCC students to LSSU's blue tech facilities and research opportunities
-- Joint capstone projects where BMCC and LSSU students collaborate on real-world blue tech challenges
-- Mentorship programs pairing LSSU blue tech students with incoming BMCC transfer students
+When I talk to my BMCC students about continuing their education, many express interest in technology and environmental fields. But the transition from BMCC to LSSU—just an hour north in Sault Ste. Marie—can feel like crossing into another world. Questions arise: Will my credits transfer? Can I afford to relocate? Do people like me succeed in engineering programs? Is there a place for Indigenous perspectives in technical fields?
+
+These aren't just logistical barriers—they're aspiration gaps that clear pathways could address.
+
+**BMCC to LSSU Transfer Pipeline (Proposed):**
+
+I envision a formalized pathway where:
+- **Articulation agreements** guarantee that BMCC's programming, web design, GIS, and math courses transfer seamlessly to LSSU's robotics engineering, environmental science, and related blue tech programs
+- **2+2 pathway:** Students complete foundational courses at BMCC (staying close to family and community) and transition to advanced studies at LSSU with guaranteed junior standing
+- **Dual enrollment:** BMCC students take LSSU blue tech courses remotely or in hybrid formats, building relationships with faculty and peers before physically transferring
+- **Reverse transfer agreements:** Students who start at LSSU but need to return home can receive BMCC credentials for completed coursework, ensuring no educational progress is lost
+
+**Bridge Programs I'd Like to See:**
+
+- **Summer Blue Tech Bootcamp:** Intensive 2-week program where my BMCC students visit LSSU's labs, work with AMORE autonomous vessels, meet blue tech faculty, and envision themselves in these careers
+- **Joint capstone projects:** My CS221 students collaborate with LSSU engineering students on real-world blue tech challenges—imagine BMCC students building the web interface for LSSU's water quality sensor network
+- **Mentorship:** LSSU blue tech students (especially those from tribal backgrounds) mentor incoming BMCC transfer students, providing peer support and cultural connection
 
 ### 2. Collaborative Research Initiatives
 
-**Joint Research Areas:**
-- **Indigenous Knowledge and Blue Tech:** Integrating traditional Anishinaabe ecological knowledge with modern blue tech solutions for Great Lakes stewardship
-- **Water Quality Monitoring:** Combining BMCC's GIS capabilities with LSSU's AMORE autonomous vessel technology for comprehensive tribal water monitoring
-- **Invasive Species Management:** Leveraging both institutions' expertise to develop technology-driven solutions for invasive species like European frog-bit
-- **Climate Change Adaptation:** Studying impacts on Great Lakes ecosystems and tribal lands through collaborative research projects
+**From the Classroom to the Research Lab:**
+
+Right now, I teach programming fundamentals and web design using standard curriculum and examples. But I imagine what could be possible: student projects that map traditional fishing sites using GIS data, databases tracking local water quality, websites documenting Anishinaabe place names along the St. Marys River. These aren't hypotheticals—these are exactly the kinds of applications my students would find meaningful and engaging.
+
+What if these potential student projects connected directly to LSSU's active research programs? What if we designed assignments around real blue tech challenges instead of generic business scenarios?
+
+**Joint Research Areas with Teaching Integration:**
+
+- **MiWaterNet Data Integration:** LSSU's existing sensor network generates real-time water quality data across northern Michigan. My web design students could create interactive dashboards making this data accessible to community members, while programming students develop analysis tools to detect trends or anomalies. This leverages existing infrastructure rather than building from scratch.
+
+- **Indigenous Knowledge and Blue Tech:** Students could interview tribal elders about traditional ecological knowledge, then work with LSSU researchers to integrate those insights into modern water monitoring systems. This would honor Anishinaabe wisdom while teaching data science skills in culturally relevant context.
+
+- **Water Quality Monitoring:** BMCC students could learn GIS and data visualization through real projects, while LSSU students build autonomous vessels and sensors. Collaboration could have my web design students creating public-facing dashboards for data collected by LSSU's AMORE team—each institution contributing its strengths.
+
+- **Invasive Species Management:** When LSSU researches European frog-bit in the St. Marys River, BMCC students could build the mobile apps for citizen scientists to report sightings, analyze spatial data to predict spread patterns, or create educational websites explaining the ecological impact.
+
+- **Climate Change Adaptation:** Long-term data collection on tribal lands, analyzed by students from both institutions, with BMCC focusing on data management and visualization while LSSU handles field sensors and statistical modeling.
 
 **Shared Research Infrastructure:**
-- Establish remote sensing and data collection stations on BMCC's campus that feed data to LSSU research labs
-- Create a shared blue tech equipment pool accessible to faculty and students from both institutions
-- Develop joint grant proposals for federal funding (NSF, NOAA, EPA) focused on tribal and rural blue tech innovation
+
+Imagine water quality sensors at BMCC's Brimley campus feeding real-time data to LSSU labs in Sault Ste. Marie. My programming students could write code to clean and visualize that data, while LSSU engineering students maintain the sensor hardware. Both groups learn, both contribute, both see career pathways. This infrastructure doesn't exist yet, but the vision is achievable—**especially since LSSU already operates MiWaterNet with 20+ sensors across the region and has demonstrated the citizen science education model with Brimley CTE students**. Expanding this network to include BMCC as an educational partner (not just a geographic neighbor) would be a natural next step.
 
 ### 3. Industry Partnerships and Workforce Development
 
@@ -143,9 +239,10 @@ Building meaningful connections between LSSU, BMCC, and the blue tech industry r
 
 **Year 1: Foundation Building**
 - Establish formal partnership agreements between LSSU and BMCC
+- **Pilot MiWaterNet integration:** BMCC CIS students create data visualization projects using existing MiWaterNet sensor data, collaborating with Brimley-LSSU CTE students already participating in the program
 - Conduct needs assessment with tribal communities and industry partners
 - Develop articulation agreements for key programs
-- Launch pilot collaborative research project
+- Install MiWaterNet sensor on BMCC campus for direct student access
 - Secure initial funding through grants
 
 **Year 2-3: Program Development**
@@ -187,21 +284,38 @@ By leveraging the unique strengths of both LSSU and BMCC, honoring Indigenous kn
 
 ### Call to Action
 
-**For Students:** Explore blue tech career pathways starting at BMCC and continuing at LSSU. Engage with community-based research projects and consider how your skills can contribute to Great Lakes stewardship.
+**To My Students at BMCC:**
 
-**For Educators and Administrators:** Develop the collaborative programs, transfer agreements, and shared research initiatives outlined in this framework. Prioritize cultural responsiveness and community engagement in all efforts.
+Right now, you're learning web design and programming through general examples—business websites, database applications, standard exercises. But I want you to know: these same skills are exactly what blue tech careers require. Data visualization, sensor programming, GIS integration, database management—you're building those capabilities even if we're not explicitly calling it "blue tech." LSSU's research labs need people who can code, design interfaces, and communicate technical findings. The pathway from what you're learning now to those careers is shorter than you might think.
 
-**For Industry Partners:** Join the Blue Tech Industry Advisory Board, sponsor student projects and internships, and invest in the region's blue tech workforce development.
+**To My Colleagues at BMCC and LSSU:**
 
-**For Tribal Leaders and Community Members:** Shape the research agenda to reflect community priorities, participate in program development, and ensure blue tech initiatives support tribal sovereignty and self-determination.
+Let's build the explicit connections this framework describes. I'm teaching foundational skills that could easily integrate blue tech examples and projects with the right partnerships. Let's develop joint curricula, create student exchange opportunities, and show our students how their technical skills apply to Great Lakes research and environmental technology. Our institutions are an hour apart—we should be deeply integrated partners, not distant neighbors.
 
-**For Policymakers:** Support funding for rural and tribal STEM education, invest in broadband infrastructure, and create policies that promote sustainable blue tech development.
+**For Industry Partners:**
 
-Together, we can build a blue tech ecosystem that creates economic opportunity, protects our precious water resources, honors Indigenous knowledge, and serves as a model for equitable innovation in rural and tribal communities.
+Engage with our students early. Sponsor real-world projects in our courses. Show rural and tribal students that blue tech careers are accessible and valued. Your involvement could transform standard programming assignments into genuine career preparation.
+
+**For Tribal Leaders and Community Members:**
+
+You guide how technology serves the community. Help us ensure that as we develop blue tech connections, they honor Anishinaabe values, support tribal sovereignty, and address community-identified needs around water stewardship and environmental protection.
+
+**For Policymakers:**
+
+Fund the infrastructure—both physical (labs, equipment, broadband) and human (faculty development, curriculum design, transfer scholarships)—that transforms potential into reality. Rural and tribal students deserve pathways to emerging careers, not just access to general education.
+
+Together, we can build a blue tech ecosystem rooted in this place, these waters, and these communities—one that creates economic opportunity while protecting the Great Lakes that define us.
+
+*What other connections do you see to get students involed in citizen science driven research and develpment?* 
 
 **References:**
 1. [LSSU Team AMORE Blog](https://robonation.org/lssu-mathworks-students-blog/)
 2. [European Frog-bit Collaborative](https://www.efbcollaborative.net/current-research/)
-3. [BMCC Academic Overview](https://bmcc.edu/academics/programs/index.html)
-4. [Bay Mills College Details](https://bmcc.edu/)
-5. [LSSU Undergraduate Research](https://www.lssu.edu/academics/undergraduateresearch/undergraduate-research-committee-overview/)
+3. [LSSU MiWaterNet - Real-Time Water Quality Monitoring](https://www.lssu.edu/centers/cfre/community-resources/miwaternet/)
+4. [MiWaterNet Real-Time Data Dashboard](https://lssu-cfre.shinyapps.io/MiWaterNet/)
+5. [BMCC Academic Overview](https://bmcc.edu/academics/programs/index.html)
+6. [Bay Mills College Details](https://bmcc.edu/)
+7. [LSSU Undergraduate Research](https://www.lssu.edu/academics/undergraduateresearch/undergraduate-research-committee-overview/)
+8. [LSSU and Algoma University Oil Spill Research](https://www.sooleader.com/local-news/lssu-and-algoma-university-team-up-to-research-oil-spill-effects-on-the-great-lakes-11323276)
+9. [NASA SunRISE Ground Radio Lab - Space Weather Research](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004114)
+10. [CHARGE-UP Lab - Chippewa County EDC](https://www.chippewacountyedc.com/press-release-charge-up-lab/)
