@@ -8,7 +8,7 @@ author: Jason Kronemeyer
 
 Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. 
 
-As an adjunct instructor at Bay Mills Community College (BMCC), where I teach CS204 Web Page Design and CS221 Computer Programming, I see firsthand the potential and challenges facing students in Michigan's Eastern Upper Peninsula. My students—many from tribal communities and rural areas—possess creativity, determination, and deep connections to the Great Lakes. What they often lack are clear pathways connecting their education to emerging tech careers allowing them to live and work in the region they grew up in.
+As an adjunct instructor at Bay Mills Community College (BMCC), where I teach CS204 Web Page Design and CS221 Computer Programming, I see firsthand the potential and challenges facing students in Michigan's Eastern Upper Peninsula. My students—many from tribal communities and rural areas—possess creativity, determination, and deep connections to the Great Lakes. What they're still building are clear pathways connecting their education to emerging tech careers, allowing them to live and work in the region they grew up in.
 
 This post presents a framework for strengthening these connections, creating tangible pathways for students, researchers, and communities across the region.
 
@@ -48,7 +48,7 @@ Bay Mills Community College, where I teach in the Computer Information Systems p
 
 **What I See in My Classrooms:**
 
-In CS204 (Web Page Design), I teach students to build responsive websites and data visualization tools—skills that could be directly applicable to presenting water quality data, mapping aquatic ecosystems, and communicating blue tech research. While we don't yet have explicit blue tech projects, the foundational skills my students learn—HTML, CSS, JavaScript, responsive design—are exactly what's needed to build interfaces for environmental monitoring systems.
+In CS204 (Web Page Design), I teach students to build responsive websites and data visualization tools—skills that could be directly applicable to presenting water quality data, mapping aquatic ecosystems, and communicating blue tech research. While we haven't yet developed explicit blue tech projects, the foundational skills my students are learning—HTML, CSS, JavaScript, responsive design—are exactly what's needed to build interfaces for environmental monitoring systems.
 
 In CS221 (Computer Programming), students develop computational thinking and problem-solving skills using Python and other languages. We cover standard programming fundamentals, but I can see the clear pathway: these same skills could be applied to analyzing sensor data, automating environmental monitoring, and building applications for blue tech research. When I occasionally mention real-world applications—analyzing data, mapping systems, tracking changes over time—students lean in with interest.
 
@@ -62,13 +62,13 @@ In CS221 (Computer Programming), students develop computational thinking and pro
 
 **The Opportunity:**
 
-BMCC doesn't offer a dedicated blue tech program yet, and currently, my courses follow standard CIS curriculum. But the foundation is here: technical skills, community connections, proximity to LSSU, and students deeply connected to the Great Lakes. What's missing are the explicit pathways, partnerships, and projects that would transform general technology education into blue tech career preparation. That's the bridge we need to build.
+BMCC doesn't offer a dedicated blue tech program yet, and currently, my courses follow standard CIS curriculum. But the foundation is here: technical skills, community connections, proximity to LSSU, and students deeply connected to the Great Lakes. What we're building next are the explicit pathways, partnerships, and projects that will transform general technology education into blue tech career preparation. That's the bridge we're ready to build.
 
 **A Model Already Exists: Brimley-LSSU CTE Partnership**
 
 Interestingly, LSSU already partners with Brimley schools (just miles from BMCC's campus) through the **Brimley-LSSU Career and Technical Education in Natural Resources** program, which participates in MiWaterNet. High school students engage in hands-on water quality monitoring, learning to deploy sensors, collect data, and analyze stream conditions. They gain exposure to LSSU's research facilities and faculty, building aspiration for Great Lakes science careers.
 
-This partnership demonstrates what's possible—but it currently bypasses BMCC. Students go from Brimley High School directly to LSSU (or elsewhere), when a more natural pathway might include BMCC as a bridge institution for those who aren't ready for immediate four-year enrollment, need to stay close to family and community, or want to explore technical skills before committing to a specific major.
+This partnership demonstrates what's possible—but it currently bypasses BMCC. Students go from Brimley High School directly to LSSU (or elsewhere), when a more natural pathway might include BMCC as a bridge institution for those who are building readiness for four-year enrollment, need to stay close to family and community, or want to explore technical skills before committing to a specific major.
 
 **What if my CS courses at BMCC integrated with MiWaterNet?**
 - Web design students could build public dashboards visualizing MiWaterNet sensor data
@@ -101,7 +101,7 @@ These three initiatives prove that:
 - **University partnerships work** (LSSU with Brimley schools; U-M with Sault High School)
 - **Industry collaboration is possible** (CHARGE-UP brings together government, academia, startups)
 
-**Yet BMCC—the regional tribal college serving many of these students' peers and younger siblings—isn't formally integrated into this ecosystem.**
+**Yet BMCC—the regional tribal college serving many of these students' peers and younger siblings—is ready to become formally integrated into this ecosystem.**
 
 **What if my BMCC computer science students:**
 - Built web interfaces for MiWaterNet sensor data visualization
@@ -130,9 +130,9 @@ Building meaningful connections between LSSU, BMCC, and the blue tech industry r
 
 **The Current Reality:**
 
-When I talk to my BMCC students about continuing their education, many express interest in technology and environmental fields. But the transition from BMCC to LSSU—just an hour north in Sault Ste. Marie—can feel like crossing into another world. Questions arise: Will my credits transfer? Can I afford to relocate? Do people like me succeed in engineering programs? Is there a place for Indigenous perspectives in technical fields?
+When I talk to my BMCC students about continuing their education, many express interest in technology and environmental fields. But the transition from BMCC to LSSU—just an hour north in Sault Ste. Marie—can feel like crossing into another world. Students are working through important questions: Will my credits transfer? Can I afford to relocate? How can I succeed in engineering programs? Where do Indigenous perspectives fit in technical fields?
 
-These aren't just logistical barriers—they're aspiration gaps that clear pathways could address.
+These aren't just logistical barriers—they're opportunities to build aspiration through clear pathways and support systems.
 
 **BMCC to LSSU Transfer Pipeline (Proposed):**
 
@@ -170,7 +170,7 @@ What if these potential student projects connected directly to LSSU's active res
 
 **Shared Research Infrastructure:**
 
-Imagine water quality sensors at BMCC's Brimley campus feeding real-time data to LSSU labs in Sault Ste. Marie. My programming students could write code to clean and visualize that data, while LSSU engineering students maintain the sensor hardware. Both groups learn, both contribute, both see career pathways. This infrastructure doesn't exist yet, but the vision is achievable—**especially since LSSU already operates MiWaterNet with 20+ sensors across the region and has demonstrated the citizen science education model with Brimley CTE students**. Expanding this network to include BMCC as an educational partner (not just a geographic neighbor) would be a natural next step.
+Imagine water quality sensors at BMCC's Brimley campus feeding real-time data to LSSU labs in Sault Ste. Marie. My programming students could write code to clean and visualize that data, while LSSU engineering students maintain the sensor hardware. Both groups learn, both contribute, both see career pathways. We're ready to build this infrastructure—**especially since LSSU already operates MiWaterNet with 20+ sensors across the region and has demonstrated the citizen science education model with Brimley CTE students**. Expanding this network to include BMCC as an educational partner (not just a geographic neighbor) is a natural next step we can take together.
 
 ### 3. Industry Partnerships and Workforce Development
 
@@ -286,7 +286,7 @@ By leveraging the unique strengths of both LSSU and BMCC, honoring Indigenous kn
 
 **To My Students at BMCC:**
 
-Right now, you're learning web design and programming through general examples—business websites, database applications, standard exercises. But I want you to know: these same skills are exactly what blue tech careers require. Data visualization, sensor programming, GIS integration, database management—you're building those capabilities even if we're not explicitly calling it "blue tech." LSSU's research labs need people who can code, design interfaces, and communicate technical findings. The pathway from what you're learning now to those careers is shorter than you might think.
+Right now, you're learning web design and programming through general examples—business websites, database applications, standard exercises. But I want you to know: these same skills are exactly what blue tech careers require. Data visualization, sensor programming, GIS integration, database management—you're actively building those capabilities, and soon we'll be applying them explicitly to blue tech challenges. LSSU's research labs need people who can code, design interfaces, and communicate technical findings. The pathway from what you're learning now to those careers is shorter than you might think—and you're already on it.
 
 **To My Colleagues at BMCC and LSSU:**
 
