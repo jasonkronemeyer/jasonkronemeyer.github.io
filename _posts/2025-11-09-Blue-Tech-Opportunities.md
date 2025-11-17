@@ -8,7 +8,7 @@ author: Jason Kronemeyer
 
 Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. 
 
-As an adjunct instructor at Bay Mills Community College (BMCC), where I teach CS204 Web Page Design and CS221 Computer Programming, I see firsthand the potential and challenges facing students in Michigan's Eastern Upper Peninsula. My students—many from tribal communities and rural areas—possess creativity, determination, and deep connections to the Great Lakes. What they often lack are clear pathways connecting their education to emerging blue tech careers just an hour north at Lake Superior State University (LSSU).
+As an adjunct instructor at Bay Mills Community College (BMCC), where I teach CS204 Web Page Design and CS221 Computer Programming, I see firsthand the potential and challenges facing students in Michigan's Eastern Upper Peninsula. My students—many from tribal communities and rural areas—possess creativity, determination, and deep connections to the Great Lakes. What they often lack are clear pathways connecting their education to emerging tech careers allowing them to live and work in the region they grew up in.
 
 This post presents a framework for strengthening these connections, creating tangible pathways for students, researchers, and communities across the region.
 
@@ -44,7 +44,7 @@ Lake Superior State University (LSSU) is a regional leader in blue tech, thanks 
 
 ## BMCC: Connecting Anishinaabe Communities to Blue Tech
 
-Bay Mills Community College, where I teach in the Computer Information Systems program, occupies a unique position in the blue tech ecosystem. As a tribal college serving primarily Anishinaabe students from Bay Mills Indian Community and surrounding areas, BMCC has the potential to connect technology education with Indigenous values of water stewardship and environmental responsibility.
+Bay Mills Community College, where I teach in the Computer Information Systems program, occupies a unique position in the blue tech ecosystem. As a tribal college serving Native students from across the United States—including many Anishinaabe students from Bay Mills Indian Community and surrounding areas—BMCC has the potential to connect technology education with Indigenous values of water stewardship and environmental responsibility.
 
 **What I See in My Classrooms:**
 
@@ -306,7 +306,7 @@ Fund the infrastructure—both physical (labs, equipment, broadband) and human (
 
 Together, we can build a blue tech ecosystem rooted in this place, these waters, and these communities—one that creates economic opportunity while protecting the Great Lakes that define us.
 
-*What other connections do you see to get students involed in citizen science driven research and develpment?* 
+*What other connections do you see to get students involved in citizen science driven research and development?* 
 
 **References:**
 1. [LSSU Team AMORE Blog](https://robonation.org/lssu-mathworks-students-blog/)
