@@ -2,8 +2,9 @@
 layout: post
 title: "Strengthening Connections Between LSSU, BMCC, and Blue Tech: A Framework for Regional Innovation"
 date: 2025-11-09
-categories: [Blue Tech, Education, Digital Equity]
+categories: [Blue Tech, Education, Digital Opportunities]
 author: Jason Kronemeyer
+status: draft
 ---
 
 Michigan, surrounded by the Great Lakes, is uniquely positioned to lead the way in blue tech—a burgeoning industry focused on the sustainable use of water resources for innovation, economic growth, and environmental stewardship. 

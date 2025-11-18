@@ -24,7 +24,10 @@ This is where I share discoveries, challenges, and insights from the frontier of
 <div class="post-list">
 {% for post in site.posts %}
   <article class="post-preview">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <h3>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.status == "draft" %}<span style="background-color: #ffc107; color: #000; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">DRAFT</span>{% endif %}
+    </h3>
     <p class="post-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
       {% if post.author %} • by {{ post.author }}{% endif %}

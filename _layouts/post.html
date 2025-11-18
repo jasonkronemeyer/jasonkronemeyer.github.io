@@ -5,6 +5,11 @@ layout: default
 <article class="post">
 
   <header class="post-header">
+    {% if page.status == "draft" %}
+    <div class="draft-banner" style="background-color: #fff3cd; border: 2px solid #ffc107; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📝 DRAFT:</strong> This post is a work in progress and may be updated.
+    </div>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
