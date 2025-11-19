@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 350">
+  <style>
+    .frame { fill: #000; }
+    .letter { fill: #000; }
+  </style>
+  
+  <!-- Corner brackets frame -->
+  <g class="frame">
+    <!-- Top left -->
+    <rect x="37" y="29" width="20" height="70"/>
+    <rect x="37" y="29" width="70" height="20"/>
+    
+    <!-- Top right -->
+    <rect x="511" y="29" width="70" height="20"/>
+    <rect x="561" y="29" width="20" height="70"/>
+    
+    <!-- Bottom left -->
+    <rect x="37" y="251" width="20" height="70"/>
+    <rect x="37" y="301" width="70" height="20"/>
+    
+    <!-- Bottom right -->
+    <rect x="511" y="301" width="70" height="20"/>
+    <rect x="561" y="251" width="20" height="70"/>
+  </g>
+  
+  <!-- JK Letters - Bold italic style -->
+  <g class="letter">
+    <!-- J -->
+    <path d="M 200,70 L 375,70 L 365,110 L 230,110 L 210,220 Q 205,265 175,285 Q 140,305 100,290 L 108,250 Q 135,260 155,245 Q 170,230 175,200 L 200,70 Z"/>
+    
+    <!-- K vertical stroke -->
+    <path d="M 260,80 L 290,80 L 268,290 L 238,290 Z"/>
+    
+    <!-- K upper diagonal -->
+    <path d="M 275,170 L 460,75 L 485,105 L 300,200 Z"/>
+    
+    <!-- K lower diagonal -->
+    <path d="M 300,200 L 505,300 L 480,325 L 275,220 Z"/>
+  </g>
+</svg>
