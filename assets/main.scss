@@ -8,17 +8,34 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Logo styles */
+/* Header and Navigation - Mobile First */
+.site-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e1e4e8;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .site-header .site-title {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
   text-decoration: none;
   color: #333;
+  flex: 1;
 }
 
 .site-logo {
-  height: 38px;
+  height: 28px;
   width: auto;
   transition: transform 0.2s ease;
 }
@@ -29,16 +46,69 @@ body {
 
 .site-title-text {
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.3rem;
 }
 
-@media (max-width: 768px) {
+/* Navigation - Mobile First */
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 0.75rem;
+}
+
+.site-nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e1e4e8;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:last-child {
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  color: #007acc;
+}
+
+/* Desktop Navigation */
+@media (min-width: 769px) {
   .site-logo {
     height: 32px;
   }
   
   .site-title-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+  
+  .site-header .site-title {
+    gap: 0.75rem;
+  }
+  
+  .site-nav {
+    flex-direction: row;
+    width: auto;
+    margin-top: 0;
+    gap: 0;
+    align-items: center;
+  }
+  
+  .site-nav a {
+    padding: 0.5rem 1rem;
+    border-bottom: none;
+    border-left: 1px solid #e1e4e8;
+  }
+  
+  .site-nav a:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+  
+  .site-nav a:last-child {
+    padding-right: 0;
   }
 }
 
