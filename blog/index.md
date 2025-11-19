@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: The Signal
 permalink: /blog/
 ---
 
