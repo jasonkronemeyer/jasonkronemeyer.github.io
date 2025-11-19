@@ -1,5 +1,3 @@
-Here’s the updated Jekyll blog draft with embedded links to recent research papers for each category:
-
 ---
 layout: post
 title: "Photon Networks: Architectures, Applications, and Emerging Trends"
@@ -7,6 +5,7 @@ date: 2025-11-19
 categories: [Photonics, Networking, Technology]
 tags: [Photonics, Optical Networks, Quantum, Neural Networks]
 description: "Explore the taxonomy of photon networks, from All-Photonics Networks to Quantum Photonic systems, with references to cutting-edge research."
+status: draft
 ---
 
 Photon networks leverage **light (photons)** as the primary information carrier, offering advantages such as **high speed**, **low latency**, **energy efficiency**, and **massive parallelism**. These networks span multiple architectures and application contexts, from classical optical communications to photonic computing and neural networks.
@@ -137,7 +136,31 @@ These networks represent a continuum from classical optical communication system
 
 ### **Visual Taxonomy**
 
-Photon Networks ├── All-Photonics Communication Networks (APN, WDM, POLAN) ├── Integrated Photonic Networks / PICs ├── Hybrid Photonic-Electronic Networks ├── Photonic Neural Networks (FNN, CNN, RNN, SNN, PIM, ONN, RC) ├── Quantum Photonic Networks (QONN, atom-cavity systems) ├── Timing and Sensing Networks (Optical Lattice Clocks, Optoacoustic) └── Emerging / Reconfigurable Networks (Plasmonics, Polaritonics, Programmable Photonics)
----
+```
+Photon Networks
+├── All-Photonics Communication Networks
+│   ├── APN
+│   ├── WDM
+│   └── POLAN
+├── Integrated Photonic Networks / PICs
+├── Hybrid Photonic-Electronic Networks
+├── Photonic Neural Networks
+│   ├── FNN
+│   ├── CNN
+│   ├── RNN
+│   ├── SNN
+│   ├── PIM
+│   ├── ONN
+│   └── RC
+├── Quantum Photonic Networks
+│   ├── QONN
+│   └── Atom-cavity systems
+├── Timing and Sensing Networks
+│   ├── Optical Lattice Clocks
+│   └── Optoacoustic
+└── Emerging / Reconfigurable Networks
+    ├── Plasmonics
+    ├── Polaritonics
+    └── Programmable Photonics
 
-Would you like me to **add a Mermaid diagram for the taxonomy**, or **include a 
+```
