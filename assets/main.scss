@@ -112,17 +112,17 @@ body {
   }
   
   .nav-toggle {
-    display: none;
+    display: none !important;
   }
   
   .site-nav {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     width: auto;
     gap: 0;
     align-items: center;
     margin-top: 0;
-    max-height: none;
+    padding-bottom: 0;
   }
   
   .site-logo {
