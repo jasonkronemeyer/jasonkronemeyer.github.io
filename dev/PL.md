@@ -1,11 +1,9 @@
-
----
-
 ---
 title: "Summary of TPRC Report: A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband & Digital Equity Policy"
 author: "Johannes Bauer, Pierrette Renée Dagg, Colin Rhinesmith, Greta Byrum, Aaron Schill"
 date: 2023-08-30
 layout: post
+status: research
 ---
 
 ## Overview
