@@ -33,7 +33,7 @@
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         Menu
       </button>
-      <nav class="site-nav">
+      <nav class="site-nav" id="main-nav">
         <a href="{{ '/blog/' | relative_url }}">The Signal</a>
         <a href="{{ '/' | relative_url }}">Resume</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
@@ -64,7 +64,7 @@
     // Mobile navigation toggle
     document.addEventListener('DOMContentLoaded', function() {
       const navToggle = document.querySelector('.nav-toggle');
-      const siteNav = document.querySelector('.site-nav');
+      const siteNav = document.getElementById('main-nav');
       
       if (navToggle && siteNav) {
         navToggle.addEventListener('click', function() {
