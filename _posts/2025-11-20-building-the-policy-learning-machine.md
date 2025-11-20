@@ -44,7 +44,7 @@ Unlike a standard AI that just predicts "next word," this component calculates *
     $$ \rightarrow P(Equity) = 68\% $$
 
 **GraphRAG (The Interface):**
-Retrieval-Augmented Generation that "reads" the graph to answer natural language questions. It prevents hallucination by grounding answers in specific nodes (e.g., "Baraga County's Gini coefficient is 0.45").
+Retrieval-Augmented Generation that "reads" the graph to answer natural language questions. It prevents hallucination by grounding answers in specific nodes (e.g., "Mackinac County's Gini coefficient is 0.45").
 
 ### Layer 3: The Human Interface (The "Action")
 **For Policymakers:** A "What-If" Simulator.
