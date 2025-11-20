@@ -99,8 +99,5 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 ## Why It Matters
 This framework is critical for ensuring that broadband expansion and digital equity programs are **effective, inclusive, and sustainable**, particularly in rural and underserved communities.
 
-## Public Access
-The full report is available on SSRN:  
-https://ssrn.com/abstract=4557340[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
-
----
+## Citation
+Bauer, Johannes M. and Dagg, Pierrette Renée and Rhinesmith, Colin and Byrum, Greta and Schill, Aaron, *A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy* (August 30, 2023). Available at SSRN: [https://ssrn.com/abstract=4557340](https://ssrn.com/abstract=4557340) or [http://dx.doi.org/10.2139/ssrn.4557340](http://dx.doi.org/10.2139/ssrn.4557340)
