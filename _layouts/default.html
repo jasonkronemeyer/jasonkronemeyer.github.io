@@ -30,6 +30,9 @@
         <img src="{{ '/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo">
         <span class="site-title-text">{{ site.title | escape }}</span>
       </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        Menu
+      </button>
       <nav class="site-nav">
         <a href="{{ '/blog/' | relative_url }}">The Signal</a>
         <a href="{{ '/' | relative_url }}">Resume</a>
@@ -56,6 +59,32 @@
       <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    // Mobile navigation toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle = document.querySelector('.nav-toggle');
+      const siteNav = document.querySelector('.site-nav');
+      
+      if (navToggle && siteNav) {
+        navToggle.addEventListener('click', function() {
+          const isOpen = siteNav.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded', isOpen);
+          navToggle.textContent = isOpen ? 'Close' : 'Menu';
+        });
+        
+        // Close menu when clicking a nav link
+        const navLinks = siteNav.querySelectorAll('a');
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            siteNav.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.textContent = 'Menu';
+          });
+        });
+      }
+    });
+  </script>
 </body>
 </html>
 
