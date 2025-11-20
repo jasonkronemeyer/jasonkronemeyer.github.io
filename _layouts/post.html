@@ -5,9 +5,37 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    {% if page.status == "draft" %}
-    <div class="draft-banner" style="background-color: #fff3cd; border: 2px solid #ffc107; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+    {% if page.status == "research" %}
+    <div class="status-banner" style="background-color: #fff4e6; border: 2px solid #ff9800; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>🔍 RESEARCH:</strong> Actively gathering sources and exploring ideas for this post.
+    </div>
+    {% elsif page.status == "draft" %}
+    <div class="status-banner" style="background-color: #fff3cd; border: 2px solid #ffc107; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
       <strong>📝 DRAFT:</strong> This post is a work in progress and may be updated.
+    </div>
+    {% elsif page.status == "review" %}
+    <div class="status-banner" style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📋 IN REVIEW:</strong> Content complete, refining before publication.
+    </div>
+    {% elsif page.status == "updated" %}
+    <div class="status-banner" style="background-color: #e8f5e9; border: 2px solid #4caf50; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>✨ UPDATED:</strong> Recently revised with new insights or information.
+    </div>
+    {% elsif page.status == "brief" %}
+    <div class="status-banner" style="background-color: #f3e5f5; border: 2px solid #9c27b0; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📄 BRIEF:</strong> Short-form article based on a single reference or source.
+    </div>
+    {% elsif page.status == "series" %}
+    <div class="status-banner" style="background-color: #e8eaf6; border: 2px solid #3f51b5; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📚 SERIES:</strong> Part of a connected set of posts exploring related topics.
+    </div>
+    {% elsif page.status == "tutorial" %}
+    <div class="status-banner" style="background-color: #e0f2f1; border: 2px solid #009688; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>🛠️ TUTORIAL:</strong> Step-by-step hands-on guide you can follow along.
+    </div>
+    {% elsif page.status == "analysis" %}
+    <div class="status-banner" style="background-color: #e1f5fe; border: 2px solid #0277bd; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📊 ANALYSIS:</strong> Deep research and data exploration.
     </div>
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
