@@ -67,11 +67,6 @@
       const siteNav = document.querySelector('.site-nav');
       
       if (navToggle && siteNav) {
-        // Ensure nav starts closed on mobile
-        if (window.innerWidth < 769) {
-          siteNav.classList.remove('open');
-        }
-        
         navToggle.addEventListener('click', function() {
           const isOpen = siteNav.classList.toggle('open');
           navToggle.setAttribute('aria-expanded', isOpen);
@@ -82,20 +77,12 @@
         const navLinks = siteNav.querySelectorAll('a');
         navLinks.forEach(link => {
           link.addEventListener('click', function() {
-            siteNav.classList.remove('open');
-            navToggle.setAttribute('aria-expanded', 'false');
-            navToggle.textContent = 'Menu';
+            if (window.innerWidth < 769) {
+              siteNav.classList.remove('open');
+              navToggle.setAttribute('aria-expanded', 'false');
+              navToggle.textContent = 'Menu';
+            }
           });
-        });
-        
-        // Handle window resize
-        window.addEventListener('resize', function() {
-          if (window.innerWidth < 769) {
-            // Mobile: ensure closed state
-            siteNav.classList.remove('open');
-            navToggle.textContent = 'Menu';
-            navToggle.setAttribute('aria-expanded', 'false');
-          }
         });
       }
     });

@@ -69,7 +69,6 @@ body {
 }
 
 .site-nav {
-  display: none;
   flex-direction: column;
   width: 100%;
   gap: 0.75rem;
@@ -77,10 +76,15 @@ body {
   text-align: center;
   margin-top: 1rem;
   padding-bottom: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.2s ease;
 }
 
 .site-nav.open {
-  display: flex !important;
+  max-height: 500px;
+  opacity: 1;
 }
 
 .site-nav a {
@@ -112,17 +116,20 @@ body {
   }
   
   .nav-toggle {
-    display: none !important;
+    display: none;
   }
   
   .site-nav {
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     width: auto;
     gap: 0;
     align-items: center;
     margin-top: 0;
     padding-bottom: 0;
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
   }
   
   .site-logo {
