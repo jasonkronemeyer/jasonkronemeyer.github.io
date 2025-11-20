@@ -67,7 +67,7 @@ We need to expand the existing Digital Compass Ontology to include the theoretic
 ### Phase 2: The Data Ingestion (The Flesh)
 Ingest a small, clean dataset to populate the graph.
 
-*   **Target:** 3-5 Counties (e.g., Baraga, Ontonagon, Houghton).
+*   **Target:** 5 Counties (e.g., Chippewa, Mackinac, Luce, Van Buren, and Roscommon).
 *   **Data:**
     *   Infrastructure scores (Connectivity).
     *   Demographic data (Context).
