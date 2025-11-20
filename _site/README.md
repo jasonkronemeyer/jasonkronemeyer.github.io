@@ -25,6 +25,24 @@ With over 25 years of experience in IT infrastructure, network systems, and educ
 
 > **Note on Content Philosophy:** This repository and my website represent a practice of **learning in public**. The content here is experimental and exploratory—documenting my curiosity, research notes, and evolving understanding rather than claiming definitive expertise. I believe in transparency in the learning process and invite feedback, questions, and collaboration. Nothing here is the final word; everything is subject to revision as my knowledge grows.
 
+### Content Status System
+
+To provide transparency about where content sits in my knowledge development process, I use a status system for blog posts:
+
+**Development Stages:**
+- 🔍 **Research** - Actively gathering sources and exploring ideas
+- 📝 **Draft** - Work in progress, structure and arguments taking shape
+- 📋 **Review** - Content complete, making final refinements
+- ✨ **Updated** - Previously published content revised with new insights
+
+**Content Types:**
+- 📄 **Brief** - Short-form analysis based on a single reference or focused idea
+- 📚 **Series** - Part of a connected set of posts on related topics
+- 🛠️ **Tutorial** - Step-by-step hands-on instructional guide
+- 📊 **Analysis** - Deep research and data exploration
+
+Posts without a status label are considered published and stable, representing my current best understanding. See the [full Status Guide](https://www.jasonkronemeyer.com/about/status-guide/) for more details on this system.
+
 From my first repository, [hello-world](https://github.com/jasonkronemeyer/hello-world), I have continuously explored new technologies and methods, building not just technical skills but also a deeper understanding of how technology can be leveraged for social good. My repositories reflect my evolving interests—from early scripting to advanced analytics and digital equity initiatives.
 
 ### Discovering Data Science

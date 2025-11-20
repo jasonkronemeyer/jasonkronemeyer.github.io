@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Mobile First */
+.nav-toggle {
+  display: block;
+  background: #007acc;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.site-nav {
+  display: none;
+  flex-direction: column;
+}
+
+.site-nav.open {
+  display: flex;
+}
+
+.site-nav a {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .nav-toggle {
+    display: none !important;
+  }
+  
+  .site-nav {
+    display: flex !important;
+    flex-direction: row;
+  }
+}
+</style>
+</head>
+<body>
+<button class="nav-toggle" onclick="toggleNav()">Menu</button>
+<nav class="site-nav" id="nav">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+</nav>
+
+<script>
+function toggleNav() {
+  const nav = document.getElementById('nav');
+  const btn = document.querySelector('.nav-toggle');
+  const isOpen = nav.classList.toggle('open');
+  btn.textContent = isOpen ? 'Close' : 'Menu';
+}
+</script>
+</body>
+</html>
