@@ -7,16 +7,16 @@ status: research
 ---
 
 ## Overview
-The report, presented at **TPRC 2023**, introduces a **multi-centric, agile framework** for monitoring, evaluating, and guiding broadband and digital equity policies. It addresses the challenges posed by rapid technological transformation and emphasizes iterative learning cycles for policy improvement.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+The report, presented at **TPRC 2023**, introduces a **multi-centric, agile framework** for monitoring, evaluating, and guiding broadband and digital equity policies. It addresses the challenges posed by rapid technological transformation and emphasizes iterative learning cycles for policy improvement.
 
 ## Core Concepts
 - **Digital Opportunities Compass**  
   A structured tool for assessing broadband and digital equity initiatives across six dimensions:  
   *Contexts, Governance, Connectivity, Skills, Applications, Outcomes.*  
-  This compass enables stakeholders to identify gaps and prioritize interventions effectively.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+  This compass enables stakeholders to identify gaps and prioritize interventions effectively.
 
 - **Policy Learning Approach**  
-  The framework advocates for continuous feedback loops, integrating empirical evidence and stakeholder input to refine strategies. This concept aligns with the idea of a "policy learning machine," where iterative evaluation drives adaptive policymaking.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+  The framework advocates for continuous feedback loops, integrating empirical evidence and stakeholder input to refine strategies. This concept aligns with the idea of a "policy learning machine," where iterative evaluation drives adaptive policymaking.
 
 ## Policy Learning Approach: Expanded Details
 The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptation** of broadband and digital equity policies through structured learning cycles. It treats policymaking as an iterative process rather than a static one.
