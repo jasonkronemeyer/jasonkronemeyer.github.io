@@ -96,7 +96,17 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 - **Collaborative Governance**  
   Highlights the importance of multi-stakeholder engagement, including local governments, nonprofits, and research institutions.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
-## Why It Matters
+- **Skills Development:** Iteratively improving training programs based on learner outcomes.
+
+## Connection to Project Compass (DOIN)
+This report serves as a foundational pillar for **Project Compass** and the **Digital Opportunities Intelligence Network (DOIN)**. 
+
+- **The "Compass":** The *Digital Opportunities Compass* described in this report provides the structured dimensions (Contexts, Governance, Connectivity, Skills, Applications, Outcomes) that DOIN uses to measure and categorize digital opportunity.
+- **The "Intelligence":** DOIN extends this framework by applying **Bayesian networks** and **GraphRAG** to operationalize the "Policy Learning Approach." It turns the theoretical feedback loops into active, predictive intelligence systems.
+- **The "Network":** By mapping these dimensions into a **Knowledge Graph**, DOIN creates the "multi-centric" system envisioned by the authors, connecting isolated data points into a cohesive policy guidance engine.
+
+In essence, while this report provides the *map* (the Compass), DOIN builds the *navigation system* (the Intelligence Network) to guide policymakers through it.
+
 This framework is critical for ensuring that broadband expansion and digital equity programs are **effective, inclusive, and sustainable**, particularly in rural and underserved communities.
 
 ## Citation
