@@ -64,53 +64,18 @@
       <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
     </div>
   </footer>
-    </div>
-  </header>
 
-  <main class="page-content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrapper">
-      <div class="site-disclaimer">
-        <p>🔬 <em>Learning in Public</em> — This site is my digital laboratory—a space for curiosity, experimentation, and evolving ideas. The content here reflects my ongoing experimentation and learning process, and may be revised as my understanding deepens over time.</p>
-      </div>
-      
-      <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-    </div>
-  </footer>
-
+  <!-- JavaScript to close menu when a link is clicked (optional but good for UX) -->
   <script>
-    // Mobile navigation toggle
     document.addEventListener('DOMContentLoaded', function() {
-      const navToggle = document.querySelector('.nav-toggle');
-      const siteNav = document.getElementById('main-nav');
+      const navTrigger = document.getElementById('nav-trigger');
+      const navLinks = document.querySelectorAll('#main-nav a');
       
-      if (navToggle && siteNav) {
-        navToggle.addEventListener('click', function() {
-          const isOpen = siteNav.classList.toggle('open');
-          navToggle.setAttribute('aria-expanded', isOpen);
-          navToggle.textContent = isOpen ? 'Close' : 'Menu';
-        });
-        
-        // Close menu when clicking a nav link
-        const navLinks = siteNav.querySelectorAll('a');
+      if (navTrigger && navLinks.length > 0) {
         navLinks.forEach(link => {
           link.addEventListener('click', function() {
-            if (window.innerWidth < 769) {
-              siteNav.classList.remove('open');
-              navToggle.setAttribute('aria-expanded', 'false');
-              navToggle.textContent = 'Menu';
-            }
-          });
-        });
-      }
-    });
-            navToggle.setAttribute('aria-expanded', 'false');
-            navToggle.textContent = 'Menu';
+            // Uncheck the checkbox to close the menu
+            navTrigger.checked = false;
           });
         });
       }
