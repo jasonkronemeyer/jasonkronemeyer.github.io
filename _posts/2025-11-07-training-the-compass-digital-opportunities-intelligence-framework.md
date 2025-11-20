@@ -1,16 +1,16 @@
 ---
-title: "Training the COMPASS Digital Opportunities Intelligence Network"
+title: "Training Compass: Digital Opportunities Intelligence Network"
 date: 2025-11-07
 status: draft
 ---
   
-DRAFT
+
   
-In this post, we dive into the training of the COMPASS Digital Opportunities Intelligence Network. This framework is designed to enhance decision-making capabilities by leveraging data-driven insights. We'll explore the objectives, methodologies, and outcomes of this training initiative, to empower individuals and organizations to seize digital opportunities effectively.
+Introducing the Digital Opportunities Intelligence Network - Powered by Project Compass. This framework is designed to enhance decision-making capabilities by leveraging data-driven insights. We'll explore the objectives, methodologies, and outcomes of this training initiative, to empower individuals and organizations to seize digital opportunities effectively.
 
-### **Project Compass (DOIN): The "Policy Learning Machine"**
+### **Digital Opportunities Intelligence Network (DOIN): The "Policy Learning Machine"**
 
-**Project Compass** is a next-generation decision support system designed to transform how we understand and solve the digital divide. It moves beyond static maps and spreadsheets to create a dynamic, predictive intelligence engine for digital opportunity.
+**DOIN** is a next-generation decision support system designed to transform how we understand and solve the digital divide. It moves beyond static maps and spreadsheets to create a dynamic, predictive intelligence engine for digital opportunity.
 
 It consists of three integrated layers:
 
