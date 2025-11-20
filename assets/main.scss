@@ -52,20 +52,20 @@ body {
 /* Navigation - Mobile First with Toggle */
 .nav-toggle {
   display: block;
-  background: none;
-  border: 2px solid #333;
+  background: #007acc;
+  border: none;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   cursor: pointer;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
   transition: all 0.2s ease;
   margin-top: 0.5rem;
 }
 
 .nav-toggle:hover {
-  background: #f8f9fa;
+  background: #005a9c;
 }
 
 .site-nav {
@@ -76,14 +76,11 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 1rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
+  padding-bottom: 1rem;
 }
 
 .site-nav.open {
   display: flex;
-  max-height: 500px;
 }
 
 .site-nav a {
