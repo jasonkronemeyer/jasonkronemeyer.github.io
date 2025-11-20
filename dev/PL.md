@@ -102,7 +102,7 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 This report serves as a foundational pillar for **Project Compass** and the **Digital Opportunities Intelligence Network (DOIN)**. 
 
 - **The "Compass":** The *Digital Opportunities Compass* described in this report provides the structured dimensions (Contexts, Governance, Connectivity, Skills, Applications, Outcomes) that DOIN uses to measure and categorize digital opportunity.
-- **The "Intelligence":** DOIN extends this framework by applying **Bayesian networks** and **GraphRAG** to operationalize the "Policy Learning Approach." It incorporates **Gini coefficients** to quantify digital inequality and **Hajek estimators** to derive accurate population estimates from survey data. These rigorous metrics feed into the Bayesian models, turning theoretical feedback loops into active, predictive intelligence systems.
+- **The "Intelligence":** DOIN extends this framework by applying **Bayesian networks** and **GraphRAG** to operationalize the "Policy Learning Approach." It incorporates algorithms such as **Gini coefficients** to quantify digital inequality and **Hajek estimators** to derive accurate population estimates from survey data. These rigorous metrics feed into the Bayesian models, turning theoretical feedback loops into active, predictive intelligence systems.
 - **The "Network":** By mapping these dimensions into a **Knowledge Graph**, DOIN creates the "multi-centric" system envisioned by the authors, connecting isolated data points into a cohesive policy guidance engine.
 
 In essence, while this report provides the *map* (the Compass), DOIN builds the *navigation system* (the Intelligence Network) to guide policymakers through it.
