@@ -7,11 +7,11 @@ status: research
 ---
 
 ## Overview
-The report, presented at **TPRC 2023**, introduces a **multi-centric, agile framework** for monitoring, evaluating, and guiding broadband and digital equity policies. It addresses the challenges posed by rapid technological transformation and emphasizes iterative learning cycles for policy improvement.
+The report, presented at **TPRC 2023**, introduces a **multi-centric, agile framework** for monitoring, evaluating, and guiding broadband and digital opportunity policies. It addresses the challenges posed by rapid technological transformation and emphasizes iterative learning cycles for policy improvement.
 
 ## Core Concepts
 - **Digital Opportunities Compass**  
-  A structured tool for assessing broadband and digital equity initiatives across six dimensions:  
+  A structured tool for assessing broadband and digital opportunity initiatives across six dimensions:  
   *Contexts, Governance, Connectivity, Skills, Applications, Outcomes.*  
   This compass enables stakeholders to identify gaps and prioritize interventions effectively.
 
@@ -19,7 +19,7 @@ The report, presented at **TPRC 2023**, introduces a **multi-centric, agile fram
   The framework advocates for continuous feedback loops, integrating empirical evidence and stakeholder input to refine strategies. This concept aligns with the idea of a "policy learning machine," where iterative evaluation drives adaptive policymaking.
 
 ## Policy Learning Approach: Expanded Details
-The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptation** of broadband and digital equity policies through structured learning cycles. It treats policymaking as an iterative process rather than a static one.
+The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptation** of broadband and digital opportunity policies through structured learning cycles. It treats policymaking as an iterative process rather than a static one.
 
 ### Core Principles
 1. **Feedback Loops**
@@ -45,7 +45,7 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
   - **Outputs:** Adjusted policies, refined strategies, and updated metrics.
 
 ### Practical Applications
-- **Digital Equity Programs:** Adjusting subsidy models based on real-world affordability data.
+- **Digital Opportunity Programs:** Adjusting subsidy models based on real-world affordability data.
 - **Infrastructure Planning:** Using adoption trends to prioritize underserved areas.
 - **Skills Development:** Iteratively improving training programs based on learner outcomes.
 
@@ -91,7 +91,7 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 ## Key Contributions
 - **Agility in Policy Design**  
   Encourages flexible, data-driven decision-making to respond to evolving broadband needs.
-- **Equity-Centered Metrics**  
+- **Opportunity-Centered Metrics**  
   Provides indicators for measuring digital inclusion beyond mere access, incorporating affordability, skills, and community capacity.
 - **Collaborative Governance**  
   Highlights the importance of multi-stakeholder engagement, including local governments, nonprofits, and research institutions.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
@@ -107,7 +107,7 @@ This report serves as a foundational pillar for **Project Compass** and the **Di
 
 In essence, while this report provides the *map* (the Compass), DOIN builds the *navigation system* (the Intelligence Network) to guide policymakers through it.
 
-This framework is critical for ensuring that broadband expansion and digital equity programs are **effective, inclusive, and sustainable**, particularly in rural and underserved communities.
+This framework is critical for ensuring that broadband expansion and digital opportunity programs are **effective, inclusive, and sustainable**, particularly in rural and underserved communities.
 
 ## Citation
 Bauer, Johannes M. and Dagg, Pierrette Renée and Rhinesmith, Colin and Byrum, Greta and Schill, Aaron, *A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy* (August 30, 2023). Available at SSRN: [https://ssrn.com/abstract=4557340](https://ssrn.com/abstract=4557340) or [http://dx.doi.org/10.2139/ssrn.4557340](http://dx.doi.org/10.2139/ssrn.4557340)
