@@ -80,7 +80,7 @@ body {
 }
 
 .site-nav.open {
-  display: flex;
+  display: flex !important;
 }
 
 .site-nav a {
