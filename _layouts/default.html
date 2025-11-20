@@ -26,13 +26,18 @@
 <body>
   <header class="site-header">
     <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">
+            <a class="site-title" href="{{ '/' | relative_url }}">
         <img src="{{ '/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo">
         <span class="site-title-text">{{ site.title | escape }}</span>
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        Menu
-      </button>
+      
+      <!-- CSS-Only Toggle Mechanism -->
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger" class="nav-button">
+        <span class="menu-text">Menu</span>
+        <span class="close-text">Close</span>
+      </label>
+
       <nav class="site-nav" id="main-nav">
         <a href="{{ '/blog/' | relative_url }}">The Signal</a>
         <a href="{{ '/' | relative_url }}">Resume</a>
@@ -41,6 +46,24 @@
 
         <!-- <a href="{{ '/dev/' | relative_url }}">Projects</a> -->
       </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="site-disclaimer">
+        <p>🔬 <em>Learning in Public</em> — This site is my digital laboratory—a space for curiosity, experimentation, and evolving ideas. The content here reflects my ongoing experimentation and learning process, and may be revised as my understanding deepens over time.</p>
+      </div>
+      
+      <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
     </div>
   </header>
 

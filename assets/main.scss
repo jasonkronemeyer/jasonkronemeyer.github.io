@@ -49,8 +49,12 @@ body {
   font-size: 1.3rem;
 }
 
-/* Navigation - Mobile First with Toggle */
-.nav-toggle {
+/* Navigation - Mobile First with CSS-Only Toggle */
+.nav-trigger {
+  display: none; /* Hide the checkbox */
+}
+
+.nav-button {
   display: block;
   background: #007acc;
   border: none;
@@ -62,10 +66,25 @@ body {
   color: #fff;
   transition: all 0.2s ease;
   margin-top: 0.5rem;
+  text-align: center;
+  user-select: none;
 }
 
-.nav-toggle:hover {
+.nav-button:hover {
   background: #005a9c;
+}
+
+.nav-button .close-text {
+  display: none;
+}
+
+/* Toggle Logic */
+.nav-trigger:checked ~ .nav-button .menu-text {
+  display: none;
+}
+
+.nav-trigger:checked ~ .nav-button .close-text {
+  display: inline;
 }
 
 /* Use ID selector for higher specificity to override Minima */
@@ -91,7 +110,8 @@ body {
   padding-bottom: 1rem;
 }
 
-#main-nav.open {
+/* Show menu when checkbox is checked */
+.nav-trigger:checked ~ #main-nav {
   display: flex !important;
 }
 
@@ -123,7 +143,7 @@ body {
     margin-bottom: 0;
   }
   
-  .nav-toggle {
+  .nav-button {
     display: none !important;
   }
   
