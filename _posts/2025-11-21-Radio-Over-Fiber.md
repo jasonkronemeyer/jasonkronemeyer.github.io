@@ -6,7 +6,7 @@ categories: [Public Safety, RF Technology, RoF, DAS, POLAN]
 status: research 
 ---
 
-**Short answer:** Yes, but not for the entire network. Radio over Fiber (RoF) is being adopted primarily for **in-building coverage** and **distributed antenna systems (DAS)** rather than replacing outdoor macro networks. When combined with **Passive Optical LAN (POLAN)**, RoF becomes even more powerful for sites like schools where the central node is located at an **emergency services facility** such as a police or fire station.
+**Short answer:** Yes, but not for the entire network. Radio over Fiber (RoF) is being adopted primarily for **in-building coverage** and **distributed antenna systems (DAS)** rather than replacing outdoor macro networks. When combined with **Passive Optical LAN (POLAN)**, RoF becomes even more powerful by leveraging the **regional public safety network infrastructure**—connecting schools and municipal buildings to Emergency Operations Centers (EOCs) distributed across public safety facilities like police stations, fire departments, and emergency management offices.
 
 ---
 
@@ -26,25 +26,35 @@ Public safety codes are driving RoF adoption:
 ---
 
 ### **POLAN Integration for Geographically Separated Nodes**
-Schools and municipal buildings often connect to a **centralized emergency services hub** (police/fire station or EOC). Using **POLAN**, the same fiber backbone that delivers IT services can also transport RF signals for public safety DAS:
-- **Shared Fiber Infrastructure:** POLAN uses single-mode fiber to connect remote Optical Network Terminals (ONTs) in buildings to an Optical Line Terminal (OLT) at the emergency services facility.
+Schools and municipal buildings connect to the **regional public safety network** through EOCs distributed across public safety facilities (police stations, fire departments, emergency management offices). Using **POLAN**, the same fiber backbone that delivers IT services can also transport RF signals for public safety DAS:
+- **Shared Fiber Infrastructure:** POLAN uses single-mode fiber to connect remote Optical Network Terminals (ONTs) in buildings to an Optical Line Terminal (OLT) at the regional public safety facility.
 - **RoF Overlay:** RF signals for 700/800 MHz public safety bands can ride on dedicated wavelengths or separate fibers within the same cable plant. Think of it like different colors of light traveling through the same fiber—data uses one wavelength, voice uses another, and public safety radio uses a third, all without interfering with each other.
 - **Power Integration:** ONTs typically include PoE+ ports that can power DAS equipment, access points, and IoT sensors. With **NEC 2026 updates** for fault-managed power systems (Class 4 circuits), higher-power DAS components can be safely powered through the same low-voltage infrastructure.
-- **Benefits:** Reduced trenching costs, simplified maintenance, future-proof scalability for both IT and life-safety systems, and centralized backup power at the emergency services facility ensures resilience during outages.
+- **Benefits:** Reduced trenching costs, simplified maintenance, future-proof scalability for both IT and life-safety systems, and integration with the regional public safety network's backup power infrastructure (located at distributed EOC nodes) ensures resilience during outages.
+
+#### **Understanding the Donor Antenna**
+A **donor antenna** is an outdoor antenna mounted at the regional public safety facility (EOC node) that receives public safety radio signals from external macro networks (700/800 MHz base stations) and "donates" them to the in-building DAS system. It also transmits signals from first responders inside buildings back to the external network, enabling two-way communication.
+
+**Signal Flow:**
+```
+Regional PS Network → Donor Antenna (at EOC) → BDA/Headend → Fiber (RoF) → Remote DAS → Indoor Antennas → First Responder Radios
+```
+
+**Key Advantage:** By leveraging donor antennas at strategically positioned public safety facilities across the region, well-positioned antennas connected to the regional public safety network can serve multiple remote buildings via fiber. This eliminates the need for each school or municipal building to have its own donor antenna with line-of-sight to the macro network—a significant cost and complexity reduction.
 
 #### **Typical Architecture**
 ```
-[Fire Station/EOC]                    [School Campus]
-      OLT                                  Building A
-       |                                    ONT → DAS
+[Regional PS Network]                 [School Campus]
+   [EOC/PS Facility]                     Building A
+      OLT                                  ONT → DAS
        |                                    |
-       |--- Single Fiber (>12 miles) ----  Building B
+       |--- Single Fiber (< 12 miles) ----  Building B
        |                                    ONT → DAS
        |                                    |
     Headend                                Building C
   (Donor Antenna)                         ONT → DAS
 ```
-*This single multi-strand fiber run carries both IT network traffic and public safety radio signals to multiple buildings.*
+*This single multi-strand fiber run connects remote sites to the regional public safety network while carrying both IT network traffic and public safety radio signals.*
 
 ---
 ### **Cost-Benefit of POLAN + RoF**
@@ -66,7 +76,7 @@ Schools and municipal buildings often connect to a **centralized emergency servi
 - Providing a future-proof backbone for IT and public safety systems
 
 #### **Case Study: K-12 Campus Integration**
-Consider a typical school district with a 5-building campus located 12 miles from the central fire station:
+Consider a typical school district with a 5-building campus located 12 miles from a regional public safety facility with an EOC node:
 
 **Traditional Approach:**
 - 5 telecom rooms ($15K equipment each = $75K)
@@ -76,7 +86,8 @@ Consider a typical school district with a 5-building campus located 12 miles fro
 - **Total initial cost: ~$130K + ongoing OpEx**
 
 **POLAN + RoF Approach:**
-- Single OLT at fire station (shared with IT)
+- Single OLT at regional public safety facility (shared with IT)
+- Connection to regional public safety network infrastructure
 - 5 ONTs at school buildings ($2K each = $10K)
 - Minimal telecom closets (ONT only, no active cooling)
 - RoF DAS integrated with existing fiber
@@ -97,7 +108,7 @@ Consider a typical school district with a 5-building campus located 12 miles fro
 - **Hybrid Architectures:** Expect more integration of RoF in distributed public safety networks as agencies upgrade for interoperability and resilience.
 - **Mission-Critical Fiber DAS:** Fiber-based DAS is becoming the standard for new construction projects due to code compliance and performance benefits.
 - **NEC 2026 Alignment:** The consolidation of low-energy system requirements under NEC Chapter 7 and expanded provisions for fault-managed power systems (Class 4) simplify the electrical design for POLAN + RoF deployments, enabling higher power delivery to DAS equipment while maintaining safety standards.
-- **Centralized Resilience:** By locating OLTs at emergency services facilities with backup generators and UPS systems, POLAN + RoF ensures public safety communications remain operational during power outages—when they're needed most.
+- **Distributed Resilience:** By locating OLTs at regional public safety facilities with backup generators and UPS systems, POLAN + RoF leverages existing emergency infrastructure to ensure public safety communications remain operational during power outages—when they're needed most.
 - **Not a Full Migration:** Outdoor macro networks for 800 MHz public safety still rely on traditional RF infrastructure; RoF is mainly a transport layer for indoor and extended coverage scenarios.
 
 ---
