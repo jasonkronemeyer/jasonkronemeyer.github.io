@@ -1,7 +1,7 @@
 ---
 title: "Training Compass: Digital Opportunities Intelligence Network"
 date: 2025-11-07
-status: draft
+status: research
 ---
   
 
