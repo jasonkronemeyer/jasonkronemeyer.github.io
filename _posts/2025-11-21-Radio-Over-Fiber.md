@@ -157,9 +157,9 @@ For deeper understanding of RoF and POLAN integration in public safety contexts,
 
 8. **SMART Building Certifications: A Technical and Programmatic Framework**
    - Related post exploring Passive Optical LAN in smart building contexts
-   - [SMART Building Certifications](https://www.jasonkronemeyer.com/2025/11/05/SMART-Building-Certifications.html)
+   - [SMART Building Certifications](https://www.jasonkronemeyer.com/smart%20buildings/sustainability/certifications/2025/11/05/SMART-Building-Certifications.html)
 
 9. **Photon Networks: Architectures, Applications, and Emerging Trends**
    - Related post exploring photonic networking fundamentals and optical communications technologies
-   - [Photonic Networking](https://www.jasonkronemeyer.com/2025/11/19/Photonic-Networking.html)
+   - [Photonic Networking](https://www.jasonkronemeyer.com/photonics/networking/technology/2025/11/19/Photonic-Networking.html)
 
