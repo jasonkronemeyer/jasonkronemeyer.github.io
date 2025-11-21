@@ -4,6 +4,7 @@ date: 2025-11-14
 author: Jason Kronemeyer
 tags: [blockchain, public infrastructure, education, digital equity, outreach]
 layout: post
+status: brief
 ---
 
 *“Blockchain isn’t just about Bitcoin. It’s about trust.”*  

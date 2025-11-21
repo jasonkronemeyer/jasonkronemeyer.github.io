@@ -5,7 +5,7 @@ date: 2025-11-19
 categories: [Photonics, Networking, Technology]
 tags: [Photonics, Optical Networks, Quantum, Neural Networks]
 description: "Explore the taxonomy of photon networks, from All-Photonics Networks to Quantum Photonic systems, with references to cutting-edge research."
-status: draft
+status: brief
 ---
 
 Photon networks leverage **light (photons)** as the primary information carrier, offering advantages such as **high speed**, **low latency**, **energy efficiency**, and **massive parallelism**. These networks span multiple architectures and application contexts, from classical optical communications to photonic computing and neural networks.
