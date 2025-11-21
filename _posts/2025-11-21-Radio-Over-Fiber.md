@@ -159,4 +159,7 @@ For deeper understanding of RoF and POLAN integration in public safety contexts,
    - Related post exploring Passive Optical LAN in smart building contexts
    - [SMART Building Certifications](/2025/11/05/SMART-Building-Certifications.html)
 
+9. **Photon Networks: Architectures, Applications, and Emerging Trends**
+   - Related post exploring photonic networking fundamentals and optical communications technologies
+   - [Photonic Networking](/2025/11/19/Photonic-Networking.html)
 
