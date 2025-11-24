@@ -244,3 +244,4 @@ And with semantic modeling, we can make every link in that chain explicit, testa
 ## Additional Reading
 
 - [Turtle (Terse RDF Triple Language) - Wikipedia](https://en.wikipedia.org/wiki/Turtle_(syntax))
+- [Semantic Network - Wikipedia](https://en.wikipedia.org/wiki/Semantic_network)
