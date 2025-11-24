@@ -10,7 +10,7 @@ status: analysis
 
 # Introduction: Why Amend the Digital Equity Act?
 
-The Digital Equity Act has made important strides in addressing connectivity gaps, but what if we evolved it into something more ambitious? What if we shifted from equity-focused language to opportunity-driven policy—creating a **Digital Opportunity Act** that explicitly connects broadband infrastructure to workforce development and economic mobility?
+The **Digital Equity Act** has made important strides in addressing connectivity gaps, but what if we evolved it into something more ambitious? What if we shifted from **equity-focused language** to **opportunity-driven policy** — creating a **Digital Opportunity Act** that explicitly connects broadband infrastructure to workforce development and economic mobility? Through simple policy language adjustment toward growth mindset, might we achieve the desired outcome?
 
 This isn't just semantic wordplay. How we model policy evolution matters because it shapes:
 - **Policy continuity**: Building on existing programs rather than starting over
