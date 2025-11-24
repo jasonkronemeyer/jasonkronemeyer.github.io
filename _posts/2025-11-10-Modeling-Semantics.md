@@ -42,10 +42,10 @@ ex:DigitalOpportunityAct ex:enables ex:WorkforceDevelopment .
 
 This statement is:
 - **Human-readable**: "Digital Opportunity Act enables Workforce Development"
-- **Machine-queryable**: Can be searched with SPARQL, imported into Neo4j, linked to other datasets
+- **Machine-queryable**: Can be searched with SPARQL, stored in knowledge graphs, linked to other datasets
 - **Semantically precise**: Uses standard vocabularies (schema.org, W3C Time) that connect to the broader semantic web
 
-Instead of plain text describing policy relationships, Turtle creates a structured knowledge graph that machines can reason over. This lets us ask complex questions like "Which policies active in 2023 led to workforce outcomes?" and get data-driven answers.
+Instead of plain text describing policy relationships, Turtle creates a structured knowledge network that machines can reason over. This lets us ask complex questions like "Which policies active in 2023 led to workforce outcomes?" and get data-driven answers.
 
 ### The Model
 
