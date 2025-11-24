@@ -238,3 +238,9 @@ This is a proposal, not a prediction. But by modeling it semantically, we can:
 The chain flows as: **Current Policy → Proposed Amendment → Enhanced Opportunities → Measurable Growth**
 
 And with semantic modeling, we can make every link in that chain explicit, testable, and trackable.
+
+---
+
+## Additional Reading
+
+- [Turtle (Terse RDF Triple Language) - Wikipedia](https://en.wikipedia.org/wiki/Turtle_(syntax))
