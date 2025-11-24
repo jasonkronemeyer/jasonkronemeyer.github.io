@@ -1,9 +1,9 @@
 ---
-title: "Building the Digital Opportunities Intelligence Newtork: A Blueprint for Project Compass"
+title: "Building the Digital Opportunities Intelligence Network: A Blueprint for Project Compass"
 date: 2025-11-20
 layout: post
 categories: [dev, research]
-status: draft
+status: research
 ---
 
 This is not just a "database" or a "dashboard." It is a **Cyber-Physical System for Policy Intelligence**—a "Policy Learning Machine" that closes the loop between *intervention* (what we do) and *impact* (what actually happens).
