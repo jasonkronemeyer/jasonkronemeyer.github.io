@@ -2,7 +2,7 @@
 layout: post
 title: "Modeling Semantics in Policy Evolution: A Case for the Digital Accessibility and Opportunity Act"
 date: 2025-11-10
-categories: [Semantic Modeling, Policy, Digital Opportunities]]
+categories: [Semantic Modeling, Policy, Digital Opportunities]
 tags: [RDF, Temporal Properties, Digital Accessibility and Opportunity Act, Policy Recommendation]
 author: Jason Kronemeyer
 status: analysis
