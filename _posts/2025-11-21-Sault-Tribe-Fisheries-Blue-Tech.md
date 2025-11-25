@@ -16,7 +16,7 @@ status: research
 
 The Sault Ste. Marie Tribe of Chippewa Indians is the largest indigenous tribe east of the Mississippi and has been stewarding the fisheries of their Great Lakes territory for generations. As the largest commercial fishing operation among Michigan tribes, their fishermen catch much of the whitefish served in restaurants across the state. But this multi-generational industry faces an existential threat from invasive species—and is responding with a sophisticated blue technology approach that combines traditional ecological knowledge with cutting-edge aquaculture and environmental monitoring systems to ensure a healthy fishery for the next seven generations.
 
-This work serves as a powerful example of the "Grounded Innovation" model discussed in my [previous post on regional Blue Tech opportunities]({% post_url 2025-11-09-Blue-Tech-Opportunities %}). While that framework focused on building educational pathways between BMCC and LSSU, the Sault Tribe Fisheries program demonstrates that world-class blue tech innovation is already happening here—driven not just by economic opportunity, but by cultural necessity and treaty rights.
+This work serves as a powerful example of the "Grounded Innovation" model discussed in my [previous post on regional Blue Tech opportunities]({% post_url 2025-11-09-Blue-Tech-Opportunities %}). While that framework focused on building educational pathways between BMCC and LSSU, the Sault Tribe Fisheries program demonstrates that world-class blue tech innovation is already happening here—driven not just by economic opportunity, but by cultural necessity and protection of the land.
 
 ### The Crisis: Invasive Species and Ecosystem Collapse
 
