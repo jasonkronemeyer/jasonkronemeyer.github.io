@@ -81,6 +81,21 @@ This wouldn't require building new infrastructure—MiWaterNet exists, the senso
 
 ---
 
+## Sault Tribe Fisheries: A Model for Indigenous Blue Tech Leadership
+
+While we look to build new pathways, we must also recognize the sophisticated blue tech leadership already existing within our tribal communities. The Sault Ste. Marie Tribe of Chippewa Indians Fisheries Program offers a powerful model of how Indigenous stewardship drives technological innovation.
+
+Facing the collapse of traditional whitefish populations due to invasive zebra and quagga mussels, the Tribe didn't just adapt—they innovated. Their response exemplifies the definition of blue tech:
+
+- **Advanced Monitoring Infrastructure:** The Tribe operates a sophisticated data collection network, employing biologists who continuously monitor fishery stocks, invasive species distribution, and ecosystem health across the 1836 treaty territory.
+- **Experimental Aquaculture:** In a pioneering move, the Tribe launched an experimental whitefish hatchery program—developing novel protocols for a species never before successfully raised in North American pond systems. This involves wild broodstock collection, controlled incubation, and pond-based grow-out operations.
+- **Transnational Collaboration:** The program participates in a monitoring network involving U.S. and Canadian agencies for early detection of aquatic invasive species, demonstrating how tribal sovereignty leads to cross-border environmental security.
+
+**The Lesson for BMCC Students:**
+This isn't just "fisheries management"—it's high-level science and technology. It requires data analysis, sensor monitoring, biological engineering, and complex logistics. When I teach my students about database management or systems thinking, the Sault Tribe Fisheries program is a living example of these concepts applied to their own community's survival and prosperity. It proves that "blue tech" isn't an imported concept; it's a modern expression of the Seven Generations principle—using the best available tools to ensure resources exist for the future.
+
+---
+
 ## The EUP Innovation Ecosystem: Blue Tech Meets Space Tech
 
 The Eastern Upper Peninsula isn't just building blue tech capacity—it's emerging as a multi-sector innovation hub where water, space, and advanced technology converge. Three major initiatives demonstrate the region's technical sophistication:
@@ -120,6 +135,18 @@ These three initiatives prove that:
 - Scientific data visualization
 
 BMCC could become the bridge institution connecting K-12 programs (Brimley CTE, Sault High SunRISE) to university research (LSSU blue tech, U-M partnerships) and industry applications (CHARGE-UP Lab startups). Students would see clear pathways: learn programming at BMCC → contribute to local research projects → transfer to LSSU or other universities → work in emerging EUP tech sector.
+
+---
+
+## The Core Relationship: Grounded Innovation
+
+The synergy between BMCC, Sault Tribe Fisheries, and the broader Blue Tech sector creates a powerful ecosystem I call **"Grounded Innovation."**
+
+- **Sault Tribe Fisheries is the Practitioner:** They provide the *practical application* and *cultural imperative*. They aren't just managing resources; they are innovating with sensors and aquaculture to solve existential threats like invasive species.
+- **BMCC is the Educational Bridge:** We serve as the *talent pipeline* and *translator*. Our students learn the skills—GIS, web design, programming—to translate the Tribe's raw data into usable tools for the community.
+- **Blue Tech is the Shared Language:** This isn't just industry jargon. It is the unifying domain that connects Indigenous stewardship with modern economic opportunity, reframing "technology" as a modern expression of the **Seven Generations principle**.
+
+This ecosystem grounds abstract technical skills in local reality, giving students a "why" for their coding assignments that is deeply personal and culturally relevant.
 
 ---
 
@@ -168,6 +195,8 @@ What if these potential student projects connected directly to LSSU's active res
 - **Invasive Species Management:** When LSSU researches European frog-bit in the St. Marys River, BMCC students could build the mobile apps for citizen scientists to report sightings, analyze spatial data to predict spread patterns, or create educational websites explaining the ecological impact.
 
 - **Climate Change Adaptation:** Long-term data collection on tribal lands, analyzed by students from both institutions, with BMCC focusing on data management and visualization while LSSU handles field sensors and statistical modeling.
+
+- **Sault Tribe Fisheries Partnership:** My students could collaborate with the Sault Tribe Fisheries program to digitize and visualize their extensive environmental data. Imagine a student-built dashboard that helps tribal biologists track invasive species spread or monitor hatchery conditions—applying classroom coding skills to support tribal food sovereignty.
 
 **Shared Research Infrastructure:**
 
@@ -287,7 +316,7 @@ By leveraging the unique strengths of both LSSU and BMCC, honoring Indigenous kn
 
 **To My Students at BMCC:**
 
-Right now, you're learning web design and programming through general examples—business websites, database applications, standard exercises. But I want you to know: these same skills are exactly what blue tech careers require. Data visualization, sensor programming, GIS integration, database management—you're actively building those capabilities, and soon we'll be applying them explicitly to blue tech challenges. LSSU's research labs need people who can code, design interfaces, and communicate technical findings. The pathway from what you're learning now to those careers is shorter than you might think—and you're already on it.
+Right now, you're learning web design and programming through general examples—business websites, database applications, standard exercises. But I want you to know: these same skills are exactly what blue tech careers require. Data visualization, sensor programming, GIS integration, database management—you're actively building those capabilities. **You have the power to be the translators:** taking the raw data from our waters and turning it into the stories and tools our community needs to protect them. The pathway from what you're learning now to those careers is shorter than you might think—and you're already on it.
 
 **To My Colleagues at BMCC and LSSU:**
 
@@ -320,3 +349,4 @@ Together, we can build a blue tech ecosystem rooted in this place, these waters,
 8. [LSSU and Algoma University Oil Spill Research](https://www.sooleader.com/local-news/lssu-and-algoma-university-team-up-to-research-oil-spill-effects-on-the-great-lakes-11323276)
 9. [NASA SunRISE Ground Radio Lab - Space Weather Research](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004114)
 10. [CHARGE-UP Lab - Chippewa County EDC](https://www.chippewacountyedc.com/press-release-charge-up-lab/)
+11. [Sault Tribe Fisheries Program](https://saulttribe.com/membership-services/natural-resources/fisheries-management)
