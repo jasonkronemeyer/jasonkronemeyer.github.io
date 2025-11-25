@@ -43,7 +43,7 @@ categories: [briefing, education, infrastructure]
 
 ### Cloud Migration
 - **Proof of concept**: AWS migration via MiCloud.
-- **Cost comparisons**: On-prem vs. cloud (e.g., $16,200/year for Skyward hosting).
+- **Cost comparisons**: On-prem vs. cloud (e.g., $16,200/year for system hosting).
 - **Operational savings**: Reduced engineering workload and improved security.
 
 ### Security & Scalability
