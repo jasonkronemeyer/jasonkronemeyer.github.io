@@ -94,11 +94,11 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 - **Opportunity-Centered Metrics**  
   Provides indicators for measuring digital inclusion beyond mere access, incorporating affordability, skills, and community capacity.
 - **Collaborative Governance**  
-  Highlights the importance of multi-stakeholder engagement, including local governments, nonprofits, and research institutions.[1](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+  Highlights the importance of multi-stakeholder engagement, including local governments, nonprofits, and research institutions.[Learned from Broadband Champions Webinar](https://jasonkronemeyercom.sharepoint.com/sites/BTAProjectCompass/_layouts/15/Doc.aspx?sourcedoc=%7B29B366C9-BD88-42F4-8F07-4227AD2941E8%7D&file=Transcript%20from%20Broadband%20Champions%20Webinar.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 - **Skills Development:** Iteratively improving training programs based on learner outcomes.
 
-## Connection to Project Compass (DOIN)
+## Connection to Digital Opportunities Intelligence Network (DOIN)
 This report serves as a foundational pillar for **Project Compass** and the **Digital Opportunities Intelligence Network (DOIN)**. 
 
 - **The "Compass":** The *Digital Opportunities Compass* described in this report provides the structured dimensions (Contexts, Governance, Connectivity, Skills, Applications, Outcomes) that DOIN uses to measure and categorize digital opportunity.
