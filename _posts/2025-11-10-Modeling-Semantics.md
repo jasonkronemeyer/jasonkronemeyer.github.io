@@ -2,7 +2,7 @@
 layout: post
 title: "Modeling Semantics in Policy Evolution: A Case for the Digital Accessibility and Opportunity Act"
 date: 2025-11-10
-categories: [Semantic Modeling, Policy, Digital Equity]
+categories: [Semantic Modeling, Policy, Digital Opportunities]]
 tags: [RDF, Temporal Properties, Digital Accessibility and Opportunity Act, Policy Recommendation]
 author: Jason Kronemeyer
 status: analysis
@@ -24,7 +24,27 @@ Semantic modeling lets us represent these relationships in ways machines can und
 - "How do infrastructure investments connect to workforce outcomes?"
 - "What would this transition look like over time?"
 
-Let me show you how we might model this proposed evolution.
+## The Semantic Flow: Policy to Community Growth
+
+The power of this semantic model lies in showing the complete pathway from policy to community growth in the digital economy:
+
+```
+Infrastructure (DEA/DAOA) 
+  ↓
+Accessible Digital Services (DOJ compliance)
+  ↓
+Digital Literacy (people learn by using accessible services)
+  ↓
+Economic Participation (literate citizens engage in digital economy)
+  ↓
+Skills Development (workforce training for participating citizens)
+  ↓
+Community Growth (regional digital economy expansion)
+```
+
+**The key insight**: Literacy, participation, and skills aren't separate programs—they emerge organically from accessible infrastructure. When local governments comply with accessibility requirements, they don't just make websites accessible—they create cascading opportunities for community growth.
+
+Let me show you how we model this proposed evolution semantically.
 
 ---
 
