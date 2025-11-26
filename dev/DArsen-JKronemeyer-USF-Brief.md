@@ -59,7 +59,7 @@ Jason identified a critical failure in the **Lifeline** program for rural famili
 ### E. Retrospective: The Affordable Connectivity Program (ACP) Parallel
 *   **The Pattern Repeats:** The subsequent Affordable Connectivity Program (ACP) validated the concerns raised in this meeting about Lifeline.
 *   **Flawed Design:** Like Lifeline, ACP was designed as a demand-side voucher. It assumed that the barrier to entry was solely *affordability*, ignoring the *availability* crisis in rural areas.
-*   **Outcome:** Rural residents eligible for the benefit were unable to use it because no service existed at their address. The policy effectively transferred wealth to urban/suburban markets where infrastructure existed, while leaving rural connectivity gaps unaddressed—a direct repeat of the Lifeline policy failure.
+*   **Outcome:** Rural residents eligible for the benefit were unable to use it because no service existed at their address. The policy effectively transferred wealth to population centers where infrastructure existed (Rich Get Richer Phenomon), while leaving rural connectivity gaps unaddressed—a direct repeat of the Lifeline policy failure.
 
 ---
 
