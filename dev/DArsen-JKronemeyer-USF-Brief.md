@@ -28,9 +28,10 @@ Dr. Arsen is leading a research project to define a policy agenda for Michigan's
 
 ## 2. Key Policy Insights (Jason Kronemeyer)
 
-### A. The "Mapping Trap"
-*   **Insight:** Policymakers focus disproportionately on improving broadband *maps* (where service exists).
-*   **Argument:** We do not need perfect maps to improve policy. Bad policy is what creates the data gaps. Focusing on maps delays action on the funding mechanisms themselves.
+### A. Philosophy: Infrastructure First
+*   **The Prerequisite:** Before addressing digital literacy or equity, communities must solve the underlying infrastructure challenge. Even the best devices and training are useless if the wire doesn't reach the house.
+*   **The "Mapping Trap":** Policymakers focus disproportionately on improving broadband *maps*. We do not need perfect maps to improve policy; bad policy is what creates the data gaps.
+*   **Quote:** *"We don't have to wait for the data to improve the policy... We have to fix the infrastructure first."*
 
 ### B. The Universal Service Fund (USF) Structure
 The USF is the primary federal vehicle for connectivity, divided into four programs:
@@ -48,8 +49,9 @@ Jason identified a critical failure in the **Lifeline** program for rural famili
     3.  Have a provider that *chooses* to participate in the Lifeline program.
 *   **The Result:** In rural areas without infrastructure, eligible families cannot use the subsidy because there is no service to buy. Furthermore, providers have **no incentive** to participate in Lifeline (high administrative burden, no extra profit), so even if infrastructure exists, the subsidy may be inaccessible.
 *   **Inequity:** A citizen's ability to access federal aid they are eligible for is determined by their street address and the business decisions of private providers.
+*   **The "Applebee's" Analogy:** Jason compared the current model to the National School Lunch Program: *"Imagine if for a student to eat lunch, there had to be an Applebee's in town. Because Applebee's is the only place that participates in the program... so that qualified students can get that support."*
 
-{% include callout.html type="warning" title="Critical Question" content="To whom does it benefit when a subsidy designed to support the individual goes to a private entity first?" %}
+{% include callout.html type="warning" title="Critical Question" content="To Whom Does it Benefit when a subsidy designed to support the individual goes to a private entity first?" %}
 
 ### D. The Regulatory Responsibility (FCC & MPSC)
 *   **The Mandate:** Both the Federal Communications Commission (FCC) and the Michigan Public Service Commission (MPSC) are charged with ensuring universal service.
@@ -63,9 +65,25 @@ Jason identified a critical failure in the **Lifeline** program for rural famili
 
 ---
 
-## 3. Strategic Recommendations
-1.  **Shift the Narrative:** Move away from "we need better maps" to "we need policy that works regardless of maps."
-2.  **Investigate MPSC:** Determine the extent of MPSC's authority to mandate or incentivize provider participation in Lifeline.
-3.  **Address the Supply/Demand Disconnect:** Policy must recognize that demand-side subsidies (Lifeline) are useless without supply-side interventions (Infrastructure) in rural markets.
+## 3. The Community Anchor Model
+Jason advocated for a fundamental shift in how rural communities organize around connectivity, moving away from reliance on commercial entities to a collaborative, community-centered approach.
+
+### A. Schools as "Digital Utilities"
+*   **Tech Support Hubs:** Schools and libraries should serve as the primary interface for community tech support and digital literacy, rather than leaving families to navigate commercial support lines.
+*   **Quote:** *"I want people to come to school to get their tech support... if it all becomes a community service, a cooperative where that cooperative is who works with the providers."*
+
+### B. Resource Pooling ("Many Checkbooks")
+*   **Concept:** No single entity (school, township, library) can solve the funding gap alone.
+*   **Strategy:** "Many checkbooks make light work." By pooling resources across healthcare, local government, and education, communities can aggregate enough demand and capital to incentivize build-outs that are otherwise commercially unviable.
+
+### C. Redefining Affordability
+*   **Responsibility Shift:** Affordability should be viewed as a community responsibility to facilitate, not a demand to make of a private business.
+*   **Quote:** *"Affordability is the community's responsibility... We can't demand affordability from a commercial entity."*
+
+## 4. Strategic Recommendations
+1.  **Infrastructure First:** Prioritize "pipes in the ground" over literacy/adoption programs until universal access is achieved.
+2.  **Investigate MPSC Authority:** Determine if the MPSC has the power to mandate provider participation in Lifeline/ACP equivalents to prevent the "Applebee's" scenario.
+3.  **Formalize Resource Pooling:** Create legal or inter-local frameworks that allow schools, libraries, and townships to co-invest in tech support infrastructure.
+4.  **Establish Community Support Hubs:** Fund schools and libraries not just as educational institutions, but as public digital support centers for the entire population.
 
 ---
