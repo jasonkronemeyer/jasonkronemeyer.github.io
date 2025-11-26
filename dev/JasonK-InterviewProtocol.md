@@ -54,7 +54,7 @@ A critical pivot in Jason's strategy was moving the community conversation from 
 *   **Role:** "I’m a relationship builder. It takes a village."
 *   **Key Qualities:**
     *   **Teacher:** "My leadership team has continually identified that my strongest quality is that I’m a teacher. I put things in terms and in a way that people can understand."
-    *   **Consummate Learner:** Constantly seeking new data (Merit events, Data Science MBA).
+    *   **Consummate Learner:** Constantly seeking new data (Merit events, Data Science MADS).
     *   **Trust:** Leveraging local roots and family reputation to build trust with skeptical stakeholders.
 
 ## 4. Key Insights & Reflections
