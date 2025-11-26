@@ -49,7 +49,7 @@ Jason identified a critical failure in the **Lifeline** program for rural famili
 *   **The Result:** In rural areas without infrastructure, eligible families cannot use the subsidy because there is no service to buy. Furthermore, providers have **no incentive** to participate in Lifeline (high administrative burden, no extra profit), so even if infrastructure exists, the subsidy may be inaccessible.
 *   **Inequity:** A citizen's ability to access federal aid they are eligible for is determined by their street address and the business decisions of private providers.
 
-{% include callout.html type="warning" title="Critical Question" content="To Whom Does it Benefit when a subsidy designed to support the individual goes to a private entity first?" %}
+{% include callout.html type="warning" title="Critical Question" content="To whom does it benefit when a subsidy designed to support the individual goes to a private entity first?" %}
 
 ### D. The Regulatory Responsibility (FCC & MPSC)
 *   **The Mandate:** Both the Federal Communications Commission (FCC) and the Michigan Public Service Commission (MPSC) are charged with ensuring universal service.
