@@ -59,14 +59,14 @@ Retrieval-Augmented Generation that "reads" the graph to answer natural language
 
 To build this prototype, we need to construct a "Vertical Slice"—a fully functional system for **one specific use case** (e.g., "K-12 Education in Rural Michigan").
 
-### Phase 1: The Ontology (The Skeleton)
-We need to expand the existing Digital Compass Ontology to include the theoretical dimensions.
+### Phase 1: The Ontology (The Map Legend)
+We need to expand the existing Digital Compass Ontology to include the theoretical dimensions. Just as a map legend defines the symbols for roads and rivers, our ontology defines the structural relationships of our policy landscape.
 
 *   **Current:** `Navigator -> serves -> Population`
 *   **Required:** `Intervention -> targets -> (Capability | Aspiration | Mindset)`
 
-### Phase 2: The Data Ingestion (The Flesh)
-Ingest a small, clean dataset to populate the graph.
+### Phase 2: The Data Ingestion (The Terrain)
+Ingest a small, clean dataset to populate the graph. This represents the actual terrain we are navigating—the ground truth of our communities.
 
 *   **Target:** 5 Counties (e.g., Chippewa, Mackinac, Luce, Van Buren, and Roscommon).
 *   **Data:**
@@ -74,7 +74,9 @@ Ingest a small, clean dataset to populate the graph.
     *   Demographic data (Context).
     *   *Synthetic* Survey Data (to represent Aspiration/Mindset scores for the prototype).
 
-### Phase 3: The "Brain" (Bayesian + LLM)
+### Phase 3: The Intelligence (The Pathfinder)
+This is the reasoning engine that helps us navigate from where we are to where we want to be.
+
 *   **Step A:** Define a simple Causal Graph (DAG).
     *   `Infra -> Access`
     *   `Navigators -> Skills`
