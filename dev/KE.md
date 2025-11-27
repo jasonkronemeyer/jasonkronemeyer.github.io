@@ -76,4 +76,4 @@ As AI systems become pervasive, structuring, reasoning, and ethically managing k
 - [Semantic Networks in AI](https://www.geeksforgeeks.org/artificial-intelligence/semantic-networks-in-artificial-intelligence/)
 - [Building a Responsible AI Framework](https://professional.dce.harvard.edu/blog/building-a-responsible-ai-framework-5-key-principles-for-organizations/)
 - [Knowledge Graphs and Semantic Technologies](https://eccenca.com/blog/article/knowledge-graphs-and-semantic-technologies-as-pillars-of-enterprise-ai)
-- [Responsible AI Principles - Infosys](https://www.infosys.com/iki/perspectives/responsible-ai-design-principles.com)
+- [Responsible AI Principles - Infosys](https://www.infosys.com/iki/perspectives/responsible-ai-design-principles.html)
