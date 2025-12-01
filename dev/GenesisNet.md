@@ -133,6 +133,7 @@ State and research coverage: Michigan EGLE microplastics overview; Great Lakes r
 ---
 
 
+
 ## Genesis mission and photonic networking
 
 Photonic networking is poised to be a core enabler for Genesis because the mission’s value hinges on moving and processing massive scientific datasets across DOE’s supercomputers and experimental facilities as a single integrated platform. The executive order and DOE’s description emphasize connecting “the world’s best supercomputers, experimental facilities, AI systems, and unique datasets” into one fabric—an architecture that will run headlong into electrical interconnect limits and benefit from optical links for bandwidth, latency, and energy efficiency.
