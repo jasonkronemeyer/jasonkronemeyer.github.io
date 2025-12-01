@@ -51,7 +51,7 @@ Jason identified a critical failure in the **Lifeline** program for rural famili
 *   **Inequity:** A citizen's ability to access federal aid they are eligible for is determined by their street address and the business decisions of private providers.
 *   **The "Applebee's" Analogy:** Jason compared the current model to the National School Lunch Program: *"Imagine if for a student to eat lunch, there had to be an Applebee's in town. Because Applebee's is the only place that participates in the program... so that qualified students can get that support."*
 
-{% include callout.html type="warning" title="Critical Question" content="To Whom Does it Benefit when a subsidy designed to support the individual goes to a private entity first?" %}
+{% include callout.html type="warning" title="Critical Question" content="To whom does it benefit when a subsidy designed to support the individual goes to a private entity first?" %}
 
 ### D. The Regulatory Responsibility (FCC & MPSC)
 *   **The Mandate:** Both the Federal Communications Commission (FCC) and the Michigan Public Service Commission (MPSC) are charged with ensuring universal service.

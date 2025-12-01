@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sacred Waters: Blue Tech and Indigenous Stewardship in Great Lakes Fisheries"
+title: "Sacred Waters: Blue Tech and Anishinaabe Stewardship in Great Lakes Fisheries"
 date: 2025-11-21
 categories: [blue tech, digital opportunity, research]
 tags: [fisheries, Great Lakes, indigenous rights, environmental monitoring, aquaculture, blue economy]
