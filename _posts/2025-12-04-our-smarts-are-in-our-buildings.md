@@ -53,6 +53,10 @@ Smart buildings are a cornerstone of the clean energy transition. By embedding d
 - U.S. Department of Labor — apprenticeship & workforce programs: https://www.dol.gov/agencies/eta/apprenticeship
 - CABA (Continental Automated Buildings Association): https://caba.org/
 
+### Technical whitepapers (PDF)
+- How to Power Your Optical LAN (POLAN) — Belden whitepaper (PDF): https://assets.belden.com/m/437771666e3121b7/original/How-to-Power-Your-Optical-LAN-2024-04-FL-EN.pdf
+- Class 4 / Fault-Managed Power: Belden / FMP Alliance resources and whitepapers (UL 1400 / Class 4 guidance): https://fmpalliance.org/ and Belden's Class 4 systems white paper: https://www.belden.com/knowledge-hub/resources/class-4-systems
+
 ### Research & reports
 - Rocky Mountain Institute — Electric Buildings and workforce insights: https://rmi.org/
 - National Renewable Energy Laboratory (NREL) — research on buildings & workforce transitions: https://www.nrel.gov/
@@ -86,6 +90,14 @@ See the full EUPConnect members & partners list for additional collaborators: ht
 - Headwaters North — regional SmartZone / economic development partner: https://headwatersnorth.org/
 - Local workforce boards & Michigan state workforce development agencies — align funding and incentives for training-to-work pipelines
 - Community-based organizations, public libraries, and economic development partners — trusted local anchors for recruitment, training, and retention
+
+### Vendors, integrators & training partners (vendors / trainers to contact)
+- Panduit — Fault-Managed Power systems and training resources: https://www.panduit.com/
+- Belden — POLAN, Class 4, and guidance whitepapers + installer network: https://www.belden.com/
+- VoltServer — Digital Electricity (Class 4) systems: https://voltserver.com/
+- Dagostino Electronic Services — systems integrator referenced in FMP projects and case studies: https://dagostino.com/
+- Local / regional integrators and utilities to check for POLAN / FMP collaborations — Highline Networks (https://highline.net/), Cloverland Electric (https://www.cloverland.com/), Merit Network (https://www.merit.edu/)
+- Local training partners — Lake Superior State University, Bay Mills Community College, Headwaters North (SmartZone) — contact for tailored workforce/stackable credential programs
 
 ### Acknowledgements
 This work is grounded in long-standing regional partnerships. Special thanks to tribal governments and community partners — including the Sault Ste. Marie Tribe of Chippewa Indians, the Bay Mills Indian Community, Headwaters North, Lake Superior State University, Bay Mills Community College, Merit Network, Cloverland Electric Cooperative, EUPISD/EUP Connect, and local workforce boards — for leadership, data, and local coordination that make equitable workforce strategies possible.
