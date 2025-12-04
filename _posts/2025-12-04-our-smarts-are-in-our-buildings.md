@@ -91,15 +91,7 @@ See the full EUPConnect members & partners list for additional collaborators: ht
 - Local workforce boards & Michigan state workforce development agencies — align funding and incentives for training-to-work pipelines
 - Community-based organizations, public libraries, and economic development partners — trusted local anchors for recruitment, training, and retention
 
-### Vendors, integrators & training partners (vendors / trainers to contact)
-- Panduit — Fault-Managed Power systems and training resources: https://www.panduit.com/
-- Belden — POLAN, Class 4, and guidance whitepapers + installer network: https://www.belden.com/
-- VoltServer — Digital Electricity (Class 4) systems: https://voltserver.com/
-- Dagostino Electronic Services — systems integrator referenced in FMP projects and case studies: https://dagostino.com/
-- Local / regional integrators and utilities to check for POLAN / FMP collaborations — Highline Networks (https://highline.net/), Cloverland Electric (https://www.cloverland.com/), Merit Network (https://www.merit.edu/)
-- Local training partners — Lake Superior State University, Bay Mills Community College, Headwaters North (SmartZone) — contact for tailored workforce/stackable credential programs
 
 ### Acknowledgements
 This work is grounded in long-standing regional partnerships. Special thanks to tribal governments and community partners — including the Sault Ste. Marie Tribe of Chippewa Indians, the Bay Mills Indian Community, Headwaters North, Lake Superior State University, Bay Mills Community College, Merit Network, Cloverland Electric Cooperative, EUPISD/EUP Connect, and local workforce boards — for leadership, data, and local coordination that make equitable workforce strategies possible.
 
-If you'd like, I can add direct links to specific training programs at nearby colleges, or pull 2–3 research papers (PDFs) and link them inline for quick access.

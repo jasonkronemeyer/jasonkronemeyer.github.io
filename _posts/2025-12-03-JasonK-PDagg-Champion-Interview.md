@@ -1,13 +1,13 @@
-# ---
-# layout: post
-# title: "Community Champion: Jason Kronemeyer — Interview"
-# date: 2025-12-03
-# author: "Jason Kronemeyer (interviewed by Pierrette Renée Dagg)"
-# categories: [interview, community, broadband]
-# tags: [digital-inclusion, moonshot, EUP, schools, libraries]
-# status: published
-# excerpt: "How the Eastern Upper Peninsula built community-first broadband: leadership, data, and an infrastructure-first philosophy."
-# ---
+---
+layout: post
+title: "Community Champion: Jason Kronemeyer — Interview"
+date: 2025-12-03
+author: "Jason Kronemeyer (interviewed by Pierrette Renée Dagg)"
+categories: [interview, community, broadband]
+tags: [digital-inclusion, moonshot, EUP, schools, libraries]
+status: published
+excerpt: "How the Eastern Upper Peninsula built community-first broadband: leadership, data, and an infrastructure-first philosophy."
+---
 
 # Community Champion Profile: Jason Kronemeyer
 *Based on an interview with Dr. Pierrette Renée Dagg for the Benton Institute for Broadband & Society*
