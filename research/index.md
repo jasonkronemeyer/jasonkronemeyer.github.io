@@ -67,6 +67,12 @@ Exploring the intersection of data science, spatial analytics, and intelligent i
 ### 🏘️ **Digital Equity & Community Development**
 <div class="research-list">
   <div class="research-paper">
+    <h4><a href="/research/osmnx-urban-network-analysis/">OSMnx Urban Network Analysis for Digital Equity</a></h4>
+    <p class="research-meta">Research Plan • 2025</p>
+    <p>Integrating street network topology and urban morphology analysis with broadband infrastructure planning to advance digital equity in rural communities.</p>
+  </div>
+  
+  <div class="research-paper">
     <h4><a href="/research/digital-navigation-maslow/">Digital Navigation & Maslow's Hierarchy</a></h4>
     <p class="research-meta">Research Paper • Community Development</p>
     <p>Examining the intersection of digital accessibility and human needs hierarchy in community development contexts.</p>
