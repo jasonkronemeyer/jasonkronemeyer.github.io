@@ -21,6 +21,8 @@ Smart buildings represent a high-growth sector within clean energy infrastructur
 - Energy management platforms
 - Data science for predictive maintenance and performance optimization
 
+Note: Modern smart building design increasingly pairs fiber-based networking (including Passive Optical LAN/POLAN) with next-generation remote-power systems (including Class 4 / Fault-Managed Power) — understanding these technologies is becoming essential for clean-energy and smart-building workforce training.
+
 ## Policy Recommendations
 1. Expand Regional Workforce Partnerships
     - Include smart building employers and technology vendors in clean energy workforce coalitions.
@@ -67,6 +69,9 @@ Smart buildings are a cornerstone of the clean energy transition. By embedding d
 - Community college programs & non-credit bootcamps (search local community college offerings for building automation / IoT / data analytics)
 - Cybersecurity training (NICE Framework / CISA / NIST resources) for IoT & building controls: https://www.cisa.gov/, https://www.nist.gov/topics/cybersecurity
 
+- Passive Optical LAN (POLAN) resources and remote-power design: https://www.belden.com/blog/unleashing-the-potential-of-polan-remote-power-strategies and https://apolanglobal.org/
+- Fault-Managed Power (Class 4) / Fault-Managed Power Alliance: https://fmpalliance.org/ and https://www.belden.com/blog/the-fault-managed-power-alliance-where-industry-leaders-unite
+
 ### Local & regional partners (examples / starting points)
 
 See the full EUPConnect members & partners list for additional collaborators: https://eupconnect-collaborative.github.io/eupconnect.github.io/MembersAndPartners.html
@@ -77,7 +82,6 @@ See the full EUPConnect members & partners list for additional collaborators: ht
 - Bay Mills Indian Community — tribal partner for workforce development: https://www.baymills.org/
 - Sault Ste. Marie Tribe of Chippewa Indians — sovereign partner for culturally grounded workforce and infrastructure initiatives: https://www.saulttribe.com/
 - Cloverland Electric Cooperative — regional utility partner: https://www.cloverland.com/
-- Highline Networks (and similar regional operators) — potential industry partners for workforce placements: https://highline.net/
 - EUPISD / EUP Connect — the regional coordinating body for K12 infrastructure and demand-side programs: https://eupconnect-collaborative.github.io/eupconnect.github.io/
 - Headwaters North — regional SmartZone / economic development partner: https://headwatersnorth.org/
 - Local workforce boards & Michigan state workforce development agencies — align funding and incentives for training-to-work pipelines
