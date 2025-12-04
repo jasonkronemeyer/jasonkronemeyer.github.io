@@ -15,9 +15,10 @@
   <g transform="translate(120,120)">
     <rect x="0" y="0" width="420" height="360" rx="20" fill="url(#g1)" opacity="0.14" />
     <g transform="translate(40,40)">
-      <path d="M0 60 C100 0, 180 120, 300 40 C420 -40, 480 120, 600 30" stroke="#00d3a3" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.95"/>
-      <circle cx="0" cy="60" r="14" fill="#00d3a3"/>
-      <circle cx="600" cy="30" r="14" fill="#00d3a3"/>
+      <!-- scaled to fit inside the 420px panel -->
+      <path d="M0 60 C80 0, 160 120, 240 40 C320 -40, 360 120, 420 30" stroke="#00d3a3" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.98"/>
+      <circle cx="0" cy="60" r="12" fill="#00d3a3"/>
+      <circle cx="420" cy="30" r="12" fill="#00d3a3"/>
     </g>
     <text x="30" y="320" fill="#bfe9ff" font-size="36" font-family="Helvetica, Arial, sans-serif">Passive Optical LAN (POLAN)</text>
   </g>
@@ -36,9 +37,9 @@
       <rect x="110" y="60" width="40" height="40" fill="#00a3e0"/>
       <rect x="10" y="110" width="140" height="36" fill="#183a78" rx="6"/>
 
-      <!-- power bolt (Class 4) -->
-      <path d="M220 40 L200 40 L212 72 L180 72 L210 120 L236 84 L254 84 Z" fill="#ffd166"/>
-      <text x="280" y="120" fill="#fff" font-size="28" font-family="Helvetica, Arial, sans-serif">Class‑4 (FMP)</text>
+      <!-- power bolt (Class 4) — placed within the building block -->
+      <path d="M108 16 L90 16 L103 48 L78 48 L104 88 L128 54 L146 54 Z" fill="#ffd166"/>
+      <text x="0" y="140" fill="#eaf6ff" font-size="22" font-family="Helvetica, Arial, sans-serif">Class‑4 (FMP)</text>
     </g>
     <text x="90" y="300" fill="#bfe9ff" font-size="36" font-family="Helvetica, Arial, sans-serif">POLAN + Fault‑Managed Power</text>
   </g>
