@@ -73,3 +73,7 @@ vendor/
 .settings/
 *.sublime-workspace
 *.sublime-project
+
+# Local-only files (do not commit)
+private/
+!private/README.md
