@@ -5,7 +5,7 @@ date: 2025-12-05
 author: "Jason Kronemeyer"
 categories: [smart-buildings, hospitality, infrastructure]
 tags: [POLAN, Class-4, FMP, hospitality, networking, power]
-status: published
+status: brief
 image: /images/optical-class4-hospitality.svg
 excerpt: "Passive Optical LANs and Class‑4 (fault‑managed) powering are converging to make hotel networks more flexible, energy-efficient, and safer — here’s a short guide for hotel operators, planners, and community partners."
 ---
