@@ -69,15 +69,21 @@ Smart buildings are a cornerstone of the clean energy transition. By embedding d
 
 ### Local & regional partners (examples / starting points)
 
-- Merit Network — regional backbone & community-scale infrastructure support (in this region): https://www.merit.edu/
-- Lake Superior State University (LSSU) & Bay Mills Community College — local higher-ed partners for training & applied research
-- Bay Mills Indian Community — tribal partner for workforce development and community-led training programs
-- Sault Ste. Marie Tribe of Chippewa Indians — sovereign partner for culturally grounded workforce and infrastructure initiatives
-- Cloverland Electric Cooperative — regional utility partner (participates in infrastructure / RDOF bidding and local deployments)
-- Highline Networks (and similar regional operators) — potential industry partners for workforce placements
-- EUPISD / EUP Connect — the regional coordinating body for K12 infrastructure and demand-side programs
-- Headwaters North — regional economic development and workforce intermediary supporting rural upskilling and partnerships
-- Local workforce boards & state workforce development agencies — align funding and incentives for training-to-work pipelines
+See the full EUPConnect members & partners list for additional collaborators: https://eupconnect-collaborative.github.io/eupconnect.github.io/MembersAndPartners.html
+
+- Merit Network — regional backbone & community-scale infrastructure support: https://www.merit.edu/
+- Lake Superior State University (LSSU) — local higher-education partner: https://www.lssu.edu/
+- Bay Mills Community College — community college training partner: http://www.bmcc.edu/
+- Bay Mills Indian Community — tribal partner for workforce development: https://www.baymills.org/
+- Sault Ste. Marie Tribe of Chippewa Indians — sovereign partner for culturally grounded workforce and infrastructure initiatives: https://www.saulttribe.com/
+- Cloverland Electric Cooperative — regional utility partner: https://www.cloverland.com/
+- Highline Networks (and similar regional operators) — potential industry partners for workforce placements: https://highline.net/
+- EUPISD / EUP Connect — the regional coordinating body for K12 infrastructure and demand-side programs: https://eupconnect-collaborative.github.io/eupconnect.github.io/
+- Headwaters North — regional SmartZone / economic development partner: https://headwatersnorth.org/
+- Local workforce boards & Michigan state workforce development agencies — align funding and incentives for training-to-work pipelines
 - Community-based organizations, public libraries, and economic development partners — trusted local anchors for recruitment, training, and retention
+
+### Acknowledgements
+This work is grounded in long-standing regional partnerships. Special thanks to tribal governments and community partners — including the Sault Ste. Marie Tribe of Chippewa Indians, the Bay Mills Indian Community, Headwaters North, Lake Superior State University, Bay Mills Community College, Merit Network, Cloverland Electric Cooperative, EUPISD/EUP Connect, and local workforce boards — for leadership, data, and local coordination that make equitable workforce strategies possible.
 
 If you'd like, I can add direct links to specific training programs at nearby colleges, or pull 2–3 research papers (PDFs) and link them inline for quick access.
