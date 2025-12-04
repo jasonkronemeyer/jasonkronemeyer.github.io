@@ -12,6 +12,8 @@ excerpt: "How the Eastern Upper Peninsula built community-first broadband: leade
 # Community Champion Profile: Jason Kronemeyer
 *Based on an interview with Dr. Pierrette Renée Dagg for the Benton Institute for Broadband & Society*
 
+I’m Jason Kronemeyer. This conversation with Dr. Pierrette Renée Dagg captures decades of local work—partnerships, practical trials, and hard lessons—about building community‑first broadband in the Eastern Upper Peninsula. That interview later informed a paper published by the Benton Institute that reflects on how community networks can act as multipliers for local connectivity efforts.
+
 ## 1. The Core Philosophy: "Connectivity for Learning"
 ### The Origin Story (1999)
 Jason’s journey began in 1999 as a computer technician "rebalancing the WAN" for the Eastern Upper Peninsula (EUP). Even then, he saw the transformative potential of the internet not just for communication, but for **self-directed learning**.
@@ -80,3 +82,7 @@ A critical pivot in Jason's strategy was moving the community conversation from 
     *   **Building on Prior Efforts:** Jason credits mentors and the history of the EUP region (1997 distance learning) as the foundation for his work.
     *   **Data-Driven Advocacy:** Using surveys and mapping (Moonshot) to make the invisible need visible.
     *   **Relationship Building:** The "Multiplier" effect of connecting disparate organizations (Merit, ISPs, Schools, Government).
+
+## Further reading
+
+- Pierrette Renée Dagg, "Multiplier: Connecting Community Connect Networks," Benton Institute for Broadband & Society — https://www.benton.org/headlines/multiplier-connecting-community-connect-networks
