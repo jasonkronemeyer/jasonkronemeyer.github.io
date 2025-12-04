@@ -50,3 +50,29 @@ Smart buildings are a cornerstone of the clean energy transition. By embedding d
 - NIST — IoT & cybersecurity resources: https://www.nist.gov/topics/internet-things
 - U.S. Department of Labor — apprenticeship & workforce programs: https://www.dol.gov/agencies/eta/apprenticeship
 - CABA (Continental Automated Buildings Association): https://caba.org/
+
+### Research & reports
+- Rocky Mountain Institute — Electric Buildings and workforce insights: https://rmi.org/
+- National Renewable Energy Laboratory (NREL) — research on buildings & workforce transitions: https://www.nrel.gov/
+- Brookings Institution — analysis on clean energy workforce and regional job programs: https://www.brookings.edu/
+- The Aspen Institute / RMI / DOE reports on training-to-work transitions in clean energy: https://www.aspeninstitute.org/
+- IEEE Spectrum / Transactions on Smart Grid — technical research and workforce skill discussions: https://spectrum.ieee.org/
+- Journal articles on smart building workforce & training (search Google Scholar for "smart buildings workforce development", "building automation training")
+
+### Training programs & certifications
+- Building Performance Institute (BPI) — certified HVAC, building science, and energy auditor credentials: https://www.bpi.org/
+- National Institute for Building Sciences — workforce resources & training guides: https://www.nibs.org/
+- Department of Energy — Better Buildings Workforce Guidelines & training resources: https://www.energy.gov/eere/buildings/better-buildings
+- Registered Apprenticeship (DOL) — apprenticeshipModels adaptable to smart-building trades: https://www.apprenticeship.gov/
+- Community college programs & non-credit bootcamps (search local community college offerings for building automation / IoT / data analytics)
+- Cybersecurity training (NICE Framework / CISA / NIST resources) for IoT & building controls: https://www.cisa.gov/, https://www.nist.gov/topics/cybersecurity
+
+### Local & regional partners (examples / starting points)
+- Merit Network — regional backbone & community-scale infrastructure support (in this region): https://www.merit.edu/
+- Lake Superior State University (LSSU) & Bay Mills Community College — local higher-ed partners for training & applied research
+- Cloverland Electric Cooperative — regional utility partner (participates in infrastructure / RDOF bidding and local deployments)
+- Highline Networks (and similar regional operators) — potential industry partners for workforce placements
+- EUPISD / EUP Connect — the regional coordinating body for K12 infrastructure and demand-side programs
+- Local workforce boards & state workforce development agencies — align funding and incentives for training-to-work pipelines
+
+If you'd like, I can add direct links to specific training programs at nearby colleges, or pull 2–3 research papers (PDFs) and link them inline for quick access.
