@@ -93,3 +93,5 @@ This is the reasoning engine that helps us navigate from where we are to where w
 
 - Bauer, J. M., Dagg, P. R., Rhinesmith, C., Byrum, G., & Schill, A. (2023). "A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy." SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557340
 
+- Dagg, P., Knittel, M., Rhinesmith, C., Joon Oh, & others (2024). "Beyond Access and Infrastructure: Evaluating the Impact of Local Contexts on Digital Equity Strategies through the Lens of the Digital Opportunities Compass." Proceedings of TPRC 2024. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4911656
+
