@@ -12,7 +12,7 @@ This prototype builds on and was inspired by prior work that argues for an integ
 
 > "a dynamic broadband policy learning system can be developed." — Bauer et al. (2023), SSRN
 
-We built the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
+We are building the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
 
 Here is the architectural blueprint for the prototype we are building.
 
