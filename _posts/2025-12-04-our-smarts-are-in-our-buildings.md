@@ -68,8 +68,16 @@ Smart buildings are a cornerstone of the clean energy transition. By embedding d
 - Cybersecurity training (NICE Framework / CISA / NIST resources) for IoT & building controls: https://www.cisa.gov/, https://www.nist.gov/topics/cybersecurity
 
 ### Local & regional partners (examples / starting points)
-    - Bay Mills Indian Community — tribal partner for workforce development and community-led training programs
-    - Sault Ste. Marie Tribe of Chippewa Indians — sovereign partner for culturally grounded workforce and infrastructure initiatives
-    - Headwaters North — regional economic development and workforce intermediary supporting rural upskilling and partnerships
+
+- Merit Network — regional backbone & community-scale infrastructure support (in this region): https://www.merit.edu/
+- Lake Superior State University (LSSU) & Bay Mills Community College — local higher-ed partners for training & applied research
+- Bay Mills Indian Community — tribal partner for workforce development and community-led training programs
+- Sault Ste. Marie Tribe of Chippewa Indians — sovereign partner for culturally grounded workforce and infrastructure initiatives
+- Cloverland Electric Cooperative — regional utility partner (participates in infrastructure / RDOF bidding and local deployments)
+- Highline Networks (and similar regional operators) — potential industry partners for workforce placements
+- EUPISD / EUP Connect — the regional coordinating body for K12 infrastructure and demand-side programs
+- Headwaters North — regional economic development and workforce intermediary supporting rural upskilling and partnerships
+- Local workforce boards & state workforce development agencies — align funding and incentives for training-to-work pipelines
+- Community-based organizations, public libraries, and economic development partners — trusted local anchors for recruitment, training, and retention
 
 If you'd like, I can add direct links to specific training programs at nearby colleges, or pull 2–3 research papers (PDFs) and link them inline for quick access.
