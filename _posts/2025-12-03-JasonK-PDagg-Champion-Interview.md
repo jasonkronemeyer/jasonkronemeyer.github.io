@@ -2,7 +2,7 @@
 layout: post
 title: "Community Champion: Jason Kronemeyer — Interview"
 date: 2025-12-03
-author: "Jason Kronemeyer (interviewed by Pierrette Renée Dagg)"
+author: "Jason Kronemeyer (interviewed by Dr. Pierrette Renée Dagg)"
 categories: [interview, community, broadband]
 tags: [digital-inclusion, moonshot, EUP, schools, libraries]
 status: published
@@ -12,7 +12,7 @@ excerpt: "How the Eastern Upper Peninsula built community-first broadband: leade
 # Community Champion Profile: Jason Kronemeyer
 *Based on an interview with Dr. Pierrette Renée Dagg for the Benton Institute for Broadband & Society*
 
-I’m Jason Kronemeyer. This conversation with Dr. Pierrette Renée Dagg captures decades of local work—partnerships, practical trials, and hard lessons—about building community‑first broadband in the Eastern Upper Peninsula. That interview later informed a paper published by the Benton Institute that reflects on how community networks can act as multipliers for local connectivity efforts.
+This conversation with Dr. Pierrette Renée Dagg captures decades of local work—partnerships, practical trials, and hard lessons—about building community‑first broadband in the Eastern Upper Peninsula. This interview, conducted in spring of 2023, later informed a paper published by the Benton Institute that reflects on how community networks can act as multipliers for local connectivity efforts.
 
 ## 1. The Core Philosophy: "Connectivity for Learning"
 ### The Origin Story (1999)
@@ -85,4 +85,4 @@ A critical pivot in Jason's strategy was moving the community conversation from 
 
 ## Further reading
 
-- Pierrette Renée Dagg, "Multiplier: Connecting Community Connect Networks," Benton Institute for Broadband & Society — https://www.benton.org/headlines/multiplier-connecting-community-connect-networks
+- Pierrette Renée Dagg, "Multiplier: Connecting to Community to Connect Networks," Benton Institute for Broadband & Society — https://www.benton.org/headlines/multiplier-connecting-community-connect-networks
