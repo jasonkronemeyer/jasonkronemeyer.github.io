@@ -8,6 +8,8 @@ status: research
 
 This is not just a "database" or a "dashboard." It is a **Cyber-Physical System for Policy Intelligence**—a "Policy Learning Machine" that closes the loop between *intervention* (what we do) and *impact* (what actually happens).
 
+This prototype builds on and was inspired by prior work that argues for an integrated monitoring, evaluation, and policy‑learning approach. See: "A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy" (Bauer, Dagg, Rhinesmith, Byrum, Schill — SSRN, Aug 31, 2023) — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557340
+
 Here is the architectural blueprint for the prototype we are building.
 
 ## 1. The Core Concept: The "Policy Learning Machine"
@@ -82,3 +84,8 @@ This is the reasoning engine that helps us navigate from where we are to where w
     *   `Navigators -> Skills`
     *   `Access + Skills -> Equity`
 *   **Step B:** Connect an LLM (like GPT-4 or a local Llama) to query this graph via Cypher.
+
+## Further reading / references
+
+- Bauer, J. M., Dagg, P. R., Rhinesmith, C., Byrum, G., & Schill, A. (2023). "A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy." SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557340
+
