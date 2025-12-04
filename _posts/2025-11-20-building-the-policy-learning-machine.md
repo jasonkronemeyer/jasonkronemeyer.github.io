@@ -44,8 +44,8 @@ It replaces "guesswork" with **Probabilistic Causal Reasoning**.
     *   `(Aspiration)-[:DRIVES]->(Adoption)`
 
 **Data Sources:**
-*   **Hard Data:** FCC Maps, Census (ACS), Speed Tests.
-*   **Soft Data:** Survey results (Hajek estimators), Navigator logs, Qualitative interviews.
+*   **Hard Data:** FCC Maps, Census (ACS), Speed Tests, Socio-Economic...
+*   **Soft Data:** Survey results (Gini Coefficients, Hajek estimators...), Navigator logs, Qualitative interviews...
 
 ### Layer 2: The Intelligence Engine (The "Reasoning")
 **Bayesian Networks (Causal Inference):**
@@ -107,7 +107,7 @@ This is the reasoning engine that helps us navigate from where we are to where w
     *   `Infra -> Access`
     *   `Navigators -> Skills`
     *   `Access + Skills -> Equity`
-*   **Step B:** Connect an LLM (like GPT-4 or a local Llama) to query this graph via Cypher.
+*   **Step B:** Connect AI agents to query this graph.
 
 ## Further reading / references
 
