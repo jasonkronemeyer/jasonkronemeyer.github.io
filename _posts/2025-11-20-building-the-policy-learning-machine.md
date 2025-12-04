@@ -10,9 +10,15 @@ This is not just a "database" or a "dashboard." It is a **Cyber-Physical System 
 
 This prototype builds on and was inspired by prior work that argues for an integrated monitoring, evaluation, and policy‑learning approach. See: "A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy" (Bauer, Dagg, Rhinesmith, Byrum, Schill — SSRN, Aug 31, 2023) — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557340
 
-> "a dynamic broadband policy learning system can be developed." — Bauer et al. (2023), SSRN
+> "The Compass builds on local experience and insights and can inform local and state decisions early in the implementation process." — Bauer et al. (2023), SSRN
+
+This highlights our dual approach: a practitioner-facing Compass that collects and visualizes local insight, paired with statistical tools that support systematic learning.
 
 We are building the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
+
+> "Local context, including infrastructure, socioeconomic factors, and community assets, significantly affects policy and program development." — Dagg et al. (2024), TPRC / SSRN
+
+That insight informs the Machine's data model: we explicitly encode local assets, capacity, and socio-economic context so recommendations are tailored to place rather than being one‑size‑fits‑all.
 
 Here is the architectural blueprint for the prototype we are building.
 
