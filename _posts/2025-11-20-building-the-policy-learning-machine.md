@@ -6,13 +6,15 @@ categories: [dev, research]
 status: research
 ---
 
-This is not just a "database" or a "dashboard." It is a **Cyber-Physical System for Policy Intelligence**—a "Policy Learning Machine" that closes the loop between *intervention* (what we do) and *impact* (what actually happens).
+# Introduction to Project Compass
+
+Project Compass is a practical, place‑centered decision engine — a "Digital Opportunities Intelligence Network" that blends on‑the‑ground practitioner insight with rigorous statistical learning. It’s both a map and a laboratory: the Compass surfaces local strengths, capacity, and lived realities (not just infrastructure metrics), while the Policy Learning Machine uses causal reasoning, knowledge graphs, and comparative evidence to continuously evaluate which interventions actually move the needle toward digital equity. The result will be a tool designed for local planners, navigators, and policymakers to craft context‑aware strategies, measure impact, and iterate toward durable, equitable outcomes.
+
+The Digital Opportunities Intelligence Network is not just a "database" or a "dashboard." It is a **Cyber-Physical System for Policy Intelligence**—a "Policy Learning Machine" that closes the loop between *intervention* (what we do) and *impact* (what actually happens).
 
 This prototype builds on and was inspired by prior work that argues for an integrated monitoring, evaluation, and policy‑learning approach. See: "A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy" (Bauer, Dagg, Rhinesmith, Byrum, Schill — SSRN, Aug 31, 2023) — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4557340
 
-> "The Compass builds on local experience and insights and can inform local and state decisions early in the implementation process." — Bauer et al. (2023), SSRN
-
-This highlights our dual approach: a practitioner-facing Compass that collects and visualizes local insight, paired with statistical tools that support systematic learning.
+> "a dynamic broadband policy learning system can be developed." — Bauer et al. (2023), SSRN
 
 We are building the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
 
