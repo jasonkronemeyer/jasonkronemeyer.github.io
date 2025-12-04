@@ -3,7 +3,7 @@ title: "Building the Digital Opportunities Intelligence Network: A Blueprint for
 date: 2025-11-20
 layout: post
 categories: [dev, research]
-status: research
+status: draft
 ---
 
 # Introduction to Project Compass
@@ -71,7 +71,19 @@ Retrieval-Augmented Generation that "reads" the graph to answer natural language
 
 ## 3. The Prototype Specification
 
-To build this prototype, we need to construct a "Vertical Slice"—a fully functional system for **one specific use case** (e.g., "K-12 Education in Rural Michigan").
+To build this prototype, we need to construct a "Vertical Slice"—a fully functional system for cross-domain use that spans multiple sectors (e.g., Rural Michigan across K‑12, workforce, healthcare, and public libraries). This slice should demonstrate end‑to‑end capability: ingesting heterogeneous data, encoding theory‑informed relationships, running causal inference, and delivering role‑specific actions.
+
+Scope:
+- Populations: students, job seekers, seniors, veterans, small businesses
+- Settings: schools, workforce centers, clinics, libraries, community orgs
+- Interventions: devices, connectivity, skills training, navigator support, mindset/aspiration programs
+
+Outcomes:
+- Cross‑sector equity metrics (access, adoption, skills, utilization)
+- Place‑aware recommendations for different actors (policymakers, navigators, practitioners)
+- What‑if simulations that compare interventions across domains and audiences
+- Graph‑grounded answers that integrate infrastructure, context, and human factors
+- Demonstrated learning loop: intervention → measurement → updated causal beliefs → improved guidance
 
 ### Phase 1: The Ontology (The Map Legend)
 We need to expand the existing Digital Compass Ontology to include the theoretical dimensions. Just as a map legend defines the symbols for roads and rivers, our ontology defines the structural relationships of our policy landscape.
@@ -82,7 +94,7 @@ We need to expand the existing Digital Compass Ontology to include the theoretic
 ### Phase 2: The Data Ingestion (The Terrain)
 Ingest a small, clean dataset to populate the graph. This represents the actual terrain we are navigating—the ground truth of our communities.
 
-*   **Target:** 5 Counties (e.g., Chippewa, Mackinac, Luce, Van Buren, and Roscommon).
+*   **Target:** 5 Counties and the Townships / Cities Contained within them (e.g., Chippewa, Mackinac, Luce, Van Buren, and Roscommon).
 *   **Data:**
     *   Infrastructure scores (Connectivity).
     *   Demographic data (Context).
