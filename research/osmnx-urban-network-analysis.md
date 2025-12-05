@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "OSMnx Urban Network Analysis for Digital Equity"
 permalink: /research/osmnx-urban-network-analysis/
 ---
