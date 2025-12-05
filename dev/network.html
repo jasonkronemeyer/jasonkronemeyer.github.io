@@ -223,6 +223,8 @@ const nodeSel = nodeGroup.selectAll("g")
 nodeSel.append("circle").attr("r", d => {
     if (d.type === "PoE") return 15;
     if (d.type === "BESS") return 35;
+    if (d.type === "OLT") return 35;
+    if (d.type === "DCRail") return 35;
     return 25;
 });
 nodeSel.append("text")
