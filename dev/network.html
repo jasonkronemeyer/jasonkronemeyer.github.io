@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>D3 Network Diagram</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+    svg {
+        border: 1px solid #ccc;
+        background: #fafafa;
+    }
+    .link {
+        stroke-opacity: 0.8;
+    }
+    .link.fiber {
+        stroke: #0077b6; /* Blue for fiber */
+        stroke-dasharray: 5,5;
+    }
+    .link.power {
+        stroke: #ff6b6b; /* Red for power */
+    }
+    .link.data {
+        stroke: #00b4d8; /* Cyan for data */
+    }
+    .node circle {
+        fill: #c9a3e8;
+        stroke: #7b2cbf;
+        stroke-width: 2;
+    }
+    .node.ont circle {
+        fill: #0077b6;
+        stroke: #005a87;
+    }
+    .node.olt circle {
+        fill: #ff8c00;
+        stroke: #cc6600;
+    }
+    .node.dcrail circle {
+        fill: #ffd700;
+        stroke: #daa520;
+        stroke-width: 3;
+    }
+    .node.bess circle {
+        fill: #228b22;
+        stroke: #1a6b1a;
+        stroke-width: 2;
+    }
+    .node.poe circle {
+        fill: #90ee90;
+        stroke: #228b22;
+    }
+    text {
+        font-size: 11px;
+        font-weight: bold;
+        pointer-events: none;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+
+<h2>Fault Managed Power and Passive Optical Network Topology</h2>
+<div class="canvas-wrapper">
+    <svg width="1100" height="800"></svg>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+const svg = d3.select("svg");
+const width = +svg.attr("width");
+const height = +svg.attr("height");
+const downloadButton = document.getElementById("downloadSvgBtn");
+
+// Define nodes
+const nodes = [
+    { id: "BESS", type: "BESS" },
+    { id: "DCRail", type: "DCRail" },
+    { id: "OLT", type: "OLT" },
+    { id: "TX", type: "TX" },
+    { id: "ONT1", type: "ONT" },
+    { id: "ONT2", type: "ONT" },
+    { id: "ONT3", type: "ONT" },
+    { id: "ONT4", type: "ONT" },
+    { id: "RX1", type: "RX" },
+    { id: "RX2", type: "RX" },
+    { id: "RX3", type: "RX" },
+    { id: "RX4", type: "RX" },
+    ...Array.from({length: 16}, (_, i) => ({ id: `PoE${i+1}`, type: "PoE" }))
+];
+
+// Arrange nodes in layers
+const centerX = width / 2, centerY = height / 2;
+const radiusInner = Math.min(width, height) / 4;
+const radiusOuter = Math.min(width, height) / 2 - 100;
+const coreNodes = ["BESS", "DCRail", "OLT", "TX"];
+const coreRadius = radiusInner * 0.45;
+const ontRadius = radiusInner * 1.2;
+const rxRadius = ontRadius + 80;
+nodes.forEach((node, i) => {
+    if (coreNodes.includes(node.id)) {
+        const index = coreNodes.indexOf(node.id);
+        const angle = (Math.PI / 2) * index - Math.PI / 2; // Top, right, bottom, left placement
+        node.x = centerX + coreRadius * Math.cos(angle);
+        node.y = centerY + coreRadius * Math.sin(angle);
+        node.fx = node.x;
+        node.fy = node.y;
+    } else if (node.type === "ONT") {
+        const ontIndex = parseInt(node.id.replace("ONT", "")) - 1;
+        const angle = 2 * Math.PI * ontIndex / 4;
+        node.x = centerX + ontRadius * Math.cos(angle);
+        node.y = centerY + ontRadius * Math.sin(angle);
+    } else if (node.type === "RX") {
+        const rxIndex = parseInt(node.id.replace("RX", "")) - 1;
+        const angle = 2 * Math.PI * rxIndex / 4;
+        node.x = centerX + rxRadius * Math.cos(angle);
+        node.y = centerY + rxRadius * Math.sin(angle);
+    } else if (node.type === "PoE") {
+        // Position PoE nodes grouped by their ONT (0-3 for ONT1, 4-7 for ONT2, etc)
+        const poeIndex = parseInt(node.id.replace("PoE", "")) - 1;
+        const ontIndex = poeIndex % 4;  // Which ONT (0-3)
+        const subIndex = Math.floor(poeIndex / 4);  // Position within that ONT's group
+        const baseAngle = 2 * Math.PI * ontIndex / 4;
+        const angleSpread = Math.PI / 8;  // Spread PoE devices around their ONT
+        const angle = baseAngle - angleSpread + (subIndex * angleSpread / 1.5);
+        const radius = rxRadius + 120 + subIndex * 40;
+        node.x = centerX + radius * Math.cos(angle);
+        node.y = centerY + radius * Math.sin(angle);
+    }
+});
+
+// Define links (initially with string IDs)
+const links = [
+    // ...existing code...
+    { source: "BESS", target: "DCRail", type: "power" },
+    { source: "DCRail", target: "OLT", type: "power" },
+    { source: "DCRail", target: "TX", type: "power" },
+    { source: "OLT", target: "ONT1", type: "fiber" },
+    { source: "OLT", target: "ONT2", type: "fiber" },
+    { source: "OLT", target: "ONT3", type: "fiber" },
+    { source: "OLT", target: "ONT4", type: "fiber" },
+    { source: "ONT1", target: "RX1", type: "power" },
+    { source: "ONT2", target: "RX2", type: "power" },
+    { source: "ONT3", target: "RX3", type: "power" },
+    { source: "ONT4", target: "RX4", type: "power" },
+    { source: "TX", target: "RX1", type: "power" },
+    { source: "TX", target: "RX2", type: "power" },
+    { source: "TX", target: "RX3", type: "power" },
+    { source: "TX", target: "RX4", type: "power" },
+    { source: "ONT1", target: "PoE1", type: "data" },
+    { source: "ONT1", target: "PoE2", type: "data" },
+    { source: "ONT2", target: "PoE3", type: "data" },
+    { source: "ONT2", target: "PoE4", type: "data" },
+    { source: "ONT2", target: "PoE5", type: "data" },
+    { source: "ONT3", target: "PoE6", type: "data" },
+    { source: "ONT3", target: "PoE7", type: "data" },
+    { source: "ONT4", target: "PoE8", type: "data" },
+    { source: "ONT4", target: "PoE9", type: "data" },
+    { source: "ONT4", target: "PoE10", type: "data" },
+    { source: "ONT1", target: "PoE11", type: "data" },
+    { source: "ONT2", target: "PoE12", type: "data" },
+    { source: "ONT3", target: "PoE13", type: "data" },
+    { source: "ONT3", target: "PoE14", type: "data" },
+    { source: "ONT4", target: "PoE15", type: "data" },
+    { source: "ONT4", target: "PoE16", type: "data" }
+];
+
+// Map link source/target to node objects
+const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+links.forEach(l => {
+    l.source = nodeById[l.source];
+    l.target = nodeById[l.target];
+});
+
+// Re-enable a gentle force simulation so related nodes cluster naturally
+const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links)
+        .id(d => d.id)
+        .distance(d => d.type === "data" ? 90 : 120)
+        .strength(0.6))
+    .force("charge", d3.forceManyBody().strength(-180))
+    .force("center", d3.forceCenter(centerX, centerY))
+    .alpha(0.8);
+
+// Handle multi-links
+const linkPairs = {};
+links.forEach(d => {
+    const key = `${d.source.id}-${d.target.id}`;
+    if (!linkPairs[key]) linkPairs[key] = [];
+    linkPairs[key].push(d);
+});
+links.forEach(d => {
+    const key = `${d.source.id}-${d.target.id}`;
+    const group = linkPairs[key];
+    d.pairIndex = group.indexOf(d);
+    d.pairCount = group.length;
+});
+
+// Draw links
+
+const linkGroup = svg.append("g").attr("class", "links");
+const link = linkGroup.selectAll("line")
+    .data(links)
+    .enter()
+    .append("line")
+    .attr("class", d => `link ${d.type}`)
+    .attr("stroke-width", 2);
+
+// Draw nodes
+const nodeGroup = svg.append("g").attr("class", "nodes");
+const nodeSel = nodeGroup.selectAll("g")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", d => `node ${d.type.toLowerCase()}`)
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+nodeSel.append("circle").attr("r", d => {
+    if (d.type === "PoE") return 15;
+    if (d.type === "BESS") return 35;
+    return 25;
+});
+nodeSel.append("text")
+    .text(d => d.id)
+    .attr("text-anchor", "middle")
+    .attr("dy", ".3em");
+
+drawLegend();
+
+function drawLegend() {
+    const legendWidth = 280;
+    const legendPadding = 30;
+    const rowHeight = 24;
+    const sectionGap = 14;
+    const nodeLegendData = [
+        { label: "BESS (Battery Energy Storage System)", className: "bess", radius: 14 },
+        { label: "DC Rail", className: "dcrail", radius: 12 },
+        { label: "OLT (Optical Line Terminal)", className: "olt", radius: 12 },
+        { label: "Power TX (Transmitter)", className: "tx", radius: 12 },
+        { label: "Power RX (Receiver)", className: "rx", radius: 12 },
+        { label: "ONT (Optical Network Terminal)", className: "ont", radius: 12 },
+        { label: "PoE Devices", className: "poe", radius: 10 }
+    ];
+    const linkLegendData = [
+        { label: "Fiber", className: "fiber" },
+        { label: "Managed Power", className: "power" },
+        { label: "Data", className: "data" }
+    ];
+
+    const legendHeight = legendPadding * 2
+        + 18
+        + nodeLegendData.length * rowHeight
+        + sectionGap
+        + 18
+        + linkLegendData.length * rowHeight;
+
+    const legend = svg.append("g")
+        .attr("class", "legend")
+        .attr("transform", `translate(${width - legendWidth - 32}, 32)`)
+        .style("pointer-events", "none");
+
+    legend.append("rect")
+        .attr("width", legendWidth)
+        .attr("height", legendHeight)
+        .attr("rx", 12)
+        .attr("ry", 12)
+        .attr("fill", "#ffffff")
+        .attr("fill-opacity", 0.95)
+        .attr("stroke", "#cccccc")
+        .attr("stroke-width", 1.5);
+
+    let currentY = legendPadding + 12;
+
+    legend.append("text")
+        .attr("x", legendPadding)
+        .attr("y", currentY)
+        .text("Nodes")
+        .attr("font-size", 13)
+        .attr("font-weight", "bold")
+        .attr("fill", "#333333");
+
+    currentY += 18;
+
+    const nodeItems = legend.selectAll(".legend-node")
+        .data(nodeLegendData)
+        .enter()
+        .append("g")
+        .attr("class", d => `legend-node node ${d.className}`)
+        .attr("transform", (_, i) => `translate(${legendPadding}, ${currentY + i * rowHeight})`);
+
+    nodeItems.append("circle")
+        .attr("r", d => d.radius)
+        .attr("cx", 0)
+        .attr("cy", 0);
+
+    nodeItems.append("text")
+        .attr("x", 28)
+        .attr("y", 1)
+        .attr("dominant-baseline", "middle")
+        .attr("fill", "#333333")
+        .attr("font-size", 12)
+        .attr("font-weight", "normal")
+        .text(d => d.label);
+
+    currentY += nodeLegendData.length * rowHeight + sectionGap;
+
+    legend.append("text")
+        .attr("x", legendPadding)
+        .attr("y", currentY)
+        .text("Links")
+        .attr("font-size", 13)
+        .attr("font-weight", "bold")
+        .attr("fill", "#333333");
+
+    currentY += 18;
+
+    const linkItems = legend.selectAll(".legend-link")
+        .data(linkLegendData)
+        .enter()
+        .append("g")
+        .attr("class", "legend-link")
+        .attr("transform", (_, i) => `translate(${legendPadding}, ${currentY + i * rowHeight})`);
+
+    linkItems.append("line")
+        .attr("class", d => `link ${d.className}`)
+        .attr("x1", 0)
+        .attr("y1", 0)
+        .attr("x2", 46)
+        .attr("y2", 0)
+        .attr("stroke-width", 2);
+
+    linkItems.append("text")
+        .attr("x", 56)
+        .attr("y", 1)
+        .attr("dominant-baseline", "middle")
+        .attr("fill", "#333333")
+        .attr("font-size", 12)
+        .text(d => d.label);
+}
+
+// Draw straight lines with offset for multi-links
+
+function getNodeRadius(node) {
+    switch (node.type) {
+        case "BESS": return 35;
+        case "PoE": return 15;
+        default: return 25;
+    }
+}
+
+function setLineCoords(selection) {
+    selection.attr("x1", d => {
+        if (!d.source || !d.target) return 0;
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const unitX = dx / len;
+        const unitY = dy / len;
+        const sourceRadius = getNodeRadius(d.source);
+        const perpX = -unitY;
+        const perpY = unitX;
+        const offset = (d.pairIndex - (d.pairCount - 1) / 2) * 8;
+        return d.source.x + unitX * sourceRadius + perpX * offset;
+    })
+    .attr("y1", d => {
+        if (!d.source || !d.target) return 0;
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const unitX = dx / len;
+        const unitY = dy / len;
+        const sourceRadius = getNodeRadius(d.source);
+        const perpX = -unitY;
+        const perpY = unitX;
+        const offset = (d.pairIndex - (d.pairCount - 1) / 2) * 8;
+        return d.source.y + unitY * sourceRadius + perpY * offset;
+    })
+    .attr("x2", d => {
+        if (!d.source || !d.target) return 0;
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const unitX = dx / len;
+        const unitY = dy / len;
+        const targetRadius = getNodeRadius(d.target);
+        const perpX = -unitY;
+        const perpY = unitX;
+        const offset = (d.pairIndex - (d.pairCount - 1) / 2) * 8;
+        return d.target.x - unitX * targetRadius + perpX * offset;
+    })
+    .attr("y2", d => {
+        if (!d.source || !d.target) return 0;
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const unitX = dx / len;
+        const unitY = dy / len;
+        const targetRadius = getNodeRadius(d.target);
+        const perpX = -unitY;
+        const perpY = unitX;
+        const offset = (d.pairIndex - (d.pairCount - 1) / 2) * 8;
+        return d.target.y - unitY * targetRadius + perpY * offset;
+    });
+}
+
+
+
+function renderStatic() {
+    setLineCoords(link);
+    nodeSel.attr("transform", d => `translate(${d.x},${d.y})`);
+}
+
+function downloadSVG() {
+    const svgNode = svg.node();
+    if (!svgNode) return;
+
+    const clone = svgNode.cloneNode(true);
+    clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+    clone.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");
+    if (!clone.getAttribute("viewBox")) {
+        clone.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    }
+
+    const styleEl = document.querySelector("head style");
+    if (styleEl) {
+        const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+        const styleClone = document.createElementNS("http://www.w3.org/2000/svg", "style");
+        styleClone.setAttribute("type", "text/css");
+        styleClone.innerHTML = styleEl.innerHTML;
+        defs.appendChild(styleClone);
+        clone.insertBefore(defs, clone.firstChild);
+    }
+
+    const serializer = new XMLSerializer();
+    const svgString = serializer.serializeToString(clone);
+    const blob = new Blob(['<?xml version="1.0" encoding="UTF-8"?>\n', svgString], { type: "image/svg+xml;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    const linkEl = document.createElement("a");
+    linkEl.href = url;
+    linkEl.download = "network-topology.svg";
+    document.body.appendChild(linkEl);
+    linkEl.click();
+    document.body.removeChild(linkEl);
+    URL.revokeObjectURL(url);
+}
+
+renderStatic();
+
+if (downloadButton) {
+    downloadButton.addEventListener("click", downloadSVG);
+}
+
+simulation.on("tick", renderStatic);
+
+// Drag functions
+function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+}
+function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    if (coreNodes.includes(d.id)) {
+        d.fx = d.x;
+        d.fy = d.y;
+    } else {
+        d.fx = null;
+        d.fy = null;
+    }
+}
+
+});
+</script>
+</body>
+<button id="downloadSvgBtn" style="margin-bottom: 15px; padding: 6px 12px;">Download SVG</button>
+</html>
