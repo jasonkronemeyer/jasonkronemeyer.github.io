@@ -1,56 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1100" height="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 800"><defs><style type="text/css">
-    svg {
-        border: 1px solid #ccc;
-        background: #fafafa;
-    }
-    .link {
-        stroke-opacity: 0.8;
-    }
-    .link.fiber {
-        stroke: #0077b6; /* Blue for fiber */
-        stroke-dasharray: 5,5;
-    }
-    .link.power {
-        stroke: #ff6b6b; /* Red for power */
-    }
-    .link.data {
-        stroke: #00b4d8; /* Cyan for data */
-    }
-    .node circle {
-        fill: #c9a3e8;
-        stroke: #7b2cbf;
-        stroke-width: 2;
-    }
-    .node.ont circle {
-        fill: #0077b6;
-        stroke: #005a87;
-    }
-    .node.olt circle {
-        fill: #ff8c00;
-        stroke: #cc6600;
-    }
-    .node.dcrail circle {
-        fill: #ffd700;
-        stroke: #daa520;
-        stroke-width: 3;
-    }
-    .node.bess circle {
-        fill: #228b22;
-        stroke: #1a6b1a;
-        stroke-width: 2;
-    }
-    .node.poe circle {
-        fill: #90ee90;
-        stroke: #228b22;
-    }
-    text {
-        font-size: 11px;
-        font-weight: bold;
-        pointer-events: none;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-    }
-</style></defs><g class="links"><line class="link power" stroke-width="2" x1="638.0507149851745" y1="261.75806021617694" x2="595.2494892963039" y2="323.45852841701645"/><line class="link power" stroke-width="2" x1="565.3826238111394" y1="363.52172023607574" x2="548.6173761888606" y2="384.47827976392426"/><line class="link power" stroke-width="2" x1="581.5493178960083" y1="368.9939642683814" x2="582.4506821039917" y2="410.0060357316186"/><line class="link fiber" stroke-width="2" x1="557.0817294036973" y1="410.7134424051377" x2="672.9753207221729" y2="443.02195884921395"/><line class="link fiber" stroke-width="2" x1="543.6770012732869" y1="426.60534546982706" x2="594.7786053374863" y2="534.7976538124043"/><line class="link fiber" stroke-width="2" x1="508.9683375548548" y1="410.8905152291102" x2="395.4058866033436" y2="443.45188294649614"/><line class="link fiber" stroke-width="2" x1="531.8928372495565" y1="379.02452821979074" x2="526.1733513854766" y2="250.0038781496833"/><line class="link power" stroke-width="2" x1="698.0094522110966" y1="424.75354923597524" x2="700.3321401879874" y2="363.8286014396312"/><line class="link power" stroke-width="2" x1="580.6703052737557" y1="554.1336204982362" x2="515.928126121646" y2="545.5936110760633"/><line class="link power" stroke-width="2" x1="391.19620398084385" y1="435.1079268716641" x2="441.39644500759914" y2="396.52580045362714"/><line class="link power" stroke-width="2" x1="517.8579762546008" y1="248.96669524480055" x2="499.07688481251074" y2="311.3382193629219"/><line class="link power" stroke-width="2" x1="602.3990721664326" y1="419.2305358657455" x2="681.8854701067812" y2="354.6162135555093"/><line class="link power" stroke-width="2" x1="566.7439948498634" y1="453.9932171197702" x2="507.39882993476516" y2="523.331015172298"/><line class="link power" stroke-width="2" x1="560.1257722601906" y1="424.91190279054894" x2="484.09265257005393" y2="391.379426359136"/><line class="link power" stroke-width="2" x1="566.1352496730564" y1="416.5451850074336" x2="508.73342275902206" y2="353.73132323081484"/><line class="link data" stroke-width="2" x1="721.9252184942311" y1="452.2994219256517" x2="799.6422038019837" y2="460.31239473042507"/><line class="link data" stroke-width="2" x1="718.0366279085114" y1="463.3316255854705" x2="782.141404624997" y2="504.87597571318275"/><line class="link data" stroke-width="2" x1="597.1929774404312" y1="580.9981038421482" x2="573.2252206418774" y2="649.4414184421091"/><line class="link data" stroke-width="2" x1="627.5158782933089" y1="569.1649894749119" x2="692.5191365725644" y2="603.8231159647214"/><line class="link data" stroke-width="2" x1="609.5481020595888" y1="582.0657542175873" x2="621.9645153882038" y2="656.891239775145"/><line class="link data" stroke-width="2" x1="349.0282664316502" y1="461.55213382294966" x2="283.34851621409774" y2="494.5000453124444"/><line class="link data" stroke-width="2" x1="350.41296797194656" y1="436.71794445832586" x2="289.7507521007764" y2="397.28855410210707"/><line class="link data" stroke-width="2" x1="523.8279750288564" y1="200.05908865621882" x2="519.9772262919779" y2="122.40643796219014"/><line class="link data" stroke-width="2" x1="542.4894656809597" y1="207.09995364814625" x2="595.5120212936494" y2="152.54004629200875"/><line class="link data" stroke-width="2" x1="505.18408978970757" y1="209.87247863460053" x2="447.04830169700045" y2="165.55614110919166"/><line class="link data" stroke-width="2" x1="720.3205809463603" y1="440.5807230096448" x2="791.335191511852" y2="412.6350119558601"/><line class="link data" stroke-width="2" x1="619.8769454260214" y1="577.8241889335669" x2="664.1605145266659" y2="640.531485019428"/><line class="link data" stroke-width="2" x1="357.9451027155677" y1="471.429330083285" x2="319.45947913529375" y2="531.8609619907563"/><line class="link data" stroke-width="2" x1="346.37777396972587" y1="449.9211168263749" x2="271.9393828332449" y2="448.6665584544403"/><line class="link data" stroke-width="2" x1="514.0130152479842" y1="202.6045940692465" x2="480.0847548157075" y2="133.77359712695272"/><line class="link data" stroke-width="2" x1="533.5734867647191" y1="201.52041031424542" x2="560.3076403329793" y2="127.64661783135062"/></g><g class="nodes"><g class="node bess" transform="translate(658,233)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="35"/><text text-anchor="middle" dy=".3em">BESS</text></g><g class="node dcrail" transform="translate(581,344)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="35"/><text text-anchor="middle" dy=".3em">DCRail</text></g><g class="node olt" transform="translate(533,404)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="35"/><text text-anchor="middle" dy=".3em">OLT</text></g><g class="node tx" transform="translate(583,435)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="35"/><text text-anchor="middle" dy=".3em">TX</text></g><g class="node ont" transform="translate(697.0570501258702,449.73540125435164)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">ONT1</text></g><g class="node ont" transform="translate(605.4556066107732,557.4029992822313)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">ONT2</text></g><g class="node ont" transform="translate(371.37422415819844,450.3423981756063)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">ONT3</text></g><g class="node ont" transform="translate(525.0661886350331,225.028406369474)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">ONT4</text></g><g class="node rx" transform="translate(701.2845422732138,338.8467494212548)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">RX1</text></g><g class="node rx" transform="translate(491.1428247846285,542.3242322920681)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">RX2</text></g><g class="node rx" transform="translate(461.21842483024454,381.29132914968494)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">RX3</text></g><g class="node rx" transform="translate(491.8686724320784,335.2765082382484)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="25"/><text text-anchor="middle" dy=".3em">RX4</text></g><g class="node poe" transform="translate(814.5631048230002,461.85080713320514)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE1</text></g><g class="node poe" transform="translate(794.7291512945817,513.0337103118541)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE2</text></g><g class="node poe" transform="translate(568.2676431396721,663.5984811780593)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE3</text></g><g class="node poe" transform="translate(705.7552995820859,610.8803100803298)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE4</text></g><g class="node poe" transform="translate(624.4200126574932,671.6888927363585)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE5</text></g><g class="node poe" transform="translate(269.9409415781688,501.22588670085037)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE6</text></g><g class="node poe" transform="translate(277.1739983890253,389.1138818717388)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE7</text></g><g class="node poe" transform="translate(519.2342981282719,107.42484733423703)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE8</text></g><g class="node poe" transform="translate(605.9659875212053,141.7829746592121)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE9</text></g><g class="node poe" transform="translate(435.11904238980514,156.46258446826758)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE10</text></g><g class="node poe" transform="translate(805.2933100041461,407.142205009036)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE11</text></g><g class="node poe" transform="translate(672.8133178158148,652.7841988102294)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE12</text></g><g class="node poe" transform="translate(311.40200626971534,544.5131211353635)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE13</text></g><g class="node poe" transform="translate(256.94151272016137,448.41378964490144)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE14</text></g><g class="node poe" transform="translate(473.4528507834782,120.31930974681622)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE15</text></g><g class="node poe" transform="translate(565.4120192107908,113.54182019821349)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle r="15"/><text text-anchor="middle" dy=".3em">PoE16</text></g></g><g class="legend" transform="translate(788, 32)" style="pointer-events: none;"><rect width="280" height="350" rx="12" ry="12" fill="#ffffff" fill-opacity="0.95" stroke="#cccccc" stroke-width="1.5"/><text x="30" y="42" font-size="13" font-weight="bold" fill="#333333">Nodes</text><g class="legend-node node bess" transform="translate(30, 60)"><circle r="14" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">BESS (Battery Energy Storage System)</text></g><g class="legend-node node dcrail" transform="translate(30, 84)"><circle r="12" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">DC Rail</text></g><g class="legend-node node olt" transform="translate(30, 108)"><circle r="12" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">OLT (Optical Line Terminal)</text></g><g class="legend-node node tx" transform="translate(30, 132)"><circle r="12" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">Power TX (Transmitter)</text></g><g class="legend-node node rx" transform="translate(30, 156)"><circle r="12" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">Power RX (Receiver)</text></g><g class="legend-node node ont" transform="translate(30, 180)"><circle r="12" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">ONT (Optical Network Terminal)</text></g><g class="legend-node node poe" transform="translate(30, 204)"><circle r="10" cx="0" cy="0"/><text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">PoE Devices</text></g><text x="30" y="242" font-size="13" font-weight="bold" fill="#333333">Links</text><g class="legend-link" transform="translate(30, 260)"><line class="link fiber" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/><text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Fiber</text></g><g class="legend-link" transform="translate(30, 284)"><line class="link power" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/><text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Managed Power</text></g><g class="legend-link" transform="translate(30, 308)"><line class="link data" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/><text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Data</text></g></g></svg>
+<svg
+    width="1100"
+    height="800"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1100 800"
+>
+    <defs>
+        <style type="text/css">
+            svg {
+                border: 1px solid #ccc;
+                background: #fafafa;
+            }
+            .link {
+                stroke-opacity: 0.8;
+            }
+            .link.fiber {
+                stroke: #0077b6; /* Blue for fiber */
+                stroke-dasharray: 5,5;
+            }
+            .link.power {
+                stroke: #ff6b6b; /* Red for power */
+            }
+            .link.data {
+                stroke: #00b4d8; /* Cyan for data */
+            }
+            .node circle {
+                fill: #c9a3e8;
+                stroke: #7b2cbf;
+                stroke-width: 2;
+            }
+            .node.ont circle {
+                fill: #0077b6;
+                stroke: #005a87;
+            }
+            .node.olt circle {
+                fill: #ff8c00;
+                stroke: #cc6600;
+            }
+            .node.dcrail circle {
+                fill: #ffd700;
+                stroke: #daa520;
+                stroke-width: 3;
+            }
+            .node.bess circle {
+                fill: #228b22;
+                stroke: #1a6b1a;
+                stroke-width: 2;
+            }
+            .node.poe circle {
+                fill: #90ee90;
+                stroke: #228b22;
+            }
+            text {
+                font-size: 11px;
+                font-weight: bold;
+                pointer-events: none;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+        </style>
+    </defs>
+
+    <g class="links">
+        <line class="link power" stroke-width="2" x1="638.0507149851745" y1="261.75806021617694" x2="595.2494892963039" y2="323.45852841701645"/>
+        <line class="link power" stroke-width="2" x1="565.3826238111394" y1="363.52172023607574" x2="548.6173761888606" y2="384.47827976392426"/>
+        <line class="link power" stroke-width="2" x1="581.5493178960083" y1="368.9939642683814" x2="582.4506821039917" y2="410.0060357316186"/>
+        <line class="link fiber" stroke-width="2" x1="557.0817294036973" y1="410.7134424051377" x2="672.9753207221729" y2="443.02195884921395"/>
+        <line class="link fiber" stroke-width="2" x1="543.6770012732869" y1="426.60534546982706" x2="594.7786053374863" y2="534.7976538124043"/>
+        <line class="link fiber" stroke-width="2" x1="508.9683375548548" y1="410.8905152291102" x2="395.4058866033436" y2="443.45188294649614"/>
+        <line class="link fiber" stroke-width="2" x1="531.8928372495565" y1="379.02452821979074" x2="526.1733513854766" y2="250.0038781496833"/>
+        <line class="link power" stroke-width="2" x1="698.0094522110966" y1="424.75354923597524" x2="700.3321401879874" y2="363.8286014396312"/>
+        <line class="link power" stroke-width="2" x1="580.6703052737557" y1="554.1336204982362" x2="515.928126121646" y2="545.5936110760633"/>
+        <line class="link power" stroke-width="2" x1="391.19620398084385" y1="435.1079268716641" x2="441.39644500759914" y2="396.52580045362714"/>
+        <line class="link power" stroke-width="2" x1="517.8579762546008" y1="248.96669524480055" x2="499.07688481251074" y2="311.3382193629219"/>
+        <line class="link power" stroke-width="2" x1="602.3990721664326" y1="419.2305358657455" x2="681.8854701067812" y2="354.6162135555093"/>
+        <line class="link power" stroke-width="2" x1="566.7439948498634" y1="453.9932171197702" x2="507.39882993476516" y2="523.331015172298"/>
+        <line class="link power" stroke-width="2" x1="560.1257722601906" y1="424.91190279054894" x2="484.09265257005393" y2="391.379426359136"/>
+        <line class="link power" stroke-width="2" x1="566.1352496730564" y1="416.5451850074336" x2="508.73342275902206" y2="353.73132323081484"/>
+        <line class="link data" stroke-width="2" x1="721.9252184942311" y1="452.2994219256517" x2="799.6422038019837" y2="460.31239473042507"/>
+        <line class="link data" stroke-width="2" x1="718.0366279085114" y1="463.3316255854705" x2="782.141404624997" y2="504.87597571318275"/>
+        <line class="link data" stroke-width="2" x1="597.1929774404312" y1="580.9981038421482" x2="573.2252206418774" y2="649.4414184421091"/>
+        <line class="link data" stroke-width="2" x1="627.5158782933089" y1="569.1649894749119" x2="692.5191365725644" y2="603.8231159647214"/>
+        <line class="link data" stroke-width="2" x1="609.5481020595888" y1="582.0657542175873" x2="621.9645153882038" y2="656.891239775145"/>
+        <line class="link data" stroke-width="2" x1="349.0282664316502" y1="461.55213382294966" x2="283.34851621409774" y2="494.5000453124444"/>
+        <line class="link data" stroke-width="2" x1="350.41296797194656" y1="436.71794445832586" x2="289.7507521007764" y2="397.28855410210707"/>
+        <line class="link data" stroke-width="2" x1="523.8279750288564" y1="200.05908865621882" x2="519.9772262919779" y2="122.40643796219014"/>
+        <line class="link data" stroke-width="2" x1="542.4894656809597" y1="207.09995364814625" x2="595.5120212936494" y2="152.54004629200875"/>
+        <line class="link data" stroke-width="2" x1="505.18408978970757" y1="209.87247863460053" x2="447.04830169700045" y2="165.55614110919166"/>
+        <line class="link data" stroke-width="2" x1="720.3205809463603" y1="440.5807230096448" x2="791.335191511852" y2="412.6350119558601"/>
+        <line class="link data" stroke-width="2" x1="619.8769454260214" y1="577.8241889335669" x2="664.1605145266659" y2="640.531485019428"/>
+        <line class="link data" stroke-width="2" x1="357.9451027155677" y1="471.429330083285" x2="319.45947913529375" y2="531.8609619907563"/>
+        <line class="link data" stroke-width="2" x1="346.37777396972587" y1="449.9211168263749" x2="271.9393828332449" y2="448.6665584544403"/>
+        <line class="link data" stroke-width="2" x1="514.0130152479842" y1="202.6045940692465" x2="480.0847548157075" y2="133.77359712695272"/>
+        <line class="link data" stroke-width="2" x1="533.5734867647191" y1="201.52041031424542" x2="560.3076403329793" y2="127.64661783135062"/>
+    </g>
+
+    <g class="nodes">
+        <g class="node bess" transform="translate(658,233)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="35"/>
+            <text text-anchor="middle" dy=".3em">BESS</text>
+        </g>
+        <g class="node dcrail" transform="translate(581,344)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="35"/>
+            <text text-anchor="middle" dy=".3em">DCRail</text>
+        </g>
+        <g class="node olt" transform="translate(533,404)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="35"/>
+            <text text-anchor="middle" dy=".3em">OLT</text>
+        </g>
+        <g class="node tx" transform="translate(583,435)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="35"/>
+            <text text-anchor="middle" dy=".3em">TX</text>
+        </g>
+        <g class="node ont" transform="translate(697.0570501258702,449.73540125435164)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">ONT1</text>
+        </g>
+        <g class="node ont" transform="translate(605.4556066107732,557.4029992822313)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">ONT2</text>
+        </g>
+        <g class="node ont" transform="translate(371.37422415819844,450.3423981756063)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">ONT3</text>
+        </g>
+        <g class="node ont" transform="translate(525.0661886350331,225.028406369474)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">ONT4</text>
+        </g>
+        <g class="node rx" transform="translate(701.2845422732138,338.8467494212548)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">RX1</text>
+        </g>
+        <g class="node rx" transform="translate(491.1428247846285,542.3242322920681)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">RX2</text>
+        </g>
+        <g class="node rx" transform="translate(461.21842483024454,381.29132914968494)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">RX3</text>
+        </g>
+        <g class="node rx" transform="translate(491.8686724320784,335.2765082382484)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="25"/>
+            <text text-anchor="middle" dy=".3em">RX4</text>
+        </g>
+        <g class="node poe" transform="translate(814.5631048230002,461.85080713320514)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE1</text>
+        </g>
+        <g class="node poe" transform="translate(794.7291512945817,513.0337103118541)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE2</text>
+        </g>
+        <g class="node poe" transform="translate(568.2676431396721,663.5984811780593)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE3</text>
+        </g>
+        <g class="node poe" transform="translate(705.7552995820859,610.8803100803298)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE4</text>
+        </g>
+        <g class="node poe" transform="translate(624.4200126574932,671.6888927363585)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE5</text>
+        </g>
+        <g class="node poe" transform="translate(269.9409415781688,501.22588670085037)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE6</text>
+        </g>
+        <g class="node poe" transform="translate(277.1739983890253,389.1138818717388)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE7</text>
+        </g>
+        <g class="node poe" transform="translate(519.2342981282719,107.42484733423703)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE8</text>
+        </g>
+        <g class="node poe" transform="translate(605.9659875212053,141.7829746592121)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE9</text>
+        </g>
+        <g class="node poe" transform="translate(435.11904238980514,156.46258446826758)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE10</text>
+        </g>
+        <g class="node poe" transform="translate(805.2933100041461,407.142205009036)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE11</text>
+        </g>
+        <g class="node poe" transform="translate(672.8133178158148,652.7841988102294)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE12</text>
+        </g>
+        <g class="node poe" transform="translate(311.40200626971534,544.5131211353635)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE13</text>
+        </g>
+        <g class="node poe" transform="translate(256.94151272016137,448.41378964490144)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE14</text>
+        </g>
+        <g class="node poe" transform="translate(473.4528507834782,120.31930974681622)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE15</text>
+        </g>
+        <g class="node poe" transform="translate(565.4120192107908,113.54182019821349)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <circle r="15"/>
+            <text text-anchor="middle" dy=".3em">PoE16</text>
+        </g>
+    </g>
+
+    <g class="legend" transform="translate(788, 32)" style="pointer-events: none;">
+        <rect width="280" height="350" rx="12" ry="12" fill="#ffffff" fill-opacity="0.95" stroke="#cccccc" stroke-width="1.5"/>
+        <text x="30" y="42" font-size="13" font-weight="bold" fill="#333333">Nodes</text>
+
+        <g class="legend-node node bess" transform="translate(30, 60)">
+            <circle r="14" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">BESS (Battery Energy Storage System)</text>
+        </g>
+        <g class="legend-node node dcrail" transform="translate(30, 84)">
+            <circle r="12" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">DC Rail</text>
+        </g>
+        <g class="legend-node node olt" transform="translate(30, 108)">
+            <circle r="12" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">OLT (Optical Line Terminal)</text>
+        </g>
+        <g class="legend-node node tx" transform="translate(30, 132)">
+            <circle r="12" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">Power TX (Transmitter)</text>
+        </g>
+        <g class="legend-node node rx" transform="translate(30, 156)">
+            <circle r="12" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">Power RX (Receiver)</text>
+        </g>
+        <g class="legend-node node ont" transform="translate(30, 180)">
+            <circle r="12" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">ONT (Optical Network Terminal)</text>
+        </g>
+        <g class="legend-node node poe" transform="translate(30, 204)">
+            <circle r="10" cx="0" cy="0"/>
+            <text x="28" y="1" dominant-baseline="middle" fill="#333333" font-size="12" font-weight="normal">PoE Devices</text>
+        </g>
+
+        <text x="30" y="242" font-size="13" font-weight="bold" fill="#333333">Links</text>
+
+        <g class="legend-link" transform="translate(30, 260)">
+            <line class="link fiber" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/>
+            <text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Fiber</text>
+        </g>
+        <g class="legend-link" transform="translate(30, 284)">
+            <line class="link power" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/>
+            <text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Managed Power</text>
+        </g>
+        <g class="legend-link" transform="translate(30, 308)">
+            <line class="link data" x1="0" y1="0" x2="46" y2="0" stroke-width="2"/>
+            <text x="56" y="1" dominant-baseline="middle" fill="#333333" font-size="12">Data</text>
+        </g>
+    </g>
+  <!-- visible caption -->
+  <g id="caption" transform="translate(550,760)">
+    <rect x="-420" y="-20" width="840" height="40" rx="6" fill="#ffffff" fill-opacity="0.9" stroke="#e6e6e6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333333">Distributed Edge Architecture with Optical LAN and Fault Managed Power</text>
+  </g>
+</svg>
