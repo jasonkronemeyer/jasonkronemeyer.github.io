@@ -50,6 +50,8 @@ Understanding SMART buildings requires recognizing how four critical domains con
 
 **The SMART Building Revolution**: These domains are no longer separate. Modern buildings integrate OT, IT, and IoT on shared networks powered by intelligent energy systems[^11]. A single PoE network can deliver both data (IT) and power (energy) to sensors (IoT) that optimize HVAC performance (OT). This convergence creates unprecedented efficiency but also introduces complexity—requiring unified security, interoperability standards, and coordinated governance.
 
+As this convergence accelerates, **infrastructure choices can either amplify or reduce energy waste**. Most modern building loads are ultimately DC (LED lighting, electronics, IoT), so every AC→DC conversion step sheds some energy as heat. Architectures like **Passive Optical LAN (POL)** help on the network side too: fewer intermediate switches and telecom closets means fewer always-on devices, less electrical draw, and less cooling demand. (The technical deep dives later in this post go deeper on POL and AC/DC conversion losses.)
+
 SPIRE's framework addresses this convergence by evaluating connectivity, cybersecurity, and energy holistically. However, implementation requires technical expertise that spans all four domains.
 
 While SPIRE does **not embed National Electrical Code (NEC) requirements**, it encourages compliance with recognized standards. This is especially relevant as the **2026 NEC introduces major updates for limited-energy systems**—such as PoE lighting, Class 2/3 circuits, and fault-managed power—by consolidating rules under Chapter 7[^7]. These changes simplify design and compliance for SMART buildings, aligning electrical safety with evolving low-energy technologies.
