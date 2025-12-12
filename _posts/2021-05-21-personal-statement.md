@@ -2,6 +2,7 @@
 layout: post
 title: "Personal Statement"
 date: 2021-05-21
+status: story
 categories: [personal, about]
 ---
 
