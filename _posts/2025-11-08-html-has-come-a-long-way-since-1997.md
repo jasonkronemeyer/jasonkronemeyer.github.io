@@ -11,7 +11,7 @@ excerpt: "From a Hawaii Air Force dorm room and a fantasy football website on al
 
 As I sit here writing in a modern editor—syntax highlighting, auto-completion, and collaboration baked in—I keep thinking about 1997.
 
-I was in the U.S. Air Force then, working as a Signals Intelligence Analyst in Hawaii. My shifts were spent analyzing signals and reporting intelligence from a facility tucked beneath a pineapple field—a surreal detail that still sounds like fiction. But when my shift ended and I walked back to the dorm, I entered a different kind of intelligence work: learning the early web when the *semantic web* (and even semantic HTML) was still in its infancy.
+I was in the U.S. Air Force then, working as a Signals Intelligence Analyst in Hawaii. My shifts were spent analyzing signals and reporting intelligence from a facility tucked beneath a pineapple field—a surreal detail that still sounds like fiction. The dorm wasn’t underground, of course—but when my shift ended and I walked back to my room, I entered a different kind of intelligence work: learning the early web when the *semantic web* (and even semantic HTML) was still in its infancy.
 
 The breakthrough wasn’t a specific tutorial. It was a pattern: the World Wide Web + curiosity + experimentation meant I could teach myself almost anything I was willing to wrestle with.
 
@@ -51,7 +51,7 @@ There was no separation of content and presentation. Your HTML was your design, 
 
 And yet, that constraint had a gift in it: it made the web feel *learnable*. It was just text, rendered into something real.
 
-That mindset is exactly why I later wrote [The First 5 Things to Teach a Computer](%7B%25%20post_url%202024-08-30-first-5-things-to-teach-computer%20%25%7D). Those five “first lessons” (communication, sequence, art, math, and play) were all in the room with me in 1997—HTML just gave them a new medium.
+That mindset is exactly why I later wrote [The First 5 Things to Teach a Computer](https://www.jasonkronemeyer.com/education/computer-science/programming/2024/08/30/first-5-things-to-teach-computer.html). Those five “first lessons”—communication, sequence, art, math, and play—were all in the room with me in 1997; HTML just gave them a new medium.
 
 ## The Evolution Begins: Separation of Concerns
 
@@ -212,7 +212,7 @@ Yet for all the changes, the fundamental beauty of HTML remains: it’s still te
 
 The web has democratized publishing, enabled global communication, and created opportunities that didn't exist before. As I look at the evolution from HTML 3.2 to HTML5, from inline styles to CSS Grid, from static pages to Progressive Web Apps, I'm filled with excitement for what comes next.
 
-The journey that started under a pineapple field continues, and I can’t wait to see where it leads.
+The journey that started under a pineapple field continues, and I can’t wait to see where it leads next.
 
 ---
 
