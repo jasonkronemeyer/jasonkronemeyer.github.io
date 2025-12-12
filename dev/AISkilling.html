@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Skilling and Frontier Firms</title>
+  <style>
+    :root {
+      /* Light Mode Colors */
+      --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+      --header-text: #ffffff;
+      --header-text-secondary: #e6f0f5;
+      --page-bg: #f5f9fc;
+      --page-bg-alt: #ffffff;
+      --text-primary: #1a2b3c;
+      --text-secondary: #334b63;
+      --text-muted: #7a8a99;
+      --brand: #3a8fb7;
+      --brand-hover: #2b7696;
+      --accent-bg: #e6f3fa;
+      --accent: #3a8fb7;
+      --border: #d0dbe5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+        --header-text: #ffffff;
+        --header-text-secondary: #cfdbe4;
+        --page-bg: #121a23;
+        --page-bg-alt: #18242f;
+        --text-primary: #e8f0f7;
+        --text-secondary: #b8c7d6;
+        --text-muted: #7f93a5;
+        --brand: #5bb8e6;
+        --brand-hover: #4aa1c7;
+        --accent-bg: #1f2e3a;
+        --accent: #5bb8e6;
+        --border: #2f4354;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'SF Pro Display', 'SF Pro', sans-serif;
+      background: var(--page-bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+    .poster-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: var(--page-bg-alt);
+      border-radius: 32px;
+      box-shadow: 0 8px 32px rgba(58,143,183,0.12);
+      padding: 0;
+      overflow: hidden;
+    }
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      text-align: center;
+      padding: 56px 32px 40px 32px;
+      position: relative;
+    }
+    .header-title {
+      font-size: clamp(40px, 6vw, 60px);
+      font-weight: 900;
+      margin-bottom: 12px;
+      letter-spacing: 0.01em;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+    }
+    .header-subtitle {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--header-text-secondary);
+    }
+    .header-description {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      max-width: 700px;
+      margin: 0 auto;
+      color: var(--header-text-secondary);
+    }
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      padding: 40px 32px;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .card {
+      background: var(--accent-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--brand);
+      margin-bottom: 12px;
+    }
+    .card p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+    .stat-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .stat-card {
+      flex: 1 1 45%;
+      background: var(--page-bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .stat-card h4 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--brand);
+      margin: 8px 0;
+    }
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      position: relative;
+      padding-left: 20px;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 8px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--brand);
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 16px;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -11px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      background: var(--brand);
+      border-radius: 50%;
+      transform: translateX(-50%);
+    }
+    @media (max-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+      header {
+        padding: 28px 16px 24px 16px;
+      }
+      .header-title {
+        font-size: clamp(32px, 7vw, 44px);
+      }
+      .header-subtitle {
+        font-size: clamp(18px, 4.8vw, 22px);
+      }
+      .header-description {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .column,
+      .card {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="poster-container">
+    <header>
+      <div class="header-title">AI Skilling & Frontier Firms</div>
+      <div class="header-subtitle">Insights from Raffaella Sadun’s Research</div>
+      <div class="header-description">How leading companies reinvent themselves through AI, reskilling, and bold experimentation.</div>
+    </header>
+    <div class="main-content">
+      <div class="column">
+        <div class="card">
+          <h3>Key Takeaways</h3>
+          <ul style="padding-left: 20px; margin: 0;">
+            <li><strong>Reskilling is strategic:</strong> Not just HR – it's a CEO-level priority.</li>
+            <li><strong>Experimentation drives success:</strong> Frontier firms learn by doing.</li>
+            <li><strong>Culture matters:</strong> Human–AI collaboration thrives in adaptive environments.</li>
+            <li><strong>Middle-skill workers benefit most:</strong> AI boosts their productivity significantly.</li>
+            <li><strong>Collaboration is essential:</strong> Firms, educators, and policymakers must partner.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Stat Highlights</h3>
+          <div class="stat-grid">
+            <div class="stat-card">
+              <h4>AI Productivity Boost</h4>
+              <div class="stat-value">+12.2%</div>
+              <p>More tasks completed with GPT-4 assistance</p>
+            </div>
+            <div class="stat-card">
+              <h4>Output Quality Gain</h4>
+              <div class="stat-value">+40%</div>
+              <p>Higher quality of work with AI augmentation</p>
+            </div>
+            <div class="stat-card">
+              <h4>Skill Half-Life</h4>
+              <div class="stat-value">&lt; 5 years</div>
+              <p>Average half-life of skills in many fields</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Quote</h3>
+          <p><em>“Rapid organizational reinvention and fearless leadership are required.”</em><br><span style="color: var(--text-secondary);">— Raffaella Sadun</span></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3>Frontier vs. Typical Firms</h3>
+          <p><strong>Frontier Firms:</strong> AI-first strategy, experimentation culture, manager-led reskilling, agile operations.<br><strong>Typical Firms:</strong> Tech add-ons, risk-averse culture, siloed training, rigid structures.</p>
+        </div>
+        <div class="card">
+          <h3>Reskilling Roadmap</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <p><strong>Strategic Priority:</strong> Treat reskilling like product planning.</p>
+            </div>
+            <div class="timeline-item">
+              <p><strong>Manager Ownership:</strong> Every leader drives team learning.</p>
+            </div>
+            <div class="timeline-item">
+              <p><strong>Change Management:</strong> Support employees through transitions.</p>
+            </div>
+            <div class="timeline-item">
+              <p><strong>Employee Motivation:</strong> Link training to personal growth.</p>
+            </div>
+            <div class="timeline-item">
+              <p><strong>Collaborative Ecosystem:</strong> Partner across sectors to scale impact.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Recommendations</h3>
+          <ul style="padding-left: 20px; margin: 0;">
+            <li>Make AI-skilling a CEO-level priority</li>
+            <li>Embed learning agility into culture</li>
+            <li>Start with clear use-cases and pilot experiments</li>
+            <li>Redesign jobs for human–AI collaboration</li>
+            <li>Build trust and transparency around AI tools</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
