@@ -3,6 +3,7 @@ layout: post
 title: "The First 5 Things to Teach a Computer"
 author: "Jason Kronemeyer"
 date: 2024-08-30
+status: story
 categories: education computer-science programming
 excerpt: "A personal reflection on the foundational concepts that shape both computer programming and computational thinking, from my first 'Hello World' to teaching AI to write blog posts."
 ---
