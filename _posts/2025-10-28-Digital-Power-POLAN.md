@@ -26,7 +26,13 @@ Every new device is a potential attack surface. POL eliminates legacy Ethernet s
 Network downtime disrupts learning and safety. POL, built on carrier-grade tech, delivers five nines (99.999%) reliability, with advanced redundancy options that can push uptime even higher.
 
 **Sustainability:**  
-Schools are under pressure to reduce energy use and waste. POL cuts down on plastics, cooling needs, and landfill impact. Large deployments have shown up to 65% energy savings and millions in operational cost reductions.
+Schools are under pressure to reduce energy use and waste.
+
+When you focus on energy efficiency in school buildings, one big improvement area is reducing the number of conversions between alternating current and direct current. Many modern devices, like LED lights, laptops, and networking equipment, naturally run on DC power. By supplying DC power directly, you eliminate wasteful steps where energy is lost in conversion.
+
+At the same time, designing a smarter network infrastructure, like using passive optical LAN, reduces the energy needed to keep information moving across the campus. Fewer active components mean less power and cooling are required.
+
+POL cuts down on plastics, cooling needs, and landfill impact. Large deployments have shown up to 65% energy savings and millions in operational cost reductions.
 
 **Power Management:**  
 Managing power for hundreds of endpoints—projectors, displays, sensors, and more—is a growing challenge. Class Four Fault Managed Power enables safe, long-distance, high-capacity power delivery, supporting the expansion of smart classrooms.
