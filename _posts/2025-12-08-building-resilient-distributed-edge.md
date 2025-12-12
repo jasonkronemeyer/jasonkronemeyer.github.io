@@ -42,6 +42,8 @@ From the center out:
 	- **TX**: the “transmit” or core switch/router platform that anchors the site’s data plane.  
 	- **OLT**: the Optical Line Terminal that feeds the Passive Optical Network/Optical LAN.
 
+This “power + connectivity as one stack” approach also has a quiet efficiency payoff. If you can keep more of the site’s energy path in DC (BESS → DC rail → downstream loads), you reduce conversion steps that otherwise waste energy as heat. And on the networking side, Optical LAN architectures can reduce the number of intermediate, always‑on switching layers and telecom rooms—cutting electrical draw and lowering the cooling burden where network gear tends to accumulate.
+
 - **ONT ring (optical distribution)**  
 	Each **ONT** (Optical Network Terminal) terminates fiber segments and presents Ethernet and/or PoE into local pockets of the site. In my drawing, they sit on a ring around the core to make that role visually obvious.
 
