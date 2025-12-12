@@ -1,18 +1,39 @@
 ---
 layout: post
-title: "HTML has come a long way since 1997."
+title: "HTML has come a long way since 1997"
 date: 2025-11-08
-tags: [technology, html, web-development, personal-story]
-excerpt: "A personal reflection on the evolution of HTML from my first website in 1997 to the modern web development landscape powered by HTML5 and CSS3."
+author: Jason Kronemeyer
+categories: [Technology, Web Development, Personal Story]
+tags: [HTML, Web Development, Personal Story, Technology]
+excerpt: "From a Hawaii Air Force dorm room and a fantasy football website on aloha.net to semantic HTML5, CSS Grid, and the modern web—how curiosity and experimentation taught me I could learn anything."
 ---
 
-It's hard to believe that nearly three decades have passed since I first experimented with HTML. Back in 1997, I was serving in the Air Force, stationed in a facility analyzing signals and reporting intelligence from under a pineapple field. It was a unique time and place—both literally underground and at the dawn of the web revolution.
+As I sit here writing in a modern editor—syntax highlighting, auto-completion, and collaboration baked in—I keep thinking about 1997.
 
-## From Dormitory Dreams to Fantasy Football
+I was in the U.S. Air Force then, working as a Signals Intelligence Analyst in Hawaii. My shifts were spent analyzing signals and reporting intelligence from a facility tucked beneath a pineapple field—a surreal detail that still sounds like fiction. But when my shift ended and I walked back to the dorm, I entered a different kind of intelligence work: learning the early web when the *semantic web* (and even semantic HTML) was still in its infancy.
 
-During my free time in the dormitory, I discovered something that would captivate me for years to come: HTML. Armed with a text editor and a basic understanding of tags, I began experimenting with this new language that promised to connect people across the world. My first real project? A website to run a fantasy football league.
+The breakthrough wasn’t a specific tutorial. It was a pattern: the World Wide Web + curiosity + experimentation meant I could teach myself almost anything I was willing to wrestle with.
 
-That website, hosted on aloha.net with the username "Kroney3268," was a labor of love. Tables within tables for layout, `<font>` tags everywhere, and spacer GIFs to control spacing—these were the tools of the trade. There was no CSS to speak of, no JavaScript frameworks, just pure HTML markup and a lot of trial and error. But it worked, and more importantly, it sparked a passion for web development that has stayed with me ever since.
+### Curiosity and Experimentation (the real stack)
+
+Curiosity fueled every late-night tweak and every broken layout I had to fix. Experimentation was the method: view source, change a tag, refresh, repeat. I kept notes on what worked, what didn’t, and why—small iterations that built confidence and momentum.
+
+To anyone learning today:
+- Ask “what if?” and try it immediately.
+- Break things on purpose to see how they fail.
+- Keep a changelog of experiments and outcomes.
+- Rebuild the same component three ways to compare approaches.
+- Share drafts early; feedback is a force multiplier.
+
+Curiosity sets direction. Experimentation delivers progress.
+
+## Discovery in the Dorm
+
+During my free time, I began experimenting with HTML. The internet was still relatively new to most people, and the idea that I could create my own corner of this digital frontier was exhilarating. Armed with nothing more than a text editor and a dial-up connection, I started teaching myself the basics: `<html>`, `<head>`, `<body>`, `<table>` (oh, so many tables for layout), and the ever-temperamental `<font>` tag.
+
+My first real project? A website to run a fantasy football league—long before ESPN Fantasy Sports or Yahoo! made that kind of thing turnkey. I wanted a central place where league members could check scores, view rosters, and talk some trash. So I built it.
+
+I hosted it on aloha.net under the username “Kroney3268”—a digital address that felt like home in more ways than one. The site was nothing fancy by today’s standards: static HTML pages, maybe a GIF or two (likely animated, because that was the style), and basic forms for interaction. But to me and my league members, it was revolutionary. We had our own little slice of the internet.
 
 ## The Web in 1997: A Different Era
 
@@ -27,6 +48,10 @@ Looking back, the web in 1997 was a fundamentally different place. HTML 3.2 was 
 
 There was no separation of content and presentation. Your HTML was your design, and your design was your HTML. Maintenance was a nightmare—changing the color scheme meant editing every single page manually.
 
+And yet, that constraint had a gift in it: it made the web feel *learnable*. It was just text, rendered into something real.
+
+That mindset is exactly why I later wrote [The First 5 Things to Teach a Computer](%7B%25%20post_url%202024-08-30-first-5-things-to-teach-computer%20%25%7D). Those five “first lessons” (communication, sequence, art, math, and play) were all in the room with me in 1997—HTML just gave them a new medium.
+
 ## The Evolution Begins: Separation of Concerns
 
 The late 1990s and early 2000s brought significant changes. CSS (Cascading Style Sheets) emerged as a way to separate content from presentation. Suddenly, you could change the entire look of a website by editing a single stylesheet. JavaScript became more sophisticated, enabling dynamic interactions without page refreshes.
@@ -37,13 +62,13 @@ The web standards movement, championed by organizations like the W3C and advocat
 
 When HTML5 emerged in the late 2000s and was standardized in 2014, it represented a quantum leap forward. HTML5 wasn't just an incremental update—it was a reimagining of what the web could be:
 
-### Semantic Elements
+### Semantic Elements (and why they mattered)
 HTML5 introduced semantic elements that give meaning to content structure:
 - `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>`, and `<footer>` replaced generic `<div>` tags
 - `<figure>` and `<figcaption>` provide proper ways to markup images with captions
 - `<time>`, `<mark>`, and other elements add semantic meaning to inline content
 
-These semantic elements don't just make code more readable—they improve accessibility for screen readers and help search engines understand content better.
+These semantic elements don’t just make code more readable—they improve accessibility for screen readers and help search engines understand content better. For me, they also closed a loop: the early web taught me how to publish; semantic HTML taught me how to publish *with meaning*.
 
 ### Multimedia Support
 Gone are the days of relying on Flash Player or other plugins:
@@ -168,17 +193,25 @@ Today's best practices include:
 - Critical CSS and above-the-fold optimization
 - Core Web Vitals monitoring
 
+## From Fantasy Football to the Modern Web
+
+That fantasy football website I built in the dorm while working under a pineapple field was more than a hobby project. It was my entry point into a career that would eventually span technology, education, and digital equity work. The problem-solving skills I developed while debugging table layouts and wrestling with browser quirks laid the foundation for more complex challenges later.
+
+Today, I work at the intersection of information, technology, and energy—often thinking about systems, standards, and access. But I don’t forget where it started: a text file, a browser, and the feeling that “if I can figure this out, I can figure out a lot more.”
+
+{% include callout.html type="info" title="A Personal Bridge Between Posts" content="If you’re interested in the learning pattern behind this story, this is the same mindset I describe in ‘The First 5 Things to Teach a Computer’: start simple, practice fundamentals, and let curiosity and iteration do the heavy lifting." %}
+
 ## Reflection: The Journey Continues
 
 From that simple fantasy football website on aloha.net to the sophisticated web applications we build today, HTML has truly come a long way. What started as a simple markup language for academic documents has evolved into the foundation of a platform that powers everything from social networks to complex business applications to immersive gaming experiences.
 
-The web in 1997 was static, desktop-only, and limited in what it could do. Today's web is dynamic, mobile-first, and capable of things I couldn't have imagined while experimenting in that Air Force dormitory under a pineapple field. We have semantic markup that machines can understand, multimedia capabilities that rival native applications, and styling systems that make beautiful, responsive designs accessible to all developers.
+The web in 1997 was static, desktop-only, and limited in what it could do. Today’s web is dynamic, mobile-first, and capable of things I couldn’t have imagined while experimenting in that Air Force dormitory under a pineapple field. We have semantic markup that machines can understand, multimedia capabilities that rival native applications, and styling systems that make beautiful, responsive designs accessible to more developers.
 
-Yet for all the changes, the fundamental beauty of HTML remains: it's still just text files that anyone can write and browsers can render. You don't need expensive tools or a computer science degree to get started. You just need curiosity and a text editor—the same things I needed back in 1997.
+Yet for all the changes, the fundamental beauty of HTML remains: it’s still text files that anyone can write and browsers can render. You don’t need expensive tools or a computer science degree to get started. You need curiosity, patience, and a willingness to iterate—the same things I needed back in 1997.
 
 The web has democratized publishing, enabled global communication, and created opportunities that didn't exist before. As I look at the evolution from HTML 3.2 to HTML5, from inline styles to CSS Grid, from static pages to Progressive Web Apps, I'm filled with excitement for what comes next.
 
-The journey that started under a pineapple field continues, and I can't wait to see where it leads.
+The journey that started under a pineapple field continues, and I can’t wait to see where it leads.
 
 ---
 
