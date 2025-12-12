@@ -19,6 +19,8 @@ Every time we convert between AC and DC, we lose energy. In a modern building, p
 
 Each conversion wastes 5-15% of the energy. By distributing power as DC from source to load, we eliminate these losses and unlock new possibilities for efficiency and resilience.
 
+There’s a parallel lesson on the *connectivity* side of the building: network designs that reduce always-on intermediate equipment can also cut energy use and cooling demand. Architectures like **Passive Optical LAN (POL)** replace layers of distributed Ethernet switching with more centralized optics and passive splitters—often shrinking the number of telecom rooms and the amount of continuously powered gear a building needs.
+
 ---
 
 ## 🎯 Key Findings: Where DC Makes Sense Today
