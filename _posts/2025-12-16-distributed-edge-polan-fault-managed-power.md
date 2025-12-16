@@ -99,5 +99,4 @@ Distributed edge architectures, combined with POLAN and FMP, represent a transfo
 
 ---
 
-**Reference:** Panduit paper on Passive Optical Networks — https://www.panduit.com/content/dam/panduit/en/website/documents/NI-ENT-passive-optical-networks-CPAT93--SA-ENG.pdf  
-*Retrieved: 2025-12-16*
+Panduit. (n.d.). Passive optical networks: Cabling considerations and reference architectures. Retrieved December 16, 2025, from https://www.panduit.com/content/dam/panduit/en/website/documents/NI-ENT-passive-optical-networks-CPAT93--SA-ENG.pdf
