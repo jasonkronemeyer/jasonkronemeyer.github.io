@@ -98,5 +98,6 @@ Distributed edge architectures, combined with POLAN and FMP, represent a transfo
 - [The Case for DC Power Distribution in Buildings: NREL Pathways]({% post_url 2025-12-12-dc-power-distribution-buildings-nrel %}) — How DC distribution reduces conversion losses and complements POLAN's network efficiency for modern smart buildings.
 
 ---
-
+ 
+## Reference
 Panduit. (n.d.). Passive optical networks: Cabling considerations and reference architectures. Retrieved December 16, 2025, from https://www.panduit.com/content/dam/panduit/en/website/documents/NI-ENT-passive-optical-networks-CPAT93--SA-ENG.pdf
