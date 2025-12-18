@@ -146,8 +146,8 @@ Knowledge modeling is the infrastructure beneath the infrastructure—the semant
 If you're interested in exploring these concepts further:
 
 1. **Learn the basics**: Start with RDF (Resource Description Framework) and understand how triples work (Subject → Predicate → Object)
-2. **Explore vocabularies**: Look at existing vocabularies like Schema.org, Dublin Core, and FOAF (Friend of a Friend) to see how others model common concepts
-3. **Practice with tools**: Try tools like Protégé for building ontologies, or Apache Jena for working with RDF data
+2. **Explore vocabularies**: Look at existing vocabularies like [Schema.org](https://schema.org), [Dublin Core](https://www.dublincore.org/), and FOAF (Friend of a Friend) to see how others model common concepts
+3. **Practice with tools**: Try tools like [Protégé](https://protege.stanford.edu/) for building ontologies, or [Apache Jena](https://jena.apache.org/) for working with RDF data
 4. **Apply to your domain**: Take a real problem in your work and try modeling it—start simple and iterate
 5. **Validate your models**: Use SHACL (Shapes Constraint Language) to ensure your data conforms to your rules
 
