@@ -52,10 +52,10 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
   Working with educators, technologists, and policy advocates to ensure models reflect real needs and support decision-making.
 
 - **Applying global standards for linked data**  
-  - **RDF**: Links data across systems (e.g., “School → hasEnergySystem → DC Microgrid”).  
-  - **OWL**: Adds logic and rules (e.g., “Every classroom must have at least one AV device”).  
-  - **SKOS**: Organizes concepts into clear vocabularies (e.g., “Digital Literacy → broader than → AI Curriculum”).  
-  - **SHACL**: Validates data against rules (e.g., “Every school entity must include Location and Connectivity Status”).
+  - **RDF (Resource Description Framework)**: Links data across systems (e.g., "School → hasEnergySystem → DC Microgrid").  
+  - **OWL (Web Ontology Language)**: Adds logic and rules (e.g., "Every classroom must have at least one AV device").  
+  - **SKOS (Simple Knowledge Organization System)**: Organizes concepts into clear vocabularies (e.g., "Digital Literacy → broader than → AI Curriculum").  
+  - **SHACL (Shapes Constraint Language)**: Validates data against rules (e.g., "Every school entity must include Location and Connectivity Status").
 
 - **Validating and improving models**  
   Using SHACL and other methods to ensure accuracy, consistency, and alignment with organizational goals.
@@ -65,10 +65,10 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
 
 ---
 
-## **Diagram: How RDF, OWL, SKOS, and SHACL Fit Together**
+## **Diagram: How the Standards Fit Together**
 
 > **What this shows:**  
-> The diagram illustrates how data flows from source systems into a knowledge graph. RDF provides the linking structure; OWL adds logic; SKOS organizes vocabularies; SHACL validates conformance before analytics and reporting.
+> The diagram illustrates how data flows from source systems into a knowledge graph. RDF (Resource Description Framework) provides the linking structure; OWL (Web Ontology Language) adds logic; SKOS (Simple Knowledge Organization System) organizes vocabularies; SHACL (Shapes Constraint Language) validates conformance before analytics and reporting.
 
 ### Option A — Mermaid (text-based, renders to SVG)
 > *Requires Mermaid support (e.g., `mermaid.min.js` or a Jekyll plugin).*
