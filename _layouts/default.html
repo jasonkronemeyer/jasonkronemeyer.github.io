@@ -83,12 +83,30 @@
   </script>
 
   <!-- Mermaid for diagrams -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    
     mermaid.initialize({ 
-      startOnLoad: true,
+      startOnLoad: false,
       theme: 'default',
       securityLevel: 'loose'
+    });
+
+    // Wait for DOM to be ready
+    document.addEventListener('DOMContentLoaded', function() {
+      // Convert code blocks with language-mermaid class to divs
+      const mermaidCodeBlocks = document.querySelectorAll('pre code.language-mermaid');
+      
+      mermaidCodeBlocks.forEach((codeBlock) => {
+        const pre = codeBlock.parentElement;
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = codeBlock.textContent;
+        pre.parentElement.replaceChild(mermaidDiv, pre);
+      });
+
+      // Now render all mermaid diagrams
+      mermaid.run();
     });
   </script>
 </body>
