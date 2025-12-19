@@ -39,7 +39,7 @@ These practical actions connect digital transformation directly to the goals of 
 
 If you want digital transformation to move from aspiration to implementation, these are the types of outputs that belong in the plan (and then in code, capital plans, and partner agreements):
 
-- **Digital infrastructure baseline + standards**: Define service targets (availibility, reliability, affordability) and embed broadband-ready/conduit standards for streets, corridors, and redevelopment sites.
+- **Digital infrastructure baseline + standards**: Define service targets (availibility, reliability, quality) and embed broadband-ready/conduit standards for streets, corridors, and redevelopment sites.
 - **Digital equity + engagement plan**: Identify digitally underrepresented groups and formalize hybrid engagement methods, access points (libraries/schools), and device/skills support pathways.
 - **Asset inventory + performance measures**: Maintain an inventory (sites, public facilities, rights-of-way) with 5–10 indicators tied to goals (e.g., connectivity gaps, adoption, uptime, service to anchor institutions).
 - **Implementation roadmap**: Assign owners, timelines (0–2, 2–5, 5–10 years), dependencies, and funding strategies (grants, pilots, public–private partnerships).
