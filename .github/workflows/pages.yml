@@ -1,0 +1,62 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install system deps for Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium fonts-liberation libnss3 libatk1.0-0 libgtk-3-0 libasound2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 ca-certificates libxss1
+
+      - name: Install mermaid-cli
+        run: npm install --no-save @mermaid-js/mermaid-cli
+
+      - name: Install puppeteer browsers
+        run: npx puppeteer install
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install bundler and gems
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
+      - name: Add node_modules/.bin to PATH
+        run: echo "PATH=$(pwd)/node_modules/.bin:$PATH" >> $GITHUB_ENV
+
+      - name: Build site
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+        run: bundle exec jekyll build -d ./_site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
