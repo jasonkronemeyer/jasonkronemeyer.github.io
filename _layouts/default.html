@@ -83,13 +83,14 @@
   </script>
 
   <!-- Mermaid for diagrams -->
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    // Initialize mermaid with proper configuration
     mermaid.initialize({ 
       startOnLoad: false,
       theme: 'default',
-      securityLevel: 'loose'
+      securityLevel: 'loose',
+      logLevel: 'error'
     });
 
     // Wait for DOM to be ready
@@ -106,7 +107,13 @@
       });
 
       // Now render all mermaid diagrams
-      mermaid.run();
+      try {
+        mermaid.run({
+          querySelector: '.mermaid'
+        });
+      } catch (error) {
+        console.error('Mermaid rendering error:', error);
+      }
     });
   </script>
 </body>

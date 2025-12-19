@@ -5,15 +5,8 @@ categories: [smart-buildings, microgrids, dc-power]
 tags: [FMPS, CPS, NIST, ROI, energy-efficiency]
 ---
 
-<!-- Mermaid.js for client-side diagram rendering -->
-<script>https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js </script>
-<script>
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: "default",
-    securityLevel: "loose"
-  });
-</script>
+<!-- Mermaid.js is loaded in the default layout -->
+<!-- No need to initialize here as it's handled globally -->
 
 ## 🔌 DC Fault Managed Power Systems (FMPS) in the CPS Framework
 
