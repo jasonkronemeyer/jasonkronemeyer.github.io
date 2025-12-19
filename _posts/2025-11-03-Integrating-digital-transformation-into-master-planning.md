@@ -8,7 +8,14 @@ tags: [master planning, broadband, redevelopment, digital nomads, infrastructure
 excerpt: "This post explores how digital transformation is reshaping master planning, highlighting the need for innovative approaches to infrastructure, engagement, and redevelopment."
 ---
 
-The digital transformation of communities is reshaping how we plan, build, and engage. Technology-driven change requires not only new tools, but also updated planning approaches to infrastructure, governance, and community engagement. As technology evolves at an extraordinary rate, it presents both opportunities and challenges that warrant careful consideration. This transition goes beyond merely adopting new technologies; it necessitates a reevaluation of how we engage with the world around us.
+Digital transformation is reshaping how communities plan, build, and engage. It’s not just about adopting new tools—it’s about updating planning practice so infrastructure, governance, and engagement keep pace with how people live, work, learn, and access services.
+
+**Key takeaways**
+
+- Broadband is now foundational infrastructure, not an amenity.
+- Engagement must be hybrid (digital + offline) to be inclusive.
+- Plans should be iterative, with clear metrics and a refresh cycle.
+- Redevelopment strategies should anticipate remote work and flexible use.
 
 ## Bridging Digital Transformation and Planning Practice
 
@@ -27,6 +34,21 @@ In my work, I focus on translating these digital concepts into concrete planning
 **Capacity Building**: Convening stakeholders to align goals; building local digital skills through training and workforce development; and pursuing grants, public–private partnerships, and pilot funding to support innovation and equitable technology deployment.
 
 These practical actions connect digital transformation directly to the goals of resilient, accessible, and people-centered master planning.
+
+## What This Looks Like in a Master Plan
+
+If you want digital transformation to move from aspiration to implementation, these are the types of outputs that belong in the plan (and then in code, capital plans, and partner agreements):
+
+- **Digital infrastructure baseline + standards**: Define service targets (availibility, reliability, affordability) and embed broadband-ready/conduit standards for streets, corridors, and redevelopment sites.
+- **Digital equity + engagement plan**: Identify digitally underrepresented groups and formalize hybrid engagement methods, access points (libraries/schools), and device/skills support pathways.
+- **Asset inventory + performance measures**: Maintain an inventory (sites, public facilities, rights-of-way) with 5–10 indicators tied to goals (e.g., connectivity gaps, adoption, uptime, service to anchor institutions).
+- **Implementation roadmap**: Assign owners, timelines (0–2, 2–5, 5–10 years), dependencies, and funding strategies (grants, pilots, public–private partnerships).
+- **Zoning + redevelopment alignment**: Update standards for flexible use, adaptive reuse, and “digital readiness” so redevelopment doesn’t get blocked by outdated assumptions.
+
+Two concrete examples that often show up in practice:
+
+- **Vacant big-box → community hub**: Adaptive reuse for a mixed program (training + coworking + community services) supported by strong connectivity, shared devices, and staffed support.
+- **Downtown office corridor → mixed-use + flexible space**: Incremental conversions that combine housing, small business space, and telework-ready amenities, paired with infrastructure upgrades and streamlined approvals.
 
 ## Key Insights from Planning Practice
 
