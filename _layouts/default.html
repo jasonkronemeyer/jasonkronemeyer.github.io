@@ -106,14 +106,25 @@
         pre.parentElement.replaceChild(mermaidDiv, pre);
       });
 
-      // Now render all mermaid diagrams
-      try {
-        mermaid.run({
-          querySelector: '.mermaid'
-        });
-      } catch (error) {
-        console.error('Mermaid rendering error:', error);
-      }
+      // Find mermaid containers that are NOT already pre-rendered by jekyll-diagrams
+      const mermaidDivs = Array.from(document.querySelectorAll('.mermaid')).filter(el => {
+        // skip elements that are part of jekyll-diagrams or already include an <svg>
+        if (el.classList.contains('jekyll-diagrams') || el.closest('.jekyll-diagrams')) return false;
+        if (el.querySelector && el.querySelector('svg')) return false;
+        return el.textContent && el.textContent.trim().length > 0;
+      });
+
+      // Render each remaining mermaid block individually to avoid touching pre-rendered SVGs
+      mermaidDivs.forEach((el, idx) => {
+        const tmpClass = 'mermaid-dynamic-' + idx;
+        el.classList.add(tmpClass);
+        try {
+          mermaid.run({ querySelector: '.' + tmpClass });
+        } catch (error) {
+          console.error('Mermaid rendering error:', error);
+        }
+        el.classList.remove(tmpClass);
+      });
     });
   </script>
 </body>
