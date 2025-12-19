@@ -71,40 +71,34 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
 > The diagram illustrates how data flows from source systems into a knowledge graph. RDF (Resource Description Framework) provides the linking structure; OWL (Web Ontology Language) adds logic; SKOS (Simple Knowledge Organization System) organizes vocabularies; SHACL (Shapes Constraint Language) validates conformance before analytics and reporting.
 
 ### Option A — Mermaid (text-based, renders to SVG)
-> *Requires Mermaid support (e.g., `mermaid.min.js` or a Jekyll plugin).*
+> *Requires Mermaid support (build-time with jekyll-diagrams or client-side mermaid.js).*
 
-<!-- Mermaid JS runtime for client-side rendering -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true });</script>
-
-<div class="mermaid">
+{% mermaid %}
 flowchart LR
-    A[Source Systems<br/>(Classroom AV, IoT, Broadband Data, Policy Docs)]
-    --> B[RDF Graph<br/>(Linked Triples)]
-    B --> C[OWL Ontology<br/>(Classes, Properties, Rules)]
-    B --> D[SKOS Vocabulary<br/>(Broader/Narrower/Related Concepts)]
-    B --> E[SHACL Shapes<br/>(Validation Constraints)]
+    A[Source Systems\n(Classroom AV, IoT, Broadband Data, Policy Docs)]
+    --> B[RDF Graph\n(Linked Triples)]
+    B --> C[OWL Ontology\n(Classes, Properties, Rules)]
+    B --> D[SKOS Vocabulary\n(Broader/Narrower/Related Concepts)]
+    B --> E[SHACL Shapes\n(Validation Constraints)]
 
-    C --> F[Reasoning & Inference<br/>(Consistency Checks)]
+    C --> F[Reasoning & Inference\n(Consistency Checks)]
     D --> F
     E --> F
 
-    F --> G[Trusted Knowledge Graph<br/>(Interoperable + Governed)]
-    G --> H[Use Cases<br/>(Dashboards, Reports, Compliance, Search)]
-    
-    %% Context labels
+    F --> G[Trusted Knowledge Graph\n(Interoperable + Governed)]
+    G --> H[Use Cases\n(Dashboards, Reports, Compliance, Search)]
+
     classDef ctx fill:#eef7ff,stroke:#8bbcff,stroke-width:1px,color:#1a3b6b;
     class A,B,C,D,E,F,G,H ctx;
 
-    %% Examples
     subgraph Examples
-      X1[Example RDF Triple:<br/>School — hasEnergySystem — DC Microgrid]
-      X2[OWL Rule:<br/>Every Classroom must have ≥ 1 AV Device]
-      X3[SKOS:<br/>Digital Literacy ⟶ broaderThan ⟶ AI Curriculum]
-      X4[SHACL:<br/>School must have Location + Connectivity Status]
+      X1[Example RDF Triple:\nSchool - hasEnergySystem - DC Microgrid]
+      X2[OWL Rule:\nEvery Classroom must have >= 1 AV Device]
+      X3[SKOS:\nDigital Literacy -> broaderThan -> AI Curriculum]
+      X4[SHACL:\nSchool must have Location + Connectivity Status]
     end
     B --- X1
     C --- X2
     D --- X3
     E --- X4
-</div>
+{% endmermaid %}

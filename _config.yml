@@ -34,6 +34,11 @@ github_username:  jasonkronemeyer
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-diagrams
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-archives
 
 # Math support
 markdown: kramdown
