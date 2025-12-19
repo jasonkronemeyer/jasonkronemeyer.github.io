@@ -70,9 +70,6 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
 > **What this shows:**  
 > The diagram illustrates how data flows from source systems into a knowledge graph. RDF (Resource Description Framework) provides the linking structure; OWL (Web Ontology Language) adds logic; SKOS (Simple Knowledge Organization System) organizes vocabularies; SHACL (Shapes Constraint Language) validates conformance before analytics and reporting.
 
-### Option A — Mermaid (text-based, renders to SVG)
-> *Requires Mermaid support (build-time with jekyll-diagrams or client-side mermaid.js).*
-
 {% mermaid %}
 flowchart LR
     A["Source Systems<br/>(Classroom AV, IoT, Broadband Data, Policy Docs)"]
