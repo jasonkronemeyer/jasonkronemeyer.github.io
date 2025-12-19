@@ -73,6 +73,26 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
 ### Option A — Mermaid (text-based, renders to SVG)
 > *Requires Mermaid support (e.g., `mermaid.min.js` or a Jekyll plugin).*
 
+<!-- Mermaid JS runtime for client-side rendering -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Transform fenced code blocks into <div class="mermaid"> for rendering
+    var codeBlocks = document.querySelectorAll('code.language-mermaid');
+    codeBlocks.forEach(function (code) {
+      var pre = code.closest('pre');
+      var target = pre || code;
+      var container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = code.textContent;
+      target.replaceWith(container);
+    });
+    if (window.mermaid) {
+      window.mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });
+    }
+  });
+</script>
+
 ```mermaid
 flowchart LR
     A[Source Systems<br/>(Classroom AV, IoT, Broadband Data, Policy Docs)]
