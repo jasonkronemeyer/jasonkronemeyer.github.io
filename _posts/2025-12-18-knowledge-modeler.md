@@ -9,37 +9,7 @@ tags: [RDF, OWL, SKOS, SHACL, Ontology, Smart Buildings, Education Technology]
 image: /assets/images/knowledge-modeling.jpg
 ---
 
-<!-- Open Graph Meta -->
-<meta property="og:title" content="Why Knowledge Modeling Matters for Education, Smart Buildings, and Broadband" />
-<meta property="og:description" content="Discover how semantic standards like RDF, OWL, SKOS, and SHACL enable interoperability and data governance for education and energy projects." />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="/assets/images/knowledge-modeling.jpg" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Why Knowledge Modeling Matters for Education, Smart Buildings, and Broadband",
-  "description": "Learn how RDF, OWL, SKOS, and SHACL help transform complex data into actionable knowledge for schools, smart buildings, and community networks.",
-  "image": "/assets/images/knowledge-modeling.jpg",
-  "author": {
-    "@type": "Person",
-    "name": "Jason Kronemeyer"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "EUPConnect Collaborative"
-  },
-  "datePublished": "2025-12-18",
-  "mainEntityOfPage": "{{ page.url | absolute_url }}"
-}
-</script>
-
----
-
-## **What Does a Knowledge Modeler Do?**
+## What Does a Knowledge Modeler Do?
 A knowledge modeler turns **complex, scattered information** into **structured, connected knowledge** that people and systems can use effectively. In practice, this means:
 
 - **Designing and maintaining knowledge structures**  
@@ -65,7 +35,7 @@ A knowledge modeler turns **complex, scattered information** into **structured, 
 
 ---
 
-## **Diagram: How the Standards Fit Together**
+## Diagram: How the Standards Fit Together
 
 > **What this shows:**  
 > The diagram illustrates how data flows from source systems into a knowledge graph. RDF (Resource Description Framework) provides the linking structure; OWL (Web Ontology Language) adds logic; SKOS (Simple Knowledge Organization System) organizes vocabularies; SHACL (Shapes Constraint Language) validates conformance before analytics and reporting.
