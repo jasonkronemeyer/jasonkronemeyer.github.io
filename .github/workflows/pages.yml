@@ -53,11 +53,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact (using upload-artifact@v4 to avoid deprecated v3)
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          name: pages
           path: ./_site
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
