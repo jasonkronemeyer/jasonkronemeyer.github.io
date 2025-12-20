@@ -7,9 +7,9 @@ tags: [AgenticOps, Broadband, Distributed-Edge, Cisco, Digital-Transformation]
 description: "Exploring Cisco's AI-ready network vision and its implications for distributed edge architectures in community networks."
 excerpt: "Cisco's AI-ready networking vision meets distributed edge strategies for community networks."
 image: /assets/images/edge-network.jpg
+status: brief
 ---
 
-**Status Brief:**  
 Cisco's latest innovations in AI-ready networking emphasize **secure, simplified, and scalable architectures**. For community technologists, this intersects with **distributed edge strategies**—bringing compute and intelligence closer to users while maintaining centralized orchestration.
 
 ---
