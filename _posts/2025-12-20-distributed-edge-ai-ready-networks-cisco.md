@@ -66,7 +66,7 @@ graph TD
     }
   },
   "datePublished": "2025-12-20",
-  "url": "https://blogs.cisco.com/news/unlocking-the-ai-era-how-cisco-is-delivering-on-its-vision-for-a-secure-simplified-and-scalable-network",
+  "url": "https://www.jasonkronemeyer.com/2025/12/20/distributed-edge-ai-ready-networks-cisco.html",
   "description": "Exploring Cisco's AI-ready network vision and its implications for distributed edge architectures in community networks."
 }
 </script>
