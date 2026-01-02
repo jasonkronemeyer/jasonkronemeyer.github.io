@@ -30,6 +30,20 @@ url: "https://www.jasonkronemeyer.com" # the base hostname & protocol for your s
 twitter_username: jasonkronemeyer
 github_username:  jasonkronemeyer
 
+# SEO / Social sharing (jekyll-seo-tag)
+# These settings help generate Open Graph + Twitter Card meta tags site-wide.
+logo: /images/logo.png
+image: /images/logo.png
+twitter:
+  username: jasonkronemeyer
+  card: summary_large_image
+social:
+  name: Jason Kronemeyer
+  links:
+    - https://www.jasonkronemeyer.com/
+    - https://github.com/jasonkronemeyer
+    - https://www.linkedin.com/in/jasonkronemeyer/
+
 # Build settings
 theme: minima
 plugins:
