@@ -75,10 +75,19 @@ If daily life is mostly app-based, we should expect app-shaped skills.
 
 If we want computer-shaped skills, we need to create safe, relevant opportunities for people to practice:
 
-- filling out real job applications on a laptop
-- creating and attaching documents
-- using spreadsheets for household budgeting or small business inventory
-- troubleshooting WiFi and account issues with support nearby
+- joining a video meeting (Zoom/Meet/Teams) and using chat, mute, and screen share
+- sending an email with an attachment (resume, scanned document) and organizing messages into folders/labels
+- completing an online course or job training module and submitting assignments
+- filling out real job applications on a laptop, including uploads and multi-step portals
+- using a spreadsheet for household budgeting, inventory, or basic recordkeeping
+- using spreadsheets/templates for farm logs (inputs, yields, maintenance, fuel) and sharing them with a co-op/partner
+- using ag or equipment portals to download manuals, register warranties, schedule service, and request parts online
+- working with map-based tools (parcels/trails/lake access) and exporting/printing maps or sharing links with others
+- scheduling a telehealth visit and completing pre‑visit forms in a patient portal
+- paying a bill or completing a transaction online (banking, utilities, permits) and saving receipts as files
+- saving, finding, and sharing files using a cloud folder (Drive/OneDrive) so “file skills” become normal
+- booking recreation/tourism plans online (campgrounds, permits, charter trips, lodging) and keeping confirmations organized
+- troubleshooting WiFi/account issues with support nearby (passwords, updates, browser basics)
 
 ## What this means for digital equity strategy
 
@@ -97,6 +106,8 @@ But if we’re serious about digital equity as *opportunity*, we have to be hone
 ---
 
 ### Related posts
+
+- Source: Doug Dawson (CCG Consulting), [“Smartphones and Digital Literacy”](https://potsandpansbyccg.com/2026/01/02/smartphones-and-digital-literacy/)
 
 - [Beyond the Last Mile: Why Digital Literacy Determines Broadband Success]({% post_url 2025-10-29-Why-Digital-Skills-Determines-Broadband-Success %})
 - [Finding the Digital Divide with Bayesian Networks]({% post_url 2025-04-30-finding-digital-divide %})
