@@ -1,6 +1,14 @@
+---
+layout: post
+title: "🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs"
+date: 2026-01-04
+categories: [networking, IXPs, digital-infrastructure]
+tags: [latency, bandwidth, resilience, community-broadband]
+---
+
 # 🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs
 
-In network infrastructure, **degrees of separation** refer to the number of intermediate hops—both physical and logical—between a **secondary distribution node** (like a school switch or neighborhood fiber splitter) and a core **Internet Exchange Point (IXP)**. This spatial concept blends **graph theory** with **geographic topology** to assess network performance.
+In network infrastructure, **degrees of separation** refer to the number of intermediate hops—both physical and logical—between a **secondary distribution node** (like a school switch or neighborhood fiber cabinet) and an **Internet Exchange Point (IXP)**. These degrees impact network quality in measurable ways, particularly performance, resilience, bandwidth efficiency, and autonomy.
 
 ---
 
