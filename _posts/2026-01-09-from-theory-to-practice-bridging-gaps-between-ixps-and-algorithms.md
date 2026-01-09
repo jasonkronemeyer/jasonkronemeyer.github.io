@@ -16,6 +16,8 @@ status: series
 
 This is Part 2 of the series **Degrees of Separation from IXPs**. In [Part 1: Spatial Concept of Network Quality]({% post_url 2026-01-04-spatial-semantics-ixp %}), we defined “degrees of separation” (hops) from local nodes to an IXP and why it matters for latency, resilience, bandwidth efficiency, and autonomy. Building on that foundation, this post focuses on practical algorithms and methods that help turn those ideas into actionable network planning.
 
+In other words: if Part 1 introduced the “IXP version of a Kevin Bacon number,” Part 2 is about how we actually compute it (and related structure metrics) at scale.
+
 Reducing the degrees of separation between nodes and IXPs is not just a theoretical challenge—it’s a practical way to improve connectivity for underserved regions, ensure better routing efficiency, and enhance overall network performance.
 
 ## Key Algorithms and Their Applications

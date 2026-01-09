@@ -14,6 +14,8 @@ status: series
 
 This is Part 1 of a short series on **Internet Exchange Points (IXPs)** and why being “closer” to an IXP—measured in **degrees of separation** (hops)—is often a practical proxy for network quality.
 
+If you’ve heard “Six Degrees to Kevin Bacon,” this is the same idea applied to networks: instead of asking how many co‑star links connect an actor to Kevin Bacon, we ask how many network hops connect a home/business (via its local infrastructure) to the nearest IXP. That “IXP number” can be defined in multiple ways (logical, physical, weighted), but the intuition is the same: fewer steps usually means easier, higher quality access.
+
 In network infrastructure, **degrees of separation** refer to the number of intermediate hops—both physical and logical—between a **secondary distribution node** (like a school switch or neighborhood fiber cabinet) and an **Internet Exchange Point (IXP)**. These degrees impact network quality in measurable ways, particularly performance, resilience, bandwidth efficiency, and autonomy.
 
 ---
