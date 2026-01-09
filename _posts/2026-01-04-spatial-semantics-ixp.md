@@ -31,6 +31,18 @@ Each layer introduces a **spatial and logical hop**. Fewer hops = better perform
 
 ---
 
+## 📏 Three ways to measure “separation”
+
+In network analysis, “degrees of separation” is essentially **distance in a graph**—but in infrastructure work it helps to be explicit about *which* distance you mean. For IXP planning, there are three complementary definitions:
+
+- **Logical (routing) hops:** Router-level or AS-level hop count to an IXP. This captures policy/peering structure and upstream dependencies.
+- **Physical (infrastructure) hops:** Site/PoP/metro-layer transitions to an IXP. This captures where facilities and fiber aggregation actually occur.
+- **Weighted distance (experience):** Shortest path where edges are weighted by latency, congestion, cost, or risk. This best reflects what homes and businesses feel.
+
+You often want all three: if they disagree, that disagreement is usually diagnostic (e.g., a low-hop route that still has high latency suggests a long physical path or a routing detour).
+
+---
+
 ## 📊 Why It Matters
 
 - **Latency**: Each hop adds delay. More separation = higher latency.
@@ -91,3 +103,7 @@ This concept is essential for **resilient digital infrastructure**, especially i
 
 - Part 1 (this post): Degrees of separation as a spatial concept
 - Part 2: [From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms]({% post_url 2026-01-09-from-theory-to-practice-bridging-gaps-between-ixps-and-algorithms %})
+
+### Related reading
+
+- Bayesian decision layer: [Finding the Digital Divide with Bayesian Networks]({% post_url 2025-04-30-finding-digital-divide %})

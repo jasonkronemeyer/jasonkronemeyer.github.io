@@ -23,7 +23,13 @@ Reducing the degrees of separation between nodes and IXPs is not just a theoreti
 Here are the essential techniques that can help uncover hidden hurdles in network architecture:
 
 ### 1. Shortest Path Algorithms
-Algorithms like **Dijkstra’s** and **Bellman-Ford** enable us to compute the shortest paths—using metrics like hop count or latency—from nodes to their closest IXPs. Questions these algorithms can answer include:
+Algorithms like **Dijkstra’s** and **Bellman-Ford** enable us to compute the shortest paths—from nodes to their closest IXPs—using different definitions of “distance”:
+
+- **Hop count** (logical degrees of separation)
+- **Layer/site transitions** (physical separation)
+- **Latency/cost/risk weights** (experienced separation)
+
+Questions these algorithms can answer include:
 - Which nodes are most isolated from IXPs?
 - How can we reduce the longest paths in the network to enhance efficiency for everyone?
 
@@ -57,9 +63,17 @@ So, how do these tools shape the networks of tomorrow? Consider the practical be
 3. **Bandwidth Efficiency:** Improving connections to IXPs alleviates pressure on high-traffic routes.
 4. **Equity in Access:** By targeting underserved regions, infrastructure development can bridge key connectivity gaps.
 
+## A practical measurement stack (townships/cities)
+
+If **homes and businesses** are the unit of analysis and **townships/cities** are your smallest regions, a practical workflow is:
+
+1. Compute a township/city summary for each separation definition: **logical hops**, **physical hops**, and **weighted distance** (e.g., latency-to-nearest-IXP).
+2. Compare places on each metric and flag where the metrics disagree (e.g., low-hop but high-latency paths).
+3. Use the mismatch to guide action: peering/routing changes (logical), facility/middle-mile investments (physical), or congestion/capacity upgrades (weighted).
+
 ## Making equity measurable (Gini + Hájek)
 
-If your unit of analysis is **homes and businesses**, and **townships/cities** are your smallest planning regions, you can use the algorithms above to compute a quality metric per place (e.g., latency-to-nearest-IXP, hop-count, or a weighted “cost-to-IXP” score), then quantify how unevenly that quality is distributed.
+If your unit of analysis is **homes and businesses**, and **townships/cities** are your smallest planning regions, you can use the algorithms above to compute one or more separation metrics per place, then quantify how unevenly those outcomes are distributed.
 
 - **Gini coefficient:** Summarizes inequality across townships/cities—useful when the average improves but the worst-off places barely move.
 - **Hájek estimator (weighted estimation):** Real-world measurements are often uneven (more probes/tests in urban areas). A Hájek-style weighted estimate helps translate sampled measurements into population-relevant estimates by weighting townships/cities by **homes + businesses** (or another exposure proxy) so results reflect lived experience, not measurement density.
@@ -74,3 +88,7 @@ The analysis doesn’t end here. Every node, every connection, and every hop rev
 
 - Part 1: [🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs]({% post_url 2026-01-04-spatial-semantics-ixp %})
 - Part 2 (this post): From theory to practice—algorithms and methods
+
+### Related reading
+
+- Bayesian decision layer: [Finding the Digital Divide with Bayesian Networks]({% post_url 2025-04-30-finding-digital-divide %})
