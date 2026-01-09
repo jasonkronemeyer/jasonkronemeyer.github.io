@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms"
 date: 2026-01-09
 author: "Jason Kronemeyer"
@@ -9,9 +10,11 @@ tags:
   - Graph Theory
   - Connectivity
 series: "Degrees of Separation from IXPs"
+series_part: 2
+status: series
 ---
 
-In [my previous post](#), we highlighted the importance of **degrees of separation from Internet Exchange Points (IXPs)** and their impact on network quality—latency, resilience, bandwidth efficiency, and autonomy. Building on that foundation, let’s now explore some specific algorithms and methodologies that help us turn these principles into actionable strategies for improving networks.
+This is Part 2 of the series **Degrees of Separation from IXPs**. In [Part 1: Spatial Concept of Network Quality]({% post_url 2026-01-04-spatial-semantics-ixp %}), we defined “degrees of separation” (hops) from local nodes to an IXP and why it matters for latency, resilience, bandwidth efficiency, and autonomy. Building on that foundation, this post focuses on practical algorithms and methods that help turn those ideas into actionable network planning.
 
 Reducing the degrees of separation between nodes and IXPs is not just a theoretical challenge—it’s a practical way to improve connectivity for underserved regions, ensure better routing efficiency, and enhance overall network performance.
 
@@ -54,8 +57,20 @@ So, how do these tools shape the networks of tomorrow? Consider the practical be
 3. **Bandwidth Efficiency:** Improving connections to IXPs alleviates pressure on high-traffic routes.
 4. **Equity in Access:** By targeting underserved regions, infrastructure development can bridge key connectivity gaps.
 
+## Making equity measurable (Gini + Hájek)
+
+If your unit of analysis is **homes and businesses**, and **townships/cities** are your smallest planning regions, you can use the algorithms above to compute a quality metric per place (e.g., latency-to-nearest-IXP, hop-count, or a weighted “cost-to-IXP” score), then quantify how unevenly that quality is distributed.
+
+- **Gini coefficient:** Summarizes inequality across townships/cities—useful when the average improves but the worst-off places barely move.
+- **Hájek estimator (weighted estimation):** Real-world measurements are often uneven (more probes/tests in urban areas). A Hájek-style weighted estimate helps translate sampled measurements into population-relevant estimates by weighting townships/cities by **homes + businesses** (or another exposure proxy) so results reflect lived experience, not measurement density.
+
 ## Next Steps
 
 The analysis doesn’t end here. Every node, every connection, and every hop reveals a broader picture of global opportunities—opportunities to optimize, connect, and innovate. Looking ahead, the focus must remain on translating insights into real-world upgrades that empower networks at every scale.
 
-If you want to revisit the foundation for this discussion, check out the [first post in the IXP series](#) to understand how degrees of separation from IXPs influence network quality.
+---
+
+## Series navigation
+
+- Part 1: [🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs]({% post_url 2026-01-04-spatial-semantics-ixp %})
+- Part 2 (this post): From theory to practice—algorithms and methods

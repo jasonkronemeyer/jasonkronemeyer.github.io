@@ -3,10 +3,16 @@ layout: post
 title: "🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs"
 date: 2026-01-04
 categories: [networking, IXPs, digital-infrastructure]
-tags: [latency, bandwidth, resilience, community-broadband]
+author: "Jason Kronemeyer"
+tags: [IXPs, latency, bandwidth, resilience, community-broadband, network-quality]
+series: "Degrees of Separation from IXPs"
+series_part: 1
+status: series
 ---
 
 # 🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs
+
+This is Part 1 of a short series on **Internet Exchange Points (IXPs)** and why being “closer” to an IXP—measured in **degrees of separation** (hops)—is often a practical proxy for network quality.
 
 In network infrastructure, **degrees of separation** refer to the number of intermediate hops—both physical and logical—between a **secondary distribution node** (like a school switch or neighborhood fiber cabinet) and an **Internet Exchange Point (IXP)**. These degrees impact network quality in measurable ways, particularly performance, resilience, bandwidth efficiency, and autonomy.
 
@@ -58,6 +64,17 @@ Urban cores may be 2–3 hops from an IXP; rural areas may be 5–7 hops away.
 
 ---
 
+## 📈 Measuring equity (homes + businesses)
+
+If the goal is not just “better on average,” but **more equitable connectivity**, it helps to treat network quality as a *distribution* across **homes and businesses**.
+
+At the smallest planning scale (townships/cities), you can compute a local metric (e.g., median latency to the nearest IXP, or expected hop-count to the nearest IXP) and then evaluate how unevenly that metric is distributed across places.
+
+- **Gini coefficient (inequality):** A compact way to summarize whether a small set of townships/cities carry most of the “distance-to-IXP burden.”
+- **Weights (representation):** Weight township/city metrics by the number of homes + businesses so the results reflect people and commerce—not just where measurement points happen to exist.
+
+---
+
 ## 🧩 Summary
 
 **Network quality is spatially dependent.** Reducing degrees of separation between local nodes and IXPs improves:
@@ -67,3 +84,10 @@ Urban cores may be 2–3 hops from an IXP; rural areas may be 5–7 hops away.
 - Equity
 
 This concept is essential for **resilient digital infrastructure**, especially in education, public safety, and community broadband planning.
+
+---
+
+## Series navigation
+
+- Part 1 (this post): Degrees of separation as a spatial concept
+- Part 2: [From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms]({% post_url 2026-01-09-from-theory-to-practice-bridging-gaps-between-ixps-and-algorithms %})
