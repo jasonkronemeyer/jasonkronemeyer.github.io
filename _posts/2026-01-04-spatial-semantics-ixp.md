@@ -10,8 +10,6 @@ series_part: 1
 status: series
 ---
 
-# 🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs
-
 This is Part 1 of a short series on **Internet Exchange Points (IXPs)** and why being “closer” to an IXP—measured in **degrees of separation** (hops)—is often a practical proxy for network quality.
 
 If you’ve heard “Six Degrees to Kevin Bacon,” this is the same idea applied to networks: instead of asking how many co‑star links connect an actor to Kevin Bacon, we ask how many network hops connect a home/business (via its local infrastructure) to the nearest IXP. That “IXP number” can be defined in multiple ways (logical, physical, weighted), but the intuition is the same: fewer steps usually means easier, higher quality access.
@@ -22,12 +20,13 @@ In network infrastructure, **degrees of separation** refer to the number of inte
 
 ## 🧭 Spatial Layers in the Network Path
 
-| **Layer**                     | **Example**                        | **Role in Separation**              |
-|------------------------------|------------------------------------|-------------------------------------|
-| Secondary Distribution Node  | School switch, fiber cabinet       | Local access point                  |
-| Aggregation Node             | Township or county hub             | First level of traffic consolidation |
-| Regional Core                | Metro ring, state data center      | High-capacity routing and peering  |
-| Internet Exchange Point (IXP)| Equinix, DE-CIX, Chicago IXP       | Global peering and transit gateway |
+| **Layer**                     | **Example**                                    | **Role in Separation**                                                                 |
+|------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------|
+| Premises / Endpoint          | Home router, small business gateway, school LAN | Where demand originates; separation is measured *from here outward*                    |
+| Local Access / Distribution  | Neighborhood cabinet, OLT, school switch        | First shared infrastructure; often the first “step up” from a single site              |
+| Aggregation Node             | Township/city hub, county POP                    | Consolidates multiple access domains; a common place where paths become constrained     |
+| Regional Core                | Metro ring, regional datacenter/router           | High-capacity routing across a region; where multiple aggregation paths interconnect    |
+| Internet Exchange Point (IXP)| Equinix, DE-CIX, local/state IXP                 | Peering fabric for exchanging traffic; typically the boundary between access and global |
 
 Each layer introduces a **spatial and logical hop**. Fewer hops = better performance.
 
@@ -82,6 +81,8 @@ Urban cores may be 2–3 hops from an IXP; rural areas may be 5–7 hops away.
 
 If the goal is not just “better on average,” but **more equitable connectivity**, it helps to treat network quality as a *distribution* across **homes and businesses**.
 
+Credit: I learned the Gini coefficient framing and the Hájek estimator approach for weighted estimation from **Dr. Stilian Stoev (University of Michigan Statistics Department)**.
+
 At the smallest planning scale (townships/cities), you can compute a local metric (e.g., median latency to the nearest IXP, or expected hop-count to the nearest IXP) and then evaluate how unevenly that metric is distributed across places.
 
 - **Gini coefficient (inequality):** A compact way to summarize whether a small set of townships/cities carry most of the “distance-to-IXP burden.”
@@ -109,3 +110,4 @@ This concept is essential for **resilient digital infrastructure**, especially i
 ### Related reading
 
 - Bayesian decision layer: [Finding the Digital Divide with Bayesian Networks]({% post_url 2025-04-30-finding-digital-divide %})
+

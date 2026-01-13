@@ -77,6 +77,8 @@ If **homes and businesses** are the unit of analysis and **townships/cities** ar
 
 If your unit of analysis is **homes and businesses**, and **townships/cities** are your smallest planning regions, you can use the algorithms above to compute one or more separation metrics per place, then quantify how unevenly those outcomes are distributed.
 
+Credit: I learned the Gini coefficient framing and the Hájek estimator approach for weighted estimation from **Dr. Stilian Stoev (University of Michigan Statistics Department)**.
+
 - **Gini coefficient:** Summarizes inequality across townships/cities—useful when the average improves but the worst-off places barely move.
 - **Hájek estimator (weighted estimation):** Real-world measurements are often uneven (more probes/tests in urban areas). A Hájek-style weighted estimate helps translate sampled measurements into population-relevant estimates by weighting townships/cities by **homes + businesses** (or another exposure proxy) so results reflect lived experience, not measurement density.
 
