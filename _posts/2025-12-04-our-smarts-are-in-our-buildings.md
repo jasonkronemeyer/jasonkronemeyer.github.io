@@ -5,7 +5,7 @@ date: 2025-12-04
 author: "Jason Kronemeyer"
 categories: [policy, workforce, clean-energy]
 tags: [smart-buildings, workforce-development, clean-energy, IoT, data-science]
-status: brief
+status: "brief"
 excerpt: "How smart building technologies and data science intersect with clean energy workforce development — policy recommendations and community actions."
 ---
 
