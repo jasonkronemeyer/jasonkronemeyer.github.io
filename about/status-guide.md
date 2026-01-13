@@ -57,11 +57,11 @@ As part of my commitment to **Learning in Public**, I mark each post with a stat
 ### 📄 Brief
 <span style="background-color: #9c27b0; color: #fff; padding: 4px 12px; border-radius: 3px; font-size: 0.9em; font-weight: 500;">📄 BRIEF</span>
 
-**What it means:** A short-form article based on a single reference, source, or focused idea.
+**What it means:** A short-form post focused on a single topic or focused idea.
 
-**What to expect:** Concise analysis or synthesis of one key source. These posts go deep on a narrow topic rather than attempting comprehensive coverage.
+**What to expect:** Concise analysis or synthesis centered on one core point (sometimes anchored in a key source, sometimes a practical observation). These posts go deep on a narrow topic rather than attempting comprehensive coverage.
 
-**Why I write briefs:** Not every insight requires a long-form article. Briefs let me quickly share important references, respond to single papers or reports, or highlight specific data points that deserve attention.
+**Why I write briefs:** Not every insight requires a long-form article. Briefs let me quickly share a focused idea, highlight a useful reference, or capture a practical takeaway without turning it into a full essay.
 
 ---
 
