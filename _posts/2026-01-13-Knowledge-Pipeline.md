@@ -2,9 +2,9 @@
 title: "From Digital Literacy to AI Fluency: Building Smarter Apps with Knowledge Graphs"
 date: 2026-01-12
 author: "Jason Kronemeyer"
+status: draft
 tags: ["Digital Literacy", "AI Skills", "GraphRAG", "Knowledge Graphs", "Streamlit", "MLOps"]
 description: "Explore how building a Streamlit chatbot with knowledge graphs can advance digital literacy and workforce skills."
-status: "draft"
 ---
 
 ## **From Digital Literacy to AI Fluency: Building Smarter Apps with Knowledge Graphs**
