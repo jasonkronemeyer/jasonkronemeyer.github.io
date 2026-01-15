@@ -2,6 +2,7 @@
 title: "The Architect in the Machine: Why Information Science is the Missing Link in Digital Transformation"
 date: 2026-01-15
 author: "Jason Kronemeyer"
+status: draft
 tags: ["Information Science", "Data Science", "Digital Equity", "Knowledge Graphs", "Librarian"]
 description: "An exploration of why Information Science professionals are essential partners in digital transformation, bridging the gap between raw data and human wisdom."
 ---
@@ -10,7 +11,7 @@ description: "An exploration of why Information Science professionals are essent
 
 **By Jason Kronemeyer**
 
-In my work at the intersection of information and technology—from building broadband infrastructure in the Upper Peninsula to designing knowledge graphs for educational AI—I often return to a simple mantra: *LearnIT | BuildIT | TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a new challenge: **curation**.
+In my work at the intersection of information and technology—from planning broadband infrastructure in the Upper Peninsula to designing knowledge graphs for educational AI—I often return to a simple mantra: *LearnIT | BuildIT | TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a new challenge: **curation**.
 
 We are drowning in data but starving for wisdom. This is where the modern librarian, specifically one with a background in Information Science, becomes not just a nice-to-have, but a mission-critical partner in the work of digital transformation.
 
