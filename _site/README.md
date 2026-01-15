@@ -36,7 +36,7 @@ To provide transparency about where content sits in my knowledge development pro
 - ✨ **Updated** - Previously published content revised with new insights
 
 **Content Types:**
-- 📄 **Brief** - Short-form analysis based on a single reference or focused idea
+- 📄 **Brief** - Short-form post focused on a single topic or focused idea
 - 📚 **Series** - Part of a connected set of posts on related topics
 - 🛠️ **Tutorial** - Step-by-step hands-on instructional guide
 - 📊 **Analysis** - Deep research and data exploration
