@@ -26,7 +26,7 @@ The work hasn't changed - we're still trying to connect people to the informatio
 
 ## The Problem We Keep Ignoring
 
-Imagine this scenario: You're working on broadband planning in Michigan's Eastern Upper Peninsula, sitting in a room with local and state officials, ISPs, and federal grant administrators trying to determine which tribal lands qualify as "unserved." You have the data. You have the maps. You have brilliant engineers. But you can't answer a seemingly simple question: *"Why do we have three different definitions of 'household' across these datasets, and which one should we actually use?"*
+Imagine this scenario: You're working on broadband infrastructure planning in Michigan's Eastern Upper Peninsula, sitting in a room with local and state officials, ISPs, and federal grant administrators trying to determine which locations qualify as "unserved." You have the data. You have the maps. You have brilliant engineers. But you can't answer a seemingly simple question: *"Why do we have three different definitions of 'household' across these datasets, and which one should we actually use?"*
 
 The FCC data says one thing. The NTIA says another. The census says another. The housing authority has a third definition that reflects the actual lived reality of multi-generational homes in the community. The data engineer points to the API documentation. The GIS specialist shrugs. The program manager says "let's just go with the federal standard."
 
@@ -36,7 +36,7 @@ That conversation would change everything. You wouldn't just be merging datasets
 
 This hypothetical captures the crisis hiding in plain sight across every digital transformation initiative I've worked on: we are drowning in data but starving for wisdom.
 
-In my work at the intersection of information and technology - from planning broadband infrastructure in rural Michigan to designing knowledge graphs for educational AI literacy and skills - I often return to a simple mantra: *LearnIT \| BuildIT \| TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a challenge that code alone cannot solve: **curation**.
+In my work at the intersection of information and technology - from planning smart community infrastructure in rural Michigan to designing knowledge graphs for digital literacy and skills - I often return to a simple mantra: *LearnIT \| BuildIT \| TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a challenge that code alone cannot solve: **curation**.
 
 This is where the modern librarian - the information scientist - becomes not just helpful, but **mission-critical**. Not as a support role. Not as a documentarian. But as the architect who ensures our digital systems serve human understanding.
 
@@ -46,7 +46,7 @@ My current focus on **Knowledge Graphs and AI** has reinforced a truth that libr
 An information scientist brings the rigor of **metadata management** and **classification theory** to our chaotic data pipelines. They don't just store data; they structure it. When we build systems to personalize learning for students, we need more than just raw code - we need a schema that understands the relationships between concepts. We need the "card catalog" of the 21st century, ensuring that the *right* information gets to the *right* learner at the *right* time.
 
 ### 2. The Ethics of "Learning in Public"
-I treat my work as a practice of "learning in public," using a status system to move ideas from *Research* to *Review* to *Published*. But in an era of misinformation and algorithmic bias, this transparency comes with a heavy responsibility.
+I treat my work as a practice of "learning in public," using a status system to move ideas from *Research* to *Draft* to *Review* to *Published* (which is an experiment in itself). But in an era of misinformation and algorithmic bias, this transparency comes with a heavy responsibility.
 
 Librarians are the original guardians of **information integrity**. In my work with the **Digital Equity Learning Project**, the stakes are high. If the data guiding our broadband policy is biased or unverifiable, real communities get left behind. An information science professional serves as the ethical check on our technical ambition, ensuring our sources are cited, our data is traceable, and our algorithms respect user privacy. They transform "open source" from a code repository into a trustworthy archive of public knowledge.
 
