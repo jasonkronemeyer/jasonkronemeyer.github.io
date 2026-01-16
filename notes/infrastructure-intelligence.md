@@ -14,7 +14,7 @@ tags:
 confidence: medium
 ---
 
-## Intelligent Infrastructure: The Convergence of Power, Data, and Purpose
+## Intelligent Infrastructure
 
 Intelligent infrastructure isn't about having the fanciest technology. It's about creating systems that can see, adapt, and serve the people who depend on them.
 
@@ -28,7 +28,7 @@ Single Pair Ethernet isn't just another cabling standard. It's recognition that 
 
 Think about what this means: a heat pump that doesn't just heat or cool, but learns occupancy patterns and personalizes comfort while cutting energy consumption. A hospital where AI analyzes room acoustics, lighting preferences, and pain management patterns to create healing environments tailored to each patient. A smart building that moves from reactive maintenance to predictive—knowing which equipment will fail before it does.
 
-That's not fantasy. That's the near future.
+That's not fantasy. That's here now.
 
 ## Power and Data: A Unified System
 
@@ -52,7 +52,7 @@ These aren't minor details. They're about accountability. When we're designing i
 
 No single connectivity technology solves every problem. Wired, wireless, and cellular each have strengths. Wired infrastructure is reliable and power-efficient. Wireless provides mobility and rapid deployment. Cellular offers coverage across distance. The future doesn't belong to any single mode—it belongs to systems that intelligently weave them together, choosing the right technology for each use case, each device, each moment.
 
-Outside plant design is evolving too. Fiber-to-the-x topologies, air blown cable installation reducing deployment time and preserving duct space, composite cabling supporting both power and data—these are the tools that make reaching the edge economically feasible.
+Inside and Outside plant design is evolving. Passive Optical Fiber-to-the-x topologies, air blown cable installation reducing deployment time and preserving duct space, hybrid / composite cabling supporting both power and data—these are the tools that make reaching the edge economically feasible.
 
 ## The Real Opportunity
 
