@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: "The Architect in the Machine: Why Every Digital Transformation Needs a Librarian"
+=======
+title: "The Architect in the Machine - Why Information Science is the Missing Link in Digital Transformation"
+>>>>>>> dcfce391570a6090764e952436a80bca9debab38
 date: 2026-01-15
 author: "Jason Kronemeyer"
 status: draft
