@@ -10,22 +10,6 @@ description: "In an age of data pipelines and AI models, the most critical missi
 
 Successful data projects have one thing in common: they have someone who understands that technology is only as valuable as the information it serves. That person is rarely a data engineer or AI researcher - it's the librarian, the information scientist whose profession has spent decades mastering how to make information findable, trustworthy, and useful. Yet most digital transformation initiatives never bring them to the table. We hire for technical expertise while ignoring the one professional trained to turn information chaos into human understanding. Libarians are the real *Knowlege Modelers*.
 
-## The Problem We Keep Ignoring
-
-Imagine this scenario: You're working on broadband planning in Michigan's Upper Peninsula, sitting in a room with state officials, ISPs, and federal grant administrators trying to determine which tribal lands qualify as "unserved." You have the data. You have the maps. You have brilliant engineers. But you can't answer a seemingly simple question: *"Why do we have three different definitions of 'household' across these datasets, and which one should we actually use?"*
-
-The FCC data says one thing. The NTIA says another. The census says another. The housing authority has a third definition that reflects the actual lived reality of multi-generational homes in the community. The data engineer points to the API documentation. The GIS specialist shrugs. The program manager says "let's just go with the federal standard."
-
-But imagine if a librarian - someone embedded in the community - was at that table. They would ask the questions that matter: *What did each agency mean by 'household' when they collected this data? Which definition aligns with our equity goals? What cultural assumptions are baked into each measurement? Which data actually reflects how people live here?*
-
-That conversation would change everything. You wouldn't just be merging datasets - you'd be reconciling fundamentally different ways of understanding community. The librarian wouldn't just help you pick a field; they'd help you understand what you're actually trying to measure and why it matters.
-
-This hypothetical captures the crisis hiding in plain sight across every digital transformation initiative I've worked on: we are drowning in data but starving for wisdom.
-
-In my work at the intersection of information and technology - from planning broadband infrastructure in rural Michigan to designing knowledge graphs for educational AI - I often return to a simple mantra: *LearnIT \| BuildIT \| TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a challenge that code alone cannot solve: **curation**.
-
-This is where the modern librarian - the information scientist - becomes not just helpful, but **mission-critical**. Not as a support role. Not as a documentarian. But as the architect who ensures our digital systems serve human understanding.
-
 ## The Librarians Who Taught Me to See Differently
 
 I learned this lesson early. In the late 1990s, fresh out of the Air Force, I took a job as a PC tech working across several school districts in the Eastern Upper Peninsula of Michigan. I thought my job was simple: fix computers, install software, keep the network running. I was a technician focused on the machinery.
@@ -39,6 +23,22 @@ Over the next few years, I watched librarians across multiple districts evolve f
 Those librarians became some of my most important mentors, shaping how I approach information technology and data science today. They taught me that before you build a system, you need to understand what information it should serve and why. That lesson has followed me from school networks to rural broadband planning to AI-powered knowledge graphs.
 
 The work hasn't changed - we're still trying to connect people to the information they need. But somewhere along the way, we forgot to bring the librarians with us.
+
+## The Problem We Keep Ignoring
+
+Imagine this scenario: You're working on broadband planning in Michigan's Eastern Upper Peninsula, sitting in a room with local and state officials, ISPs, and federal grant administrators trying to determine which tribal lands qualify as "unserved." You have the data. You have the maps. You have brilliant engineers. But you can't answer a seemingly simple question: *"Why do we have three different definitions of 'household' across these datasets, and which one should we actually use?"*
+
+The FCC data says one thing. The NTIA says another. The census says another. The housing authority has a third definition that reflects the actual lived reality of multi-generational homes in the community. The data engineer points to the API documentation. The GIS specialist shrugs. The program manager says "let's just go with the federal standard."
+
+But imagine if a librarian - someone embedded in the community - was at that table. They would ask the questions that matter: *What did each agency mean by 'household' when they collected this data? Which definition aligns with our equity goals? What cultural assumptions are baked into each measurement? Which data actually reflects how people live here?*
+
+That conversation would change everything. You wouldn't just be merging datasets - you'd be reconciling fundamentally different ways of understanding community. The librarian wouldn't just help you pick a field; they'd help you understand what you're actually trying to measure and why it matters.
+
+This hypothetical captures the crisis hiding in plain sight across every digital transformation initiative I've worked on: we are drowning in data but starving for wisdom.
+
+In my work at the intersection of information and technology - from planning broadband infrastructure in rural Michigan to designing knowledge graphs for educational AI literacy and skills - I often return to a simple mantra: *LearnIT \| BuildIT \| TeachIT*. We are very good at the "building" part. We can lay fiber, spin up servers, and train models. But as our "digital laboratories" grow more complex, we face a challenge that code alone cannot solve: **curation**.
+
+This is where the modern librarian - the information scientist - becomes not just helpful, but **mission-critical**. Not as a support role. Not as a documentarian. But as the architect who ensures our digital systems serve human understanding.
 
 ### 1. From Data Lakes to Knowledge Graphs
 My current focus on **Knowledge Graphs and AI** has reinforced a truth that library scientists have known for decades: *context is everything*. You can feed a Large Language Model a terabyte of text, but without ontology, taxonomy, and semantic structure, you are merely building a stochastic parrot.
