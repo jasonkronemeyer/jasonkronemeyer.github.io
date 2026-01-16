@@ -14,7 +14,7 @@ tags:
 confidence: medium
 ---
 
-## Intelligent Infrastructure: The Convergence of Power, Data, and Purpose"
+## Intelligent Infrastructure: The Convergence of Power, Data, and Purpose
 
 Intelligent infrastructure isn't about having the fanciest technology. It's about creating systems that can see, adapt, and serve the people who depend on them.
 
