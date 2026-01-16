@@ -3,7 +3,7 @@ layout: post
 title: "The Architect in the Machine: Why Every Digital Transformation Needs a Librarian"
 date: 2026-01-15
 author: "Jason Kronemeyer"
-status: draft
+status: review
 tags: ["Information Science", "Data Science", "Digital Equity", "Knowledge Graphs", "Librarian"]
 description: "In an age of data pipelines and AI models, the most critical missing role isn't another engineer - it's the librarian who can turn information chaos into human understanding."
 ---
