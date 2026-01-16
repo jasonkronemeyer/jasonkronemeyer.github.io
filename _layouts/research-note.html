@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<article class="research-note">
+  <header class="research-note__header">
+    {% if page.status == "research" %}
+    <div class="status-banner" style="background-color: #fff4e6; border: 2px solid #ff9800; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>🔍 RESEARCH:</strong> Actively gathering sources and exploring ideas.
+    </div>
+    {% elsif page.status == "draft" %}
+    <div class="status-banner" style="background-color: #fff3cd; border: 2px solid #ffc107; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📝 DRAFT:</strong> Work in progress. Content may change.
+    </div>
+    {% elsif page.status == "review" %}
+    <div class="status-banner" style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📋 IN REVIEW:</strong> Draft complete, refining for publication.
+    </div>
+    {% endif %}
+
+    <h1 class="research-note__title">{{ page.title }}</h1>
+
+    {% if page.description %}
+    <p class="research-note__description">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="research-note__meta">
+      {% if page.date %}
+      <p>
+        <strong>Created:</strong>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </p>
+      {% endif %}
+
+      {% if page.last_updated %}
+      <p>
+        <strong>Updated:</strong>
+        <time datetime="{{ page.last_updated | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
+      </p>
+      {% endif %}
+
+      {% if page.tags and page.tags.size > 0 %}
+      <p>
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </p>
+      {% endif %}
+
+      {% if page.confidence %}
+      <p><strong>Confidence:</strong> {{ page.confidence }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.research_questions %}
+  <section class="research-note__questions">
+    <h2>Research Questions</h2>
+    <ul>
+      {% for item in page.research_questions %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.hypotheses %}
+  <section class="research-note__hypotheses">
+    <h2>Working Hypotheses</h2>
+    <ul>
+      {% for item in page.hypotheses %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <div class="research-note__content">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+  <section class="research-note__sources">
+    <h2>Sources</h2>
+    <ul>
+      {% for item in page.sources %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.next_steps %}
+  <section class="research-note__next-steps">
+    <h2>Next Steps</h2>
+    <ul>
+      {% for item in page.next_steps %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>

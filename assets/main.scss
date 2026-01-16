@@ -224,6 +224,75 @@ body {
   overflow-x: auto;
 }
 
+/* Research note layout */
+.research-note {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.research-note__header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.research-note__title {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.research-note__description {
+  color: #555;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.research-note__meta {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.research-note__meta p {
+  margin: 0.35rem 0;
+}
+
+.research-note__content {
+  line-height: 1.7;
+}
+
+.research-note__content h2,
+.research-note__content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.research-note__questions,
+.research-note__hypotheses,
+.research-note__sources,
+.research-note__next-steps {
+  background: #f8f9fa;
+  border-left: 4px solid #007acc;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.research-note__questions h2,
+.research-note__hypotheses h2,
+.research-note__sources h2,
+.research-note__next-steps h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.research-note__questions ul,
+.research-note__hypotheses ul,
+.research-note__sources ul,
+.research-note__next-steps ul {
+  margin-bottom: 0;
+}
+
 /* Custom callout boxes */
 .callout {
   padding: 1rem;
