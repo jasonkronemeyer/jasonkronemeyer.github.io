@@ -8,6 +8,8 @@ tags: ["Information Science", "Data Science", "Digital Equity", "Knowledge Graph
 description: "In an age of data pipelines and AI models, the most critical missing role isn't another engineer - it's the librarian who can turn information chaos into human understanding."
 ---
 
+Successful data projects have one thing in common: they have someone who understands that technology is only as valuable as the information it serves. That person is rarely a data engineer or AI researcher - it's the librarian, the information scientist whose profession has spent decades mastering how to make information findable, trustworthy, and useful. Yet most digital transformation initiatives never bring them to the table. We hire for technical expertise while ignoring the one professional trained to turn information chaos into human understanding. Libarians are the real *Knowlege Modelers*.
+
 ## The Problem We Keep Ignoring
 
 Imagine this scenario: You're working on broadband planning in Michigan's Upper Peninsula, sitting in a room with state officials, ISPs, and federal grant administrators trying to determine which tribal lands qualify as "unserved." You have the data. You have the maps. You have brilliant engineers. But you can't answer a seemingly simple question: *"Why do we have three different definitions of 'household' across these datasets, and which one should we actually use?"*
