@@ -14,6 +14,8 @@ tags:
 confidence: medium
 ---
 
+## Intelligent Infrastructure: The Convergence of Power, Data, and Purpose"
+
 Intelligent infrastructure isn't about having the fanciest technology. It's about creating systems that can see, adapt, and serve the people who depend on them.
 
 For a century, we built infrastructure with one principle: separate the utilities. Electrical power flows through one set of conduits. Telecommunications flows through another. Different disciplines. Different code books. Different design practices. But that era is ending.
