@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Architect in the Machine: Why Information Science is the Missing Link in Digital Transformation"
+title: "The Architect in the Machine - Why Information Science is the Missing Link in Digital Transformation"
 date: 2026-01-15
 author: "Jason Kronemeyer"
 status: draft
