@@ -15,7 +15,7 @@ Introducing the Digital Opportunities Intelligence Network - Powered by Project 
 It consists of three integrated layers:
 
 #### **1. The Compass (The Map)**
-*   **Foundation:** Built on the rigorous academic framework (Bauer et al., TPRC 2023) that defines digital opportunity across six dimensions: *Contexts, Governance, Connectivity, Skills, Applications, and Outcomes*.
+*   **Foundation:** Built on the rigorous academic framework (Bauer et al., 2023: [A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy](https://ssrn.com/abstract=4557340)) that defines digital opportunity across six dimensions: *Contexts, Governance, Connectivity, Skills, Applications, and Outcomes*.
 *   **Purpose:** It ensures we aren't just measuring "access" (wires in the ground) but the actual human impact and opportunity resulting from that access.
 
 #### **2. The Network (The Structure)**
@@ -35,3 +35,9 @@ It consists of three integrated layers:
 
 **In Summary:**
 While traditional broadband maps tell you **where** the internet is, **DOIN** tells you **how** to maximize the opportunity it creates. It is the navigation system for the Digital Opportunity Compass. 
+
+---
+
+### References
+
+- Bauer, Johannes M.; Dagg, Pierrette Renée; Rhinesmith, Colin; Byrum, Greta; Schill, Aaron. (2023). *A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband and Digital Equity Policy*. SSRN. https://ssrn.com/abstract=4557340
