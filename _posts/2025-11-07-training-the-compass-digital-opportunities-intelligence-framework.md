@@ -6,7 +6,7 @@ status: research
   
 
   
-Introducing the Digital Opportunities Intelligence Network - Powered by Project Compass. This framework is envisioned to enhance decision-making capabilities by leveraging data-driven insights. We'll explore the objectives, methodologies, and outcomes of this training initiative, to empower individuals and organizations to seize digital opportunities effectively.
+Introducing the Digital Opportunities Intelligence Network — powered by Project Compass (Merit Network). This working draft framework is envisioned to enhance decision-making capabilities by leveraging data-driven insights. We'll explore the objectives, methodologies, and outcomes of this training initiative, to empower individuals and organizations to seize digital opportunities effectively.
 
 ### **Digital Opportunities Intelligence Network (DOIN): The "Policy Learning Machine"**
 

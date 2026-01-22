@@ -660,4 +660,4 @@ def allocate_equity(counties, budget):
 
 **Version:** 1.0  
 **Last Updated:** November 2025  
-**Part of:** Project Compass - Digital Opportunities Intelligence Network (DOIN)
+**Part of:** Project Compass (Merit Network) - Digital Opportunities Intelligence Network (DOIN) • Working draft

@@ -1,4 +1,5 @@
 # Project Compass: Digital Opportunities Intelligence Network (DOIN)
+**Status:** Working draft for Project Compass (Merit Network)
 ## Complete Framework Overview
 
 **Start here.** This document provides a comprehensive overview of the theoretical, empirical, and methodological foundations of the **Digital Opportunities Intelligence Network (DOIN)** - the core framework of **Project Compass**.
@@ -685,5 +686,5 @@ This is research-to-practice integration at its finest.
 
 **Version:** 1.0  
 **Last Updated:** November 2025  
-**Part of:** Project Compass - Digital Opportunities Intelligence Network (DOIN)  
+**Part of:** Project Compass (Merit Network) - Digital Opportunities Intelligence Network (DOIN) • Working draft
 **Author:** Based on framework developed through Michigan digital equity research ecosystem

@@ -99,7 +99,7 @@ The **Policy Learning Approach** emphasizes **continuous, evidence-based adaptat
 - **Skills Development:** Iteratively improving training programs based on learner outcomes.
 
 ## Connection to Digital Opportunities Intelligence Network (DOIN)
-This report serves as a foundational pillar for **Project Compass** and the **Digital Opportunities Intelligence Network (DOIN)**. 
+This report serves as a foundational pillar for **Project Compass (Merit Network)** and the **Digital Opportunities Intelligence Network (DOIN)**. 
 
 - **The "Compass":** The *Digital Opportunities Compass* described in this report provides the structured dimensions (Contexts, Governance, Connectivity, Skills, Applications, Outcomes) that DOIN uses to measure and categorize digital opportunity.
 - **The "Intelligence":** DOIN extends this framework by applying **Bayesian networks** and **GraphRAG** to operationalize the "Policy Learning Approach." It incorporates algorithms such as **Gini coefficients** to quantify digital inequality and **Hajek estimators** to derive accurate population estimates from survey data. These rigorous metrics feed into the Bayesian models, turning theoretical feedback loops into active, predictive intelligence systems.

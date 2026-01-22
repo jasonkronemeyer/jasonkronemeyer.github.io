@@ -322,4 +322,4 @@ And because you participated in the K-12 Citizen Science project: **It's not jus
 
 **Version:** 1.0  
 **Last Updated:** November 2025  
-**Part of:** Project Compass - Digital Opportunities Intelligence Network (DOIN)
+**Part of:** Project Compass (Merit Network) - Digital Opportunities Intelligence Network (DOIN) • Working draft

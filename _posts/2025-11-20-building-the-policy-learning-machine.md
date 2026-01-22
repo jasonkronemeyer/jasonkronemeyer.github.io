@@ -8,7 +8,9 @@ status: draft
 
 # Introduction to Project Compass
 
-Project Compass is a practical, place‑centered decision engine — a "Digital Opportunities Intelligence Network" that blends on‑the‑ground practitioner insight with rigorous statistical learning. It’s both a map and a laboratory: the Compass surfaces local strengths, capacity, and lived realities (not just infrastructure metrics), while the Policy Learning Machine uses causal reasoning, knowledge graphs, and comparative evidence to continuously evaluate which interventions actually move the needle toward digital equity. The result will be a tool designed for local planners, navigators, and policymakers to craft context‑aware strategies, measure impact, and iterate toward durable, equitable outcomes.
+Project Compass (Merit Network) is envisioned as a practical, place‑centered decision engine — a "Digital Opportunities Intelligence Network" that blends on‑the‑ground practitioner insight with rigorous statistical learning. It’s both a map and a laboratory: the Compass surfaces local strengths, capacity, and lived realities (not just infrastructure metrics), while the Policy Learning Machine uses causal reasoning, knowledge graphs, and comparative evidence to continuously evaluate which interventions actually move the needle toward digital equity. The result will be a tool designed for local planners, navigators, and policymakers to craft context‑aware strategies, measure impact, and iterate toward durable, equitable outcomes.
+
+This is a working draft of the concept and architecture.
 
 The Digital Opportunities Intelligence Network is not just a "database" or a "dashboard." It is a **Cyber-Physical System for Policy Intelligence**—a "Policy Learning Machine" that closes the loop between *intervention* (what we do) and *impact* (what actually happens).
 
@@ -16,13 +18,13 @@ This prototype builds on and was inspired by prior work that argues for an integ
 
 > "a dynamic broadband policy learning system can be developed." — Bauer et al. (2023), SSRN
 
-We are building the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
+We are working toward the Policy Learning Machine as a practical instantiation of this idea: a system that continuously uses data and causal reasoning to learn which local interventions shift outcomes, and to help planners prioritize investments in context.
 
 > "Local context, including infrastructure, socioeconomic factors, and community assets, significantly affects policy and program development." — Dagg et al. (2024), TPRC / SSRN
 
 That insight informs the Machine's data model: we explicitly encode local assets, capacity, and socio-economic context so recommendations are tailored to place rather than being one‑size‑fits‑all.
 
-Here is the architectural blueprint for the prototype we are building.
+Here is a working draft of the architectural blueprint for the prototype.
 
 ## 1. The Core Concept: The "Policy Learning Machine"
 
