@@ -10,8 +10,6 @@ image: /images/optical-class4-hospitality.svg
 excerpt: "Passive Optical LANs and Class‑4 (fault‑managed) powering are converging to make hotel networks more flexible, energy-efficient, and safer — here’s a short guide for hotel operators, planners, and community partners."
 ---
 
-![](/images/optical-class4-hospitality.svg)
-
 As hotels add more connected devices and in‑room services, property owners and operators are being pushed to rethink both networking and power delivery. Two complementary technologies are emerging as practical solutions: Passive Optical LAN (POLAN) and Class‑4 (fault‑managed) power systems.
 
 Why it matters

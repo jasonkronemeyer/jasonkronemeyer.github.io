@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms"
+title: "🌐 From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms"
 date: 2026-01-09
 author: "Jason Kronemeyer"
 tags: 

@@ -18,7 +18,7 @@ In network infrastructure, **degrees of separation** refer to the number of inte
 
 ---
 
-## 🧭 Spatial Layers in the Network Path
+## Spatial Layers in the Network Path
 
 | **Layer**                     | **Example**                                    | **Role in Separation**                                                                 |
 |------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------|
@@ -26,15 +26,15 @@ In network infrastructure, **degrees of separation** refer to the number of inte
 | Local Access / Distribution  | Neighborhood cabinet, OLT, school switch        | First shared infrastructure; often the first “step up” from a single site              |
 | Aggregation Node             | Township/city hub, county POP                    | Consolidates multiple access domains; a common place where paths become constrained     |
 | Regional Core                | Metro ring, regional datacenter/router           | High-capacity routing across a region; where multiple aggregation paths interconnect    |
-| Internet Exchange Point (IXP)| Equinix, DE-CIX, local/state IXP                 | Peering fabric for exchanging traffic; typically the boundary between access and global |
+| Internet Exchange Point (IXP)| Equinix, DE-CIX, regional/state IXP                 | Peering fabric for exchanging traffic; typically the boundary between access and global |
 
 Each layer introduces a **spatial and logical hop**. Fewer hops = better performance.
 
 ---
 
-## 📏 Three ways to measure “separation”
+## Three ways to measure “separation”
 
-In network analysis, “degrees of separation” is essentially **distance in a graph**—but in infrastructure work it helps to be explicit about *which* distance you mean. For IXP planning, there are three complementary definitions:
+In network analysis, “degrees of separation” is essentially **distance in a graph** —but in infrastructure work it helps to be explicit about *which* distance you mean. For IXP planning, there are three complementary definitions:
 
 - **Logical (routing) hops:** Router-level or AS-level hop count to an IXP. This captures policy/peering structure and upstream dependencies.
 - **Physical (infrastructure) hops:** Site/PoP/metro-layer transitions to an IXP. This captures where facilities and fiber aggregation actually occur.
@@ -44,7 +44,7 @@ You often want all three: if they disagree, that disagreement is usually diagnos
 
 ---
 
-## 📊 Why It Matters
+## Why It Matters
 
 - **Latency**: Each hop adds delay. More separation = higher latency.
 - **Resilience**: More hops = more potential points of failure.
@@ -53,7 +53,7 @@ You often want all three: if they disagree, that disagreement is usually diagnos
 
 ---
 
-## 🧠 Spatial Thinking in Practice
+## Spatial Thinking in Practice
 
 You can model this using:
 
@@ -67,7 +67,7 @@ This enables **semantic-aware planning**: prioritize upgrades where separation i
 
 ---
 
-## 🏫 Community Impact
+## Community Impact
 
 For smart schools, libraries, and public safety systems:
 - **Low separation** → faster cloud access, real-time video, emergency alerts
@@ -77,7 +77,7 @@ Urban cores may be 2–3 hops from an IXP; rural areas may be 5–7 hops away.
 
 ---
 
-## 📈 Measuring equity (homes + businesses)
+## Measuring equity (homes + businesses)
 
 If the goal is not just “better on average,” but **more equitable connectivity**, it helps to treat network quality as a *distribution* across **homes and businesses**.
 
@@ -90,7 +90,7 @@ At the smallest planning scale (townships/cities), you can compute a local metri
 
 ---
 
-## 🧩 Summary
+## Summary
 
 **Network quality is spatially dependent.** Reducing degrees of separation between local nodes and IXPs improves:
 - Speed
