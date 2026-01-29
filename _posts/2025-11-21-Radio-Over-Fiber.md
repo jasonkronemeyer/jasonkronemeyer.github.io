@@ -153,7 +153,7 @@ For deeper understanding of RoF and POLAN integration in public safety contexts,
 
 7. **Tellabs - Passive Optical LAN (POL) Technology**
    - Fiber-based networking architecture for enterprise and smart building deployments
-   - [https://www.tellabs.com/pol](https://www.tellabs.com/pol)
+   - https://www.tellabs.com/  <!-- POL page moved; linking to Tellabs homepage -->
 
 8. **SMART Building Certifications: A Technical and Programmatic Framework**
    - Related post exploring Passive Optical LAN in smart building contexts
