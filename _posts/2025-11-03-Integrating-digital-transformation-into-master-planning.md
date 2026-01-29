@@ -82,4 +82,4 @@ The key lies in maintaining focus on fundamental planning principles—creating 
 
 As we continue to navigate this digital transition, the most successful communities will be those that proactively integrate these considerations into their planning processes, creating frameworks that can evolve with technological change while maintaining their commitment to the people and places they serve.
 
-*Insights from: Michigan State University Extension. (2024). Citizen Planner: Session 5 - Using Innovative Planning and Zoning.*
+*This article inspired by my work in digital infrastructure planning and from: Michigan State University Extension. (2024). Citizen Planner: Session 5 - Using Innovative Planning and Zoning.*
