@@ -226,7 +226,7 @@ This combined technical, contractual, and operational strategy ensures SPIRE's h
 
 [^8]: National Fire Protection Association (NFPA). "National Electrical Code (NEC)." The benchmark for safe electrical design, installation, and inspection to protect people and property from electrical hazards. The 2026 edition introduces significant updates for low-energy and power-limited systems under Chapter 7. Learn more at: https://www.nfpa.org/nec
 
-[^9]: Tellabs and industry resources. "Passive Optical LAN (POL) Technology." Fiber-based networking architecture using passive optical splitters to replace traditional copper LANs, delivering significant energy savings, reduced infrastructure complexity, and enhanced security for enterprise and smart building deployments. Learn more at: https://www.tellabs.com/pol
+[^9]: Tellabs and industry resources. "Passive Optical LAN (POL) Technology." Fiber-based networking architecture using passive optical splitters to replace traditional copper LANs, delivering significant energy savings, reduced infrastructure complexity, and enhanced security for enterprise and smart building deployments. Learn more at: https://www.tellabs.com/  <!-- POL page moved; linking to Tellabs homepage -->
 
 [^10]: Institute of Electrical and Electronics Engineers (IEEE). "Standards and Resources for Electrical Engineering." Professional organization providing industry standards, technical publications, and resources for electrical, electronics, and computer engineering—including standards relevant to smart buildings, power systems, and communications. Learn more at: https://www.ieee.org
 
