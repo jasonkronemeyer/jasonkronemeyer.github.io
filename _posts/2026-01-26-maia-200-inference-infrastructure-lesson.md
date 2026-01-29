@@ -9,9 +9,15 @@ status: [draft, series]
 
 Microsoft’s announcement of **MAIA 200**, a new AI accelerator designed specifically for inference, may feel far removed from rural broadband builds, electric co‑ops, or regional data center planning. But the story it tells is a familiar one to anyone who has spent time working on technology outside major metro markets.
 
-{% include callout.html type="info" title="What is inference?" content="Inference is the part of AI where the model actually does something for you. It’s the moment when an already‑trained model takes an input—your question, your photo, your document—and produces an output. If training is teaching the model how to think, inference is the model thinking in real time. A simple way to put it: Training = learning. Inference = using what was learned." %}
+{% include callout.html type="info" title="What is inference?" content="Inference is the part of AI where the model actually does something for you. It’s the moment when an already‑trained model takes an input—your question, your photo, your document—and produces an output. **If training is teaching the model how to think, inference is the model thinking in real time.** 
 
-See my post [The First 5 Things to Teach a Computer]({% post_url 2024-08-30-first-5-things-to-teach-computer %}).
+A simple way to put it: 
+
+**Training = learning**. 
+
+**Inference = using what was learned.**" %}
+
+> See my post [The First 5 Things to Teach a Computer]({% post_url  2024-08-30-first-5-things-to-teach-computer %}).
 
 In **smart buildings**, inference increasingly happens at the edge. HVAC controls, lighting, access, safety systems, and occupancy sensors need decisions in milliseconds and can’t rely on a round‑trip to the cloud. Edge inference keeps critical systems responsive during network outages, reduces bandwidth costs by processing high‑volume sensor streams locally, and improves privacy by keeping sensitive data on‑prem. It also enables real‑time energy optimization and predictive maintenance—turning buildings into adaptive systems rather than static infrastructure.
 
@@ -25,7 +31,7 @@ The same pattern played out with **cloud computing**. Early conversations focuse
 
 ---
 
-## Call‑Out: Why Internet Exchange Points Matter for AI Inference
+## Why Internet Exchange Points Matter for AI Inference
 
 As AI moves into everyday services—education platforms, healthcare tools, workforce systems—the **network path** becomes just as important as the compute running the model.
 
@@ -33,13 +39,13 @@ This is where **Internet Exchange Points (IXPs)** quietly become part of the AI 
 
 AI inference traffic is interactive, repetitive, and latency‑sensitive. Every prompt and response depends on fast, predictable back‑and‑forth communication between users and inference systems. IXPs improve this experience by allowing networks to interconnect directly and **keep traffic local longer**, instead of hauling it through distant metro hubs via paid transit.
 
-For rural and regional networks, IXPs:
+For rural, regional networks, IXPs:
 - Reduce latency and jitter for AI‑powered applications  
 - Lower transport and transit costs as inference traffic grows  
 - Improve resilience by enabling multiple local paths  
 - Support future regional AI caching and inference layers  
 
-{% include callout.html type="info" title="Connected Nation Internet Exchange Points (IXP.US)" content="Future Internet performance is at risk without a local IXP. As the Internet continues to evolve, reducing latency will be incredibly important. Autonomous vehicles, drones, artificial intelligence, video streaming, virtual reality, and precision agriculture will require ultra‑low‑latency connections—latency values that aren’t achievable in regions without an IXP. [1]" %}
+{% include callout.html type="info" title="According to Connected Nation Internet Exchange Points (IXP.US)" content="*Future Internet performance is at risk without a local IXP. As the Internet continues to evolve, reducing latency will be incredibly important. Autonomous vehicles, drones, artificial intelligence, video streaming, virtual reality, and precision agriculture will require ultra‑low‑latency connections—latency values that aren’t achievable in regions without an IXP.* [1]" %}
 
 Just as fiber made last‑mile broadband viable and cloud platforms reduced operational overhead, IXPs help AI behave less like a novelty service and more like **reliable infrastructure**. Communities with strong middle‑mile connectivity and accessible exchange points are better positioned to benefit from inference‑optimized platforms like MAIA 200—even when the AI compute itself lives in a distant Azure region.
 

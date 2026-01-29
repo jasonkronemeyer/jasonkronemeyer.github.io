@@ -1,0 +1,48 @@
+name: Jekyll Site CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.2
+        cache: bundler
+
+    - name: Install system deps (Chromium for Puppeteer)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
+
+    - name: Install dependencies
+      run: bundle install --jobs 4 --retry 3
+
+    - name: Build site
+      env:
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+        PUPPETEER_ARGS: '--no-sandbox --disable-setuid-sandbox'
+      run: bundle exec jekyll build --trace
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site
+        path: _site
+
+    - name: Run HTML Proofer (optional)
+      if: success()
+      run: |
+        gem install html-proofer
+        htmlproofer _site --check-external-hash --allow-hash-href
