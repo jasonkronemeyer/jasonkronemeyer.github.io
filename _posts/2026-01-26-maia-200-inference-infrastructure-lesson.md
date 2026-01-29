@@ -4,7 +4,7 @@ title: "MAIA 200 and the Infrastructure Lesson Rural Technology Keeps Teaching U
 date: 2026-01-26
 categories: [AI, Infrastructure, Rural Technology, Community Networks]
 tags: [AI inference, Azure, MAIA, fiber, middle mile, IXPs, power systems, rural tech]
-status: draft
+status: [draft, series]
 ---
 
 Microsoft’s announcement of **MAIA 200**, a new AI accelerator designed specifically for inference, may feel far removed from rural broadband builds, electric co‑ops, or regional data center planning. But the story it tells is a familiar one to anyone who has spent time working on technology outside major metro markets.
