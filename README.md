@@ -109,6 +109,12 @@ If you use `jekyll-diagrams` (Mermaid) the plugin requires Puppeteer/Chromium to
   export PUPPETEER_ARGS='--no-sandbox --disable-setuid-sandbox'
   bundle exec jekyll build
 
+  Or use the Makefile helper:
+
+  make build-chrome
+
+- CI: the repository includes a GitHub Actions workflow at `.github/workflows/jekyll-build.yml` which installs Chromium and sets `PUPPETEER_EXECUTABLE_PATH` before building.
+
 - CI: the repository includes a GitHub Actions workflow at `.github/workflows/jekyll-build.yml` which installs Chromium and sets `PUPPETEER_EXECUTABLE_PATH` before building.
 
 If you prefer not to install Chromium, temporarily disable `jekyll-diagrams` in `_config.yml` while editing content.
