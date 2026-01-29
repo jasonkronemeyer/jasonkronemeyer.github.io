@@ -6,11 +6,11 @@ last_updated: 2026-01-16
 status: draft
 description: "A forward-looking narrative on how power, data, and purpose converge at the edge to create resilient, equitable infrastructure."
 tags:
-	- Intelligent Infrastructure
-	- Digital Infrastructure
-	- Power Systems
-	- Connectivity
-	- Smart Buildings
+  - Intelligent Infrastructure
+  - Digital Infrastructure
+  - Power Systems
+  - Connectivity
+  - Smart Buildings
 confidence: medium
 ---
 
