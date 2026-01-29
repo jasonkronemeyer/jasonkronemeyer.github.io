@@ -92,3 +92,30 @@ As I advance in technology and data science, I recognize that technical expertis
 ---
 
 *Let’s build a more equitable digital future together!*
+
+---
+
+## 🛠️ Build & CI notes
+
+If you use `jekyll-diagrams` (Mermaid) the plugin requires Puppeteer/Chromium to render diagrams during the build. Common issues and solutions:
+
+- "Failed to launch the browser process": install system Chromium (Ubuntu/Debian example):
+
+  sudo apt update && sudo apt install -y chromium-browser ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
+
+- You can set environment variables when building locally:
+
+  export PUPPETEER_EXECUTABLE_PATH=$(which chromium-browser)
+  export PUPPETEER_ARGS='--no-sandbox --disable-setuid-sandbox'
+  bundle exec jekyll build
+
+  Or use the Makefile helper:
+
+  make build-chrome
+
+- CI: the repository includes a GitHub Actions workflow at `.github/workflows/jekyll-build.yml` which installs Chromium and sets `PUPPETEER_EXECUTABLE_PATH` before building.
+
+- CI: the repository includes a GitHub Actions workflow at `.github/workflows/jekyll-build.yml` which installs Chromium and sets `PUPPETEER_EXECUTABLE_PATH` before building.
+
+If you prefer not to install Chromium, temporarily disable `jekyll-diagrams` in `_config.yml` while editing content.
+
