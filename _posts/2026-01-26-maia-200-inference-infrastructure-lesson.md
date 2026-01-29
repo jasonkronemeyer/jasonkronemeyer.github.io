@@ -9,7 +9,9 @@ status: [draft, series]
 
 Microsoft’s announcement of **MAIA 200**, a new AI accelerator designed specifically for inference, may feel far removed from rural broadband builds, electric co‑ops, or regional data center planning. But the story it tells is a familiar one to anyone who has spent time working on technology outside major metro markets.
 
-{% include callout.html type="info" title="What is inference?" content="Inference is the part of AI where the model actually does something for you. It’s the moment when an already‑trained model takes an input—your question, your photo, your document—and produces an output. If training is teaching the model how to think, inference is the model thinking in real time. A simple way to put it: Training = learning. Inference = using what was learned. If you want a broader on‑ramp to the fundamentals of “teaching” computers, see my post [The First 5 Things to Teach a Computer]({% post_url 2024-08-30-first-5-things-to-teach-computer %})." %}
+{% include callout.html type="info" title="What is inference?" content="Inference is the part of AI where the model actually does something for you. It’s the moment when an already‑trained model takes an input—your question, your photo, your document—and produces an output. If training is teaching the model how to think, inference is the model thinking in real time. A simple way to put it: Training = learning. Inference = using what was learned." %}
+
+See my post [The First 5 Things to Teach a Computer]({% post_url 2024-08-30-first-5-things-to-teach-computer %}).
 
 In **smart buildings**, inference increasingly happens at the edge. HVAC controls, lighting, access, safety systems, and occupancy sensors need decisions in milliseconds and can’t rely on a round‑trip to the cloud. Edge inference keeps critical systems responsive during network outages, reduces bandwidth costs by processing high‑volume sensor streams locally, and improves privacy by keeping sensitive data on‑prem. It also enables real‑time energy optimization and predictive maintenance—turning buildings into adaptive systems rather than static infrastructure.
 

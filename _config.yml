@@ -48,7 +48,7 @@ social:
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-diagrams
+  - jekyll-diagrams  # requires Chromium/Puppeteer. If you see "Failed to launch the browser process" install system Chromium and set PUPPETEER_EXECUTABLE_PATH (see README or notes).
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-mentions
