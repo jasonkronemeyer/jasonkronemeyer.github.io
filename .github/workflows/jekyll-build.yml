@@ -45,4 +45,5 @@ jobs:
       if: success()
       run: |
         gem install html-proofer
-        htmlproofer _site --check-external-hash --allow-hash-href
+        # Ignore polyfill.io and MDPI (frequently blocked for bots or transient failures)
+        htmlproofer _site --check-external-hash --allow-hash-href --ignore-urls "https://polyfill.io/.*|https://www.mdpi.com/.*"
