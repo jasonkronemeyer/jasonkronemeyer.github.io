@@ -39,7 +39,7 @@ As AI moves into everyday services—education platforms, healthcare tools, work
 
 This is where **Internet Exchange Points (IXPs)** quietly become part of the AI delivery stack.
 
-{% include callout.html type="info" title="The critcal role of the regional exchange point." content="*Future Internet performance is at risk without a local IXP. As the Internet continues to evolve, reducing latency will be incredibly important. Autonomous vehicles, drones, artificial intelligence, video streaming, virtual reality, and precision agriculture will require ultra‑low‑latency connections—latency values that aren’t achievable in regions without an IXP.*<br><br>— Connected Nation Internet Exchange Points - IxP.us[1]" %}
+{% include callout.html type="info" title="IXPs are critical infrastructure." content="*Future Internet performance is at risk without a local IXP. As the Internet continues to evolve, reducing latency will be incredibly important. Autonomous vehicles, drones, artificial intelligence, video streaming, virtual reality, and precision agriculture will require ultra‑low‑latency connections—latency values that aren’t achievable in regions without an IXP.*<br><br>— Connected Nation Internet Exchange Points - IxP.us[1]" %}
 
 AI inference traffic is interactive, repetitive, and latency‑sensitive. Every prompt and response depends on fast, predictable back‑and‑forth communication between users and inference systems. IXPs improve this experience by allowing networks to interconnect directly and **keep traffic local longer**, instead of hauling it through distant metro hubs via paid transit.
 
@@ -50,8 +50,6 @@ For rural, regional networks, IXPs:
 - Support future regional AI caching and inference layers  
 
 Just as fiber made last‑mile broadband viable and cloud platforms reduced operational overhead, IXPs help AI behave less like a novelty service and more like **reliable infrastructure**. Communities with strong middle‑mile connectivity and accessible exchange points are better positioned to benefit from inference‑optimized platforms like MAIA 200—even when the AI compute itself lives in a distant Azure region.
-
----
  
 Even **electric power systems** tell the same story. The communities that benefit most aren’t those chasing peak generation numbers, but those investing in resilient distribution, load balancing, and long-term efficiency. Power, like AI inference, becomes valuable when it’s dependable, affordable, and embedded into everyday operations.
 
