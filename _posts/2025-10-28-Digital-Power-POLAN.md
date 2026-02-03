@@ -3,7 +3,7 @@ layout: post
 title: "Fault Managed Power & Passive Optical LAN: The Future of Smart K-12 School Buildings"
 date: 2025-10-29
 author: Jason Kronemeyer
-categories: [K-12, Smart Schools, Smart Buildings Optical LAN, Class Four Power]
+categories: [K-12, Smart Schools, Smart Buildings Optical LAN, Fault Managed Power, Class Four Power, POLAN]
 ---
 
 ## Introduction
@@ -83,7 +83,7 @@ POL uses a point-to-multipoint topology:
 Class Four Fault Managed Power and Passive Optical LAN are redefining what’s possible for K-12 schools. They offer the scale, safety, and sustainability needed for modern learning environments. If you’re planning a new build or renovation, it’s time to look beyond traditional power and network designs.
 
 **Want to learn more?**  
-Check out my research notes from the Panduit webinar: [Read Here](https://www.jasonkronemeyer.com/notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html)
+Full summary notes from the Panduit and Tellabs webinar: [Read Here](https://www.jasonkronemeyer.com/notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html)
 
 ---
 
