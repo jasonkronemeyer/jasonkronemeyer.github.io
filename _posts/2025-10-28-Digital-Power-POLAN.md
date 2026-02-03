@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digital Power & Passive Optical LAN: The Future of Smart K-12 School Buildings"
+title: "Fault Managed Power & Passive Optical LAN: The Future of Smart K-12 School Buildings"
 date: 2025-10-29
 author: Jason Kronemeyer
 categories: [K-12, Smart Schools, Smart Buildings Optical LAN, Class Four Power]
@@ -8,7 +8,7 @@ categories: [K-12, Smart Schools, Smart Buildings Optical LAN, Class Four Power]
 
 ## Introduction
 
-If you’re working in K-12 technology, you know the challenges: more devices, more security risks, higher reliability demands, and the constant push for sustainability. The latest Panduit webinar, “Capitalizing on Class Four Power in Optical LAN Applications,” brought together experts from Tellabs and Panduit to show how new power and network architectures are changing the game for smart schools.
+If you’re working in K-12 technology, you know the challenges: more devices, more security risks, higher reliability demands, and the constant push for sustainability. In this Panduit webinar, “Capitalizing on Class Four Power in Optical LAN Applications,” brought together experts from Tellabs and Panduit to show how new power and network architectures are changing the game for smart schools.
 
 ---
 
@@ -17,7 +17,7 @@ If you’re working in K-12 technology, you know the challenges: more devices, m
 **Scale & Reach:**  
 IoT devices are multiplying in classrooms and across campuses. Traditional copper networks struggle to keep up with the density and distance requirements. Fiber-based Passive Optical LAN (POL) can support five times the device density and up to 100 times the reach—think 10, 40, even 100 gigabit speeds.
 
-{% include callout.html type="info" title="What could your community campus reach?" content="With Passive Optical LAN, a single fiber can extend up to 18 miles from the data center—meaning one centralized system could connect multiple school buildings across an entire district. Add Class Four power with its 2-kilometer reach, and you're looking at unified power and network infrastructure that spans the community campus, from elementary schools to high schools to community centers, all managed from one location. **Public Safety Example:** The same fiber infrastructure can carry 800MHz distributed antenna systems (DAS)signals on a separate strand, ensuring first responders have reliable communication throughout your entire campus—a critical requirement for school safety and emergency response." %}
+{% include callout.html type="info" title="What could your community campus reach?" content="With Passive Optical LAN, a single fiber can extend up to 12 miles from the data center—meaning one centralized system could connect multiple school buildings across an entire district. Add Class Four power with its 2-kilometer reach, and you're looking at unified power and network infrastructure that spans the community campus, from elementary schools to high schools to community centers, all managed from one location. **Public Safety Example:** The same fiber infrastructure can carry 800MHz distributed antenna systems (DAS)signals on a separate strand, ensuring first responders have reliable communication throughout your entire campus—a critical requirement for school safety and emergency response." %}
 
 **Security:**  
 Every new device is a potential attack surface. POL eliminates legacy Ethernet switches, reducing vulnerabilities and supporting zero trust architectures. Fiber is inherently tough to tap, and centralized management means fewer weak points.
