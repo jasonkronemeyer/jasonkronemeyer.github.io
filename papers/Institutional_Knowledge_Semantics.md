@@ -5,12 +5,15 @@ author: Jason Kronemeyer
 date: 2026-02-17
 categories: [papers, knowledge-management]
 tags: [semantics, institutional-knowledge, seven-grandfather-teachings, indigenous-wisdom]
+image: /assets/images/institutional_knowledge_semantics_social.png
 excerpt: "Semantics plays an important role in helping knowledge endure across time by turning scattered information into meaning that can be shared, remembered, and carried forward through generations."
 description: "Exploring how semantics preserves institutional knowledge and guides communities from meeting needs to fulfilling aspirations through the Seven Grandfather Teachings."
 keywords: [knowledge preservation, cultural continuity, semantic web, organizational memory, indigenous knowledge systems, intergenerational knowledge transfer, community stewardship]
 ---
 
 **Semantics** plays an important role in helping knowledge endure across time. When people take the ideas, decisions, and relationships that shaped their work and express them in clear and organized ways, they create a structure that others can understand long after the moment has passed. Semantics *turns scattered information into **meaning*** that can be shared, remembered, and carried forward. It allows a community to hold on to *the deeper purpose* behind its actions so that future generations can continue the story with clarity and intention.
+
+![Institutional knowledge and semantics concept illustration](../assets/images/institutional_knowledge_semantics.png)
 
 **Institutional knowledge** lives on when the meaning behind the work is preserved with care. It continues through the stories, intentions, and relationships that shaped each choice, even as people and roles change. When a community takes time to organize this meaning in a way that others can understand, the knowledge does not fade. It becomes a steady guide for those who come next. Over time, the focus shifts **from meeting immediate needs to supporting the deeper hopes** that people carry for themselves and their community. In this way, the work of today becomes a *bridge to tomorrow*, allowing future generations to *remember where they began*, understand why certain paths were taken, and continue building toward the lives they imagine.
 
