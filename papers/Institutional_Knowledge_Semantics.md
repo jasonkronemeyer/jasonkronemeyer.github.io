@@ -10,8 +10,6 @@ description: "Exploring how semantics preserves institutional knowledge and guid
 keywords: [knowledge preservation, cultural continuity, semantic web, organizational memory, indigenous knowledge systems, intergenerational knowledge transfer, community stewardship]
 ---
 
-By: Jason Kronemeyer
-
 **Semantics** plays an important role in helping knowledge endure across time. When people take the ideas, decisions, and relationships that shaped their work and express them in clear and organized ways, they create a structure that others can understand long after the moment has passed. Semantics *turns scattered information into **meaning*** that can be shared, remembered, and carried forward. It allows a community to hold on to *the deeper purpose* behind its actions so that future generations can continue the story with clarity and intention.
 
 **Institutional knowledge** lives on when the meaning behind the work is preserved with care. It continues through the stories, intentions, and relationships that shaped each choice, even as people and roles change. When a community takes time to organize this meaning in a way that others can understand, the knowledge does not fade. It becomes a steady guide for those who come next. Over time, the focus shifts **from meeting immediate needs to supporting the deeper hopes** that people carry for themselves and their community. In this way, the work of today becomes a *bridge to tomorrow*, allowing future generations to *remember where they began*, understand why certain paths were taken, and continue building toward the lives they imagine.
@@ -24,6 +22,6 @@ When a community chooses to preserve meaning with intention, it strengthens its 
 
 ---
 
-## Author’s Note
+##### Author’s Note
 
-*The Seven Grandfather Teachings referenced in this essay are part of a living Indigenous knowledge tradition. They are shared not as doctrine, but as guiding values that inform this reflection on meaning, continuity, and stewardship. This work is also shaped by the spirit of Project Compass, an ongoing effort to help communities orient themselves through change by connecting infrastructure, knowledge, and aspiration. Together, these influences frame an approach to semantics rooted in stewardship, honoring the knowledge that came before, interpreting it through lived experience, and carrying it forward with care for those who will follow.*
+*The Seven Grandfather Teachings referenced in this essay are part of a living Indigenous knowledge tradition. They are shared not as doctrine, but as guiding values that inform this reflection on meaning, continuity, and stewardship. This work is also shaped by the spirit of Project Compass, an ongoing effort to help communities orient themselves through change by connecting infrastructure, knowledge, and aspiration. It is further informed by Kentaro Toyama’s insight that technology does not create change on its own, but amplifies existing human intent, institutional strength, and cultural values. Together, these influences frame an approach to semantics rooted in stewardship, honoring the knowledge that came before, interpreting it through lived experience, and carrying it forward with care for those who will follow.*
