@@ -24,7 +24,8 @@ A community's knowledge endures because people *choose to tend it*. They listen 
 When a community chooses to preserve meaning with intention, it strengthens its ability to grow with purpose. The stories, values, and lessons that are carried forward become a *compass for future generations*, helping them move with confidence from meeting basic needs toward fulfilling their highest aspirations. By honoring the wisdom of those who came before and organizing knowledge in ways that can be understood by those who will follow, an institution becomes a **living memory** that guides people toward a future shaped by care, clarity, and shared responsibility.
 
 ---
-
-##### Author’s Note
+  
+  
+#### Author’s Note
 
 *The Seven Grandfather Teachings referenced in this essay are part of a living Indigenous knowledge tradition. They are shared not as doctrine, but as guiding values that inform this reflection on meaning, continuity, and stewardship. This work is also shaped by the spirit of Project Compass, an ongoing effort to help communities orient themselves through change by connecting infrastructure, knowledge, and aspiration. It is further informed by Kentaro Toyama’s insight that technology does not create change on its own, but amplifies existing human intent, institutional strength, and cultural values. Together, these influences frame an approach to semantics rooted in stewardship, honoring the knowledge that came before, interpreting it through lived experience, and carrying it forward with care for those who will follow.*
