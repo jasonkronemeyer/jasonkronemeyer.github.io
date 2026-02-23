@@ -17,7 +17,7 @@ In a Compass frame, this is the “North Star” shift: we stop treating rural r
 
 ## The Compass premise: Capacity is the infrastructure beneath infrastructure
 
-Project Compass begins with a simple claim: the most critical infrastructure is **human infrastructure**—the skills, relationships, governance, and confidence that allow a community to adopt technology, steward resources, and sustain change over time. H.R. 7567 strengthens this claim by embedding “capacity assumptions” across titles that increasingly depend on connectivity, data, and cross-sector coordination. [2](https://www.govtrack.us/congress/bills/119/hr7567/text)[1](https://www.congress.gov/bill/119th-congress/house-bill/7567)
+[Project Compass](https://www.merit.edu/research/project-compass/) begins with a simple claim: the most critical infrastructure is **human infrastructure**—the skills, relationships, governance, and confidence that allow a community to adopt technology, steward resources, and sustain change over time. H.R. 7567 strengthens this claim by embedding “capacity assumptions” across titles that increasingly depend on connectivity, data, and cross-sector coordination. [2](https://www.govtrack.us/congress/bills/119/hr7567/text)[1](https://www.congress.gov/bill/119th-congress/house-bill/7567)
 
 If you read the table of contents as a map, you can see the shift. The bill doesn’t just fund outcomes; it expands the operational surface area of rural systems: conservation practice management, watershed work, emergency response, technical assistance, and—explicitly—**rural broadband and middle mile expansion**. In Compass terms, that means the federal government is effectively saying: *the work now requires a stronger local operating system.* [2](https://www.govtrack.us/congress/bills/119/hr7567/text)[1](https://www.congress.gov/bill/119th-congress/house-bill/7567)
 
@@ -77,4 +77,18 @@ The most overlooked failure mode in rural modernization is maintenance without a
 H.R. 7567 is introduced and referred to committee; it may evolve. But its architecture already communicates the direction of travel: rural America is being asked to operate a more complex, more connected, more data-bearing system of food, land, water, and infrastructure—at national-security scale—through 2031. [1](https://www.congress.gov/bill/119th-congress/house-bill/7567)[2](https://www.govtrack.us/congress/bills/119/hr7567/text)
 
 Project Compass offers the human answer to a technical era: community capacity is not a side project. It is the only way the promise of policy becomes durable reality. Broadband is the circulatory system, smart-community integration is the nervous system, and workforce/CTE is the muscle memory that keeps the whole body standing when conditions change. [2](https://www.govtrack.us/congress/bills/119/hr7567/text)[1](https://www.congress.gov/bill/119th-congress/house-bill/7567)
+
+---
+
+### Featured conversation
+
+I was featured in **Rural Development: The Farm Bill & Michigan | Chapter 3** from Progress Michigan (published Dec 4, 2023), discussing how broadband access shapes education, agriculture, healthcare access, and long-term rural opportunity in the Eastern Upper Peninsula.
+
+[More context and campaign page from Progress Michigan](https://progressmichigan.org/farm-bill)
+
+<div style="position: relative; width: 100%; max-width: 800px; margin: 1.5rem auto; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+	<iframe src="https://www.youtube.com/embed/R-_7VFFqSwk?si=aYGNlaj9lfoNzDQi&amp;controls=0" title="Rural Development: The Farm Bill & Michigan | Chapter 3 (Progress Michigan)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+Prefer a direct link? [Watch on YouTube](https://www.youtube.com/watch?v=R-_7VFFqSwk).
 
