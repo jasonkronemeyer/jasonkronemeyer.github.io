@@ -49,8 +49,6 @@ The original promise remains, but the scope has expanded. Speech is no longer ju
 
 ---
 
-## Footnotes
-
 [^1]: Early sound recording history and the invention of the phonograph.  
 [^2]: Bell Labs’ Voder demonstration at the 1939 World’s Fair.  
 [^3]: Bell Labs’ Audrey digit recognizer (1952).  
@@ -59,7 +57,6 @@ The original promise remains, but the scope has expanded. Speech is no longer ju
 [^6]: IBM ViaVoice and Simply Speaking marketing materials featuring the phrase “You talk, it types.”  
 [^7]: Transition from statistical models to deep learning in modern speech recognition.
 
-## References
 
 [^1]: Early sound‑recording history and the invention of the phonograph:  
 https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/
