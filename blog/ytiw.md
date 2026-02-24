@@ -2,6 +2,7 @@
 title: "From You Talk, It Types to You Talk, It Writes"
 date: 2026-02-24
 layout: post
+status: research
 ---
 
 Speech has always been the most natural interface. Long before modern assistants could draft emails or summarize meetings, early systems promised something simpler and almost magical: *you talk, it types*. That phrase became a cultural shorthand for the dream of hands‑free computing — and it marked the beginning of a long arc from mechanical sound capture to generative writing systems.
