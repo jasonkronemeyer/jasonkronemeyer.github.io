@@ -58,3 +58,26 @@ The original promise remains, but the scope has expanded. Speech is no longer ju
 [^6]: IBM ViaVoice and Simply Speaking marketing materials featuring the phrase “You talk, it types.”  
 [^7]: Transition from statistical models to deep learning in modern speech recognition.
 
+## References
+
+[^1]: Early sound‑recording history and the invention of the phonograph:  
+https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/
+
+[^2]: Bell Labs’ Voder demonstration at the 1939 World’s Fair:  
+https://www.youtube.com/watch?v=0rAyrmm7vv0
+
+[^3]: Bell Labs’ Audrey digit recognizer (1952):  
+https://ethw.org/Audrey
+
+[^4]: IBM Shoebox demonstration at the 1962 Seattle World’s Fair:  
+https://www.ibm.com/ibm/history/exhibits/specialprod1/specialprod1_7.html
+
+[^5]: DARPA Speech Understanding Research program and CMU Harpy system:  
+https://www.darpa.mil/about-us/timeline/speech-understanding
+
+[^6]: IBM ViaVoice and Simply Speaking marketing materials featuring “You talk, it types”:  
+https://archive.org/details/ibm-viavoice  
+https://archive.org/details/ibm-simply-speaking
+
+[^7]: Transition from statistical models to deep learning in modern speech recognition:  
+https://research.google/pubs/a-brief-history-of-speech-recognition/  
