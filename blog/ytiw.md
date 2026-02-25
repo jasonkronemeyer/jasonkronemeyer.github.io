@@ -49,16 +49,16 @@ The original promise remains, but the scope has expanded. Speech is no longer ju
 
 ---
 
-[^1]: Early sound‑recording history and the invention of the phonograph: [Library of Congress](https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/).
+[^1]: “History of Edison Sound Recordings.” *Library of Congress*, https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/. Accessed 25 Feb. 2026.
 
-[^2]: Bell Labs’ Voder demonstration at the 1939 World’s Fair: [YouTube archival video](https://www.youtube.com/watch?v=0rAyrmm7vv0).
+[^2]: “VODER (1939) - Early Speech Synthesizer.” *YouTube*, https://www.youtube.com/watch?v=0rAyrmm7vv0. Accessed 25 Feb. 2026.
 
-[^3]: Bell Labs’ Audrey digit recognizer (1952): [Speech recognition history overview](https://en.wikipedia.org/wiki/Speech_recognition).
+[^3]: “Speech Recognition.” *Wikipedia*, Wikimedia Foundation, https://en.wikipedia.org/wiki/Speech_recognition. Accessed 25 Feb. 2026.
 
-[^4]: IBM Shoebox demonstration at the 1962 Seattle World’s Fair: [IBM archive page (Wayback)](https://web.archive.org/web/20050119055235/http://www-03.ibm.com/ibm/history/exhibits/specialprod1/specialprod1_7.html).
+[^4]: IBM. “IBM Shoebox.” *IBM Archives*, https://web.archive.org/web/20050119055235/http://www-03.ibm.com/ibm/history/exhibits/specialprod1/specialprod1_7.html. Accessed 25 Feb. 2026.
 
-[^5]: DARPA Speech Understanding Research program and CMU Harpy system: [ASR history paper (Wayback PDF)](https://web.archive.org/web/20140817193243/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf); [supporting historical timeline](https://en.wikipedia.org/wiki/Speech_recognition).
+[^5]: Juang, B. H., and Lawrence R. Rabiner. “Automatic Speech Recognition: A Brief History of the Technology Development.” https://web.archive.org/web/20140817193243/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf. Accessed 25 Feb. 2026. See also “Speech Recognition.” *Wikipedia*, Wikimedia Foundation, https://en.wikipedia.org/wiki/Speech_recognition. Accessed 25 Feb. 2026.
 
-[^6]: IBM ViaVoice and Simply Speaking marketing materials featuring “You talk, it types”: [ViaVoice packaging archive](https://archive.org/details/ViaVoice_for_Windows_You_Talk_It_Types_Release_8_Personal_Edition_IBM_Corp_2000); [IBM VoiceType Simply Speaking archive](https://archive.org/details/ibm-voice-type-simply-speaking-gold-3.5-1997-05-english-cd).
+[^6]: “ViaVoice for Windows (You Talk It Types) (Release 8) (Personal Edition) (IBM Corp) (2000).” *Internet Archive*, https://archive.org/details/ViaVoice_for_Windows_You_Talk_It_Types_Release_8_Personal_Edition_IBM_Corp_2000. Accessed 25 Feb. 2026. “IBM VoiceType Simply Speaking Gold 3.5 (1997-05) (English) (CD).” *Internet Archive*, https://archive.org/details/ibm-voice-type-simply-speaking-gold-3.5-1997-05-english-cd. Accessed 25 Feb. 2026.
 
-[^7]: Transition from statistical models to deep learning in modern speech recognition: [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329).
+[^7]: Prabhavalkar, Rohit, et al. “End-to-End Speech Recognition: A Survey.” *arXiv*, 3 Mar. 2023, https://arxiv.org/abs/2303.03329. Accessed 25 Feb. 2026.
