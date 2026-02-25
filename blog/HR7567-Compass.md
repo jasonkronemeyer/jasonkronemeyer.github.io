@@ -84,10 +84,10 @@ Project Compass offers the human answer to a technical era: community capacity i
 
 I was featured in **Rural Development: The Farm Bill & Michigan | Chapter 3** from Progress Michigan (published Dec 4, 2023), discussing how broadband access shapes education, agriculture, healthcare access, and long-term rural opportunity in the Eastern Upper Peninsula.
 
-[More context and campaign page from Progress Michigan](https://progressmichigan.org/farm-bill)
+[More information from Progress Michigan](https://progressmichigan.org/farm-bill)
 
 <div style="position: relative; width: 100%; max-width: 800px; margin: 1.5rem auto; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-	<iframe src="https://www.youtube.com/embed/R-_7VFFqSwk?si=aYGNlaj9lfoNzDQi&amp;controls=0" title="Rural Development: The Farm Bill & Michigan | Chapter 3 (Progress Michigan)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/R-_7VFFqSwk?si=aYGNlaj9lfoNzDQi&amp;controls=0" title="Rural Development: The Farm Bill & Michigan | Chapter 3 (Progress Michigan)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
 Prefer a direct link? [Watch on YouTube](https://www.youtube.com/watch?v=R-_7VFFqSwk).
