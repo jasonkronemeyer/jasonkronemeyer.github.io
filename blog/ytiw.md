@@ -8,8 +8,8 @@ status: research
 Speech has always been the most natural interface. Long before modern assistants could draft emails or summarize meetings, early systems promised something simpler and almost magical: *you talk, it types*. That phrase became a cultural shorthand for the dream of hands‑free computing — and it marked the beginning of a long arc from mechanical sound capture to generative writing systems.
 
 ## Early Experiments in Machine Speech
-The story begins with the [phonograph](copilot-action://composer-send?text=What%20is%20the%20phonograph), a device that made it possible to store and replay sound for the first time.[^1]  
-By the 1930s, Bell Labs introduced the [Voder](copilot-action://composer-send?text=What%20was%20the%20Voder), a machine that could *produce* synthetic speech — a crucial step toward understanding it.[^2]
+The story begins with the phonograph, a device that made it possible to store and replay sound for the first time.[^1]  
+By the 1930s, Bell Labs introduced the Voder, a machine that could *produce* synthetic speech — a crucial step toward understanding it.[^2]
 
 ## Recognizing Words, Not Just Sounds
 In 1952, Bell Labs built **Audrey**, a system that recognized spoken digits.[^3]  
@@ -17,7 +17,7 @@ IBM followed with the **Shoebox** in 1962, capable of understanding sixteen word
 These systems were limited, but they proved that computers could map sound to meaning.
 
 ## The Statistical Leap
-The 1970s and 1980s brought government‑funded research and the rise of [Hidden Markov Models](copilot-action://composer-send?text=Explain%20Hidden%20Markov%20Models%20in%20speech%20recognition).  
+The 1970s and 1980s brought government‑funded research and the rise of Hidden Markov Models.  
 Carnegie Mellon’s **Harpy** system reached a 1,000‑word vocabulary, while IBM’s **Tangora** pushed toward 20,000.[^5]
 
 This era shifted speech recognition from handcrafted rules to probability and pattern learning.
@@ -49,15 +49,6 @@ The original promise remains, but the scope has expanded. Speech is no longer ju
 
 ---
 
-[^1]: Early sound recording history and the invention of the phonograph.  
-[^2]: Bell Labs’ Voder demonstration at the 1939 World’s Fair.  
-[^3]: Bell Labs’ Audrey digit recognizer (1952).  
-[^4]: IBM Shoebox demonstration at the 1962 Seattle World’s Fair.  
-[^5]: DARPA Speech Understanding Research program and CMU Harpy system.  
-[^6]: IBM ViaVoice and Simply Speaking marketing materials featuring the phrase “You talk, it types.”  
-[^7]: Transition from statistical models to deep learning in modern speech recognition.
-
-
 [^1]: Early sound‑recording history and the invention of the phonograph:  
 https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/
 
@@ -65,17 +56,18 @@ https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordi
 https://www.youtube.com/watch?v=0rAyrmm7vv0
 
 [^3]: Bell Labs’ Audrey digit recognizer (1952):  
-https://ethw.org/Audrey
+https://en.wikipedia.org/wiki/Speech_recognition
 
 [^4]: IBM Shoebox demonstration at the 1962 Seattle World’s Fair:  
-https://www.ibm.com/ibm/history/exhibits/specialprod1/specialprod1_7.html
+https://web.archive.org/web/20050119055235/http://www-03.ibm.com/ibm/history/exhibits/specialprod1/specialprod1_7.html
 
 [^5]: DARPA Speech Understanding Research program and CMU Harpy system:  
-https://www.darpa.mil/about-us/timeline/speech-understanding
+https://web.archive.org/web/20140817193243/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf
+https://en.wikipedia.org/wiki/Speech_recognition
 
 [^6]: IBM ViaVoice and Simply Speaking marketing materials featuring “You talk, it types”:  
-https://archive.org/details/ibm-viavoice  
-https://archive.org/details/ibm-simply-speaking
+https://archive.org/details/ViaVoice_for_Windows_You_Talk_It_Types_Release_8_Personal_Edition_IBM_Corp_2000  
+https://archive.org/details/ibm-voice-type-simply-speaking-gold-3.5-1997-05-english-cd
 
 [^7]: Transition from statistical models to deep learning in modern speech recognition:  
-https://research.google/pubs/a-brief-history-of-speech-recognition/  
+https://arxiv.org/abs/2303.03329  
