@@ -7,7 +7,7 @@ categories: [papers, knowledge-management]
 tags: [semantics, institutional-knowledge, seven-grandfather-teachings, indigenous-wisdom]
 image: /assets/images/institutional_knowledge_semantics_social.png
 excerpt: "Semantics plays an important role in helping knowledge endure across time by turning scattered information into meaning that can be shared, remembered, and carried forward through generations."
-description: "Exploring how semantics preserves institutional knowledge and guides communities from meeting needs to fulfilling aspirations through the Seven Grandfather Teachings."
+description: "How semantics preserves institutional knowledge and guides communities from meeting needs to fulfilling aspirations through the lens of the Seven Grandfather Teachings."
 keywords: [knowledge preservation, cultural continuity, semantic web, organizational memory, indigenous knowledge systems, intergenerational knowledge transfer, community stewardship]
 ---
 
