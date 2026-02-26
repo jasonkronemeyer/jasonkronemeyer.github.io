@@ -1,6 +1,6 @@
-# Passive Optical LAN (POLAN) Deployment Plan for Sault Ste. Marie, Michigan
+# DRAFT: Passive Optical LAN (POLAN) Deployment Plan for Sault Ste. Marie, Michigan
 
-## Strategic Partnership with Cloverland Electric Cooperative and Sault Tribe
+## Strategic Partnership with Cloverland Electric Cooperative and Key Stategic Infrastructure Partners
 
 ## Executive Summary
 
