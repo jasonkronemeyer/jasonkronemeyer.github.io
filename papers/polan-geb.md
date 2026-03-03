@@ -29,6 +29,7 @@ Cloverland Electric Cooperative has announced preliminary plans for creating a *
     *   Sault Ste. Marie Tribe of Chippewa Indians [1](https://www.cloverland.com/news-releases/building-skills-powering-progress-with-new-training-center/)
     *   Lake Superior State University
     *   Sault Area Schools
+    *   Highline
     *   Peninsula Fiber Network
     *   International Brotherhood of Electrical Workers
 
