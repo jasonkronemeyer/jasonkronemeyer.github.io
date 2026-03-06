@@ -5,6 +5,8 @@ date: 2026-02-23
 categories: [Project-Compass, Rural-Systems, Broadband, Workforce, CTE]
 tags: [community-capacity, rural-broadband, smart-communities, workforce-development, CTE, resilience, USDA]
 summary: "A Compass-series narrative on how H.R. 7567 reframes rural broadband, smart-community infrastructure, and workforce/CTE as the community capacity needed to sustain food systems through 2031."
+status: brief
+
 ---
 
 ## The North Star: Food security is community security
