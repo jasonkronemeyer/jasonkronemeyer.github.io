@@ -94,3 +94,12 @@ I was featured in **Rural Development: The Farm Bill & Michigan | Chapter 3** fr
 
 Prefer a direct link? [Watch on YouTube](https://www.youtube.com/watch?v=R-_7VFFqSwk).
 
+---
+
+*This article was inspired by my work on Project Compass, powered by Merit Network and the development of the Digital Opportunities Intelligence Network (DOIN).*
+
+{% include doin-tagline.html %}
+
+- [Building the Digital Opportunities Intelligence Network: A Blueprint for Project Compass]({% post_url 2025-11-20-building-the-policy-learning-machine %})
+- [Training Compass: Digital Opportunities Intelligence Network]({% post_url 2025-11-07-training-the-compass-digital-opportunities-intelligence-framework %})
+
