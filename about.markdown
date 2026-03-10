@@ -89,7 +89,7 @@ My work focuses on **advanced communications systems and intelligent building te
 ## Recognition & Achievements
 
 - **Broadband Champion** — Recognized by Dr. Pierrette Renée Dagg in the Benton Institute’s *Could It Be Me? Should It Be Me?* series for leadership in broadband access and digital opportunity  
-- **Founder & CEO, Jason Kronemeyer LLC** — Advising communities, commercial, governmental, educational, and nonprofit organizations on strategic technology, digital opportunity, and future‑ready infrastructure shaped by accessibility, resilience, and long‑term stewardship  
+- **Founder & CEO, Jason Kronemeyer LLC** — Advising communities, commercial, governmental, educational, and nonprofit organizations on future‑ready digital infrastructure and digital opportunities, shaped by accessibility, resilience, and long‑term local stewardship  
 - **Adjunct Instructor, Bay Mills Community College** — Teaching computer information systems to learners grounded in place, culture, and community relevance  
 - **Lead Community Technologist, EUPConnect Collaborative** — Guiding regional connectivity and digital opportunity across Michigan’s Eastern Upper Peninsula  
 - **Director of Technology, REMC 22 / EUPISD** — Built infrastructure and capacity for 19 rural school districts, strengthening learning environments across the region  
