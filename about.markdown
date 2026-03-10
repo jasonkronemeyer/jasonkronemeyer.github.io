@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-# About Jason Kronemeyer
+# Jason Kronemeyer
 
 {:.lead}
 **Veteran · Digital Transformation Leader · Data Scientist · Digital Equity Advocate**
