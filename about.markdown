@@ -88,12 +88,15 @@ My work focuses on **advanced communications systems and intelligent building te
 
 ## Recognition & Achievements
 
-- **Broadband Champion** — Recognized by Dr. Pierrette Renée Dagg in the Benton Institute's series, "Could It Be Me? Should It Be Me? Understanding What Makes Broadband Champions," for advancing broadband access and digital equity
-- **Founder & CEO, Jason Kronemeyer LLC** — Leading strategic technology initiatives for commercial, governmental, educational and nonprofit organizations
-- **Project Director, EUPConnect Collaborative** — Driving connectivity and digital equity in Michigan's Upper Peninsula
-- **Director of Technology, REMC 22, EUPISD** — Built infrastructure and capacity for 19 rural school districts
-- **Distinguished Partnership Award** — Recognized by Michigan State University for community-engaged service
-- **U.S. Air Force Veteran** — Signals Intelligence Analyst (TS-SCI clearance)
+- **Broadband Champion** — Recognized by Dr. Pierrette Renée Dagg in the Benton Institute’s *Could It Be Me? Should It Be Me?* series for leadership in broadband access and digital opportunity  
+- **Founder & CEO, Jason Kronemeyer LLC** — Advising communities, commercial, governmental, educational, and nonprofit organizations on strategic technology, digital opportunity, and future‑ready infrastructure shaped by accessibility, resilience, and long‑term stewardship  
+- **Adjunct Instructor, Bay Mills Community College** — Teaching computer information systems to learners grounded in place, culture, and community relevance  
+- **Lead Community Technologist, EUPConnect Collaborative** — Guiding regional connectivity and digital opportunity across Michigan’s Eastern Upper Peninsula  
+- **Director of Technology, REMC 22 / EUPISD** — Built infrastructure and capacity for 19 rural school districts, strengthening learning environments across the region  
+- **Distinguished Partnership Award, Michigan State University** — Honored for community‑engaged service and collaborative impact  
+- **U.S. Air Force Veteran** — Signals Intelligence Analyst (TS‑SCI), bringing mission discipline and intelligence expertise to community technology work  
+- **Farm Boy from Pickford, Michigan** — Raised on a dairy farm, carrying forward the values of hard work, humility, and stewardship that shape every part of my community‑centered approach  
+
 
 ## Values & Approach
 
