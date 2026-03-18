@@ -86,7 +86,7 @@ This memory is not static. It is alive, queryable, and accountable to the people
 
 Because it is trust‑native and locally governed, the Fourth Internetwork can support real ecological action:
 
-- Identify which reefs still produce viable whitefish.  
+- Identify which spawning areas still produce viable whitefish.  
 - Detect early signs of recruitment failure.  
 - Guide mussel‑control interventions where they matter most.  
 - Protect remaining adult spawners with precision.  
