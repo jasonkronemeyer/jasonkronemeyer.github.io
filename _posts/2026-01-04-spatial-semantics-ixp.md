@@ -16,6 +16,8 @@ If you’ve heard “Six Degrees to Kevin Bacon,” this is the same idea applie
 
 In network infrastructure, **degrees of separation** refer to the number of intermediate hops—both physical and logical—between a **secondary distribution node** (like a school switch or neighborhood fiber cabinet) and an **Internet Exchange Point (IXP)**. These degrees impact network quality in measurable ways, particularly performance, resilience, bandwidth efficiency, and autonomy.
 
+Put simply: an IXP is like a local highway interchange for Internet traffic. If your traffic can get onto that interchange quickly, your users usually get faster and more stable service.
+
 ---
 
 ## Spatial Layers in the Network Path
@@ -75,6 +77,15 @@ For smart schools, libraries, and public safety systems:
 
 Urban cores may be 2–3 hops from an IXP; rural areas may be 5–7 hops away.
 
+## A Concrete Example
+
+Imagine a rural clinic running telehealth video visits.
+
+- **Path A (closer to an IXP):** The video stream reaches a nearby exchange quickly, then moves directly to the hospital network.
+- **Path B (farther from an IXP):** The same stream is backhauled through multiple distant networks before reaching the hospital.
+
+Both paths can work, but Path A is usually smoother: fewer freezes, lower delay, and fewer surprises during busy hours.
+
 ---
 
 ## Measuring equity (homes + businesses)
@@ -106,6 +117,8 @@ This concept is essential for **resilient digital infrastructure**, especially i
 
 - Part 1 (this post): Degrees of separation as a spatial concept
 - Part 2: [From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms]({% post_url 2026-01-09-from-theory-to-practice-bridging-gaps-between-ixps-and-algorithms %})
+- Part 3: [Why Internet Exchange Points Matter for Rural AI Inference]({% post_url 2026-01-26-maia-200-inference-infrastructure-lesson %})
+- Part 4: [Regional IXPs and Space Mission Operations: From Telemetry to AI Inference]({% post_url 2026-03-18-regional-ixp-space-mission-operations %})
 
 ### Related reading
 
