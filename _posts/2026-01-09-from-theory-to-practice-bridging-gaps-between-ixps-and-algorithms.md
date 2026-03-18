@@ -20,6 +20,8 @@ In other words: if Part 1 introduced the “IXP version of a Kevin Bacon number,
 
 Reducing the degrees of separation between nodes and IXPs is not just a theoretical challenge—it’s a practical way to improve connectivity for underserved regions, ensure better routing efficiency, and enhance overall network performance.
 
+In plain terms: this post is about moving from "interesting map" to "clear decision." Which route should be upgraded first, and why?
+
 ## Key Algorithms and Their Applications
 
 Here are the essential techniques that can help uncover hidden hurdles in network architecture:
@@ -65,6 +67,16 @@ So, how do these tools shape the networks of tomorrow? Consider the practical be
 3. **Bandwidth Efficiency:** Improving connections to IXPs alleviates pressure on high-traffic routes.
 4. **Equity in Access:** By targeting underserved regions, infrastructure development can bridge key connectivity gaps.
 
+## A Concrete Example
+
+Suppose a region has three towns and budget to improve only one network segment this year.
+
+1. You measure each town's current path to the nearest IXP (hops and latency).
+2. You run shortest-path and centrality analysis to find the most overloaded shared segment.
+3. You upgrade that segment first because it improves service for all three towns, not just one.
+
+Result: more people see faster and more reliable service from a single targeted project.
+
 ## A practical measurement stack (townships/cities)
 
 If **homes and businesses** are the unit of analysis and **townships/cities** are your smallest regions, a practical workflow is:
@@ -84,7 +96,7 @@ Credit: I learned the Gini coefficient framing and the Hájek estimator approach
 
 ## Next Steps
 
-The analysis doesn’t end here. Every node, every connection, and every hop reveals a broader picture of global opportunities—opportunities to optimize, connect, and innovate. Looking ahead, the focus must remain on translating insights into real-world upgrades that empower networks at every scale.
+The analysis doesn’t end here. In Part 3, we apply this same logic to AI inference and show why local exchange capacity changes both performance and operating cost over time.
 
 ---
 
@@ -92,6 +104,8 @@ The analysis doesn’t end here. Every node, every connection, and every hop rev
 
 - Part 1: [🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs]({% post_url 2026-01-04-spatial-semantics-ixp %})
 - Part 2 (this post): From theory to practice—algorithms and methods
+- Part 3: [Why Internet Exchange Points Matter for Rural AI Inference]({% post_url 2026-01-26-maia-200-inference-infrastructure-lesson %})
+- Part 4: [Regional IXPs and Space Mission Operations: From Telemetry to AI Inference]({% post_url 2026-03-18-regional-ixp-space-mission-operations %})
 
 ### Related reading
 
