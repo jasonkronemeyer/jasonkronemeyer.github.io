@@ -13,6 +13,16 @@ permalink: /about/
 
 Welcome! I'm Jason Kronemeyer, a passionate data scientist and educator dedicated to exploring the transformative potential of technology in education and beyond. With over 25 years of experience in IT infrastructure, network systems, and educational technology, I use technology and data science to create equitable opportunities for all. My journey has spanned service in the U.S. Air Force, leadership in educational innovation, and earning a Master of Applied Data Science from the University of Michigan.
 
+## 🇺🇸 Air Force Service
+
+From 1995 to 1999, I served as an Air Defense / Signals Intelligence Analyst with the **324th Intelligence Squadron at Hickam Air Force Base, Hawaii**. My work centered on real‑time communications support for Pacific reconnaissance operations, where accuracy, timing, and calm under pressure directly shaped mission safety.
+
+- Reported **500+ mission‑status tippers** to theater and national consumers, ensuring decision‑makers had the information they needed when it mattered most.
+- Supported **200+ Air Force and Navy reconnaissance missions**, helping safeguard aircraft and crews while preventing potential international incidents.
+- **Led the rollout of a new computer‑based graphics reporting program**—a project that earned recognition from the Director of the National Security Agency.
+
+These experiences shaped my approach to technology and community work today: disciplined communication, systems thinking, and a deep respect for the people behind every mission—whether in national defense or rural broadband.
+
 {% include callout.html type="warning" title="Learning in Public" content="This site is my digital laboratory—a space for curiosity, experimentation, and research notes from my work at the intersection of technology, education, and community development. Nothing here claims to be the final word. Instead, these posts document my thinking process, explorations, and the questions that drive my work. I believe in learning in public and inviting others into the conversation. All content reflects ongoing research and is subject to revision as my understanding evolves." %}
 
 ## What Drives Me
@@ -94,7 +104,7 @@ My work focuses on **advanced communications systems and intelligent building te
 - **Lead Community Technologist, EUPConnect Collaborative** — Guiding regional connectivity and digital opportunity across Michigan’s Eastern Upper Peninsula  
 - **Director of Technology, REMC 22 / EUPISD** — Built infrastructure and capacity for 19 rural school districts, strengthening learning environments across the region  
 - **Distinguished Partnership Award, Michigan State University** — Honored for community‑engaged service and collaborative impact  
-- **U.S. Air Force Veteran** — Signals Intelligence Analyst (TS‑SCI), bringing mission discipline and intelligence expertise to community technology work  
+- **U.S. Air Force Veteran** — Signals Intelligence Analyst (TS‑SCI), 324th Intelligence Squadron, Hickam AFB — see [Air Force Service](#-air-force-service) above  
 - **Farm Boy from Pickford, Michigan** — Raised on a dairy farm, carrying forward the values of hard work, humility, and stewardship that shape every part of my community‑centered approach  
 
 
