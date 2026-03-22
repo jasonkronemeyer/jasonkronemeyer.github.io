@@ -12,7 +12,7 @@ The third connected platforms.
 
 The **Fourth Internetwork** connects *responsibility*.
 
-It emerges at a moment when communities—especially rural and tribal ones—face a paradox: they are more digitally connected than ever, yet more vulnerable to ecological loss, cultural erosion, and institutional amnesia. The old networks carried information. The new one must carry **meaning**.
+It emerges at a moment when communities, especially tribal and rural, face a paradox: they are more digitally connected than ever, yet more vulnerable to ecological loss, cultural erosion, and institutional amnesia. The old networks carried information. The new one must carry **meaning**.
 
 ---
 
