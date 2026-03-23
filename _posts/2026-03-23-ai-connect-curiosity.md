@@ -2,7 +2,7 @@
 title: "The First Five Things to Teach a Computer: Learning AI by Becoming the Teacher"
 date: 2026-03-23
 layout: post
-status: draft
+status: story
 ---
 
 When we talk about artificial intelligence, the conversation often focuses on what machines can learn. At AI Connect, I reframed that question by asking what happens when we place the human in the role of teacher.
