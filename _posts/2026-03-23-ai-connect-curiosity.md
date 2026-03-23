@@ -11,8 +11,10 @@ The first five things to teach a computer are intentionally simple. Teach it how
 
 Together, these form a practical and human centered entry point into AI literacy. More importantly, they change the learner’s relationship to technology. The student is no longer just a user of AI tools. They become an active participant in shaping how the system works.  
 
-When I think about how far we have come in training intelligent systems, I often reflect on one of my earliest experiences. In 1997, while serving in the Air Force, I coded a system called Swapper in Perl. Its purpose was straightforward: save humans time by automating routine tasks. Building Swapper was my first real experience training an agent to operate within real‑world constraints. It required iteration, careful observation, and a deep understanding of how small rules could shape larger outcomes. Swapper was not perfect, but the act of teaching it how to work laid the foundation for how I think about automation and AI today.
+When I think about how far we have come in training intelligent systems, I often reflect on one of my earliest experiences. In 1997, while serving in the Air Force, I coded a system called *Swapper* in Perl. Its purpose was straightforward: save humans time by automating routine tasks. Building Swapper was my first real experience training an agent to operate within real‑world constraints. It required iteration, careful observation, and a deep understanding of how small rules could shape larger outcomes. Swapper was not perfect, but the act of teaching it how to work laid the foundation for how I think about automation and AI today.
+  
 What still surprises me is its longevity. Just last night, a colleague I served with reached out and told me, “I still use Swapper to this day.” Knowing that something built decades ago is still reducing friction and saving time reinforces a simple truth: the most meaningful systems are shaped by thoughtful teaching, not just technical capability.
+  
 That experience is why I believe the most powerful way to learn AI is to become the teacher.
 
 ## Learning by Teaching
