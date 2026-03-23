@@ -51,4 +51,4 @@ The future of AI will not be shaped by machines alone. It will be shaped by the 
 
 ---
 
-This post was inspired by AI Connect 2026 hosted in partnership between Sault Area Career and Technical Education and EUPConnect Collaborative.
+This post was inspired by AIConnect 2026, a  collaborative effort between the Sault Area High School & Career Center and the EUPConnect Collaborative to bring practical, accessible AI education to the Eastern Upper Peninsula, focusing on engagement, protection, and connection.
