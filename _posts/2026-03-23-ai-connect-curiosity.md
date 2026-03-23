@@ -48,3 +48,5 @@ AI does not exist on its own. It depends on human infrastructure that includes e
 By grounding AI education in teaching, systems thinking, curiosity, innovation, and ethics, we prepare learners not just to work with AI, but to steward it responsibly.
 
 The future of AI will not be shaped by machines alone. It will be shaped by the humans who decide how, what, and why, to teach computers.
+
+This post was inspired by AI Connect 2026 hosted in partnership between Sault Area Career and Technical Education and EUPConnect Collaborative.
