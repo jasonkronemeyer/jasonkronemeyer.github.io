@@ -49,4 +49,6 @@ By grounding AI education in teaching, systems thinking, curiosity, innovation, 
 
 The future of AI will not be shaped by machines alone. It will be shaped by the humans who decide how, what, and why, to teach computers.
 
+---
+
 This post was inspired by AI Connect 2026 hosted in partnership between Sault Area Career and Technical Education and EUPConnect Collaborative.
