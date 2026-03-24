@@ -5,9 +5,9 @@ layout: post
 status: story
 ---
 
-When we talk about artificial intelligence, the conversation often focuses on what machines can learn. At AI Connect, I reframed that question by asking what happens when we place the human in the role of teacher.
+When we talk about artificial intelligence, the conversation often focuses on what machines can learn. At AI Connect, I joined the *AI in Infrastructure* panel and led a session called *How to Train Your Robot*, where I reframed a familiar question: instead of asking what machines can learn, I asked what happens when we place the human in the role of teacher.
 
-The first five things to teach a computer are intentionally simple. Teach it how to communicate. Teach it how to play music. Teach it how to draw pictures. Teach it how to do math. Teach it how to play games.
+The first five things to teach a computer are intentionally simple. **Teach** it how to **communicate**. Teach it how to **play music**. Teach it how to **draw pictures**. Teach it how to **do math**. Teach it how to **play games**.
 
 Together, these form a practical and human centered entry point into AI literacy. More importantly, they change the learner’s relationship to technology. The student is no longer just a user of AI tools. They become an active participant in shaping how the system works.  
 
@@ -53,8 +53,15 @@ AI does not exist on its own. It depends on human infrastructure that includes e
 
 By grounding AI education in teaching, systems thinking, curiosity, innovation, and ethics, we prepare learners not just to work with AI, but to steward it responsibly.
 
-The future of AI will not be shaped by machines alone. It will be shaped by the humans who decide how, what, and why, to teach computers.
+*How to Train Your Robot* is not just a session title. It is an invitation. The future of AI will be shaped by the humans who show up as teachers, who slow down long enough to decide what a system should know, what it should value, and what it should refuse. Swapper is still running somewhere because someone took the time to teach it well. That is the standard worth aiming for.
 
 ---
 
 This post was inspired by AIConnect 2026, a  collaborative effort between the Sault Area High School & Career Center and the EUPConnect Collaborative to bring practical, accessible AI education to the Eastern Upper Peninsula, focusing on engagement, protection, and connection.
+
+---
+
+**See Also:**
+- [The First 5 Things to Teach a Computer]({% post_url 2024-08-30-first-5-things-to-teach-computer %}) — the original post where these five domains were introduced
+- [Teaching Computers how to Communicate: spaCy, NLTK, and Stanford's NLP Textbook]({% post_url 2025-11-04-NLP-Spacy %}) — a deeper dive into one of those five domains using real NLP tools
+- [Swapper on GitHub](https://github.com/jasonkronemeyer/Swapper/blob/master/swapper.pl) — the original Perl script from 1997, still running
