@@ -57,7 +57,7 @@ By grounding AI education in teaching, systems thinking, curiosity, innovation, 
 
 ---
 
-This post was inspired by AIConnect 2026, a  collaborative effort between the Sault Area High School & Career Center and the EUPConnect Collaborative to bring practical, accessible AI education to the Eastern Upper Peninsula, focusing on engagement, protection, and connection.
+This post was inspired by AIConnect 2026, a collaborative effort between the Sault Area High School & Career Center and the EUPConnect Collaborative to bring practical, accessible AI education to the Eastern Upper Peninsula, focusing on engagement, protection, and connection.
 
 ---
 
