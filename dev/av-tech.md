@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Audio, Visual, and the Human Network: Why AV Literacy Is Core to the Portrait of a Graduate"
+title: "Audio, Visual, and the Human Network: Why AV Literacy Is Core to the Sault Area Public Schools Portrait of a Graduate"
 date: 2026-04-10
 author: Jason Kronemeyer
 series: Compass
