@@ -11,6 +11,8 @@ permalink: /about/
 
 ### Mantra: **LearnIT | BuildIT | TeachIT**
 
+> *"{{ site.data.brand.philosophy_tagline }}"*
+
 Welcome! I'm Jason Kronemeyer, a passionate data scientist and educator dedicated to exploring the transformative potential of technology in education and beyond. With over 25 years of experience in IT infrastructure, network systems, and educational technology, I use technology and data science to create equitable opportunities for all. My journey has spanned service in the U.S. Air Force, leadership in educational innovation, and earning a Master of Applied Data Science from the University of Michigan.
 
 ## 🇺🇸 Air Force Service
