@@ -1,6 +1,3 @@
-Below is a Jekyll‑ready markdown post that explicitly closes the loop between the space economy themes from the event and the aspirations of the EUPConnect Collaborative, using language consistent with Compass / systems thinking and your prior framing. No emphasis dashes, clean structure.
-You can drop this directly into your site.
-
 ---
 layout: post
 title: "Looking Up Together: EUPConnect, Aspiration, and the Space Economy"
