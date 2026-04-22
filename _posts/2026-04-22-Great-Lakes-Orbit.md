@@ -13,11 +13,12 @@ tags:
   - Workforce
   - Infrastructure
   - Systems Thinking
+status: brief
 ---
 
 This morning, I’m surrounded by conversations that reach beyond Earth’s atmosphere.
 
-At the **Great Lakes Orbit**, the phrase printed across the program, *“Where regional innovation becomes interstellar,”* is more than a tagline. It captures a deeper shift that mirrors our work at the **EUPConnect Collaborative**: the realization that our regional aspirations no longer stop at county lines, industry boundaries, or legacy assumptions about what rural communities can contribute.
+At the **Great Lakes Orbit** networking event, the phrase printed across the program, *“Where regional innovation becomes interstellar,”* is more than a tagline. It captures a deeper shift that mirrors our work at the **EUPConnect Collaborative**: the realization that our regional aspirations no longer stop at county lines, industry boundaries, or legacy assumptions about what rural communities can contribute.
 
 The emerging space economy doesn’t replace what we do locally. It reframes it.
 
