@@ -93,4 +93,4 @@ If the answer is "nobody," you don't have a technology problem. You have an **in
 
 ## Inspiration
 
-This article was inspired by an episode of the [Shush Free Zone](https://www.shushfreezone.com/) podcast featuring **Jessica Talisman** as a guest. Her insights on the evolving role of librarians and information professionals in a technology-driven world helped crystallize many of the ideas explored here.
+This article was inspired by an episode of the [Shush Free Zone](https://www.shushfreezone.com/) podcast, hosted by **Dawn Brushammar**, featuring **Jessica Talisman** as a guest. Her insights on the evolving role of librarians and information professionals in a technology-driven world helped crystallize many of the ideas explored here.
