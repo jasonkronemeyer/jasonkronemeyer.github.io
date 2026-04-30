@@ -88,3 +88,9 @@ If you're leading a digital transformation initiative and don't have information
 The next time you kick off a data initiative, ask yourself: *Who on this team can explain what this data means? Who will ensure it can be found, understood, and trusted five years from now?*
 
 If the answer is "nobody," you don't have a technology problem. You have an **information problem**. And the librarian is the only one who can solve it.
+
+---
+
+## Inspiration
+
+This article was inspired by an episode of the [Shush Free Zone](https://www.shushfreezone.com/) podcast, hosted by **Dawn Brushammar**, featuring **Jessica Talisman** as a guest. Her insights on the evolving role of librarians and information professionals in a technology-driven world helped crystallize many of the ideas explored here.
