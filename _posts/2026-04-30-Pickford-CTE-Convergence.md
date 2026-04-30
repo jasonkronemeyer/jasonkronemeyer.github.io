@@ -2,6 +2,7 @@
 layout: post
 title: "Where IT Meets the Boiler Room: A Pickford CTE Story About Convergence"
 author: Jason Kronemeyer
+status: story
 date: 2026-04-30
 categories:
   - CTE
