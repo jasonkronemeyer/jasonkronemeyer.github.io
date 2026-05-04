@@ -1,3 +1,19 @@
+---
+layout: research-note
+title: "Legibility, Compass, Seven Generations, and Place-Based Infrastructure"
+date: 2026-05-04
+last_updated: 2026-05-04
+status: draft
+description: "Connecting Jean Hardy's economic legibility to Compass directionality, Seven Generations stewardship, and durable place-based infrastructure."
+tags:
+  - Economic Legibility
+  - Rural Development
+  - Compass Framework
+  - Seven Generations
+  - Place-Based Infrastructure
+confidence: medium
+---
+
 # Legibility, Compass, Seven Generations, and Place‑Based Infrastructure
 *Connecting Jean Hardy’s “economic legibility” to directional (Compass), intergenerational (Seven Generations), and durable place‑based infrastructure frameworks.*
 
