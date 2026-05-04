@@ -15,6 +15,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -24,14 +29,27 @@ jobs:
     - name: Install system deps (Chromium for Puppeteer)
       run: |
         sudo apt-get update
-        sudo apt-get install -y chromium-browser ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
+        sudo apt-get install -y chromium ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
+
+    - name: Install mermaid-cli
+      run: npm install --no-save @mermaid-js/mermaid-cli
+
+    - name: Install puppeteer browsers
+      run: npx puppeteer install
+
+    - name: Add node_modules/.bin to PATH
+      run: echo "PATH=$(pwd)/node_modules/.bin:$PATH" >> $GITHUB_ENV
+
+    - name: Detect Chromium executable path
+      run: |
+        CHROME_PATH=$(command -v chromium || command -v chromium-browser || command -v google-chrome-stable)
+        echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> $GITHUB_ENV
 
     - name: Install dependencies
       run: bundle install --jobs 4 --retry 3
 
     - name: Build site
       env:
-        PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
         PUPPETEER_ARGS: '--no-sandbox --disable-setuid-sandbox'
       run: bundle exec jekyll build --trace
 

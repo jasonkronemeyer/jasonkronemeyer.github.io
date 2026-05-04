@@ -47,9 +47,14 @@ jobs:
       - name: Add node_modules/.bin to PATH
         run: echo "PATH=$(pwd)/node_modules/.bin:$PATH" >> $GITHUB_ENV
 
+      - name: Detect Chromium executable path
+        run: |
+          CHROME_PATH=$(command -v chromium || command -v chromium-browser || command -v google-chrome-stable)
+          echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> $GITHUB_ENV
+
       - name: Build site
         env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+          PUPPETEER_ARGS: '--no-sandbox --disable-setuid-sandbox'
         run: bundle exec jekyll build -d ./_site
 
       - name: Configure Pages
