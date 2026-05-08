@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transitioning K–12 Schools to DC Power</title>
+<style>
+:root {
+    /* Light Mode Colors */
+    --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+    --header-text: #ffffff;
+    --header-text-secondary: #e6f0f5;
+    --header-description: #edf5fa;
+    --page-bg: #f5f9fc;
+    --page-bg-alt: #ffffff;
+    --text-primary: #1a2b3c;
+    --text-secondary: #2f455c;
+    --text-muted: #4f5f6f;
+    --brand: #2d7a9f;
+    --brand-hover: #2b7696;
+    --accent-bg: #e6f3fa;
+    --accent: #2d7a9f;
+    --border: #d0dbe5;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark Mode Colors */
+        --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+        --header-text: #ffffff;
+        --header-text-secondary: #cfdbe4;
+        --header-description: #d8e5ed;
+        --page-bg: #121a23;
+        --page-bg-alt: #18242f;
+        --text-primary: #e8f0f7;
+        --text-secondary: #c5d3df;
+        --text-muted: #9fb2c4;
+        --brand: #5bb8e6;
+        --brand-hover: #4aa1c7;
+        --accent-bg: #1f2e3a;
+        --accent: #5bb8e6;
+        --border: #2f4354;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'SF Pro Display', 'SF Pro', sans-serif;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+.poster-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--page-bg-alt);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(58,143,183,0.12);
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: center;
+    padding: 56px 32px 40px 32px;
+}
+.header-title {
+    font-size: clamp(40px, 6vw, 60px);
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.header-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--header-text-secondary);
+}
+.header-description {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 760px;
+    margin: 0 auto;
+    color: var(--header-description);
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 24px;
+    padding: 32px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card {
+    background: var(--accent-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+}
+.section-title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+}
+ul li::marker {
+    color: var(--brand);
+}
+/* Stat Card Component */
+.stat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.stat-card {
+    flex: 1 1 45%;
+    background: var(--page-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 16px;
+    text-align: center;
+}
+.stat-number {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent);
+}
+.stat-label {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+/* Timeline Component */
+.timeline {
+    border-left: 3px solid var(--brand);
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 12px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: var(--brand);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--page-bg-alt), 0 0 0 8px var(--accent-bg);
+}
+.timeline-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.timeline-text {
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    * {
+        overflow-wrap: anywhere;
+    }
+}
+:root {
+    /* Light Mode Colors */
+    --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+    --header-text: #ffffff;
+    --header-text-secondary: #eaf4f9;
+    --header-description: #eff7fc;
+    --page-bg: #f5f9fc;
+    --page-bg-alt: #ffffff;
+    --text-primary: #1a2b3c;
+    --text-secondary: #2f455c;
+    --text-muted: #4f5f6f;
+    --brand: #2d7a9f;
+    --brand-hover: #2b7696;
+    --accent-bg: #e6f3fa;
+    --accent: #2d7a9f;
+    --border: #d0dbe5;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark Mode Colors */
+        --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+        --header-text: #ffffff;
+        --header-text-secondary: #cfdbe4;
+        --header-description: #d8e5ed;
+        --page-bg: #121a23;
+        --page-bg-alt: #18242f;
+        --text-primary: #e8f0f7;
+        --text-secondary: #c5d3df;
+        --text-muted: #9fb2c4;
+        --brand: #5bb8e6;
+        --brand-hover: #4aa1c7;
+        --accent-bg: #1f2e3a;
+        --accent: #5bb8e6;
+        --border: #2f4354;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'SF Pro Display', 'SF Pro', sans-serif;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+.poster-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--page-bg-alt);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(58,143,183,0.12);
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: center;
+    padding: 56px 32px 40px 32px;
+    position: relative;
+}
+.header-title {
+    font-size: clamp(40px, 6vw, 60px);
+    font-weight: 900;
+    margin-bottom: 12px;
+    letter-spacing: 0.01em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+.header-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--header-text-secondary);
+}
+.header-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--header-description);
+}
+/* Stat Card Component */
+.stat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.stat-card {
+    flex: 1 1 45%;
+    background: var(--page-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 16px;
+    text-align: center;
+}
+.stat-number {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent);
+}
+.stat-label {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+/* Timeline Component - Dual-Layer Glowing Dot Style */
+.timeline {
+    border-left: 3px solid var(--brand);
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 12px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: var(--brand);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 4px var(--page-bg-alt),
+        0 0 0 8px var(--accent-bg);
+}
+.timeline-title {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.timeline-text {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 15px;
+}
+@media (forced-colors: active) {
+  header { background: Canvas; color: CanvasText; }
+  .poster-container,
+  .stat-card { background: Canvas; border: 1px solid CanvasText; box-shadow: none; }
+  .timeline { border-left: 2px solid CanvasText; }
+  .timeline-item::before {
+    background: CanvasText;
+    box-shadow: none;
+    border: 1px solid Canvas;
+  }
+}
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    * {
+        overflow-wrap: anywhere;
+    }
+}
+</style>
+</head>
+<body>
+<div class="poster-container">
+<header>
+    <h1 class="header-title">DC Power in K–12 Schools</h1>
+    <div class="header-subtitle">EPA & NIST Perspectives, Benefits, and Standards</div>
+    <div class="header-description">A one‑page executive summary on why schools are exploring native DC power for lighting, IoT, renewables, and resilient microgrids.</div>
+</header>
+<div class="main-content">
+    <div class="column">
+        <div class="card">
+            <h2 class="section-title">Why DC Power Matters</h2>
+            <ul>
+                <li><strong>LEDs and electronics are natively DC</strong>, yet most buildings still convert AC to DC at every device.</li>
+                <li><strong>Repeated conversions waste energy</strong> and introduce failure points in drivers and power supplies.</li>
+                <li><strong>DC distribution aligns naturally</strong> with solar PV, batteries, and modern IoT systems.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2 class="section-title">Key Performance Indicators</h2>
+            <div class="stat-grid">
+                <div class="stat-card"><div class="stat-number">10–18%</div><div class="stat-label">Total building energy savings from DC microgrids</div></div>
+                <div class="stat-card"><div class="stat-number">5–10%</div><div class="stat-label">Power lost per AC→DC conversion in LED drivers</div></div>
+                <div class="stat-card"><div class="stat-number">64%</div><div class="stat-label">LED driver failures tied to AC–DC conversion circuitry</div></div>
+                <div class="stat-card"><div class="stat-number">~450 V</div><div class="stat-label">Max voltage for NEC 2023 Class 4 fault‑managed DC</div></div>
+            </div>
+        </div>
+        <div class="card">
+            <h2 class="section-title">EPA Alignment</h2>
+            <ul>
+                <li><strong>Energy efficiency:</strong> DC power amplifies LED savings and cuts conversion losses.</li>
+                <li><strong>Clean energy integration:</strong> Directly connects solar PV and batteries.</li>
+                <li><strong>Resilience:</strong> Supports microgrids that keep lights and IT running during outages.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <h2 class="section-title">NIST’s Role</h2>
+            <ul>
+                <li><strong>Standards & measurement:</strong> Research on power conditioning, microgrids, and inverters.</li>
+                <li><strong>Interoperability:</strong> Emphasis on open standards (PoE, BACnet, IEEE).</li>
+                <li><strong>Cybersecurity:</strong> Guidance for converged IT/OT and IoT‑powered buildings.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2 class="section-title">Enabling Standards Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item"><div class="timeline-title">PoE (IEEE 802.3)</div><div class="timeline-text">48 V DC up to 90 W for lighting, sensors, and IoT devices.</div></div>
+                <div class="timeline-item"><div class="timeline-title">UL 1400‑1</div><div class="timeline-text">Safety standard for fault‑managed DC power systems.</div></div>
+                <div class="timeline-item"><div class="timeline-title">NEC 2023 Class 4</div><div class="timeline-text">Introduces high‑power, fault‑managed DC circuits for buildings.</div></div>
+                <div class="timeline-item"><div class="timeline-title">IEEE 1547</div><div class="timeline-text">Supports safe interconnection of DER and microgrids.</div></div>
+            </div>
+        </div>
+        <div class="card">
+            <h2 class="section-title">Key Risks to Manage</h2>
+            <ul>
+                <li><strong>Safety & codes:</strong> Local adoption of NEC 2023 may lag.</li>
+                <li><strong>Interoperability:</strong> Multiple DC voltages and evolving ecosystems.</li>
+                <li><strong>Cybersecurity:</strong> Expanded attack surface with IoT‑driven power systems.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
