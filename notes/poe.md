@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "When the Network Becomes Part of the Classroom"
+title: "When the Network Starts at the Classroom"
 subtitle: "Designing schools where digital infrastructure is foundational, not supplemental"
 author: Jason Kronemeyer
+status: brief
 date: 2026-05-09
 categories:
   - Compass
