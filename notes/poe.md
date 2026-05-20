@@ -27,7 +27,7 @@ references:
 ---
 
 
-## When the Network Becomes Part of the Classroom
+## Learning as the Key Result
 
 For decades, we have treated educational technology as something we *add* to schools. We build the classrooms, hang the lights, install the HVAC, and then—almost as an afterthought—we layer in Wi‑Fi, devices, smart boards, and apps. The result is familiar: carts that never quite charge, outlets in the wrong places, access points fighting building materials, and educators spending more time troubleshooting than teaching.
 
