@@ -49,7 +49,7 @@ One of the article’s quiet but important arguments is that technology outcomes
 
 This mirrors patterns we see across community infrastructure:
 
-*   Broadband that follows roads rather than people
+*   Broadband that follows people rather than roads
 *   School modernizations that ignore power density and cable pathways
 *   Facilities that cannot support emerging instructional models without costly retrofits
 
