@@ -94,7 +94,6 @@ My work focuses on **advanced communications systems and intelligent building te
 
 {% include callout.html type="info" title="Current Research" content="I'm actively researching how information technology can optimize energy systems in smart buildings. This work explores the potential for data-driven approaches to reduce energy consumption, integrate renewable sources, and create more sustainable built environments through intelligent building management systems." %}
 
-{% include callout.html type="info" title="Let's Connect!" content="I believe in the power of collaboration and knowledge sharing. Whether you're an educator, researcher, developer, or simply curious about the intersection of technology, community development, and sustainable energy systems, I'd love to connect and explore how we can work together to drive innovation." %}
 
 ## Recognition & Achievements
 
@@ -114,10 +113,14 @@ Technical expertise must be paired with ethical responsibility and thoughtful re
 
 ## Get In Touch
 
-- **Email**: [jason@jasonkronemeyer.com](mailto:jason@jasonkronemeyer.com)
-- **LinkedIn**: [linkedin.com/in/jasonkronemeyer](https://www.linkedin.com/in/jasonkronemeyer)
-- **GitHub**: [@jasonkronemeyer](https://github.com/jasonkronemeyer)
-- **Twitter**: [@jasonkronemeyer](https://twitter.com/jasonkronemeyer)
+If your work touches education, digital equity, data science, community development, or smart infrastructure, I welcome the conversation. I value practical collaboration, shared learning, and projects that create measurable community impact.
+
+- **Email (best for direct collaboration inquiries)**: [jason@jasonkronemeyer.com](mailto:jason@jasonkronemeyer.com)
+- **LinkedIn (professional networking and partnership discussions)**: [linkedin.com/in/jasonkronemeyer](https://www.linkedin.com/in/jasonkronemeyer)
+- **GitHub (code, projects, and technical collaboration)**: [@jasonkronemeyer](https://github.com/jasonkronemeyer)
+- **Twitter/X (ideas, updates, and ongoing conversation)**: [@jasonkronemeyer](https://twitter.com/jasonkronemeyer)
+
+{% include callout.html type="info" title="Let's Build Something Meaningful together" content="I believe in the power of collaboration and knowledge sharing. Whether you're an educator, researcher, developer, or simply curious about the intersection of technology, community development, and sustainable energy systems, I'd love to connect and explore how we can work together to drive the growth of our communities." %}
 
 ---
 
