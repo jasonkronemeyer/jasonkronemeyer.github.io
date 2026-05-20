@@ -25,8 +25,6 @@ From 1995 to 1999, I served as an Air Defense / Signals Intelligence Analyst wit
 
 These experiences shaped my approach to technology and community work today: disciplined communication, systems thinking, and a deep respect for the people behind every mission—whether in national defense or rural broadband.
 
-{% include callout.html type="warning" title="Learning in Public" content="This site is my digital laboratory—a space for curiosity, experimentation, and research notes from my work at the intersection of technology, education, and community development. Nothing here claims to be the final word. Instead, these posts document my thinking process, explorations, and the questions that drive my work. I believe in learning in public and inviting others into the conversation. All content reflects ongoing research and is subject to revision as my understanding evolves." %}
-
 ## What Drives Me
 
 - **Digital Equity & Broadband Advocacy**: Much of my career has focused on closing the digital divide—ensuring rural schools and communities have the connectivity, skills, and resources to thrive. I am honored to be recognized as a **Broadband Champion** for my efforts to expand broadband access and digital opportunity.
