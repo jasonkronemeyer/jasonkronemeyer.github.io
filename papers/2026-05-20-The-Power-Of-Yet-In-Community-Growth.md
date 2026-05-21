@@ -77,6 +77,8 @@ When a community finds itself lacking the capacity to undertake digital transfor
 
 The "Power of Yet" by Carol Dweck offers a powerful perspective for communities facing capacity barriers in their digital transformation journey. By embracing a growth mindset and leveraging the Digital Opportunities Compass, communities can systematically monitor, evaluate, and guide their digital equity efforts. This framework, combined with fostering collaboration through community engagement, investing in digital literacy, creating supportive environments, and setting incremental goals, enables communities to overcome challenges and work towards achieving their aspirations for digital equity. With dedication and perseverance, every community can harness the "Power of Yet" to thrive in the digital age.  
 
+---
+
 Dweck, C. S. (2016). _Mindset: The new psychology of success_. Ballantine Books.  
 
 Rhinesmith, C., Dagg, P. R., Bauer, J. M., Byrum, G., & Schill, A. (2023). _Digital opportunities compass: Metrics to monitor, evaluate, and guide broadband and digital equity policy_. Working paper, Ann Arbor, MI: Merit Network, Inc. and East Lansing, MI: Quello Center  
