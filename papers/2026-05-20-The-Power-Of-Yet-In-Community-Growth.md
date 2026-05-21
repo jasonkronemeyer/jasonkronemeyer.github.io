@@ -6,7 +6,7 @@ date: 2026-05-20
 categories: [papers, digital-equity]
 ---
 
-#### Navigating Community Capacity Barriers for Digital Transformation with the Digital Opportunities Compass
+## Navigating Community Capacity Barriers for Digital Transformation with the Digital Opportunities Compass
  
 **For Project Compass – Powered by Merit Network**  
 **By Jason Kronemeyer**  
