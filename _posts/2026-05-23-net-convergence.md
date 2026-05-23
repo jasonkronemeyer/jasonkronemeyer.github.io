@@ -1,6 +1,7 @@
 ---
 title: "The Convergence Era: How Space, Fiber, and Smart Homes Reshape Regional Infrastructure"
 layout: post
+status: draft
 tags: [EUPConnect, broadband, infrastructure, satellites, semantic-systems, rural-futures]
 ---
 
