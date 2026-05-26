@@ -13,8 +13,6 @@ tags:
 summary: "A Compass reflection on the risks of small sample sizes and the ethical responsibility of presenting uncertainty in community-driven data work."
 ---
 
-## The Margin of Trust: Small Samples, Big Decisions, and the Ethics of Uncertainty
-
 In the Compass series, I often return to a simple idea. Communities do not fail because they lack data. They struggle because they are asked to trust data that is not fully understood.
 
 This week, I was struck by a piece from Doug Dawson reflecting on how we interpret surveys in the broadband industry. It raises a question that sits at the center of my work as a data scientist. How much of what we present as insight is actually supported by the strength of the underlying data, and how much is confidence layered on top of uncertainty? [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)
