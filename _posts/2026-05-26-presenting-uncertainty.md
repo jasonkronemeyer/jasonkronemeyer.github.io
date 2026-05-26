@@ -15,17 +15,17 @@ summary: "A Compass reflection on the risks of small sample sizes and the ethica
 
 In the Compass series, I often return to a simple idea. Communities do not fail because they lack data. They struggle because they are asked to trust data that is not fully understood.
 
-This week, I was struck by a piece from Doug Dawson reflecting on how we interpret surveys in the broadband industry. It raises a question that sits at the center of my work as a data scientist. How much of what we present as insight is actually supported by the strength of the underlying data, and how much is confidence layered on top of uncertainty? [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)
+This week, I was struck by a piece from Doug Dawson reflecting on how we interpret surveys in the broadband industry. It raises a question that sits at the center of my work as a data scientist. How much of what we present as insight is actually supported by the strength of the underlying data, and how much is confidence layered on top of uncertainty? [1]
 
 ## The Quiet Risk Behind Small Samples
 
-One of the most counterintuitive truths in survey work is that relatively small sample sizes can appear statistically valid. Under standard assumptions, a few hundred responses can represent populations in the tens or even hundreds of thousands within a defined margin of error. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)
+One of the most counterintuitive truths in survey work is that relatively small sample sizes can appear statistically valid. Under standard assumptions, a few hundred responses can represent populations in the tens or even hundreds of thousands within a defined margin of error. [1]
 
 That technical truth often becomes a narrative shortcut.
 
 In practice, especially in the kinds of community and infrastructure contexts we work in, small samples rarely behave as cleanly as the math suggests. The assumptions behind those margins matter just as much as the numbers themselves. Respondents must be randomly selected. The population must be well understood. Nonresponse must not introduce systematic bias.
 
-As Dawson points out, many surveys do not even explain how respondents were selected. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/) That alone should give us pause.
+As Dawson points out, many surveys do not even explain how respondents were selected. [1] That alone should give us pause.
 
 From my perspective, the danger of a small sample size is not simply that it might be wrong. The greater risk is that it can be precise in presentation and misleading in reality. A single subgroup that is underrepresented, or a small cluster of similar respondents, can disproportionately shape the outcome.
 
@@ -37,9 +37,9 @@ I spend a lot of time working at the intersection of data, infrastructure, and l
 
 Yet many of those datasets come with blind spots.
 
-Dawson highlights three critical elements of a reliable survey. Who is surveyed, how many respond, and how the questions are constructed. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/) All three introduce potential distortion.
+Dawson highlights three critical elements of a reliable survey. Who is surveyed, how many respond, and how the questions are constructed. [1] All three introduce potential distortion.
 
-A survey distributed through an online platform will miss households without reliable connectivity. A voluntary response survey will overrepresent those who are already engaged. A poorly worded question can nudge respondents toward a preferred answer, even if unintentionally. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)
+A survey distributed through an online platform will miss households without reliable connectivity. A voluntary response survey will overrepresent those who are already engaged. A poorly worded question can nudge respondents toward a preferred answer, even if unintentionally. [1]
 
 Individually, each of these issues is manageable. Together, they can fundamentally reshape what the data appears to say.
 
@@ -55,7 +55,7 @@ Experimental design reinforced how sensitive outcomes are to sampling choices, a
 
 Those lessons surface in moments like this.
 
-Dawson notes that many published surveys do not disclose the full methodology, the total universe of respondents, or even the exact questions that were asked. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/) When that happens, the audience is left with a conclusion but not the context needed to evaluate it.
+Dawson notes that many published surveys do not disclose the full methodology, the total universe of respondents, or even the exact questions that were asked. [1] When that happens, the audience is left with a conclusion but not the context needed to evaluate it.
 
 From my perspective, that is where the ethical line begins.
 
@@ -75,7 +75,7 @@ When we are transparent about uncertainty, we are not weakening the narrative. W
 
 ## A Better Way Forward
 
-Surveys remain one of the most valuable tools we have. They can surface trends, capture sentiment, and help prioritize action. Dawson makes an important distinction here. Even non-random surveys can be useful for tracking changes over time, even if their point estimates should not be taken at face value. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)
+Surveys remain one of the most valuable tools we have. They can surface trends, capture sentiment, and help prioritize action. Dawson makes an important distinction here. Even non-random surveys can be useful for tracking changes over time, even if their point estimates should not be taken at face value. [1]
 
 The opportunity in front of us is not to use surveys less. It is to use them more responsibly.
 
@@ -106,4 +106,4 @@ Because in the end, trust is not built on precision alone. It is built on honest
 
 **Sources**
 
-- Dawson, Doug. “[Believing Surveys](https://potsandpansbyccg.com/2026/05/25/believing-surveys/).” POTs and PANs, May 25, 2026. [1](https://potsandpansbyccg.com/2026/05/25/believing-surveys/)  
+- Dawson, Doug. “[Believing Surveys](https://potsandpansbyccg.com/2026/05/25/believing-surveys/).” POTs and PANs, May 25, 2026. [1]  
