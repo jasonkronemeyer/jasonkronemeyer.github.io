@@ -20,7 +20,6 @@ Can communities use, sustain, and grow what we built?
 
 That shift—from access to capacity—is where our policy framework begins to break down.
 
----
 
 ## A Misaligned System
 
@@ -38,7 +37,6 @@ This creates a gap:
 We fund networks as if they are endpoints,  
 when in reality, they are starting points.
 
----
 
 ## Why USDA Changes the Frame
 
@@ -63,7 +61,6 @@ In other words, USDA already treats infrastructure as a community system, not ju
 
 That makes it a natural home for a modernized universal service framework.
 
----
 
 ## But Infrastructure Alone Is Not Enough
 
@@ -82,7 +79,6 @@ The missing layer is not technical.
 
 It is human.
 
----
 
 ## The Role of Community Education
 
@@ -105,7 +101,6 @@ Without this layer, infrastructure investments plateau.
 
 With it, they compound.
 
----
 
 ## Why MSU Extension Matters
 
@@ -127,7 +122,6 @@ Extension does something federal programs alone cannot:
 
 It turns infrastructure into capability.
 
----
 
 ## A Three-Layer Model for Universal Service
 
@@ -153,7 +147,6 @@ Most policy stops at Layers 1 and 2.
 
 But outcomes happen in Layer 3.
 
----
 
 ## From Projects to Systems
 
@@ -171,7 +164,6 @@ This is the difference between:
 - Infrastructure as a project  
 - Infrastructure as a living system  
 
----
 
 ## A Place-Based Opportunity
 
@@ -188,7 +180,6 @@ It is already emerging.
 
 What is missing is a federal framework that recognizes and supports it as a system.
 
----
 
 ## A New Definition of Universal Service
 
@@ -207,7 +198,6 @@ USDA can provide the backbone.
 USF can provide sustainment.  
 Extension can provide the human layer that makes it all work.
 
----
 
 ## The Compass Moving Forward
 
