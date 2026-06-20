@@ -99,6 +99,10 @@ As I advance in technology and data science, I recognize that technical expertis
 
 If you use `jekyll-diagrams` (Mermaid) the plugin requires Puppeteer/Chromium to render diagrams during the build. Common issues and solutions:
 
+- Use the same Node version as CI before local builds:
+
+  nvm use
+
 - "Failed to launch the browser process": install system Chromium (Ubuntu/Debian example):
 
   sudo apt update && sudo apt install -y chromium ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
