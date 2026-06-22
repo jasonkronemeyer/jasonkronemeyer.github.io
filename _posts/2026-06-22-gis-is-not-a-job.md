@@ -3,7 +3,7 @@ layout: post
 title: "GIS Is Not a Job: Reframing the System and the Roles That Bring It to Life"
 date: 2026-06-22
 author: Jason Kronemeyer
-status: reasearch
+status: research
 tags: [Compass Series, Spatial Data Science, GIS, DOIN, Workforce, Systems Thinking]
 ---
 
@@ -309,24 +309,24 @@ And that's where real transformation starts.
 
 ## References
 
-<a id="ref1"></a>**[1]** U.S. Geological Survey. (n.d.). *What is a geographic information system (GIS)?* Retrieved from https://www.usgs.gov/faqs/what-a-geographic-information-system-gis
+Ali, E. (2020). *Geographic information system (GIS): Definition, development, applications & components.* ResearchGate. https://www.researchgate.net/profile/Ershad-Ali-2/publication/340182760_Geographic_Information_System_GIS_Definition_Development_Applications_Components/links/5e7ca93992851caef49e0835/Geographic-Information-System-GIS-Definition-Development-Applications-Components.pdf
 
-<a id="ref2"></a>**[2]** Ali, E. (2020). *Geographic information system (GIS): Definition, development, applications & components.* ResearchGate. Retrieved from https://www.researchgate.net/profile/Ershad-Ali-2/publication/340182760_Geographic_Information_System_GIS_Definition_Development_Applications_Components/links/5e7ca93992851caef49e0835/Geographic-Information-System-GIS-Definition-Development-Applications-Components.pdf
+Atlas. (n.d.). *Geospatial data science definition.* [https://atlas.co/glossary/geospatial-data-science/](https://atlas.co/glossary/geospatial-data-science/)
 
-<a id="ref3"></a>**[3]** Spatialnode. (2023). *Geospatial data engineering and ETL.* Retrieved from https://www.spatialnode.net/articles/geospatial-data-engineeringd36ebd
+Science Insights. (2026). *What is spatial data science?* [https://scienceinsights.org/what-is-spatial-data-science-definition-and-uses/](https://scienceinsights.org/what-is-spatial-data-science-definition-and-uses/)
 
-<a id="ref4"></a>**[4]** University of Southern California GIS. (2024). *What is spatial data analysis?* Retrieved from https://gis.usc.edu/blog/what-is-spatial-data-analysis/
+Spatialnode. (2023). *Geospatial data engineering and ETL.* [https://www.spatialnode.net/articles/geospatial-data-engineeringd36ebd](https://www.spatialnode.net/articles/geospatial-data-engineeringd36ebd)
 
-<a id="ref5"></a>**[5]** Atlas. (n.d.). *Geospatial data science definition.* Retrieved from https://atlas.co/glossary/geospatial-data-science/
+University of Southern California GIS. (2024). *What is spatial data analysis?* [https://gis.usc.edu/blog/what-is-spatial-data-analysis/](https://gis.usc.edu/blog/what-is-spatial-data-analysis/)
 
-<a id="ref6"></a>**[6]** Science Insights. (2026). *What is spatial data science?* Retrieved from https://scienceinsights.org/what-is-spatial-data-science-definition-and-uses/
+U.S. Geological Survey. (n.d.). *What is a geographic information system (GIS)?* [https://www.usgs.gov/faqs/what-a-geographic-information-system-gis](https://www.usgs.gov/faqs/what-a-geographic-information-system-gis)
 
 ---
 
 ## Additional Reading
 
-Kronemeyer, J. (n.d.). *The Power of Yet in Community Growth: Navigating Community Capacity for Digital Transformation.* Compass Series. https://www.jasonkronemeyer.com/papers/2026-05-20-The-Power-Of-Yet-In-Community-Growth.html 
+Kronemeyer, J. (2026). *The power of yet in community growth: Navigating community capacity for digital transformation.* Compass Series. [https://www.jasonkronemeyer.com/papers/2026-05-20-The-Power-Of-Yet-In-Community-Growth.html](https://www.jasonkronemeyer.com/papers/2026-05-20-The-Power-Of-Yet-In-Community-Growth.html)
 
-Kronemeyer, J. (n.d.). *Digital Opportunities Intelligence Network (DOIN): A Framework for Place-Based Infrastructure Intelligence.*  https://www.jasonkronemeyer.com/digital%20equity/policy/data%20science/infrastructure/compass/2026/06/05/doin.html
+Kronemeyer, J. (2026). *Digital opportunities intelligence network (DOIN): A framework for place-based infrastructure intelligence.* [https://www.jasonkronemeyer.com/digital%20equity/policy/data%20science/infrastructure/compass/2026/06/05/doin.html](https://www.jasonkronemeyer.com/digital%20equity/policy/data%20science/infrastructure/compass/2026/06/05/doin.html)
 
-Kronemeyer, J. (n.d.). *The Digital Opportunity Compass: Connecting People, Infrastructure, and Possibility.* https://www.jasonkronemeyer.com/2025/11/07/training-the-compass-digital-opportunities-intelligence-framework.html
+Kronemeyer, J. (2025). *The digital opportunity compass: Connecting people, infrastructure, and possibility.* [https://www.jasonkronemeyer.com/2025/11/07/training-the-compass-digital-opportunities-intelligence-framework.html](https://www.jasonkronemeyer.com/2025/11/07/training-the-compass-digital-opportunities-intelligence-framework.html)
