@@ -3,7 +3,7 @@ layout: post
 title: "GIS Is Not a Job: Reframing the System and the Roles That Bring It to Life"
 date: 2026-06-22
 author: Jason Kronemeyer
-status: research
+status: reasearch
 tags: [Compass Series, Spatial Data Science, GIS, DOIN, Workforce, Systems Thinking]
 ---
 
@@ -11,242 +11,250 @@ tags: [Compass Series, Spatial Data Science, GIS, DOIN, Workforce, Systems Think
 
 I keep noticing this moment.
 
-You’re sitting in a planning meeting—maybe it’s a school district, a county, or a regional group—and someone says:
+You're sitting in a planning meeting—maybe it's a school district, a county, or a regional group—and someone says:
 
-“We need a GIS person.”
+"We need a GIS person."
 
-And you pause. Because you know… that’s not quite what they mean.
+And you pause. Because you know… that's not quite what they mean.
 
-What they’re really saying is:
+What they're really saying is:
 
-> “We need help understanding what’s happening in our community.”
+> "We need help understanding what's happening in our community."
 
 But somewhere along the way, we collapsed that into a single term.
 
 GIS.
 
-Here’s the truth that doesn’t get said enough:
+Here's the truth that doesn't get said enough:
 
 > GIS was never meant to be a job.  
-> It’s a system.
+> It's a system.
 
-A Geographic Information System is a way of working with data that has a location—data you can store, analyze, and visualize in relation to place. 1  
+A **Geographic Information System** is a way of working with data that has a location—data you can store, analyze, and visualize in relation to place. [1](#ref1)  
 
-It brings together data, tools, and people into a shared environment for understanding how things are connected across geography. 2  
+It brings together data, tools, and people into a shared environment for understanding how things are connected across geography. [2](#ref2)  
 
-It’s the platform.
+It's the platform.
 
 Not the person.
 
 ---
 
-## Where the Confusion Comes From
+## When the Language Didn't Keep Up
 
-If you’ve worked in smaller communities—or even mid-sized organizations—you’ve probably seen this firsthand.
+If you've worked in smaller communities—or even mid-sized organizations—you've probably seen this firsthand.
 
 One person ends up doing everything:
 
 - pulling data from spreadsheets  
-- mapping fiber routes or bus routes  
+- mapping infrastructure or service areas  
 - building dashboards  
 - explaining what it all means  
 
-And that person gets called “GIS.”
+And that person gets called "GIS."
 
-But that’s not a role.  
-That’s a bundle of work.
+But that's not a role.  
+That's a bundle of work.
 
 As systems scale, that bundle starts to break apart.
 
-And that’s where the confusion begins.
+And that's where the confusion begins.
 
 ---
 
 ## What This Looks Like in the Real World
 
-Let’s ground this in something real.
+Let's ground this in what you and I would both recognize.
 
-### Example 1: Broadband Mapping in a Rural Region
+### Broadband Mapping in a Rural Region
 
 A community wants to understand where service gaps exist.
 
-Right now, they might say:
+They say:
 
-> “We need GIS to map broadband.”
+> "We need GIS to map broadband."
 
-But what’s actually happening?
+But what's really happening?
 
-- Someone has to gather data from providers, the FCC, and local surveys  
-- Someone has to clean and align that data  
-- Someone has to map it and identify gaps  
-- Someone has to interpret what those gaps mean for funding or policy  
+- Data gets pulled from providers, public datasets, and local surveys  
+- That data has to be cleaned and aligned  
+- Someone maps it and identifies gaps  
+- Someone else explains what those gaps mean for funding decisions  
 
-That’s not one job.
-
-That’s a system with multiple roles working inside it.
-
-And in many “not yet” communities—places still building capacity—that entire stack falls on one person… or no one at all.
+In many places across Michigan and the Upper Peninsula, that entire workflow either gets compressed into one person—or it doesn't happen yet.
 
 ---
 
-### Example 2: School District Planning
+### School District Connectivity
 
-Think about a district trying to answer a simple question:
+A district asks:
 
-> Which students don’t have reliable connectivity at home?
+> Which students don't have reliable connectivity at home?
 
-Again, it sounds like a “GIS problem.”
+It sounds simple. It's not.
 
-But it breaks down into layers:
+- Addresses need to be verified  
+- Coverage data needs to be overlaid  
+- Patterns need to be identified (route boundaries, income, geography)  
+- Decisions need to follow (hotspots, fiber builds, partnerships)  
 
-- Data engineering: pulling addresses, verifying locations, connecting to service maps  
-- Analysis: identifying patterns—rural edges, income overlays, bus routes  
-- Decision-making: determining where to deploy hotspots, fiber, or partnerships  
+If a district says "we don't have GIS," what they usually mean is:
 
-If a district says “we don’t have GIS,” what they often mean is:
-
-> “We don’t have the capacity to do this yet.”
+> "We don't have the capacity to answer this yet."
 
 ---
 
-### Example 3: Smart Buildings and Energy Systems
+### Energy and Smart Campus Systems
 
-You’ve been working at the intersection of IT/OT, power systems, and smart campuses.
+Now think about smart buildings, energy systems, or even Class 4 power distribution across a campus.
 
-Now imagine a question like:
+The question might be:
 
-> Where are we losing energy efficiency across buildings?
+> Where are we losing efficiency?
 
-GIS can absolutely support that.
+GIS can absolutely sit underneath that question.
 
 But again, not as a single role:
 
-- Engineers integrate sensor data from building systems  
-- Analysts map energy use across facilities  
-- Data scientists model optimization scenarios over time  
+- Data has to come from sensors and control systems  
+- It needs to be structured and aligned  
+- Patterns have to be interpreted across buildings and systems  
+- And then modeled over time  
 
 Without that layered capability, the data just sits there.
 
 ---
 
-## The “Not Yet” Reality
+## A Quick Connection to DOIN
 
-This is where the conversation gets more honest.
+This is exactly where the **Digital Opportunities Intelligence Network (DOIN)** comes into play.
 
-Most communities are not missing “GIS.”
+If GIS is the system for understanding place, then DOIN is the next layer:
 
-They are in a not yet stage of capacity.
+> A network that connects data, infrastructure, people, and decision-making across a region.
 
-They haven’t yet built:
+GIS becomes one of the **core sensing layers** inside DOIN.
 
-- the data pipelines  
-- the analytical skills  
-- the modeling capability  
+- It grounds everything in place  
+- It connects datasets that would otherwise stay siloed  
+- It enables communities to move from "what do we have?" to "what should we do next?"  
 
-So the work either:
+But DOIN also makes something else clear:
 
-- doesn’t happen  
-- or gets compressed into a single overwhelmed role  
+> The system alone is not enough.  
+> You need people, pathways, and capacity.
 
-And that’s where the frustration shows up.
+---
+
+## The "Not Yet" Reality
+
+Most communities aren't missing GIS.
+
+They are in a **not yet** stage.
+
+Not yet:
+
+- fully integrated  
+- fully staffed  
+- fully resourced  
+
+And instead of seeing that as a gap, I've come to see it as a starting point.
+
+Because every system starts the same way:
+
+- one dataset  
+- one question  
+- one insight  
+
+Then it builds.
 
 ---
 
 ## The Roles—Seen Through Real Work
 
-When you unpack it, three roles start to become visible.
-
-Not as job titles—but as functions inside a system.
+When you slow it down, three distinct functions start to appear.
 
 ---
 
-### The Spatial Data Engineer: Starting Where You Are
+### The Spatial Data Engineer: Getting the Data Ready
 
-In a not yet community, this role usually starts informally.
+In a not yet community, this doesn't always look like a formal role.
 
-It might look like:
+It might be:
 
-- A technologist pulling data out of Excel and cleaning addresses  
-- Someone connecting different datasets that were never meant to align  
-- A regional partner helping standardize formats  
+- a technologist cleaning up address data  
+- someone aligning datasets that don't quite match  
+- a regional partner helping standardize formats  
 
 This is the work of making data usable.
 
-It’s the ETL process—extracting, transforming, and loading data so it can actually be analyzed. 3  
+The technical term is ETL—extract, transform, load—turning raw data into something ready for analysis. [3](#ref3)  
 
-Where to start:
+**Where to start:**
 
-- Inventory what data you already have  
-- Focus on cleaning and standardizing it  
+- Inventory what you already have  
+- Clean and standardize it  
 - Build simple repeatable workflows  
 
-You don’t need a full platform yet.
+Don't overbuild.
 
-You need consistency.
+Just make the data trustworthy.
 
 ---
 
 ### The Spatial Analyst: Making Meaning Visible
 
-Once the data starts to come together, the next shift happens.
+Then someone starts asking better questions.
 
-Someone begins asking better questions.
+Where are the gaps?  
+What patterns are emerging?  
+Who is being left out?
 
-- Where are the gaps?  
-- What patterns are emerging?  
-- What areas are being left out?  
-
-This is spatial analysis—the process of examining location-based data to uncover patterns and relationships. 4  
+This is spatial analysis—examining geographic data to uncover patterns and relationships. [4](#ref4)  
 
 In a not yet community, this might be:
 
-- A staff member creating their first meaningful map  
-- A regional hub helping interpret trends  
-- A partner translating data into decisions  
+- the first meaningful map shared with leadership  
+- a county-level dashboard  
+- a regional story told through data  
 
-Where to start:
+**Where to start:**
 
-- Pick one question that matters locally  
-- Use simple mapping tools to visualize it  
-- Share the result with decision makers  
+- Pick one high-impact question  
+- Map it simply  
+- Share it clearly  
 
-Insight builds trust.
+Insight creates momentum.
 
 ---
 
-### The Spatial Data Scientist: Looking Ahead (Even If You’re Not Ready Yet)
+### The Spatial Data Scientist: Looking Ahead (When You're Ready)
 
-Most communities aren’t here yet.
+Most communities aren't here yet.
 
-And that’s okay.
+And that's okay.
 
-This layer is about:
+This is the layer where we start asking:
 
-- prediction  
-- modeling  
-- forecasting  
+- What is likely to happen next?  
+- Where should we invest before problems emerge?  
 
-Spatial data science combines GIS with statistics and computation to identify patterns and predict outcomes from location-based data. 5  
+Spatial data science combines GIS with statistics and computing to extract patterns and predictions from location-based data. [5](#ref5)  
 
-It goes beyond “what is happening” to:
+It moves beyond description into explanation and forecasting. [6](#ref6)  
 
-- why it’s happening  
-- what might happen next  
-- and how interventions might change that  
+In a not yet community, this usually happens through partnership:
 
-6  
-
-In a not yet community, this shows up differently:
-
-- Partnering with a university  
-- Working with a regional network (like Merit or MSU Extension)  
+- Partnering with a communty college or university  
+- Collaborating with regional and state networks (like EUPConnect Collaborative, MSU Quello Center, Merit Network or MSU Extension)  
 - Using shared models instead of building your own  
 
-Where to start:
+**Where to start:**
 
 - Don’t try to build this alone  
 - Connect to regional or statewide capacity  
 - Focus on learning how to ask predictive questions  
+
 
 ---
 
@@ -254,62 +262,71 @@ Where to start:
 
 So when someone says:
 
-“We need a GIS.”
+"We need a GIS person."
 
-What I hear now is:
+I hear:
 
-> “We’re trying to find our direction, but we don’t yet have the full system to get there.”
+> "We're trying to find our direction, but we're not there yet."
 
-And that’s the reframe.
+And that's okay.
+
+Because:
 
 > GIS is the compass.  
 > Not the traveler.
 
-The system helps you orient.
+The system helps orient you.
 
-But the work—the movement—the progress—that comes from people.
-
-From analysts, engineers, scientists.
-
-From communities building capacity step by step.
+But progress comes from people… and from communities willing to build, step by step.
 
 ---
 
 ## Starting Where You Are
 
-If you’re in a community that feels like it’s behind, here’s the truth:
+If you're reading this and thinking, "we don't have that yet," here's the reality:
 
-You’re not behind.
+You're not behind.
 
-You’re just not yet.
+You're just **not yet**.
 
-Not yet fully integrated.  
-Not yet fully staffed.  
-Not yet fully scaled.
+And "not yet" is where every meaningful system begins.
 
-And that’s okay.
+- Start with one dataset  
+- Ask one question  
+- Share one insight  
 
-Because every one of these systems starts the same way:
+Then build.
 
-- one dataset  
-- one map  
-- one question  
+Because over time, those small steps become something bigger:
 
-Then another.
+A system.  
+A network.  
+A shared understanding of place.
 
-And another.
-
-Until something clicks.
-
-And the system starts to come alive.
+And that's where real transformation starts.
 
 ---
 
-## Endnotes
+## References
 
-1. U.S. Geological Survey. “What is a Geographic Information System (GIS)?” 1  
-2. Ali, E. “Geographic Information System (GIS): Definition, Development, Applications & Components.” 2  
-3. USC GIS. “What Is Spatial Data Analysis?” 4  
-4. Spatialnode. “Geospatial Data Engineering and ETL.” 3  
-5. Atlas Glossary. “Geospatial Data Science Definition.” 5  
-6. Science Insights. “What Is Spatial Data Science?” 6
+<a id="ref1"></a>**[1]** U.S. Geological Survey. (n.d.). *What is a geographic information system (GIS)?* Retrieved from https://www.usgs.gov/faqs/what-a-geographic-information-system-gis
+
+<a id="ref2"></a>**[2]** Ali, E. (2020). *Geographic information system (GIS): Definition, development, applications & components.* ResearchGate. Retrieved from https://www.researchgate.net/profile/Ershad-Ali-2/publication/340182760_Geographic_Information_System_GIS_Definition_Development_Applications_Components/links/5e7ca93992851caef49e0835/Geographic-Information-System-GIS-Definition-Development-Applications-Components.pdf
+
+<a id="ref3"></a>**[3]** Spatialnode. (2023). *Geospatial data engineering and ETL.* Retrieved from https://www.spatialnode.net/articles/geospatial-data-engineeringd36ebd
+
+<a id="ref4"></a>**[4]** University of Southern California GIS. (2024). *What is spatial data analysis?* Retrieved from https://gis.usc.edu/blog/what-is-spatial-data-analysis/
+
+<a id="ref5"></a>**[5]** Atlas. (n.d.). *Geospatial data science definition.* Retrieved from https://atlas.co/glossary/geospatial-data-science/
+
+<a id="ref6"></a>**[6]** Science Insights. (2026). *What is spatial data science?* Retrieved from https://scienceinsights.org/what-is-spatial-data-science-definition-and-uses/
+
+---
+
+## Additional Reading
+
+Kronemeyer, J. (n.d.). *The Power of Yet in Community Growth: Navigating Community Capacity for Digital Transformation.* Compass Series. https://www.jasonkronemeyer.com/papers/2026-05-20-The-Power-Of-Yet-In-Community-Growth.html 
+
+Kronemeyer, J. (n.d.). *Digital Opportunities Intelligence Network (DOIN): A Framework for Place-Based Infrastructure Intelligence.*  https://www.jasonkronemeyer.com/digital%20equity/policy/data%20science/infrastructure/compass/2026/06/05/doin.html
+
+Kronemeyer, J. (n.d.). *The Digital Opportunity Compass: Connecting People, Infrastructure, and Possibility.* https://www.jasonkronemeyer.com/2025/11/07/training-the-compass-digital-opportunities-intelligence-framework.html
