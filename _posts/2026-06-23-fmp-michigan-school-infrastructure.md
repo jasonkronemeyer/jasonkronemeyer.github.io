@@ -27,9 +27,10 @@ That is not just a facilities challenge. It is an infrastructure transition stor
 
 ## A Financial Signal
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-kHIYtSLbTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Watch the source video on YouTube](https://www.youtube.com/watch?v=-kHIYtSLbTU)  
+Embed URL: [https://www.youtube.com/embed/-kHIYtSLbTU](https://www.youtube.com/embed/-kHIYtSLbTU)
 
-The conversation in the video above points to a refinancing wave moving through the built environment. In commercial real estate, large volumes of debt are maturing over the next several years, forcing owners and operators to make hard decisions quickly.
+The transcript from the conversation at the video above makes the point plainly: many buildings were built 30 to 40 years ago, before internet-era requirements, and roughly $3 trillion in building refinancing is coming up globally in the next two years. That scale is forcing owners and operators to make hard decisions quickly.
 
 This is often described as a “maturity wall.”
 
