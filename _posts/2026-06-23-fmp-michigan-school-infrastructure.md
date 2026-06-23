@@ -113,7 +113,7 @@ It is the entire stack:
 
 Many legacy facilities still rely on analog controls and isolated systems that do not integrate with modern digital infrastructure.  
 
-This is why retrofit costs often concentrate not on visible improvements, but on the hidden infrastructure required to make systems interoperable.
+This is why retrofit costs often concentrate not on visible improvements, but on the hidden infrastructure required to make systems interoperable. The good news: emerging systems like fault-managed power distribution use cabling practices compatible with standard retrofit protocols, meaning you don't need to tear out the entire building. New power and control systems can layer onto existing pathways, making the upgrade sequence both realistic and phased.
 
 ## A Different Way to Think About School Modernization
 
@@ -144,13 +144,35 @@ It is about system capability.
 
 Can the building:
 - support integrated data systems?  
-- optimize energy use dynamically?  
+- optimize energy use dynamically? (Modern systems can reduce facility energy costs by 75%.)  
 - adapt to new learning technologies?  
 - serve as a hub for community connectivity?  
 
 If the answer is no, then the question is no longer whether to invest.
 
 It is how to invest correctly.
+
+## The Hidden Cost: AC-to-DC Conversion Losses
+
+Legacy buildings are hemorrhaging energy in ways most facility managers don't track.
+
+Consider how power actually moves through a traditional school or campus building:
+
+- Transmission lines deliver power to the site (5–20% line loss before it even arrives)  
+- An electrical panel converts AC to DC for equipment  
+- That conversion loses 2–3 percentage points  
+- Inside the building, there are typically 3 to 6 additional AC-to-DC conversion stages  
+- Each hop loses more power  
+
+In older data centers and large facilities, the impact is staggering: roughly 65% of total energy consumption goes to non-useful power—cooling losses, line distribution losses, and conversion inefficiencies—rather than actual work.
+
+This is not a compliance issue. It is a cost issue.
+
+A 5 megawatt data center that converts from air cooling and traditional power distribution to direct liquid cooling and managed power delivery can reduce energy costs by 75%. That same infrastructure can also support 2.3 times the computational load for the same energy input.
+
+For schools, the principle is identical. As buildings become platforms for learning systems, data systems, and building automation, the energy efficiency of the underlying power and cooling infrastructure directly affects operational budgets, available capacity, and long-term viability.
+
+Intelligent infrastructure means paying attention to losses that traditional facility planning ignores.
 
 ## A Once-in-a-Generation Opportunity
 
@@ -187,7 +209,7 @@ Start with:
 - integrated infrastructure planning  
 - scalable network architecture  
 - alignment between facilities and technology teams  
-- workforce pathways tied to real building systems  
+- workforce pathways tied to real building systems (Network engineers, IT staff, and technicians—not just electricians—can now install and manage intelligent power and control systems, opening new career entry points and addressing skilled labor shortages.)  
 
 This is where the opportunity expands.
 
@@ -212,6 +234,12 @@ How do we transform what we inherited into something that can carry us forward?
 That is the work ahead.
 
 And it is already underway.
+
+## References
+
+Bombal, D. (Host). (2026, June 19). 1000W touch safe power—Class 4 Fault Managed Power for AI infrastructure [Video podcast]. *David Bombal Podcasts*. Retrieved from [https://www.youtube.com/watch?v=-kHIYtSLbTU](https://www.youtube.com/watch?v=-kHIYtSLbTU)
+
+*Featuring Stephen Kelly and Denise Lee (NTT DATA/Cisco partnership on energy networking systems and fault-managed power delivery)*
 
 ## Further Reading
 
