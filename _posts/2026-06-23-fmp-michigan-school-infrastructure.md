@@ -23,8 +23,6 @@ And yet, here we are, asking those same buildings to carry the weight of a fully
 
 That is not just a facilities challenge. It is an infrastructure transition story.
 
----
-
 ## A Financial Signal
 
 [Watch the source video on YouTube](https://www.youtube.com/watch?v=-kHIYtSLbTU)  
@@ -45,8 +43,6 @@ What this refinancing cycle really represents is a moment of decision:
 
 Because refinancing is no longer just about extending debt.  
 It is about testing whether an asset can still perform in a connected economy.
-
----
 
 ## The Hidden Parallel in Michigan Schools
 
@@ -79,8 +75,6 @@ This is not a minor evolution.
 
 It is a complete shift in what a school building is expected to do.
 
----
-
 ## Refinancing Analog Buildings Into a Digital Economy
 
 The core tension is simple:
@@ -102,8 +96,6 @@ The refinancing wave in commercial real estate is showing us what happens when t
 Buildings do not fail overnight.  
 They fall behind—until they cannot catch up.
 
----
-
 ## The Retrofit Imperative
 
 Across sectors, the reality is unavoidable:
@@ -122,8 +114,6 @@ It is the entire stack:
 Many legacy facilities still rely on analog controls and isolated systems that do not integrate with modern digital infrastructure.  
 
 This is why retrofit costs often concentrate not on visible improvements, but on the hidden infrastructure required to make systems interoperable.
-
----
 
 ## A Different Way to Think About School Modernization
 
@@ -145,8 +135,6 @@ In this model, digital infrastructure is not an add-on.
 
 It is the foundation.
 
----
-
 ## From Buildings to Systems
 
 This is where the conversation shifts from maintenance to performance.
@@ -163,8 +151,6 @@ Can the building:
 If the answer is no, then the question is no longer whether to invest.
 
 It is how to invest correctly.
-
----
 
 ## A Once-in-a-Generation Opportunity
 
@@ -188,8 +174,6 @@ If we align these elements, we can move beyond maintaining buildings.
 
 We can transform them.
 
----
-
 ## The Compass Direction: Not Yet, But Next
 
 In many communities, the capacity to fully modernize is not yet there.
@@ -208,8 +192,6 @@ Start with:
 This is where the opportunity expands.
 
 Because when students learn in buildings that operate as intelligent systems, those buildings become classrooms themselves.
-
----
 
 ## Closing Reflection
 
@@ -230,8 +212,6 @@ How do we transform what we inherited into something that can carry us forward?
 That is the work ahead.
 
 And it is already underway.
-
----
 
 ## Further Reading
 
