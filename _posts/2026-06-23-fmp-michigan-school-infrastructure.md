@@ -3,6 +3,7 @@ layout: post
 title: "Refinancing the Past: Why School Buildings Must Become Digital Infrastructure"
 date: 2026-06-23
 author: Jason Kronemeyer
+status: research 
 categories: [Compass Series, Infrastructure, Schools, Digital Opportunity]
 tags: [smart buildings, K12, Michigan, infrastructure, retrofits, digital transformation, workforce]
 ---
