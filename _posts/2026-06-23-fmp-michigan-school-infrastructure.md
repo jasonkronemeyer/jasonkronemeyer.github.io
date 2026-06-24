@@ -13,7 +13,7 @@ tags: [smart buildings, K12, Michigan, infrastructure, retrofits, digital transf
 
 In boardrooms, bond planning sessions, and facilities walkthroughs, the same conclusion keeps emerging.
 
-The buildings we inherited were built for a different era, but the expectations placed on them have changed dramatically. Schools are now expected to function as connected learning environments, energy-managed facilities, public safety infrastructure, and community hubs. That mismatch is no longer a future concern; it is a present planning challenge.
+The buildings we inherited were built for a different era, but the expectations placed on them have changed dramatically. Schools are now expected to function as **connected** learning environments, **energy-managed** facilities, **public safety** infrastructure, and **community hubs**. That mismatch is no longer a future concern; it is a **present** planning challenge.
 
 They were built before the internet.  
 Before connected devices.  
@@ -21,7 +21,13 @@ Before the idea that a building could generate, process, and respond to data in 
 
 And yet, here we are, asking those same buildings to carry the weight of a fully digital society.
 
-That is not simply a facilities challenge. It is an infrastructure transition story, and the cost of delay is becoming visible in capital planning, energy use, and instructional capacity. The question is no longer whether schools will need to change. It is whether districts will treat that change as a strategic investment rather than an overdue repair project.
+That is not simply a facilities challenge. It is an **infrastructure transition** story, and the **cost of delay** is becoming visible in capital planning, energy use, and instructional capacity. The question is no longer whether schools will need to change. It is whether districts will treat that change as a **strategic investment** rather than an **overdue repair** project.
+
+**At a glance:**
+- **Aging buildings** are carrying modern expectations.
+- **Capital pressure** is rising as refinancing and electrification accelerate.
+- **Digital infrastructure** is now part of school readiness, not an add-on.
+- **Retrofit, not replacement**, is the practical path for most districts.
 
 ## A Financial Signal
 
@@ -29,11 +35,11 @@ A useful reference point is David Bombal’s video, “Will this replace PoE (Po
 
 That point becomes more concrete when viewed through the scale of the current refinancing cycle: many buildings were built 30 to 40 years ago, before internet-era requirements, and roughly $3 trillion in building refinancing is coming up globally in the next two years. Electrification is adding further pressure, as schools and campuses adopt more electric heating, cooling, and other systems that place new demands on their power infrastructure. That scale is forcing owners and operators to make hard decisions quickly.
 
-This is often described as a “maturity wall.”
+This is often described as a **“maturity wall.”**
 
-But the more important signal is not only financial. It is structural, operational, and strategic.
+But the more important signal is not only **financial**. It is **structural**, **operational**, and **strategic**.
 
-What this refinancing cycle really represents is a moment of decision:
+What this refinancing cycle really represents is a **moment of decision**:
 - Which buildings still work?
 - Which buildings need to change?
 - And which ones can no longer support the systems we depend on?
@@ -41,7 +47,7 @@ What this refinancing cycle really represents is a moment of decision:
 For school districts, that means the question is not only whether a building can be repaired. It is whether it can remain a viable platform for learning, operations, and public service over the next generation.
 
 Because refinancing is no longer just about extending debt.  
-It is about testing whether an asset can still perform in a connected economy.
+It is about testing whether an asset can still **perform** in a **connected economy**.
 
 ## The Hidden Parallel in Michigan Schools
 
@@ -72,9 +78,9 @@ Today, they are expected to support:
 - safety and security technologies  
 - community access beyond school hours  
 
-This is not a minor evolution.
+This is not a **minor evolution**.
 
-It is a complete shift in what a school building is expected to do.
+It is a **complete shift** in what a school building is expected to do.
 
 ## Refinancing Analog Buildings Into a Digital Economy
 
@@ -82,7 +88,7 @@ The core tension is simple:
 
 > We are reinvesting in buildings that were never designed for connectivity.
 
-Across the private sector, this creates financial pressure. Across the public sector, it creates planning risk with direct consequences for students, educators, and communities. The challenge is especially acute in education because districts rarely have the option to replace entire facilities on a short timeline.
+Across the private sector, this creates **financial pressure**. Across the public sector, it creates **planning risk** with direct consequences for students, educators, and communities. The challenge is especially acute in education because districts rarely have the option to replace entire facilities on a short timeline.
 
 Because when a building cannot support digital systems, it becomes:
 - more expensive to operate  
@@ -94,14 +100,14 @@ And over time, less viable.
 The refinancing wave in commercial real estate is showing us what happens when this performance gap becomes too large.
 
 Buildings do not fail overnight.  
-They fall behind—until they cannot catch up.
+They **fall behind**—until they **cannot catch up**.
 
 ## The Retrofit Imperative
 
-Across sectors, the reality is unavoidable:
+Across sectors, the reality is **unavoidable**:
 
 - The majority of buildings that will exist in 2050 already exist today  
-- Retrofitting is no longer optional—it is the primary path forward  
+- **Retrofitting** is no longer optional—it is the **primary path forward**  
 
 In older buildings, the challenge is not just one system.  
 It is the entire stack:
@@ -113,7 +119,7 @@ It is the entire stack:
 
 Many legacy facilities still rely on analog controls and isolated systems that do not integrate with modern digital infrastructure.  
 
-This is why retrofit costs often lie not in visible improvements, but in the hidden infrastructure required to make systems interoperable. The opportunity, however, is that emerging systems such as fault-managed power distribution use cabling practices compatible with standard retrofit protocols, meaning districts do not need to tear out an entire building to begin. New power and control systems can layer onto existing pathways, making the upgrade sequence both realistic and phased rather than disruptive.
+This is why **retrofit costs** often lie not in visible improvements, but in the **hidden infrastructure** required to make systems interoperable. The opportunity, however, is that emerging systems such as fault-managed power distribution use cabling practices compatible with standard retrofit protocols, meaning districts do not need to tear out an entire building to begin. New power and control systems can layer onto existing pathways, making the upgrade sequence both **realistic** and **phased** rather than **disruptive**.
 
 A practical example helps illustrate the point. Imagine a mid-century school building with aging electrical infrastructure, limited conduit space, and a patchwork of disconnected controls. Rather than replacing the entire facility, a district could upgrade the power backbone, install modern controls, and add networked systems in phases while the building remains in operation. That approach turns a major capital project into a manageable modernization strategy.
 
@@ -196,8 +202,8 @@ In many communities, the capacity to fully modernize is not yet there.
 
 That is okay.
 
-The goal is not immediate perfection.  
-It is intentional direction and sequencing.
+The goal is not **immediate perfection**.  
+It is **intentional direction** and **sequencing**.
 
 Start with:
 - integrated infrastructure planning  
@@ -205,7 +211,7 @@ Start with:
 - alignment between facilities and technology teams  
 - workforce pathways tied to real building systems (Network engineers, IT staff, and technicians—not just electricians—can now install and manage intelligent power and control systems, opening new career entry points and addressing skilled labor shortages.)  
 
-This is where the opportunity expands.
+This is where the **opportunity expands**.
 
 Modernized schools can do more than house instruction. They can also serve as training environments for the very skills the future workforce will require. As buildings become more digitally integrated, they create natural opportunities for career and technical education, hands-on learning in networked systems, energy management, controls, and building operations. In that sense, school modernization is not only an infrastructure investment. It is also an education and workforce development strategy, connecting students to the technical competencies that employers increasingly need.
 
@@ -215,9 +221,9 @@ Because when students learn in buildings that operate as intelligent systems, th
 
 ## Closing Reflection
 
-The refinancing cycle is telling us something important.
+The refinancing cycle is telling us something **important**.
 
-Buildings are no longer valued only for their physical structure. They are judged by their ability to participate in a connected, intelligent world.
+Buildings are no longer valued only for their physical structure. They are judged by their ability to **participate** in a **connected, intelligent world**.
 
 For Michigan schools, the question is no longer: How do we maintain what we built? It is: How do we transform what we inherited into something that can carry us forward?
 
