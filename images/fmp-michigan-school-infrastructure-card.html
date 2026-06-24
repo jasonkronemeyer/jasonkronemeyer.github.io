@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article Card – The School Building Reckoning</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;600&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .slide {
+      width: 1280px;
+      height: 720px;
+      background-color: #0d1b2e;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    /* Main content area */
+    .content {
+      padding: 72px 80px 40px 80px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .series-label {
+      font-size: 15px;
+      font-weight: 400;
+      color: #7da8d4;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+
+    .title {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 72px;
+      font-weight: bold;
+      color: #ffffff;
+      line-height: 1.1;
+      margin-bottom: 32px;
+      max-width: 900px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      font-weight: 300;
+      color: #a8c4de;
+      letter-spacing: 0.05em;
+      margin-bottom: 36px;
+    }
+
+    .subtitle span {
+      margin: 0 10px;
+      color: #4a7fa8;
+    }
+
+    .quote {
+      font-size: 16px;
+      font-style: italic;
+      color: #8aafc8;
+      max-width: 780px;
+      line-height: 1.6;
+      border-left: 3px solid #2d6a9f;
+      padding-left: 18px;
+    }
+
+    /* Blue stripe footer */
+    .footer {
+      position: relative;
+      height: 90px;
+      flex-shrink: 0;
+    }
+
+    .stripe-dark {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 90px;
+      background-color: #1a3f6b;
+      clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .stripe-mid {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 56px;
+      background-color: #2558a0;
+      clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .stripe-light {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 28px;
+      background-color: #3a72c2;
+      clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .author {
+      position: absolute;
+      bottom: 18px;
+      left: 80px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #cce0f5;
+      letter-spacing: 0.04em;
+      z-index: 10;
+    }
+
+    .date {
+      position: absolute;
+      bottom: 18px;
+      right: 80px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #8ab4d4;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <div class="content">
+      <div class="series-label">Compass Series &nbsp;·&nbsp; Infrastructure &nbsp;·&nbsp; K–12 Michigan</div>
+      <div class="title">The School Building<br>Reckoning</div>
+      <div class="subtitle">
+        Infrastructure<span>•</span>Education<span>•</span>Community Resilience
+      </div>
+      <div class="quote">
+        "The question is no longer whether schools will need to change.<br>
+        It is whether districts will treat that change as a strategic investment<br>
+        rather than an overdue repair project."
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="stripe-dark"></div>
+      <div class="stripe-mid"></div>
+      <div class="stripe-light"></div>
+      <div class="author">Jason Kronemeyer</div>
+      <div class="date">June 2026</div>
+    </div>
+  </div>
+</body>
+</html>
