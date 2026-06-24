@@ -239,6 +239,8 @@ Bombal, D. (Host). (2026, June 19). Will this replace PoE (Power over Ethernet)?
 
 *Featuring Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership on energy networking systems and fault-managed power delivery.*
 
+Cisco. (2026). CENGRN-2200. *Cisco Live*. Retrieved from [https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf)
+
 ## Further Reading
 
 - [Training Compass: Digital Opportunities Intelligence Network](https://www.jasonkronemeyer.com/2025/11/07/training-the-compass-digital-opportunities-intelligence-framework.html)
