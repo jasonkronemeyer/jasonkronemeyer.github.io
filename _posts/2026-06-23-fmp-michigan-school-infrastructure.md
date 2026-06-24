@@ -235,11 +235,10 @@ And it is already underway.
 
 ## References
 
-Bombal, D. (Host). (2026, June 19). Will this replace PoE (Power over Ethernet)? [Video]. *David Bombal*. Retrieved from [https://www.youtube.com/watch?v=-kHIYtSLbTU](https://www.youtube.com/watch?v=-kHIYtSLbTU)
+Bombal, D. (2026, June 19). Will this replace PoE (Power over Ethernet)? [Video]. *Host David Bombal featuring Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership on energy networking systems and fault-managed power delivery.*. Retrieved from [https://www.youtube.com/watch?v=-kHIYtSLbTU](https://www.youtube.com/watch?v=-kHIYtSLbTU)
 
-*Featuring Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership on energy networking systems and fault-managed power delivery.*
 
-Cisco. (2026). CENGRN-2200. *Cisco Live*. Retrieved from [https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf)
+Lee, D. (2026). Energy Networking Systems: Supercharge the Network with Power & Cooling. *Cisco Live*. Retrieved from [https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2026/pdf/CENGRN-2200.pdf)
 
 ## Further Reading
 
