@@ -25,10 +25,9 @@ That is not simply a facilities challenge. It is an infrastructure transition st
 
 ## A Financial Signal
 
-[Watch the source video on YouTube](https://www.youtube.com/watch?v=-kHIYtSLbTU)  
-Embed URL: [https://www.youtube.com/embed/-kHIYtSLbTU](https://www.youtube.com/embed/-kHIYtSLbTU)
+A useful reference point is David Bombal’s video, “Will this replace PoE (Power over Ethernet)?” In that discussion, Bombal speaks with Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership about emerging approaches to power delivery that may challenge traditional Ethernet-based systems in high-demand environments. For school buildings, the relevance is less about adopting this exact technology and more about recognizing that the power and connectivity layers of buildings are changing rapidly.
 
-The transcript from the conversation at the video above makes the point plainly: many buildings were built 30 to 40 years ago, before internet-era requirements, and roughly $3 trillion in building refinancing is coming up globally in the next two years. That scale is forcing owners and operators to make hard decisions quickly.
+That point becomes more concrete when viewed through the scale of the current refinancing cycle: many buildings were built 30 to 40 years ago, before internet-era requirements, and roughly $3 trillion in building refinancing is coming up globally in the next two years. Electrification is adding further pressure, as schools and campuses adopt more electric heating, cooling, and other systems that place new demands on their power infrastructure. That scale is forcing owners and operators to make hard decisions quickly.
 
 This is often described as a “maturity wall.”
 
@@ -47,6 +46,8 @@ It is about testing whether an asset can still perform in a connected economy.
 ## The Hidden Parallel in Michigan Schools
 
 In Michigan, this same dynamic is playing out—just under a different name.
+
+A few years ago, the state undertook what were known as 11Y studies, a layer of school infrastructure planning that focused heavily on physical condition and capital needs. One important gap in that work was the operational technology layer: information technology, communications technology, and energy technology infrastructure. That omission matters because this is the layer that, if planned intentionally, may generate a full return on investment within a decade through lower capital and operating costs, while also improving the learning environment itself, which also may contribuite to community growth.
 
 We do not call it refinancing.  
 We call it:
@@ -228,9 +229,9 @@ And it is already underway.
 
 ## References
 
-Bombal, D. (Host). (2026, June 19). 1000W touch safe power—Class 4 Fault Managed Power for AI infrastructure [Video podcast]. *David Bombal Podcasts*. Retrieved from [https://www.youtube.com/watch?v=-kHIYtSLbTU](https://www.youtube.com/watch?v=-kHIYtSLbTU)
+Bombal, D. (Host). (2026, June 19). Will this replace PoE (Power over Ethernet)? [Video]. *David Bombal*. Retrieved from [https://www.youtube.com/watch?v=-kHIYtSLbTU](https://www.youtube.com/watch?v=-kHIYtSLbTU)
 
-*Featuring Stephen Kelly and Denise Lee (NTT DATA/Cisco partnership on energy networking systems and fault-managed power delivery)*
+*Featuring Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership on energy networking systems and fault-managed power delivery.*
 
 ## Further Reading
 
