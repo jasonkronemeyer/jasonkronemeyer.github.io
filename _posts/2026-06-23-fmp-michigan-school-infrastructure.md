@@ -9,6 +9,8 @@ categories: [Compass Series, Infrastructure, Schools, Digital Opportunity]
 tags: [smart buildings, K12, Michigan, infrastructure, retrofits, digital transformation, workforce]
 ---
 
+Michigan school districts are entering a new era of school infrastructure. The challenge is no longer just deferred maintenance or aging systems; it is whether legacy facilities can be upgraded into intelligent, resilient platforms for learning, operations, and community service. In that context, power, connectivity, and controls are no longer background infrastructure—they are central to the future viability of the school building itself.
+
 ## The Buildings We Inherited
 
 In boardrooms, bond planning sessions, and facilities walkthroughs, the same conclusion keeps emerging.
@@ -23,6 +25,8 @@ And yet, here we are, asking those same buildings to carry the weight of a fully
 
 That is not simply a facilities challenge. It is an **infrastructure transition** story, and the **cost of delay** is becoming visible in capital planning, energy use, and instructional capacity. The question is no longer whether schools will need to change. It is whether districts will treat that change as a **strategic investment** rather than an **overdue repair** project.
 
+The broader point is simple: as buildings are asked to do more, the systems that power and connect them matter just as much as the walls, roofs, and mechanical systems themselves.
+
 **At a glance:**
 - **Aging buildings** are carrying modern expectations.
 - **Capital pressure** is rising as refinancing and electrification accelerate.
@@ -31,7 +35,7 @@ That is not simply a facilities challenge. It is an **infrastructure transition*
 
 ## A Financial Signal
 
-A useful reference point is David Bombal’s video, “Will this replace PoE (Power over Ethernet)?” In that discussion, Bombal speaks with Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership about emerging approaches to power delivery that may challenge traditional Ethernet-based systems in high-demand environments. For school buildings, the relevance is less about adopting this exact technology and more about recognizing that the power and connectivity layers of buildings are changing rapidly.
+A useful reference point is a conversation featuring Denise Lee and Stephen Kelly of the Cisco/NTT DATA partnership, hosted by David Bombal on his video, “Will this replace PoE (Power over Ethernet)?” In that discussion, they outline emerging approaches to power delivery that may challenge traditional Ethernet-based systems in high-demand environments. For school buildings, the relevance is less about adopting this exact technology and more about recognizing that the power and connectivity layers of buildings are changing rapidly.
 
 That point becomes more concrete when viewed through the scale of the current refinancing cycle: many buildings were built 30 to 40 years ago, before internet-era requirements, and roughly $3 trillion in building refinancing is coming up globally in the next two years. Electrification is adding further pressure, as schools and campuses adopt more electric heating, cooling, and other systems that place new demands on their power infrastructure. That scale is forcing owners and operators to make hard decisions quickly.
 
@@ -53,7 +57,7 @@ It is about testing whether an asset can still **perform** in a **connected econ
 
 In Michigan, this same dynamic is playing out—just under a different name.
 
-A few years ago, the state undertook what were known as 11Y studies, a layer of school infrastructure planning that focused heavily on physical condition and capital needs. One important gap in that work was the operational technology layer: information technology, communications technology, and energy technology infrastructure. That omission matters because this is the layer that, if planned intentionally, may generate a full return on investment within a decade through lower capital and operating costs, while also improving the learning environment itself, which also may contribuite to community growth.
+A few years ago, the state undertook 11Y studies, a layer of school infrastructure planning that focused heavily on physical condition and capital needs. One important gap in that work was the operational technology layer: information technology, communications technology, and energy technology infrastructure. That omission matters because this layer can turn modernized school infrastructure into a **value generator**—delivering lower capital and operating costs, a better learning environment, and stronger community value over time. In short, this is the layer that may pay for itself over a 10-year period.
 
 We do not call it refinancing.  
 We call it:
@@ -119,7 +123,7 @@ It is the entire stack:
 
 Many legacy facilities still rely on analog controls and isolated systems that do not integrate with modern digital infrastructure.  
 
-This is why **retrofit costs** often lie not in visible improvements, but in the **hidden infrastructure** required to make systems interoperable. The opportunity, however, is that emerging systems such as fault-managed power distribution use cabling practices compatible with standard retrofit protocols, meaning districts do not need to tear out an entire building to begin. New power and control systems can layer onto existing pathways, making the upgrade sequence both **realistic** and **phased** rather than **disruptive**.
+This is why **retrofit costs** often lie less in visible improvements than in the **hidden infrastructure** required to make systems interoperable. The opportunity, however, is that emerging systems such as fault-managed power distribution use cabling practices compatible with standard retrofit protocols, meaning districts do not need to tear out an entire building to begin. New power and control systems can layer onto existing pathways, making the upgrade sequence both **realistic** and **phased** rather than **disruptive**.
 
 A practical example helps illustrate the point. Imagine a mid-century school building with aging electrical infrastructure, limited conduit space, and a patchwork of disconnected controls. Rather than replacing the entire facility, a district could upgrade the power backbone, install modern controls, and add networked systems in phases while the building remains in operation. That approach turns a major capital project into a manageable modernization strategy.
 
@@ -158,7 +162,7 @@ It is how to invest correctly.
 
 Legacy buildings are losing energy in ways most facility managers do not track.
 
-Consider how power actually moves through a traditional school or campus building:
+Consider how power moves through a traditional school or campus building:
 
 - Transmission lines deliver power to the site (5–20% line loss before it even arrives)  
 - An electrical panel converts AC to DC for equipment  
@@ -227,7 +231,7 @@ Buildings are no longer valued only for their physical structure. They are judge
 
 For Michigan schools, the question is no longer: How do we maintain what we built? It is: How do we transform what we inherited into something that can carry us forward?
 
-The real choice is not whether schools will change. It is whether districts will change them deliberately, or allow them to become liabilities that are increasingly expensive to operate and harder to justify in an era of digital expectation. The opportunity is not merely to modernize buildings. It is to modernize the public purpose they serve.
+The real choice is not whether schools will change. It is whether districts will change them deliberately—before they become liabilities that are increasingly expensive to operate and harder to justify in a digital age. The opportunity is not merely to modernize buildings. It is to modernize the public purpose they serve.
 
 That is the work ahead.
 
