@@ -6,9 +6,14 @@ permalink: /about/status-guide/
 
 # Understanding Post Status Labels
 
-As part of my commitment to **Learning in Public**, I mark each post with a status label that reflects where it is in my knowledge development process. This transparency allows you to understand the maturity of the content and how it might evolve over time.
+As part of my commitment to **Learning in Public**, I use a small set of status labels to make my thinking more legible. These labels do two things at once: they signal the maturity of the work and the form of the post. That gives readers a clearer sense of whether something is early-stage thinking, a polished argument, or a specific kind of piece such as a brief, an analysis, or an op-ed.
 
 ## The Status System
+
+The taxonomy is intentionally split between two layers:
+
+- **Maturity labels** describe where the work sits in my process: Research, Draft, Review, Updated, or no label for published/stable.
+- **Format labels** describe the kind of post it is: Brief, Op-Ed, Series, Tutorial, or Analysis.
 
 ### 🔍 Research
 <span style="background-color: #ff9800; color: #fff; padding: 4px 12px; border-radius: 3px; font-size: 0.9em; font-weight: 500;">🔍 RESEARCH</span>
@@ -62,6 +67,17 @@ As part of my commitment to **Learning in Public**, I mark each post with a stat
 **What to expect:** Concise analysis or synthesis centered on one core point (sometimes anchored in a key source, sometimes a practical observation). These posts go deep on a narrow topic rather than attempting comprehensive coverage.
 
 **Why I write briefs:** Not every insight requires a long-form article. Briefs let me quickly share a focused idea, highlight a useful reference, or capture a practical takeaway without turning it into a full essay.
+
+---
+
+### 🖋️ Op-Ed
+<span style="background-color: #ff6f00; color: #fff; padding: 4px 12px; border-radius: 3px; font-size: 0.9em; font-weight: 500;">🖋️ OP-ED</span>
+
+**What it means:** A commentary-style post that presents a clear point of view, argument, or perspective on a topic.
+
+**What to expect:** Opinion-driven writing, a strong thesis, and an invitation to engage with the argument. These posts may be informed by research and experience, but they are primarily about framing a perspective rather than merely reporting findings.
+
+**Why I write op-eds:** Some ideas deserve a more direct and persuasive voice. Op-eds let me share a position clearly, invite discussion, and connect analysis to public conversation.
 
 ---
 

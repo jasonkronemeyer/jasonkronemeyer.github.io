@@ -1,7 +1,6 @@
 ---
 title: "One Community, One Infrastructure: A Shared Reading List for Smart Buildings"
 author: Jason Kronemeyer
-status: list
 ---
 
 ## One Community, One Infrastructure

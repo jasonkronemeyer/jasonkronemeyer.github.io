@@ -3,11 +3,11 @@ layout: post
 title: "The School Building Reckoning"
 date: 2026-06-23
 author: Jason Kronemeyer
-status: publish
 excerpt: "Michigan districts are entering a capital cycle where deferred maintenance is no longer the only issue. The real question is whether legacy facilities can become intelligent infrastructure for learning, energy, and community resilience."
 categories: [Compass Series, Infrastructure, Schools, Digital Opportunity]
-tags: [smart-buildings, k-12, michigan, infrastructure, retrofits, digital-opportunity, workforce]
+tags: [smart-buildings, k-12, michigan, infrastructure, retrofits, digital-equity, workforce]
 ---
+
 Michigan school districts are entering a new era of school infrastructure. The challenge is no longer just deferred maintenance or aging systems; it is whether legacy facilities can be upgraded into intelligent, resilient platforms for learning, operations, and community service. In that context, power, connectivity, and controls are no longer background infrastructure—they are central to the future viability of the school building itself.
 
 ## The Buildings We Inherited

@@ -16,6 +16,10 @@ layout: default
     <div class="status-banner" style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
       <strong>📋 IN REVIEW:</strong> Draft complete, refining for publication.
     </div>
+    {% elsif page.status == "op-ed" %}
+    <div class="status-banner" style="background-color: #fff3e0; border: 2px solid #ff6f00; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>🖋️ OP-ED:</strong> Commentary-style post presenting a clear perspective or argument.
+    </div>
     {% endif %}
 
     <h1 class="research-note__title">{{ page.title }}</h1>

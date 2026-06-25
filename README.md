@@ -37,7 +37,8 @@ To provide transparency about where content sits in my knowledge development pro
 
 **Content Types:**
 - 📄 **Brief** - Short-form post focused on a single topic or focused idea
-- 📚 **Series** - Part of a connected set of posts on related topics
+- �️ **Op-Ed** - Commentary-style post that presents a clear point of view or argument
+- �📚 **Series** - Part of a connected set of posts on related topics
 - 🛠️ **Tutorial** - Step-by-step hands-on instructional guide
 - 📊 **Analysis** - Deep research and data exploration
 

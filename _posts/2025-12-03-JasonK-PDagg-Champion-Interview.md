@@ -5,7 +5,6 @@ date: 2025-12-03
 author: "Jason Kronemeyer (interviewed by Dr. Pierrette Renée Dagg)"
 categories: [interview, community, broadband]
 tags: [digital-inclusion, moonshot, eup, schools, libraries]
-status: published
 excerpt: "How the Eastern Upper Peninsula built community-first broadband: leadership, data, and an infrastructure-first philosophy."
 ---
 # Community Champion Profile: Jason Kronemeyer

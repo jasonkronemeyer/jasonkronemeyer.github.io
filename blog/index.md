@@ -35,6 +35,7 @@ This is where I share discoveries, challenges, and insights from the frontier of
       {% if post.status == "review" %}<span style="background-color: #2196f3; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📋 REVIEW</span>{% endif %}
       {% if post.status == "updated" %}<span style="background-color: #4caf50; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">✨ UPDATED</span>{% endif %}
       {% if post.status == "brief" %}<span style="background-color: #9c27b0; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📄 BRIEF</span>{% endif %}
+      {% if post.status == "op-ed" %}<span style="background-color: #ff6f00; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">🖋️ OP-ED</span>{% endif %}
       {% if post.status == "series" %}<span style="background-color: #3f51b5; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📚 SERIES</span>{% endif %}
       {% if post.status == "tutorial" %}<span style="background-color: #009688; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">🛠️ TUTORIAL</span>{% endif %}
       {% if post.status == "analysis" %}<span style="background-color: #0277bd; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📊 ANALYSIS</span>{% endif %}

@@ -3,7 +3,7 @@ layout: post
 title: "Are Public Safety Radios Moving to Radio over Fiber?"
 date: 2025-11-21
 categories: [Public Safety, RF Technology, RoF, DAS, POLAN]
-status: research 
+status: research
 ---
 
 **Short answer:** Yes, but not for the entire network. Radio over Fiber (RoF) is being adopted primarily for **in-building coverage** and **distributed antenna systems (DAS)** rather than replacing outdoor macro networks (Not Yet...See my post about Photonic Networking). When combined with **Passive Optical LAN (POLAN)**, RoF becomes even more powerful by leveraging the **regional public safety network infrastructure**—connecting schools and municipal buildings to Emergency Operations Centers (EOCs) distributed across public safety facilities like police stations, fire departments, and emergency management offices.

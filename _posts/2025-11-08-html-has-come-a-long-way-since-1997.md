@@ -3,7 +3,6 @@ layout: post
 title: "HTML has come a long way since 1997"
 date: 2025-11-08
 author: Jason Kronemeyer
-status: story
 categories: [Technology, Web Development, Personal Story]
 tags: [html, web-development, personal-story, technology]
 excerpt: "From a Hawaii Air Force dorm room and a fantasy football website on aloha.net to semantic HTML5, CSS Grid, and the modern web—how curiosity and experimentation taught me I could learn anything."
