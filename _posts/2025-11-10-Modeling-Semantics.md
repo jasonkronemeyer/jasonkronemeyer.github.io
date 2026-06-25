@@ -3,11 +3,10 @@ layout: post
 title: "Modeling Semantics in Policy Evolution: A Case for the Digital Accessibility and Opportunity Act"
 date: 2025-11-10
 categories: [Semantic Modeling, Policy, Digital Opportunities]
-tags: [RDF, Temporal Properties, Digital Accessibility and Opportunity Act, Policy Recommendation]
+tags: [rdf, temporal-properties, digital-accessibility-and-opportunity-act, policy]
 author: Jason Kronemeyer
 status: analysis
 ---
-
 # Introduction: Why Expand the Digital Equity Act?
 
 The **Digital Equity Act** established critical foundations for addressing connectivity gaps, but implementation has faced political headwinds. What if we built on this foundation with something more comprehensive? By adding **accessibility standards** and **explicit opportunity pathways** — creating a **Digital Accessibility and Opportunity Act (DAOA)** — we could maintain the equity framework while adding measurable connections between broadband infrastructure, workforce development, and economic mobility. This additive approach preserves existing programs while expanding the coalition of supporters through frameworks that resonate across the political spectrum.

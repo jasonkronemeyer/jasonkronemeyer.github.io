@@ -3,11 +3,10 @@ layout: post
 title: "Photon Networks: Architectures, Applications, and Emerging Trends"
 date: 2025-11-19
 categories: [Photonics, Networking, Technology]
-tags: [Photonics, Optical Networks, Quantum, Neural Networks]
+tags: [photonics, optical-networks, quantum, neural-networks]
 description: "Explore the taxonomy of photon networks, from All-Photonics Networks to Quantum Photonic systems, with references to cutting-edge research."
 status: brief
 ---
-
 Photon networks leverage **light (photons)** as the primary information carrier, offering advantages such as **high speed**, **low latency**, **energy efficiency**, and **massive parallelism**. These networks span multiple architectures and application contexts, from classical optical communications to photonic computing and neural networks.
 
 Based on current research and industry sources, photon networks can be categorized as follows:

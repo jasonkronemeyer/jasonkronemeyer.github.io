@@ -3,12 +3,11 @@ layout: post
 title: "Accessing O’Sullivan Lake Bathymetry Through Ontario GeoHub"
 date: 2026-06-20
 categories: [maps, GIS, research]
-tags: [bathymetry, Ontario, GeoHub, LiDAR, GPX, GeoJSON, MBTiles]
+tags: [bathymetry, ontario, geohub, lidar, gpx, geojson, mbtiles]
 status: research
 excerpt: "A research note on finding the historic O’Sullivan Lake bathymetry map through Ontario GeoHub and outlining a modern GPS-ready update workflow."
 description: "How to access the historic O’Sullivan Lake bathymetry map near Dunn’s Outpost and a practical workflow for modernizing it with current shoreline data and LiDAR."
 ---
-
 ## The map exists, but it lives inside the viewer
 
 For the O’Sullivan Lake associated with Dunn’s Outpost, the official Ontario bathymetry map is available through the Ontario GeoHub **Historic Bathymetry Maps** viewer rather than as a stable standalone file URL.

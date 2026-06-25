@@ -4,10 +4,9 @@ title: "Finding the Digital Divide with Bayesian Networks"
 date: 2025-04-30
 author: Jason Kronemeyer
 categories: [data-science, digital-equity, bayesian-networks]
-tags: [digital-divide, machine-learning, policy, community-technology]
+tags: [digital-opportunity, data-science, policy, community-technology]
 excerpt: "Understanding how Bayesian networks can help analyze and address the digital divide by modeling complex relationships between infrastructure, aspiration, and opportunity."
 ---
-
 ## Finding the Digital Divide with Bayesian Networks
 
 *Compiled from my data science course and project notes.*

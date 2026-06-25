@@ -2,9 +2,8 @@
 title: "The Convergence Era: How Space, Fiber, and Smart Homes Reshape Regional Infrastructure"
 layout: post
 status: draft
-tags: [EUPConnect, broadband, infrastructure, satellites, semantic-systems, rural-futures]
+tags: [eupconnect, broadband, infrastructure, satellites, systems-thinking, rural-futures]
 ---
-
 ## The Convergence Era  
 ### How Direct‑to‑Device Satellites, Smart Homes, and Fiber Networks Reshape Regional Infrastructure
 

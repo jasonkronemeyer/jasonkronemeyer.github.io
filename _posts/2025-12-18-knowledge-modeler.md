@@ -5,10 +5,9 @@ description: "Learn how RDF, OWL, SKOS, and SHACL help transform complex data in
 author: "Jason Kronemeyer"
 date: 2025-12-18
 categories: [Knowledge Modeling, Semantic Web, Digital Equity]
-tags: [RDF, OWL, SKOS, SHACL, Ontology, Smart Buildings, Education Technology]
+tags: [rdf, owl, skos, shacl, ontology, smart-buildings, education]
 image: /assets/images/knowledge-modeling.jpg
 ---
-
 ## What Does a Knowledge Modeler Do?
 A knowledge modeler turns **complex, scattered information** into **structured, connected knowledge** that people and systems can use effectively. In practice, this means:
 

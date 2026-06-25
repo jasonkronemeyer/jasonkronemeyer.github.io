@@ -4,9 +4,8 @@ title: "The Last Entry-Level Human? Rethinking Work in the Age of AI"
 date: 2025-10-25
 author: Jason F. Kronemeyer
 categories: [future-of-work, youth, AI, community]
-tags: [AI, workforce, education, digital equity, storytelling]
+tags: [ai, workforce, education, digital-opportunity, storytelling]
 ---
-
 As a new generation steps into the workforce, they’re met not by open doors—but by algorithms. Entry-level jobs, once a rite of passage, are increasingly automated. The result? A job market where even college grads are struggling to find footing.
 
 According to the [Federal Reserve Bank of New York](https://www.newyorkfed.org/research/college-labor-market#--:explore:unemployment), the unemployment rate for recent college graduates (ages 22–27) has reached its highest point in over a decade, excluding the pandemic.

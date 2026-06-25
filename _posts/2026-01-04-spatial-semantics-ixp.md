@@ -4,12 +4,11 @@ title: "🌐 Spatial Concept of Network Quality: Degrees of Separation from IXPs
 date: 2026-01-04
 categories: [networking, IXPs, digital-infrastructure]
 author: "Jason Kronemeyer"
-tags: [IXPs, latency, bandwidth, resilience, community-broadband, network-quality]
+tags: [ixps, latency, bandwidth, resilience, community-broadband, network-quality]
 series: "Degrees of Separation from IXPs"
 series_part: 1
 status: series
 ---
-
 This is Part 1 of a short series on **Internet Exchange Points (IXPs)** and why being “closer” to an IXP—measured in **degrees of separation** (hops)—is often a practical proxy for network quality.
 
 If you’ve heard “Six Degrees to Kevin Bacon,” this is the same idea applied to networks: instead of asking how many co‑star links connect an actor to Kevin Bacon, we ask how many network hops connect a home/business (via its local infrastructure) to the nearest IXP. That “IXP number” can be defined in multiple ways (logical, physical, weighted), but the intuition is the same: fewer steps usually means easier, higher quality access.

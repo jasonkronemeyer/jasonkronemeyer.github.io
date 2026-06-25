@@ -3,9 +3,8 @@ title: "The First Mile, the Last Mile"
 date: 2025-10-30-08:00:00 -0400
 author: Jason Kronemeyer
 layout: post
-tags: [EUPConnect, broadband, BEAD, NTIA, public-private partnership, digital equity, MSU Quello Center, Merit Network, Michigan Moonshot]
+tags: [eupconnect, broadband, bead, ntia, public-private-partnership, digital-opportunity, msu-quello-center, merit-network, michigan-moonshot]
 ---
-
 I live at a 911 service address that broadband subsidies prior to the Broadband DATA Act never reached. Not because the terrain was too rugged or the technology too new—but because the policy design was flawed. It left communities like mine stranded, waiting for promises that never materialized.
 
 All too often, we watched private companies and FCC announcements promoting the latest subsidy that was finally going to serve rural areas—only to see it perpetuate the disadvantage of people with no voice. We are only about 10% of the population of the United States, and the penalties for defaulting were designed in ways that made it seem like private enterprises could take the money and run.

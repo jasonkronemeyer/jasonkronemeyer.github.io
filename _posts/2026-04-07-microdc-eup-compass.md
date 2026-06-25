@@ -19,7 +19,6 @@ tags:
   - workforce development
   - data sovereignty
 ---
-
 ## Micro and Edge Data Centers in the EUP  
 *A Compass reflection*
 

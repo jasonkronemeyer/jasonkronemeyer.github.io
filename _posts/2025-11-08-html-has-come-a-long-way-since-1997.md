@@ -5,10 +5,9 @@ date: 2025-11-08
 author: Jason Kronemeyer
 status: story
 categories: [Technology, Web Development, Personal Story]
-tags: [HTML, Web Development, Personal Story, Technology]
+tags: [html, web-development, personal-story, technology]
 excerpt: "From a Hawaii Air Force dorm room and a fantasy football website on aloha.net to semantic HTML5, CSS Grid, and the modern web—how curiosity and experimentation taught me I could learn anything."
 ---
-
 As I sit here writing in a modern editor—syntax highlighting, auto-completion, and collaboration baked in—I keep thinking about 1997.
 
 I was in the U.S. Air Force then, working as a Signals Intelligence Analyst in Hawaii. My shifts were spent analyzing signals and reporting intelligence from a facility tucked beneath a pineapple field—a surreal detail that still sounds like fiction. The dorm wasn’t underground, of course—but when my shift ended and I walked back to my room, I entered a different kind of intelligence work: learning the early web when the *semantic web* (and even semantic HTML) was still in its infancy.

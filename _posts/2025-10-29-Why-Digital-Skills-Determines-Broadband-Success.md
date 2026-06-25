@@ -4,10 +4,9 @@ title: "Beyond the Last Mile: Why Digital Literacy Determines Broadband Success"
 date: 2025-10-29
 author: Jason Kronemeyer
 categories: [digital-equity, broadband, community-development, digital-literacy]
-tags: [digital-equity, broadband-deployment, community-technology, ISP, digital-skills]
+tags: [digital-opportunity, broadband, community-technology, isp, digital-literacy]
 excerpt: "Infrastructure builds the road, but digital literacy and skills support determine whether communities—and ISPs—succeed. Kentaro Toyama's research reveals why capacity building must come first."
 ---
-
 # Beyond the Last Mile: Why Digital Literacy Determines Broadband Success
 
 ## The Infrastructure Promise and Its Limits

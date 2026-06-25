@@ -4,10 +4,9 @@ title: "Integrating Digital Transformation into Master Planning"
 date: 2025-11-03
 author: "Jason Kronemeyer"
 categories: [Digital Transformation, Community Engagement, Community Planning]
-tags: [master planning, broadband, redevelopment, digital nomads, infrastructure, zoning]
+tags: [master-planning, broadband, redevelopment, digital-nomads, infrastructure, zoning]
 excerpt: "This post explores how digital transformation is reshaping master planning, highlighting the need for innovative approaches to infrastructure, engagement, and redevelopment."
 ---
-
 Digital transformation is reshaping how communities plan, build, and engage. It’s not just about adopting new tools—it’s about updating planning practice so infrastructure, governance, and engagement keep pace with how people live, work, learn, and access services.
 
 **Key takeaways**

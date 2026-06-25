@@ -8,7 +8,6 @@ categories: [digital-equity, broadband, digital-literacy]
 tags: [smartphones, computer-literacy, workforce, adoption]
 excerpt: "A response to Doug Dawson’s question: smartphone fluency is real—but it’s not the same as being ready for computer-centric work, learning, and civic life."
 ---
-
 Doug Dawson recently asked a deceptively simple question in his post, [“Smartphones and Digital Literacy”](https://potsandpansbyccg.com/2026/01/02/smartphones-and-digital-literacy/): *If someone can do everything they need to do on a smartphone, are they digitally literate in the same way a computer user is?*
 
 I think the answer is: **smartphone literacy is absolutely a form of digital literacy**—but it is often **a different layer of literacy** than what many schools, employers, and institutions quietly assume.

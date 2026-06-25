@@ -4,9 +4,8 @@ title: "GIS Is Not a Job: Reframing the System and the Roles That Bring It to Li
 date: 2026-06-22
 author: Jason Kronemeyer
 status: research
-tags: [Compass Series, Spatial Data Science, GIS, DOIN, Workforce, Systems Thinking]
+tags: [op-ed, gis, spatial-data-science, DOIN, workforce, systems-thinking]
 ---
-
 ## GIS Is Not a Job
 
 I keep noticing this moment.

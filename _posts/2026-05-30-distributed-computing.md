@@ -3,10 +3,9 @@ layout: post
 title: "Why Distributed Computing Matters for EUP Infrastructure Intelligence"
 date: 2026-05-30
 categories: [infrastructure, geospatial, data, distributed-computing, compass]
-tags: [EUP, infrastructure intelligence, geospatial data, distributed computing, smart communities, digital opportunity]
+tags: [eup, infrastructure-intelligence, geospatial-data, distributed-computing, smart-communities, digital-opportunity]
 excerpt: "In the Eastern Upper Peninsula, infrastructure intelligence depends on our ability to understand many systems at once across distance, time, and place. Distributed computing makes that possible."
 ---
-
 In the Eastern Upper Peninsula, infrastructure intelligence is not just about collecting more data. It is about learning how to make sense of what is happening across wide geography, limited capacity, and systems that are deeply connected but often managed separately.
 
 Roads, power systems, school networks, public buildings, water systems, emergency communications, transportation routes, and natural resource landscapes all generate information. Some of that information comes from maps. Some comes from sensors. Some comes from satellite imagery. Some comes from maintenance records, planning documents, and operational systems. The challenge is not only gathering that information. The challenge is turning it into something useful.

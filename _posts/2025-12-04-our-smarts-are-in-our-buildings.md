@@ -4,11 +4,10 @@ title: "Our Smarts Are in Our Buildings — Smart Building Workforce for Clean E
 date: 2025-12-04
 author: "Jason Kronemeyer"
 categories: [policy, workforce, clean-energy]
-tags: [smart-buildings, workforce-development, clean-energy, IoT, data-science]
+tags: [smart-buildings, workforce, clean-energy, iot, data-science]
 status: brief
 excerpt: "How smart building technologies and data science intersect with clean energy workforce development — policy recommendations and community actions."
 ---
-
 Integrating Smart Building Technologies and Data Science into Clean Energy Workforce Development
 
 ## Context

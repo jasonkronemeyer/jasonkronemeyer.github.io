@@ -17,7 +17,6 @@ tags:
   - Career and Technical Education
   - Community Capacity
 ---
-
 I am an alumnus of Pickford High School.  
 That matters to me in a way that is hard to separate from the work I do today.
 

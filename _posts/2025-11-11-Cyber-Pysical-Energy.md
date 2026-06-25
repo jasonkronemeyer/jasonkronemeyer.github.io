@@ -2,10 +2,9 @@
 title: "DC Fault Managed Power Systems (FMPS) in the NIST Cyber-Physical System (CPS) Framework"
 date: 2025-11-11
 categories: [smart-buildings, microgrids, dc-power]
-tags: [FMPS, CPS, NIST, ROI, energy-efficiency]
+tags: [fmps, cps, nist, roi, energy-efficiency]
 status: brief
 ---
-
 ## 🔌 DC Fault Managed Power Systems (FMPS) in the CPS Framework
 
 DC Fault Managed Power Systems (FMPS) are engineered to safely deliver direct current in environments like buildings, vehicles, and microgrids. Here's how they align with the NIST Cyber-Physical Systems (CPS) Framework:

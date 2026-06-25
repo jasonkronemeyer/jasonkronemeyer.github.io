@@ -3,9 +3,8 @@ layout: post
 title: "From Access to Capacity: Reimagining Universal Service through USDA, USF, and Extension"
 date: 2026-06-10
 categories: [Infrastructure Intelligence, Policy, Digital Opportunity]
-tags: [USF, USDA, MSU Extension, Digital Equity, EUPConnect, Capacity Building]
+tags: [usf, usda, msu-extension, digital-opportunity, eupconnect, capacity-building]
 ---
-
 ## The Shift We Haven’t Made ... Yet
 
 For decades, the Universal Service Fund (USF) has helped connect rural America. It has subsidized networks, supported schools and libraries, and made access possible in places where markets alone would not invest.

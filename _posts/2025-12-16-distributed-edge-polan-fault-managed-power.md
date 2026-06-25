@@ -3,11 +3,10 @@ layout: post
 title: "Distributed Edge, POLAN, and Fault Managed Power"
 date: 2025-12-16
 categories: [infrastructure, networking, energy]
-tags: [POLAN, passive-optical-lan, fault-managed-power, distributed-edge, smart-buildings, structured-cabling]
+tags: [polan, passive-optical-lan, fault-managed-power, distributed-edge, smart-buildings, structured-cabling]
 excerpt: "A brief on Panduit/Cisco’s Passive Optical Networks guidance—why distributed edge architectures, POLAN, and fault-managed power fit together for lower energy, less closet sprawl, and future-ready campuses."
 status: brief
 ---
-
 ## Overview
 The Panduit/Cisco paper on *Passive Optical Networks: Cabling Considerations and Reference Architectures* explores how enterprises can evolve beyond traditional Ethernet LANs by adopting **Passive Optical LAN (POLAN)**. This approach reduces energy consumption, minimizes space requirements, and aligns bandwidth delivery with actual user needs.
 

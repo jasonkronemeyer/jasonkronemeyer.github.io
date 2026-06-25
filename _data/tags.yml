@@ -1,0 +1,103 @@
+digital-opportunity:
+  name: Digital Opportunity
+  description: "Broadband access, adoption, digital literacy, and inclusive technology policy."
+
+broadband:
+  name: Broadband
+  description: "Connectivity deployment, network planning, and broadband policy."
+
+community-technology:
+  name: Community Technology
+  description: "Local technology practice, digital inclusion, and community-facing tech work."
+
+digital-literacy:
+  name: Digital Literacy
+  description: "Skills, learning, and capability building for everyday digital participation."
+
+digital-inclusion:
+  name: Digital Inclusion
+  description: "Efforts that expand access, participation, and meaningful use of digital tools."
+
+DOIN:
+  name: DOIN
+  description: "The Digital Opportunities Intelligence Network and related policy-learning work."
+
+infrastructure:
+  name: Infrastructure
+  description: "Physical and digital systems that support communities, schools, and organizations."
+
+education:
+  name: Education
+  description: "Teaching, learning, school technology, and student outcomes."
+
+workforce:
+  name: Workforce
+  description: "Workforce development, skills, and career pathways."
+
+policy:
+  name: Policy
+  description: "Public policy, governance, and strategy for technology and community systems."
+
+data-science:
+  name: Data Science
+  description: "Analysis, modeling, metrics, and evidence-driven decision making."
+
+networks:
+  name: Networks
+  description: "Networking architecture, relationships, and interconnected systems."
+
+smart-buildings:
+  name: Smart Buildings
+  description: "Buildings, controls, energy systems, and intelligent facilities."
+
+knowledge-graphs:
+  name: Knowledge Graphs
+  description: "Semantic systems, ontologies, and structured knowledge representation."
+
+systems-thinking:
+  name: Systems Thinking
+  description: "Frameworks and approaches that connect technology, policy, and human systems."
+
+research:
+  name: Research
+  description: "Research notes, investigations, and analysis."
+
+community-development:
+  name: Community Development
+  description: "Work that strengthens local capacity, institutions, and place-based change."
+
+doin:
+  name: DOIN
+  description: "The Digital Opportunities Intelligence Network and related policy-learning work."
+
+gis:
+  name: GIS
+  description: "Geospatial analysis, mapping, spatial data, and place-based insight."
+
+blue-tech:
+  name: Blue Tech
+  description: "Water, environmental technology, and Great Lakes innovation."
+
+op-ed:
+  name: Op-Ed
+  description: "Opinion, commentary, and perspective-driven essays."
+
+k-12:
+  name: K-12
+  description: "K-12 schools, classroom technology, and school infrastructure."
+
+michigan:
+  name: Michigan
+  description: "Work tied to Michigan communities, institutions, and regional planning."
+
+retrofits:
+  name: Retrofits
+  description: "Upgrades, modernization, and adaptation of existing systems."
+
+spatial-data-science:
+  name: Spatial Data Science
+  description: "Geospatial analysis, spatial modeling, and place-based data work."
+
+digital-economy:
+  name: Digital Economy
+  description: "Economic opportunity, innovation systems, and regionally relevant digital growth."

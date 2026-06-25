@@ -2,11 +2,10 @@
 title: "Blockchain Beyond the Buzz: Trust, Transparency, and Transformation"
 date: 2025-11-14
 author: Jason Kronemeyer
-tags: [blockchain, public infrastructure, education, digital equity, outreach]
+tags: [blockchain, infrastructure, education, digital-opportunity, outreach]
 layout: post
 status: brief
 ---
-
 *“Blockchain isn’t just about Bitcoin. It’s about trust.”*  
 —Harvard Business Review, *Blockchain: The Insights You Need*
 

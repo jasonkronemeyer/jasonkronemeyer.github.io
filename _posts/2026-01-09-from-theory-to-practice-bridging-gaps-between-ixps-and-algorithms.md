@@ -3,7 +3,7 @@ layout: post
 title: "🌐 From Theory to Practice: Bridging the Gap Between IXPs and Network Algorithms"
 date: 2026-01-09
 author: "Jason Kronemeyer"
-tags: 
+tags:
   - IXPs
   - Network Quality
   - Algorithms
@@ -13,7 +13,6 @@ series: "Degrees of Separation from IXPs"
 series_part: 2
 status: series
 ---
-
 This is Part 2 of the series **Degrees of Separation from IXPs**. In [Part 1: Spatial Concept of Network Quality]({% post_url 2026-01-04-spatial-semantics-ixp %}), we defined “degrees of separation” (hops) from local nodes to an IXP and why it matters for latency, resilience, bandwidth efficiency, and autonomy. Building on that foundation, this post focuses on practical algorithms and methods that help turn those ideas into actionable network planning.
 
 In other words: if Part 1 introduced the “IXP version of a Kevin Bacon number,” Part 2 is about how we actually compute it (and related structure metrics) at scale.

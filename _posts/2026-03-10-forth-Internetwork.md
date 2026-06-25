@@ -2,10 +2,9 @@
 layout: post
 title: "The Fourth Internetwork: A Story of Trust, Land, and Whitefish"
 date: 2026-03-10
-tags: [fourth internetwork, stewardship, whitefish, great lakes, ecological memory, rural broadband]
+tags: [fourth-internetwork, stewardship, whitefish, great-lakes, ecological-memory, rural-broadband]
 status: story
 ---
-
 The first internetwork connected machines.  
 The second connected people.  
 The third connected platforms.  

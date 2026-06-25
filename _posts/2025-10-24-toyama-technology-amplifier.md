@@ -4,10 +4,9 @@ title: "Technology as Amplifier: Lessons from Kentaro Toyama's Research"
 date: 2025-10-24
 author: Jason Kronemeyer
 categories: [digital-equity, technology, research]
-tags: [digital-equity, community-technology, education, ICT4D]
+tags: [digital-opportunity, community-technology, education, ict4d]
 excerpt: "Technology magnifies existing forces rather than creating new ones from nothing. Kentaro Toyama's research validates what many of us in digital equity have learned through experience."
 ---
-
 # Technology as Amplifier: Lessons from Kentaro Toyama's Research
 
 ## Introduction

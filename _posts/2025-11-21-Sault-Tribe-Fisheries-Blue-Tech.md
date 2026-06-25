@@ -3,10 +3,9 @@ layout: post
 title: "Sacred Waters: Blue Tech and Anishinaabe Stewardship in Great Lakes Fisheries"
 date: 2025-11-21
 categories: [blue tech, digital opportunity, research]
-tags: [fisheries, Great Lakes, indigenous rights, environmental monitoring, aquaculture, blue economy]
+tags: [fisheries, great-lakes, indigenous-rights, environmental-monitoring, aquaculture, blue-economy]
 status: research
 ---
-
 <div style="margin: 2em 0;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lZEOO8bTqLE" title="Sacred Waters: The First People Taking Care of the Fishery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p style="font-size: 0.9em; color: #666; margin-top: 0.5em;"><em>Sacred Waters: The First People Taking Care of the Fishery</em> - Sault Tribe TV (January 17, 2025)</p>

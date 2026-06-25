@@ -3,11 +3,10 @@ layout: post
 title: "People, Process, Product: The Librarian's Role in the Smart Building"
 date: 2026-01-24
 categories: [Smart Buildings, Knowledge Management, Data Science]
-tags: [People Process Product, Knowledge Graphs, Librarians, Digital Twins, Smart Infrastructure]
+tags: [people-process-product, knowledge-graphs, librarians, digital-twins, smart-infrastructure]
 author: Jason Kronemeyer
 status: draft
 ---
-
 In previous posts, we’ve explored the dual nature of community growth: the **Human Network** (people/collaboration) and the **Knowledge Graph** (data/structure). We’ve also discussed how our "smarts" are embedded in our buildings, requiring a new kind of workforce. Today, I want to tie these threads together using a classic framework—**People, Process, Product**—specifically within the context of **Smart Buildings**.
 
 When we talk about "smart" infrastructure, it's easy to fixate on the sensors, the dashboards, and the AI. But without the *people* to curate the context and the *process* to model the knowledge, the *product* (the smart building) remains just a collection of disconnected gadgets.

@@ -3,12 +3,11 @@ layout: post
 title: "Why Internet Exchange Points Matter for Rural AI Inference"
 date: 2026-01-26
 categories: [AI, Infrastructure, Rural Technology, Community Networks]
-tags: [AI inference, Azure, MAIA, fiber, middle mile, IXPs, power systems, rural tech]
+tags: [ai-inference, azure, maia, fiber, middle-mile, ixps, power-systems, rural-technology]
 series: "Degrees of Separation from IXPs"
 series_part: 3
 status: series
 ---
-
 This is Part 3 of the series **Degrees of Separation from IXPs**. In [Part 1: Spatial Concept of Network Quality]({% post_url 2026-01-04-spatial-semantics-ixp %}), we introduced a spatial framing for IXP distance and network quality; in [Part 2: From Theory to Practice]({% post_url 2026-01-09-from-theory-to-practice-bridging-gaps-between-ixps-and-algorithms %}), we explored practical algorithms and methods. This post extends that thread into AI inference infrastructure and why local exchange capacity now matters even more.
 
 Microsoft’s announcement of **MAIA 200**, a new AI accelerator designed specifically for inference, may feel far removed from rural broadband builds, electric co‑ops, or regional data center planning. But the story it tells is a familiar one to anyone who has spent time working on technology outside major metro markets.

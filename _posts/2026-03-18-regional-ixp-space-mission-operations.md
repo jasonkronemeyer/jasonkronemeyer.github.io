@@ -4,12 +4,11 @@ title: "Regional IXPs and Space Mission Operations: From Telemetry to AI Inferen
 date: 2026-03-18
 categories: [Space Systems, Networking, Digital Infrastructure, Rural Technology]
 author: "Jason Kronemeyer"
-tags: [IXPs, ground segment, telemetry, mission operations, edge AI, resilience, regional networks]
+tags: [ixps, ground-segment, telemetry, mission-operations, edge-ai, resilience, networks]
 series: "Degrees of Separation from IXPs"
 series_part: 4
 status: draft
 ---
-
 This is Part 4 of the series **Degrees of Separation from IXPs**. In [Part 1]({% post_url 2026-01-04-spatial-semantics-ixp %}), we defined IXP distance as a practical network-quality concept. In [Part 2]({% post_url 2026-01-09-from-theory-to-practice-bridging-gaps-between-ixps-and-algorithms %}), we covered algorithms and measurement methods. In [Part 3]({% post_url 2026-01-26-maia-200-inference-infrastructure-lesson %}), we connected IXPs to AI inference economics and reliability. This post extends the series into space mission operations.
 
 Space missions do not run on spacecraft alone. They run on a distributed operational system: ground stations, mission control, cloud and HPC pipelines, identity systems, data archives, partner institutions, and real-time analytics services. In that system, **regional IXPs** can materially improve mission performance, cost, and continuity.

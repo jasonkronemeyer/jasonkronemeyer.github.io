@@ -4,7 +4,6 @@ title: "What in the World is WiFi Anyway?"
 date: 2025-11-07
 tags: [technology, wifi]
 ---
-
 WiFi. It's one of those terms that's embedded itself into the fabric of modern life. But what exactly is WiFi, and how does it work? Whether you're streaming your favorite show, attending a virtual meeting, or simply scrolling through social media, WiFi is likely the invisible hero behind the curtain. So, let's dive into the world of WiFi.
 
 ### The Basics: What is WiFi?

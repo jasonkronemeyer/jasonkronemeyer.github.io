@@ -4,10 +4,9 @@ title: "The Architect in the Machine: Why Every Digital Transformation Needs a L
 date: 2026-01-15
 author: "Jason Kronemeyer"
 status: review
-tags: ["Information Science", "Data Science", "Digital Equity", "Knowledge Graphs", "Librarian"]
+tags: [information-science, data-science, digital-opportunity, knowledge-graphs, librarian]
 description: "In an age of data pipelines and AI models, the most critical missing role isn't another engineer - it's the librarian who can turn information chaos into human understanding."
 ---
-
 Successful data projects have one thing in common: they have someone who understands that technology is only as valuable as the information it serves. That person is rarely a data engineer or AI researcher - it's the librarian, the information scientist whose profession has spent decades mastering how to make information findable, trustworthy, and useful. Yet most digital transformation initiatives never bring them to the table. We hire for technical expertise while ignoring the one professional trained to turn information chaos into human understanding. Libarians are the real *Knowledge Modelers*.
 
 ## The Librarians Who Taught Me to See Differently
