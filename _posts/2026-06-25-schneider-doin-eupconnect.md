@@ -6,7 +6,7 @@ date: 2026-06-25
 categories: [digital equity, cooperatives, infrastructure, policy]
 tags: [DOIN, EUPConnect, cooperatives, digital opportunity, public purpose]
 layout: post
-status: Op-Ed
+status: op-ed
 ---
 
 The mistake in much of digital opportunity work is that we treat it as a problem of measurement when it is really a problem of governance. We map gaps, track indicators, and build plans, but too often we stop there. The deeper question is not only what the data says. It is who gets to own the response, shape the institutions around it, and carry the work forward when the funding cycle ends. That is why the work of Nathan Schneider feels so relevant to the intersection of DOIN and the EUPConnect Collaborative. His writing pushes us to think beyond access and efficiency and toward collective forms of organization that are democratic, durable, and accountable.
