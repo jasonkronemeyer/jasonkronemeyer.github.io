@@ -88,6 +88,86 @@ The historic map is authoritative as a source document, but it may no longer des
 - Shaded bathymetric raster layers  
 - Optional 3D basin visualization for analysis  
 
+## Sample Python workflow (illustrative only)
+
+The following is sample Python code only. It is meant to illustrate how an API-driven workflow could be assembled for this kind of bathymetry modernization work. It is not a complete production pipeline, and it may not be suitable for shipping a finished product without additional validation, licensing review, georeferencing checks, and field-based verification.
+
+```python
+import io
+import requests
+import geopandas as gpd
+
+# Sample only: replace with real GeoHub/ArcGIS endpoints
+feature_layer_url = "https://example.gov/arcgis/rest/services/Bathymetry/FeatureServer/0/query"
+
+params = {
+    "where": "1=1",
+    "outFields": "*",
+    "returnGeometry": "true",
+    "f": "geojson"
+}
+
+response = requests.get(feature_layer_url, params=params, timeout=60)
+response.raise_for_status()
+
+historic_contours = gpd.read_file(io.BytesIO(response.content))
+print(historic_contours.head())
+```
+
+```python
+import io
+import requests
+import geopandas as gpd
+
+# Sample only: replace with a real public WFS or GeoJSON endpoint
+wfs_url = "https://example.gov/ows"
+layer_name = "hydrography:shoreline"
+
+params = {
+    "service": "WFS",
+    "version": "2.0.0",
+    "request": "GetFeature",
+    "typeName": layer_name,
+    "outputFormat": "application/json"
+}
+
+response = requests.get(wfs_url, params=params, timeout=60)
+response.raise_for_status()
+
+shoreline = gpd.read_file(io.BytesIO(response.content))
+print(shoreline.head())
+```
+
+```python
+import requests
+from pathlib import Path
+
+# Sample only: placeholder DEM download example
+url = "https://example.gov/dem.tif"
+out_path = Path("dem.tif")
+
+response = requests.get(url, stream=True, timeout=600)
+response.raise_for_status()
+
+with out_path.open("wb") as f:
+    for chunk in response.iter_content(chunk_size=8192):
+        if chunk:
+            f.write(chunk)
+
+print(f"Downloaded {out_path}")
+```
+
+This kind of workflow could support a modernized output set of GeoJSON, GPX, or MBTiles layers for field use, but it should be treated as a prototype rather than a final product.
+
+To make the link to the earlier workflow more explicit, the sample section is intended to reflect these stages:
+
+1. **Historic contour retrieval** — pull the scanned or digitized contour source into a spatial format.
+2. **Shoreline correction** — replace the historic shoreline with current hydrography and correct for drift.
+3. **Elevation data acquisition** — retrieve LiDAR or DEM data for basin reconstruction.
+4. **Basin-form estimation** — infer submerged form from the DEM and known contour structure.
+5. **Calibration against the historic map** — reconcile the new model with the original survey depths.
+6. **Export** — produce GeoJSON, GPX, MBTiles, or raster outputs for field or GIS use.
+
 ## Why this matters
 
 The GeoHub scan is the starting point, not the finished product. For navigation, habitat analysis, or field use, the most useful approach is to preserve the historic survey while translating it into modern vector, raster, and GPS-friendly formats.
