@@ -1,11 +1,18 @@
 ---
+layout: post
 title: "One Community, One Infrastructure: A Shared Reading List for Smart Buildings"
+date: 2026-04-20
 author: Jason Kronemeyer
+excerpt: "Across schools, healthcare sites, municipalities, nonprofits, and commercial spaces, the same infrastructure patterns are emerging. This article outlines a shared reading list for smart buildings that connects fiber, power, safety, and governance."
+categories: [Compass Series, Infrastructure, Smart Buildings, Community Development]
+tags: [smart-buildings, community-infrastructure, fiber, power, safety, workforce, policy]
 ---
 
 ## One Community, One Infrastructure
 
 Whether we are designing a school, a nonprofit community center, a healthcare clinic, a municipal building, or a local business, the underlying technology infrastructure looks remarkably similar.
+
+Consider a school district planning a new classroom wing. The architect wants flexible learning space, the mechanical team adds controls and sensors, and the safety team expects resilient communications. If fiber, power, and review expectations are not aligned from the start, the project may look modern on paper while still underperforming in practice.
 
 People change. Missions change. Funding sources change.  
 The **infrastructure does not**.
@@ -80,8 +87,7 @@ This advisory exists, in part, to **close that gap** — by creating shared unde
 
 ### 1. The Core Stack: Network, Power, and Distributed Edge
 
-**Distributed Edge, POLAN, and Fault Managed Power**  
-https://www.jasonkronemeyer.com/infrastructure/networking/energy/2025/12/16/distributed-edge-polan-fault-managed-power.html  
+**[Distributed Edge, POLAN, and Fault Managed Power](https://www.jasonkronemeyer.com/infrastructure/networking/energy/2025/12/16/distributed-edge-polan-fault-managed-power.html)**  
 
 Establishes the baseline architecture that applies across schools, healthcare, government, nonprofits, and business: fiber‑first networks, passive optical LANs, and fault‑managed power delivering safe energy to the edge.
 
@@ -89,8 +95,7 @@ Establishes the baseline architecture that applies across schools, healthcare, g
 
 ### 2. Translating Guidance into Real‑World Topology
 
-**Building Resilient Distributed Edge: Fault‑Managed Power Meets Cisco Networking**  
-https://www.jasonkronemeyer.com/edge/networking/power/architecture/2025/12/08/building-resilient-distributed-edge.html  
+**[Building Resilient Distributed Edge: Fault‑Managed Power Meets Cisco Networking](https://www.jasonkronemeyer.com/edge/networking/power/architecture/2025/12/08/building-resilient-distributed-edge.html)**  
 
 Shows how reference guides become real, inspectable designs — helping architects, engineers, and integrators align on what “good” looks like.
 
@@ -98,8 +103,7 @@ Shows how reference guides become real, inspectable designs — helping architec
 
 ### 3. Where Trades Converge: HVAC, Fiber, and Digital Control
 
-**How HVAC and Fiber Optics Are Converging (Compass Series)**  
-https://www.jasonkronemeyer.com/compass-series/smart-buildings/infrastructure/2026/01/21/hvac-convergence.html  
+**[How HVAC and Fiber Optics Are Converging (Compass Series)](https://www.jasonkronemeyer.com/compass-series/smart-buildings/infrastructure/2026/01/21/hvac-convergence.html)**  
 
 Explains why once HVAC becomes digital, it becomes network infrastructure — and why fiber becomes foundational to healthy, efficient buildings.
 
@@ -107,8 +111,7 @@ Explains why once HVAC becomes digital, it becomes network infrastructure — an
 
 ### 4. Education as a Community Proxy
 
-**Fault Managed Power & Passive Optical LAN: The Future of Smart K‑12 School Buildings**  
-https://www.jasonkronemeyer.com/k-12/smart%20schools/smart%20buildings%20optical%20lan/fault%20managed%20power/class%20four%20power/polan/2025/10/29/Digital-Power-POLAN.html  
+**[Fault Managed Power & Passive Optical LAN: The Future of Smart K‑12 School Buildings](https://www.jasonkronemeyer.com/k-12/smart%20schools/smart%20buildings%20optical%20lan/fault%20managed%20power/class%20four%20power/polan/2025/10/29/Digital-Power-POLAN.html)**  
 
 Schools reveal the same infrastructure pressures found everywhere else: safety, density, sustainability, scale, and long lifecycles.
 
@@ -116,8 +119,7 @@ Schools reveal the same infrastructure pressures found everywhere else: safety, 
 
 ### 5. Safety Is Core Infrastructure, Not an Overlay
 
-**Are Public Safety Radios Moving to Radio over Fiber?**  
-https://www.jasonkronemeyer.com/public%20safety/rf%20technology/rof/das/polan/2025/11/21/Radio-Over-Fiber.html  
+**[Are Public Safety Radios Moving to Radio over Fiber?](https://www.jasonkronemeyer.com/public%20safety/rf%20technology/rof/das/polan/2025/11/21/Radio-Over-Fiber.html)**  
 
 Connects emergency communications, DAS, and code‑driven safety requirements back to the shared fiber and power backbone.
 
@@ -125,8 +127,7 @@ Connects emergency communications, DAS, and code‑driven safety requirements ba
 
 ### 6. Infrastructure Decisions Should Produce Outcomes
 
-**OKR Example: Reducing AC‑to‑DC Conversions for a Smarter Campus**  
-https://www.jasonkronemeyer.com/energy%20efficiency/smart%20campus/sustainability/2025/11/26/AC-DC-OKR.html  
+**[OKR Example: Reducing AC‑to‑DC Conversions for a Smarter Campus](https://www.jasonkronemeyer.com/energy%20efficiency/smart%20campus/sustainability/2025/11/26/AC-DC-OKR.html)**  
 
 Demonstrates how infrastructure choices translate directly into energy efficiency, resilience, and operational clarity.
 
@@ -134,8 +135,7 @@ Demonstrates how infrastructure choices translate directly into energy efficienc
 
 ### 7. Workforce and Capacity Are Infrastructure Too
 
-**Our Smarts Are in Our Buildings — Smart Building Workforce for Clean Energy**  
-https://www.jasonkronemeyer.com/policy/workforce/clean-energy/2025/12/04/our-smarts-are-in-our-buildings.html  
+**[Our Smarts Are in Our Buildings — Smart Building Workforce for Clean Energy](https://www.jasonkronemeyer.com/policy/workforce/clean-energy/2025/12/04/our-smarts-are-in-our-buildings.html)**  
 
 Highlights why modern community infrastructure requires cross‑disciplinary training that bridges traditional trade boundaries.
 
@@ -143,8 +143,7 @@ Highlights why modern community infrastructure requires cross‑disciplinary tra
 
 ### 8. Deep Reference Material
 
-**Capitalizing on Class Four Power in Optical LAN Applications (Tellabs & Panduit Webinar)**  
-https://www.jasonkronemeyer.com/notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html  
+**[Capitalizing on Class Four Power in Optical LAN Applications (Tellabs & Panduit Webinar)](https://www.jasonkronemeyer.com/notes/research/Capitalizing-on-Class-Four-Power-in-Optical-LAN-Applications-Panduit-Webinar.html)**  
 
 Provides detailed engineering context for teams that need defensible reference material during design review and inspection.
 
@@ -161,9 +160,7 @@ It is about acknowledging a reality:
 
 If we want resilient, inspectable, and future‑ready buildings, we need **shared understanding across roles**, not deeper silos.
 
-One community.  
-One infrastructure.  
-One responsibility to design it well.
+The next step is practical: start treating fiber, power, safety, and controls as one infrastructure system. Learn the patterns, align the disciplines, and help shape the standards that make community buildings safer, more resilient, and easier to govern.
 
 ---
 
