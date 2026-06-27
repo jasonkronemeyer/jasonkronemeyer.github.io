@@ -21,17 +21,15 @@ Even in a country with 94% internet access and 89% of government services availa
 
 That is the central lesson: digital systems do not automatically level the playing field. They can reinforce existing patterns of advantage.
 
----
-
 ## Why This Matters for Michigan
 
 This is the challenge Michigan faces.
 
-Through the Compass framework, I have been working to move beyond connectivity as the endpoint and toward something more meaningful: digital opportunity. Through EUPConnect, we have seen how rural and under-resourced communities often depend more heavily on digital systems while having less capacity to benefit from them. Through the Digital Opportunity Intelligence Network (DOIN), we are helping communities turn access into participation and outcomes.
+The work I am describing here sits at the intersection of two efforts that have become increasingly important to me: Project Compass and the Digital Opportunity Intelligence Network, or DOIN. Project Compass is a Merit Network initiative that helps frame digital equity work in terms of opportunity, capacity, and place-based decision-making. DOIN, by contrast, is the knowledge network model I am developing to help operationalize that thinking. It brings together data, place, and local experience so that communities can make better decisions about where to invest, how to organize, and how to build durable pathways from access to meaningful use. In that sense, DOIN is less about technology for its own sake and more about helping communities build the conditions under which technology can produce real value.
+
+Through Project Compass and DOIN, I have been working to move beyond connectivity as the endpoint and toward something more meaningful: digital opportunity. Through EUPConnect, we have seen how rural and under-resourced communities often depend more heavily on digital systems while having less capacity to benefit from them. Together, these efforts help communities turn access into participation and outcomes.
 
 The Chile research helps clarify something important: the network is not the only issue. The real question is how value flows through the network.
-
----
 
 ## From Access to Opportunity
 
@@ -55,4 +53,15 @@ The same fiber line running through two communities can produce very different f
 
 This is the work ahead of us in Michigan: not simply building the network, but ensuring that it works for every community it touches.
 
+## References
+
 [^1]: Fierro, P., Helsper, E. J., Correa, T., & Dodel, M. (2026). Place matters for the poor: Digitisation and spatial inequality in Chile. Telecommunications Policy, 50(5), 103188. https://doi.org/10.1016/j.telpol.2026.103188
+
+## Further Reading
+
+If this topic resonates, these posts may be useful next steps:
+
+- [Why Digital Skills Determine Broadband Success](https://jasonkronemeyer.com/2025/10/29/Why-Digital-Skills-Determines-Broadband-Success.html)
+- [Cooperatives as a Way to Carry Forward the Work of DOIN and EUPConnect](https://jasonkronemeyer.com/2026/06/25/schneider-doin-eupconnect.html)
+- [The School Building Reckoning](https://jasonkronemeyer.com/2026/06/23/fmp-michigan-school-infrastructure.html)
+- [Building the Policy Learning Machine](https://jasonkronemeyer.com/2025/11/20/building-the-policy-learning-machine.html)
