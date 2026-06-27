@@ -6,6 +6,7 @@ status: draft
 tags: [digital-literacy, ai-skills, graphrag, knowledge-graphs, streamlit, mlops]
 description: "Explore how building a Streamlit chatbot with knowledge graphs can advance digital literacy and workforce skills."
 ---
+
 ## **From Digital Literacy to AI Fluency: Building Smarter Apps with Knowledge Graphs**
 
 Digital literacy today goes far beyond knowing how to use a browser or a spreadsheet. In an era of AI-driven decision-making, **understanding how AI systems work—and how to build them—is a critical skill**. That’s where projects like **Strwythura** come in: a hands-on workflow for creating a **Streamlit-based chatbot powered by knowledge graphs and embeddings**, all running locally.
