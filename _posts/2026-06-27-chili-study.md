@@ -51,10 +51,6 @@ The same fiber line running through two communities can produce very different f
 
 This is the work ahead of us in Michigan: not simply building the network, but ensuring that it works for every community it touches.
 
-## References
-
-[^1]: Fierro, P., Helsper, E. J., Correa, T., & Dodel, M. (2026). Place matters for the poor: Digitisation and spatial inequality in Chile. Telecommunications Policy, 50(5), 103188. https://doi.org/10.1016/j.telpol.2026.103188
-
 ## Further Reading
 
 If this topic resonates, these posts may be useful next steps:
@@ -63,3 +59,7 @@ If this topic resonates, these posts may be useful next steps:
 - [Cooperatives as a Way to Carry Forward the Work of DOIN and EUPConnect]({% post_url 2026-06-25-schneider-doin-eupconnect %})
 - [The School Building Reckoning]({% post_url 2026-06-23-fmp-michigan-school-infrastructure %})
 - [Building the Policy Learning Machine]({% post_url 2025-11-20-building-the-policy-learning-machine %})
+
+## References
+
+[^1]: Fierro, P., Helsper, E. J., Correa, T., & Dodel, M. (2026). Place matters for the poor: Digitisation and spatial inequality in Chile. Telecommunications Policy, 50(5), 103188. https://doi.org/10.1016/j.telpol.2026.103188
