@@ -39,8 +39,6 @@ But the study also points to something hopeful. People in disadvantaged areas of
 
 In Michigan, that means moving from a one-size-fits-all model to a more place-based approach. It means building not just infrastructure, but the local capacity to use it well.
 
----
-
 ## A Michigan Opportunity
 
 For me, this is where Compass, EUPConnect, and DOIN align. Together, they point toward a shift:
@@ -61,7 +59,7 @@ This is the work ahead of us in Michigan: not simply building the network, but e
 
 If this topic resonates, these posts may be useful next steps:
 
-- [Why Digital Skills Determine Broadband Success](https://jasonkronemeyer.com/2025/10/29/Why-Digital-Skills-Determines-Broadband-Success.html)
-- [Cooperatives as a Way to Carry Forward the Work of DOIN and EUPConnect](https://jasonkronemeyer.com/2026/06/25/schneider-doin-eupconnect.html)
-- [The School Building Reckoning](https://jasonkronemeyer.com/2026/06/23/fmp-michigan-school-infrastructure.html)
-- [Building the Policy Learning Machine](https://jasonkronemeyer.com/2025/11/20/building-the-policy-learning-machine.html)
+- [Why Digital Skills Determine Broadband Success]({% post_url 2025-10-29-Why-Digital-Skills-Determines-Broadband-Success %})
+- [Cooperatives as a Way to Carry Forward the Work of DOIN and EUPConnect]({% post_url 2026-06-25-schneider-doin-eupconnect %})
+- [The School Building Reckoning]({% post_url 2026-06-23-fmp-michigan-school-infrastructure %})
+- [Building the Policy Learning Machine]({% post_url 2025-11-20-building-the-policy-learning-machine %})
