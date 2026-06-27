@@ -1,15 +1,18 @@
 ---
+layout: post
 title: "From Digital Literacy to AI Fluency: Building Smarter Apps with Knowledge Graphs"
 date: 2026-01-12
 author: "Jason Kronemeyer"
 status: draft
+categories: [digital equity, ai, education]
 tags: [digital-literacy, ai-skills, graphrag, knowledge-graphs, streamlit, mlops]
+excerpt: "A practical way to teach AI fluency is to build with it. This post explains why knowledge graphs and GraphRAG can help learners move from passive AI users to active, thoughtful builders."
 description: "Explore how building a Streamlit chatbot with knowledge graphs can advance digital literacy and workforce skills."
 ---
 
 ## **From Digital Literacy to AI Fluency: Building Smarter Apps with Knowledge Graphs**
 
-Digital literacy today goes far beyond knowing how to use a browser or a spreadsheet. In an era of AI-driven decision-making, **understanding how AI systems work—and how to build them—is a critical skill**. That’s where projects like **Strwythura** come in: a hands-on workflow for creating a **Streamlit-based chatbot powered by knowledge graphs and embeddings**, all running locally.
+Digital literacy today goes far beyond knowing how to use a browser or a spreadsheet. In an era of AI-driven decision-making, **understanding how AI systems work—and how to build them—is a critical skill**. I think the missing piece in most AI education is not just exposure to tools, but the ability to understand how those tools are assembled, why they fail, and how they can be shaped for community benefit. That’s where projects like **Strwythura** come in: a hands-on workflow for creating a **Streamlit-based chatbot powered by knowledge graphs and embeddings**, all running locally.
 
 ### **Why This Matters for Digital Skills**
 Most AI tools are packaged as “black boxes.” Users interact with them but rarely understand what happens behind the scenes. This creates a gap in **AI literacy**, leaving communities dependent on opaque systems. Strwythura flips the script by teaching:
@@ -47,6 +50,16 @@ This approach aligns with **21st-century skills frameworks**:
 - **Technical Fluency**: Move from “AI user” to “AI builder.”
 
 Imagine integrating this into **community college courses**, **K-12 STEM programs**, or **workforce reskilling initiatives**. Learners don’t just consume AI—they **create it responsibly**.
+
+### **How This Connects to My Other Work**
+This post sits inside a larger thread of work about digital literacy, knowledge systems, and community-scale AI. In particular, it connects to my writing on [Smartphones and Digital Literacy: Beyond the App]({% post_url 2026-01-02-smartphones-and-digital-literacy-beyond-the-app %}), [Architect in the Machine]({% post_url 2026-01-15-architect-in-the-machine %}), and [Building the Policy Learning Machine]({% post_url 2025-11-20-building-the-policy-learning-machine %}). Those pieces explore the same question from different angles: how do we move from access to understanding, and from understanding to useful action?
+
+## **Further Reading**
+- [Smartphones and Digital Literacy: Beyond the App]({% post_url 2026-01-02-smartphones-and-digital-literacy-beyond-the-app %})
+- [Architect in the Machine]({% post_url 2026-01-15-architect-in-the-machine %})
+- [Building the Policy Learning Machine]({% post_url 2025-11-20-building-the-policy-learning-machine %})
+- [Knowledge Modeling and the Semantic Web]({% post_url 2025-12-18-knowledge-modeler %})
+- [People, Process, Product for Smart Buildings]({% post_url 2026-01-24-people-process-product-smart-buildings %})
 
 ---
 
