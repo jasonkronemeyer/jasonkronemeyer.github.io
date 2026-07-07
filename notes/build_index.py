@@ -27,13 +27,15 @@ html = """<!DOCTYPE html>
 """
 
 for name in files:
-    html += f'    <li><a href="{name}">{name}</a></li>\n'
+    href = name
+    if href.endswith(".md"):
+        href = href[:-3] + ".html"
+    html += f'    <li><a href="{href}">{name}</a></li>\n'
 
 html += """  </ul>
 </body>
 </html>
 """
 
-output_path = Path(__file__).resolve().parent / "index.html"
-output_path.write_text(html, encoding="utf-8")
-print(f"Generated {output_path}")
+Path("index.html").write_text(html, encoding="utf-8")
+print("Generated index.html")
