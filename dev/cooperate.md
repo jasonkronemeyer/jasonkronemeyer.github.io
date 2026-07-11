@@ -31,7 +31,7 @@ The EUPCONNECT Center will address this need by providing rural communities with
 
 ## Purpose
 
-The purpose of the CONNECT Center is to strengthen rural prosperity by advancing cooperative and community-owned solutions in:
+The purpose of the EUPCONNECT Center is to strengthen rural prosperity by advancing cooperative and community-owned solutions in:
 
 - Broadband and telecommunications
 - Energy and utility services
