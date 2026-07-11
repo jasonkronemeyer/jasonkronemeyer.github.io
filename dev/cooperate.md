@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "CONNECT Center"
+title: "EUPCONNECT Center"
 subtitle: "Cooperative Network, Ownership, Enterprise, Capacity & Community Transformation Center"
 permalink: /connect-center/
 ---
-
-# CONNECT Center
 
 ## Cooperative Network, Ownership, Enterprise, Capacity & Community Transformation Center
 
@@ -15,13 +13,11 @@ permalink: /connect-center/
 
 The **Cooperative Network, Ownership, Enterprise, Capacity & Community Transformation (CONNECT) Center** is proposed as a regional cooperative development center serving Michigan's Eastern Upper Peninsula.
 
-The CONNECT Center will help rural communities transform infrastructure investments into sustainable economic opportunities through cooperative business development, technical assistance, workforce entrepreneurship, and community-owned enterprise creation.
+The EUPCONNECT Center will help rural communities transform infrastructure investments into sustainable economic opportunities through cooperative business development, technical assistance, workforce entrepreneurship, and community-owned enterprise creation.
 
 Building upon the region's investments in broadband, energy, workforce development, and digital equity, the CONNECT Center will provide the organizational capacity needed to ensure that the benefits of these investments remain within local communities. The Center will support the creation, expansion, and modernization of cooperatives and other member-owned enterprises that strengthen local economies, create jobs, and increase community resilience.
 
-The CONNECT Center will work in close collaboration with the Cloverland Training & Technology Center, educational institutions, tribal governments, local governments, economic development organizations, and community partners throughout the Eastern Upper Peninsula.
-
----
+The EUPCONNECT Center will work in close collaboration with the Cloverland Training & Technology Center, educational institutions, tribal governments, local governments, economic development organizations, and community partners throughout the Eastern Upper Peninsula.
 
 ## Need Statement
 
@@ -31,9 +27,7 @@ At the same time, unprecedented investments in broadband infrastructure, energy 
 
 While infrastructure and workforce investments are essential, communities also need organizational structures that allow residents, workers, businesses, and institutions to collectively own and benefit from these investments. Cooperative business models have historically played a vital role in rural America by enabling communities to overcome market barriers, pool resources, retain local wealth, and create sustainable economic opportunity.
 
-The CONNECT Center will address this need by providing rural communities with the expertise, technical assistance, education, and organizational support required to develop successful cooperative enterprises and community-owned ventures.
-
----
+The EUPCONNECT Center will address this need by providing rural communities with the expertise, technical assistance, education, and organizational support required to develop successful cooperative enterprises and community-owned ventures.
 
 ## Purpose
 
@@ -47,9 +41,7 @@ The purpose of the CONNECT Center is to strengthen rural prosperity by advancing
 - Agriculture and food systems
 - Shared-service organizations
 - Community facilities and infrastructure
-- Tribal and community enterprise development
-
----
+- Tribal nation and community enterprise development
 
 ## Goals
 
@@ -114,7 +106,7 @@ Ensure underserved populations have access to the resources, training, and organ
 
 ## Strategic Alignment
 
-The CONNECT Center complements and strengthens existing regional initiatives.
+The EUPCONNECT Center complements and strengthens existing regional initiatives.
 
 ### Cloverland Training & Technology Center
 
@@ -124,7 +116,7 @@ Develops the skilled workforce needed for energy, broadband, communications, and
 
 Advances regional infrastructure, digital equity, community connectivity, and cross-sector collaboration.
 
-### CONNECT Center
+### EUPCONNECT Center
 
 Provides the ownership, governance, and enterprise-development capacity needed to transform workforce and infrastructure investments into lasting economic opportunity.
 
@@ -136,7 +128,7 @@ Together, these initiatives create a comprehensive rural development framework b
 
 ## Expected Outcomes
 
-The CONNECT Center will work toward:
+The EUPCONNECT Center will work toward:
 
 - New cooperative and community-owned business formation
 - Expanded employment opportunities
@@ -169,4 +161,4 @@ The CONNECT Center will work toward:
 
 The Rural Cooperative Development Grants Program supports nonprofit organizations that provide technical assistance and cooperative development services to improve economic conditions, create jobs, strengthen local ownership, and increase community prosperity in rural America.
 
-The CONNECT Center will leverage this opportunity to help communities across Michigan's Eastern Upper Peninsula convert infrastructure investments, workforce development efforts, and regional partnerships into enduring community wealth and cooperative enterprise.
+The EUPCONNECT Center will leverage this opportunity to help communities across Michigan's Eastern Upper Peninsula convert infrastructure investments, workforce development efforts, and regional partnerships into enduring community wealth and cooperative enterprise.
