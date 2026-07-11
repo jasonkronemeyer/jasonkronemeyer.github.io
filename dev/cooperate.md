@@ -120,8 +120,6 @@ Together, these initiatives create a comprehensive rural development framework b
 
 > **Connect Infrastructure → Develop Talent → Create Ownership → Build Community Wealth**
 
----
-
 ## Expected Outcomes
 
 The EUPCONNECT Center will work toward:
@@ -134,8 +132,6 @@ The EUPCONNECT Center will work toward:
 - Greater regional collaboration
 - Increased community capacity
 - Long-term economic resilience
-
----
 
 ## Background Resources
 
