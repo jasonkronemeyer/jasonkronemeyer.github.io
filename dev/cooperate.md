@@ -15,7 +15,7 @@ The **Cooperative Network, Ownership, Enterprise, Capacity & Community Transform
 
 The EUPCONNECT Center will help rural communities transform infrastructure investments into sustainable economic opportunities through cooperative business development, technical assistance, workforce entrepreneurship, and community-owned enterprise creation.
 
-Building upon the region's investments in broadband, energy, workforce development, and digital equity, the CONNECT Center will provide the organizational capacity needed to ensure that the benefits of these investments remain within local communities. The Center will support the creation, expansion, and modernization of cooperatives and other member-owned enterprises that strengthen local economies, create jobs, and increase community resilience.
+Building upon the region's investments in broadband, energy, workforce development, and digital equity, the EUPCONNECT Center will provide the organizational capacity needed to ensure that the benefits of these investments remain within local communities. The Center will support the creation, expansion, and modernization of cooperatives and other member-owned enterprises that strengthen local economies, create jobs, and increase community resilience.
 
 The EUPCONNECT Center will work in close collaboration with the Cloverland Training & Technology Center, educational institutions, tribal governments, local governments, economic development organizations, and community partners throughout the Eastern Upper Peninsula.
 
@@ -65,8 +65,6 @@ Assist local governments, tribes, educational institutions, utilities, and nonpr
 
 Ensure underserved populations have access to the resources, training, and organizational support necessary to participate fully in the regional economy.
 
----
-
 ## Proposed Services
 
 ### Cooperative Development Services
@@ -101,8 +99,6 @@ Ensure underserved populations have access to the resources, training, and organ
 - Infrastructure collaboration
 - Community asset mapping
 - Grant development assistance
-
----
 
 ## Strategic Alignment
 
@@ -154,8 +150,6 @@ The EUPCONNECT Center will work toward:
 ### Federal Notice
 
 - [Grants.gov Opportunity Details](https://grants.gov/search-results-detail/363088)
-
----
 
 ## Closing Statement
 
