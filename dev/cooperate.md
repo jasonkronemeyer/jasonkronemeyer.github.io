@@ -23,7 +23,7 @@ The EUPCONNECT Center will work in close collaboration with the Cloverland Train
 
 Rural communities across the Eastern Upper Peninsula face persistent challenges related to population decline, workforce shortages, limited access to business development resources, and the concentration of economic ownership outside the region.
 
-At the same time, unprecedented investments in broadband infrastructure, energy systems, workforce development, and digital equity are creating new opportunities for economic growth.
+At the same time, unprecedented investments in broadband infrastructure, energy systems, workforce development, and digital infrastructure are creating new opportunities for economic growth.
 
 While infrastructure and workforce investments are essential, communities also need organizational structures that allow residents, workers, businesses, and institutions to collectively own and benefit from these investments. Cooperative business models have historically played a vital role in rural America by enabling communities to overcome market barriers, pool resources, retain local wealth, and create sustainable economic opportunity.
 
