@@ -57,8 +57,6 @@ word_count_target: 1600
 status: draft
 ---
 
-# Setting the Bearings: What E-Rate's FY2027 Eligible Services List Is Missing — and How to Modernize It for the ICET Era
-
 *A Compass-voice position paper for Project Compass / EUPConnect Collaborative*
 *By Jason Kronemeyer*
 
