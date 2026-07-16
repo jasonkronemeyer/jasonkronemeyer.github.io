@@ -1,6 +1,28 @@
+---
+layout: post
+title: "Passive Optical LAN (POLAN) Deployment Plan for Sault Ste. Marie, Michigan"
+subtitle: "Strategic Partnership with Cloverland Electric Cooperative and Key Strategic Infrastructure Partners"
+author: "Copilot Researcher"
+date: 2026-07-16
+status: draft
+categories:
+  - Compass
+  - Infrastructure
+tags:
+  - POLAN
+  - Passive Optical LAN
+  - Cloverland Electric Cooperative
+  - Sault Ste. Marie
+  - Grid-Interactive Efficient Buildings
+  - CTE
+  - broadband
+  - smart buildings
+excerpt: "A deployment plan for POLAN infrastructure serving community anchors in Sault Ste. Marie, Michigan, leveraging Cloverland Electric Cooperative's training center initiative and federal broadband funding."
+---
+
 # DRAFT: Passive Optical LAN (POLAN) Deployment Plan for Sault Ste. Marie, Michigan
 
-## Strategic Partnership with Cloverland Electric Cooperative and Key Stategic Infrastructure Partners
+## Strategic Partnership with Cloverland Electric Cooperative and Key Strategic Infrastructure Partners
 
 ## Executive Summary
 
