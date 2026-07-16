@@ -78,8 +78,10 @@ permalink: /
     <h2>Professional Experience</h2>
     <ul class="resume-list experience-list">
       <li><span class="year">2024-Present:</span> <strong>Founder</strong>, Jason Kronemeyer LLC</li>
-      <li><span class="year">2021-Present:</span> <strong>Trustee</strong>, Bruce Township, Chippewa County, Michigan</li>
-      <li><span class="year">2021-Present:</span> <strong>Ex-Officio member</strong>, Bruce Township Planning Commission</li>
+      <li><span class="year">2024-Present:</span> <strong>Adjunct Faculty</strong>, Bay Mills Community College</li>
+      <li><span class="year">May 2025-Present:</span> <strong>Clerk</strong>, Bruce Township, Chippewa County, Michigan</li>
+      <li><span class="year">2021-2024:</span> <strong>Trustee</strong>, Bruce Township, Chippewa County, Michigan</li>
+      <li><span class="year">2021-2024:</span> <strong>Ex-Officio member</strong>, Bruce Township Planning Commission</li>
       <li><span class="year">2021-2024:</span> <strong>Project Director</strong>, EUPConnect Collaborative</li>
       <li><span class="year">2008-2024:</span> <strong>Director of Technology and REMC 22</strong>, EUPISD</li>
       <li><span class="year">2000-2007:</span> <strong>Network Engineer</strong>, EUPISD</li>
