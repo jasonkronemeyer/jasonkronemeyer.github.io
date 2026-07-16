@@ -72,17 +72,19 @@ The Eligible Services List still sorts the world into Category One (data transmi
 
 The list is not wrong. It is simply **not yet modern**. And modernization — the FCC's own word in the companion NPRM — should mean aligning the list with the architecture that today's buildings are actually being designed and rewired around, not holding it static while asking only what to cut.
 
+This is not an abstract policy timing problem. School districts across Michigan and the country are entering a capital cycle where deferred maintenance, bond refinancing, facility consolidation, and electrification pressures are converging — the same "maturity wall" that school facilities planners now describe. Most of the school buildings that will exist in 2050 already exist today; they were built or last modernized between the 1960s and 1990s, designed around analog systems, and engineered without the need for high-capacity data networks. They do not fail overnight; they fall behind until they cannot catch up. The FY2027 ESL will shape what districts can fund during that window. Freezing it now means locking in a list that treats the building as an afterthought just when the building itself is becoming the frontier — and just when the cost of delay is becoming visible in capital planning, energy use, and instructional capacity.
+
 ## What's missing from the FY2027 Eligible Services List
 
 Every gap below traces directly to the ICET convergence work in my studies. These are the categories that a modernized ESL should name explicitly rather than leave to case-by-case eligibility fights during PIA review — and every one of them is absent from the FY2027 draft.
 
 ### 1. Whole-building structured fiber cabling as a fundable modernization, not a capped afterthought
 
-Cabling is technically eligible under Category Two, but the $201.57/student budget was never scaled to **rewire a building**. Many of the nation's school buildings are on aging Cat5e/Cat6 copper in distributed closets that are themselves failure points and cost centers. A single building rewire runs on the order of $120k–$150k in cabling alone. The ESL should recognize a **structured fiber cabling / premise re-cabling** modernization track so that the physical layer — the thing with a 20-30 year lifecycle — is fundable at the scale it actually requires.
+Cabling is technically eligible under Category Two, but the $201.57/student budget was never scaled to **rewire a building**. Many of the nation's school buildings are on aging Cat5e/Cat6 copper in distributed closets that are themselves failure points and cost centers. A small building rewire runs on the order of **$120,000–$150,000** in cabling alone; a medium-sized building runs **$150,000–$750,000**; and a large building can run **$750,000–$2 million**. The ESL should recognize a **structured fiber cabling / premise re-cabling** modernization track so that the physical layer — the thing with a 20-30 year lifecycle — is fundable at the scale it actually requires.
 
 ### 2. Passive Optical LAN (POLAN) as a named architecture
 
-POLAN — fiber to passive splitters to optical network terminals — is the single most consequential architecture missing by name from the list. My studies show it delivers **30–50% capital savings and 40–60% operating savings** versus traditional copper switching, while eliminating power-hungry closet switches. In one Eastern Upper Peninsula modeling scenario, a POLAN build with a utility partnership came in at **$2.55M against $9.6M** for traditional Ethernet — a 73% capital reduction. Today, ONTs are only grudgingly eligible as Category One when carrier-owned; a modernized ESL should treat POLAN electronics, splitters, and ONTs as first-class eligible internal infrastructure.
+POLAN — fiber to passive splitters to optical network terminals — is the single most consequential architecture missing by name from the list. It replaces power-hungry closet switches with passive splitters and a centralized optical line terminal, and pairs naturally with converged power such as Fault-Managed Power Systems (FMPS). Independent, real-world evidence points consistently in one direction: an APOLAN cost study found POLAN 40–56% cheaper across scenarios from a single building to a multi-building campus, and White Plains School District reported an initial network build roughly 30% lower after replacing legacy switches across nine buildings with POLAN. Today, ONTs are only grudgingly eligible as Category One when carrier-owned; a modernized ESL should treat POLAN electronics, splitters, and ONTs as first-class eligible internal infrastructure.
 
 ### 3. Converged power: Power-over-Ethernet and Fault-Managed Power Systems
 
@@ -133,3 +135,11 @@ I deliberately use *modernize*, not *reform* — it aligns with the Commission's
 The Commission is right that the original "get a signal to the door" mission is largely accomplished. The modern mission — the one the draft FY2027 list has **not yet** caught up to — is to help the nation's schools **rewire the building itself** around converged information, communications, and energy technology, and to capture the decade-long return that convergence makes possible. Across a small rural district like North Dickinson and a full multi-building system like Sault Area Public Schools, the finding is the same. Modernizing the Eligible Services List to name these technologies isn't an expansion of E-Rate's purpose. It's fidelity to it.
 
 The window is open now. Comments on the draft FY2027 ESL (DA 26-647) are due July 30, 2026, with reply comments due August 14, filed in WC Docket Nos. 26-133 and 13-184. If the list is going to be revisited this year anyway, let's make sure it's pointed toward True North.
+
+---
+
+**Related reading:**
+
+- [The School Building Reckoning](https://www.jasonkronemeyer.com/compass%20series/infrastructure/schools/digital%20opportunity/2026/06/23/fmp-michigan-school-infrastructure.html) — on the capital cycle, the retrofit imperative, and why the buildings we inherited were never designed for the digital systems they are now expected to carry.
+- [FCC ECFS: WC Docket No. 13-184 — Modernizing the E-rate Program for Schools and Libraries](https://www.fcc.gov/ecfs/search/search-filings?dockets=13-184) — official docket for the Eligible Services List and E-Rate program.
+- [FCC ECFS: WC Docket No. 26-133 — Ensuring Children's Safe Use of Screens and E-Rate-Funded Services](https://www.fcc.gov/ecfs/search/search-filings?dockets=26-133) — official docket for the E-Rate modernization proceeding.
