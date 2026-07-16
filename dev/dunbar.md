@@ -3,7 +3,7 @@ layout: post
 title: "Dunbar Forest: A Living Classroom for the EUP"
 date: 2026-05-27
 author: "Jason"
-status: "Draft"
+status: brainstorming
 tags: [EUPConnect, 4-H, Forestry, Community Technology, Great Lakes]
 ---
 
