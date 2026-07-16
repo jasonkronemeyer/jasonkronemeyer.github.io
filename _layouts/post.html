@@ -4,8 +4,10 @@ layout: default
 
 <article class="post">
 
-  <header class="post-header">
-    {% if page.status == "research" %}
+  <header class="post-header">    {% elsif page.status == "brainstorming" %}
+    <div class="status-banner" style="background-color: #f3e5f5; border: 2px solid #7b1fa2; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>💡 BRAINSTORMING:</strong> Thinking in progress — open questions, rough connections, and ideas still taking shape.
+    </div>    {% if page.status == "research" %}
     <div class="status-banner" style="background-color: #fff4e6; border: 2px solid #ff9800; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
       <strong>🔍 RESEARCH:</strong> Actively gathering sources and exploring ideas for this post.
     </div>

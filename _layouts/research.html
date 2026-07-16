@@ -6,6 +6,24 @@ layout: default
   <header class="research-header">
     <h1 class="research-title">{{ page.title }}</h1>
     
+    {% if page.status == "brainstorming" %}
+    <div class="status-banner" style="background-color: #f3e5f5; border: 2px solid #7b1fa2; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>💡 BRAINSTORMING:</strong> Thinking in progress — open questions, rough connections, and ideas still taking shape.
+    </div>
+    {% elsif page.status == "research" %}
+    <div class="status-banner" style="background-color: #fff4e6; border: 2px solid #ff9800; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>🔍 RESEARCH:</strong> Actively gathering sources and exploring ideas.
+    </div>
+    {% elsif page.status == "draft" %}
+    <div class="status-banner" style="background-color: #fff3cd; border: 2px solid #ffc107; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📝 DRAFT:</strong> Work in progress. Content may change.
+    </div>
+    {% elsif page.status == "review" %}
+    <div class="status-banner" style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+      <strong>📋 IN REVIEW:</strong> Draft complete, refining for publication.
+    </div>
+    {% endif %}
+
     {% if page.short_title %}
     <p class="research-short-title">{{ page.short_title }}</p>
     {% endif %}
