@@ -141,5 +141,7 @@ The window is open now. Comments on the draft FY2027 ESL (DA 26-647) are due Jul
 **Related reading:**
 
 - [The School Building Reckoning](https://www.jasonkronemeyer.com/compass%20series/infrastructure/schools/digital%20opportunity/2026/06/23/fmp-michigan-school-infrastructure.html) — on the capital cycle, the retrofit imperative, and why the buildings we inherited were never designed for the digital systems they are now expected to carry.
+- [WCB Seeks Comment on E-Rate Eligible Services List for FY 2027](https://www.fcc.gov/document/wcb-seeks-comment-e-rate-eligible-services-list-fy-2027) — FCC public notice releasing the draft FY2027 ESL (DA 26-647) and opening the comment window.
 - [FCC ECFS: WC Docket No. 13-184 — Modernizing the E-rate Program for Schools and Libraries](https://www.fcc.gov/ecfs/search/search-filings?dockets=13-184) — official docket for the Eligible Services List and E-Rate program.
 - [FCC ECFS: WC Docket No. 26-133 — Ensuring Children's Safe Use of Screens and E-Rate-Funded Services](https://www.fcc.gov/ecfs/search/search-filings?dockets=26-133) — official docket for the E-Rate modernization proceeding.
+- [FCC Fact Sheet: Ensuring Children's Safe Use of Screens and E-Rate-Funded Services / Modernizing the E-Rate Program (June 4, 2026)](https://docs.fcc.gov/public/attachments/DOC-422168A1.pdf) — PDF summary of the NPRM/FNPRM in WC Docket Nos. 26-133, 13-184, 21-93, and 21-455.
