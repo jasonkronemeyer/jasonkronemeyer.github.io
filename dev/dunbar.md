@@ -4,7 +4,19 @@ title: "Dunbar Forest: A Living Classroom for the EUP"
 date: 2026-05-27
 author: "Jason"
 status: brainstorming
-tags: [EUPConnect, 4-H, Forestry, Community Technology, Great Lakes]
+tags:
+  - EUPConnect
+  - Dunbar Forest
+  - 4-H
+  - forestry
+  - youth development
+  - STEM
+  - experiential learning
+  - place-based learning
+  - community technology
+  - spatial intelligence
+  - Great Lakes
+  - Michigan
 ---
 
 The Eastern Upper Peninsula (EUP) holds quiet strengths—places where research, stewardship, and community learning have been unfolding for generations. One of the most remarkable is Dunbar Forest, a 5,760‑acre Michigan State University research forest spanning Bruce Township and Soo Township. It is the largest and second‑oldest MSU off‑campus facility, and for decades it has hosted long‑term genetics and silvicultural studies that have helped advance modern forest management across Michigan and the Great Lakes region.
