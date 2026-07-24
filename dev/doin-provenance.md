@@ -5,7 +5,7 @@ author: "Jason Kronemeyer"
 affiliation: "Project Compass / Digital Opportunities Intelligence Network (DOIN)"
 date: 2026-07-24
 series: "Compass Series"
-type: "White Paper — Abstract"
+type: "Working Paper — Abstract"
 status: "Working Draft"
 tags:
   - provenance
