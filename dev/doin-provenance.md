@@ -18,7 +18,7 @@ tags:
 
 ## Extending the Digital Opportunities Compass Toward a Verifiable Policy Learning Machine
 
-*A Project Compass White Paper — Abstract*
+*A Project Compass Working Paper — Abstract*
 
 ---
 
