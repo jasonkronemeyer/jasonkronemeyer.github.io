@@ -13,7 +13,6 @@ keywords: [digital navigation, Maslow, digital equity]
 toc: true
 draft: true
 license: CC-BY-4.0
-permalink: /research/digital-navigation-maslow/
 ---
 
 # Digital Navigation: Maslow’s Hierarchy of Needs
