@@ -31,8 +31,6 @@ Using address-level data collected from more than 60,000 locations across Califo
 
 For Michigan, the findings are especially relevant. While the state demonstrated fewer speed deficiencies than some of its peers, affordability remained a significant challenge. The implication is clear: the next chapter of broadband policy must move beyond coverage maps and begin measuring whether residents can actually sustain connectivity over time.[^1]
 
----
-
 ## Looking Beyond the Broadband Map
 
 For years, broadband policy has centered on a straightforward question:
@@ -53,8 +51,6 @@ The real question is no longer simply whether we are building networks.
 
 The question is whether we are building opportunity.
 
----
-
 ## Measuring What Households Actually See
 
 One of the most valuable contributions of this study is its methodology.
@@ -73,8 +69,6 @@ The study identified two common patterns across BEAD-eligible areas:
 * Adequate speeds at prices households cannot afford.
 
 The authors' subsequent policy analysis concludes that market incentives alone are often insufficient to deliver both reliable service and affordable pricing in many BEAD-eligible communities.[^2]
-
----
 
 ## What the Findings Mean for Michigan
 
@@ -100,8 +94,6 @@ Entrepreneurs cannot fully engage in the digital economy.
 
 The connection may pass the home, but opportunity begins when the household subscribes and remains connected.
 
----
-
 > ### What This Means for Michigan's Upper Peninsula
 >
 > The Upper Peninsula's broadband challenge has always been about more than infrastructure alone.
@@ -113,8 +105,6 @@ The connection may pass the home, but opportunity begins when the household subs
 > A completed network is not the finish line.
 >
 > It is the starting point.
-
----
 
 ## A Community Capacity Perspective
 
@@ -140,8 +130,6 @@ The measure of success is not whether a fiber strand exists along a roadway.
 
 The measure of success is whether people can use that infrastructure to improve their lives.
 
----
-
 ## Why Provenance Matters
 
 Another reason this research is important is that it demonstrates the value of evidence-based monitoring.
@@ -158,8 +146,6 @@ As BEAD-funded networks are deployed, communities should continue tracking not o
 
 These measurements will ultimately determine whether public investments are creating lasting change.
 
----
-
 ## The Next Digital Divide
 
 The traditional digital divide focused on infrastructure availability.
@@ -175,8 +161,6 @@ Michigan's investments through BEAD and related initiatives create a historic op
 Infrastructure will open doors.
 
 Affordability and community capacity will determine how many people are able to walk through them.
-
----
 
 ## Closing Compass Bearing
 
@@ -197,8 +181,6 @@ It is defined by whether people can use that connection to learn, work, create, 
 The map may say **served**.
 
 The household may still be saying **not yet**.
-
----
 
 ## Notes
 
