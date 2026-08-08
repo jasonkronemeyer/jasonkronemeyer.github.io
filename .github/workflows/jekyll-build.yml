@@ -64,4 +64,4 @@ jobs:
       run: |
         gem install html-proofer
         # Ignore flaky or frequently-blocked external hosts to reduce false positives
-        htmlproofer _site --allow-hash-href --ignore-urls "https://polyfill.io/.*|https://www.mdpi.com/.*|https://broadbandmap.fcc.gov/.*|https://www.coursera.org/.*|https://scholar.google.com/.*|https://www.merit.edu/.*|https://polyfill.io/v3/polyfill.min.js\?features=es6|https://ssrn.com/.*|https://dx.doi.org/.*|https://doi.org/.*|https://arnicusc.org/.*|https://broadbandusa.ntia.gov/.*"
+        htmlproofer _site --allow-hash-href --disable-external
