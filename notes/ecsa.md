@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Leveraging the ECCA to Build a Great Lakes Blue Economy Pathway"
+date: 2026-08-01
+status: brief
+---
+
 # Policy Brief
 ## Leveraging the Educational Choice for Children Act to Build a Great Lakes Blue Economy Pathway
 
