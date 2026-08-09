@@ -35,7 +35,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: default
+      layout: default.html
 
 # SEO / Social sharing (jekyll-seo-tag)
 # These settings help generate Open Graph + Twitter Card meta tags site-wide.
