@@ -1,5 +1,6 @@
 ---
 ---
+
 ## How Do You Eat an Elephant? One "Pact" at a Time
 
 📚 In "Tiny Experiments," Anne-Laure Le Cunff challenges the traditional linear approach to career and personal development, advocating for a mindset shift towards experimentation and adaptability. Drawing from her own journey of leaving a successful career at Google, Le Cunff explores the power of curiosity and uncertainty as catalysts for growth. She introduces practical tools for fostering a mindset of systematic curiosity, encouraging readers to redefine success on their own terms and embrace an experimental life filled with continuous learning and discovery.
