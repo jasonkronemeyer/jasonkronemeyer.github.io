@@ -1,3 +1,5 @@
+---
+---
 This strategy is further strengthened by formal inclusion of **Bay Mills Indian Community (BMIC)** as an energy-aligned tribal infrastructure partner and **Bay Mills Community College (BMCC)** as the regional workforce and operations partner. BMIC has a selected EPA CPRG implementation project for an 11 MW solar installation with 5 MWh battery storage, and BMCC is explicitly identified to support workforce training for these infrastructure jobs [2]. In broadband, both BMIC and the Sault Tribe are listed NTIA Tribal Broadband Connectivity Program (TBCP) Round 1 awardees in Michigan [3][4][5].
 
 ## Regional Infrastructure Partner Roles

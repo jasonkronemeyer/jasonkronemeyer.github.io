@@ -1,3 +1,5 @@
+---
+---
 # Blockchain Meets the Barn: How Taylor Creek Farm Is Embracing the Future of Dairy - A future look.
 
 DRAFT

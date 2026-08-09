@@ -1,3 +1,5 @@
+---
+---
 ## Lesson: Exploring Coordinates with Robots in Manufacturing
 
 ### Overview 

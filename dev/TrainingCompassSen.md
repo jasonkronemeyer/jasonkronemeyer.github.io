@@ -1,3 +1,5 @@
+---
+---
 Amartya Sen is a Nobel Prize-winning economist and philosopher whose **Capability Approach** is one of the foundational theories for your digital equity framework.
 
 ## **Amartya Sen - Quick Overview**

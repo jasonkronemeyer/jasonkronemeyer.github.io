@@ -1,3 +1,5 @@
+---
+---
 The **new digital divide** refers to a shift in how we understand disparities in digital access and usage. Traditionally, the digital divide was seen as a gap between those who had internet access and those who did not. Today, however, the concept has evolved to reflect **deeper and more complex inequalities**. Here's a breakdown of what defines the new digital divide:
 ***
 

@@ -1,3 +1,5 @@
+---
+---
 # Hampton, Fernandez, Robertson & Bauer - Empirical Validation
 
 Keith Hampton, Luis Fernandez, Craig Robertson, and Johannes Bauer provide the **empirical evidence** that validates your digital equity framework using real Michigan K-12 data.

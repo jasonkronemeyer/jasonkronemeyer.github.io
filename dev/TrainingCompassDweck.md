@@ -1,3 +1,5 @@
+---
+---
 # Carol Dweck - Mindset Theory
 
 Carol Dweck is a Stanford psychologist whose **Mindset Theory** explains the psychological mechanism that enables people to convert opportunity into achievement in your digital equity framework.

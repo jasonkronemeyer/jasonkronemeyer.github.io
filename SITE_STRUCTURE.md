@@ -1,3 +1,5 @@
+---
+---
 # Jekyll Site Structure and Configuration
 
 ## Overview

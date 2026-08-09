@@ -1,3 +1,5 @@
+---
+---
 The development of the Digital Compass Navigator, Infrastructure, and Skills ontologies and associated knowledge graphs involves the following steps and suggestions for improvement:
 
 ### Key Components

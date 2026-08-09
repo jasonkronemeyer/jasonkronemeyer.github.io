@@ -1,3 +1,5 @@
+---
+---
 # Smart Schools: Advanced Technologies for Energy Efficiency and Sustainability
 
 ## Overview

@@ -1,3 +1,5 @@
+---
+---
 # Why Distributed Computing Is an Important Skill Set for the Fourth Internetwork
 
 Distributed computing is an essential skill for the **Fourth Internetwork** because the nature of networks, computation, and value creation has fundamentally changed. The Internetwork is no longer just about connecting computers to exchange data; it is about **coordinating intelligence, resources, and decision‑making across many autonomous systems at scale**.

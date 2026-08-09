@@ -1,3 +1,5 @@
+---
+---
 Apache Sedona and Neo4j can be integrated to enhance geospatial data processing and analysis. Here's how they work together:
 
 1. **Spatial Data Processing**: Apache Sedona is a powerful geospatial data processing engine that extends Apache Spark with spatial capabilities. It allows you to perform spatial operations and queries on large datasets efficiently.

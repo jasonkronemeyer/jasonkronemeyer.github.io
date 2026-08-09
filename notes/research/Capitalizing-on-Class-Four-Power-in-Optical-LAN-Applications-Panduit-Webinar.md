@@ -1,3 +1,5 @@
+---
+---
 # Capitalizing on Class Four Power in Optical LAN Applications | Tellabs and Panduit Webinar
 
 ### *Webinar Recap and In-Depth Overview*

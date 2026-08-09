@@ -1,3 +1,5 @@
+---
+---
 Kentaro Toyama's research provides several compelling examples of how technology amplifies existing human and institutional forces rather than transforming them on its own. Here are a few key findings:
 
 **Telecenters**: Toyama found that telecenters, which provide public access to computers and the internet, often fail to achieve their intended impact in communities with weak institutions. In areas with strong educational and social support systems, telecenters can enhance learning and connectivity [1](https://www.kentarotoyama.org/papers/Toyama%202011%20iConference%20-%20Technology%20as%20Amplifier.pdf).

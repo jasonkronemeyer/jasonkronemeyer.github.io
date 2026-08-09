@@ -1,3 +1,5 @@
+---
+---
 # Arjun Appadurai - The Capacity to Aspire
 
 Arjun Appadurai provides the **cultural theory of aspiration** that explains why "unclear value" blocks digital equity—even when infrastructure exists.

@@ -1,3 +1,5 @@
+---
+---
 Summary of **Kentaro Toyama’s “From Needs to Aspirations in Information Technology for Development”** based on well‑established scholarship and Toyama’s core arguments.
 
 ---

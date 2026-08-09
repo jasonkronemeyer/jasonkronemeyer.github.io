@@ -1,3 +1,5 @@
+---
+---
 ### The Critical Role of Qualitative Inquiry in Data Science
 
 Author: Jason Kronemeyer 

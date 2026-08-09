@@ -1,3 +1,5 @@
+---
+---
 # Why Knowledge Graphs for Digital Equity Intelligence
 
 Knowledge graphs provide the **structured data foundation** that stores relationships, enables complex queries, and grounds AI reasoning in your Digital Equity Intelligence System.

@@ -1,3 +1,5 @@
+---
+---
 # Visualization pipeline Notes
 
 To integrate the visualization of spatial properties and relationships into a Shiny-like Python app and export the graphic as an SVG, you can follow these steps:

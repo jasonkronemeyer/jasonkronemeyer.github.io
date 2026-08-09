@@ -1,3 +1,5 @@
+---
+---
 ### Function to Truncate LineStrings within a Polygon
 
 By: Jason Kronemeyer 

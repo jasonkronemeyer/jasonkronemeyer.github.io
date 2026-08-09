@@ -1,3 +1,5 @@
+---
+---
 # Why Bayesian Networks for Digital Equity Intelligence
 
 Bayesian networks provide the **probabilistic reasoning engine** that models uncertainty, predicts intervention outcomes, and learns from evidence in your Digital Equity Intelligence System.

@@ -1,3 +1,5 @@
+---
+---
 # The Michigan Digital Equity Research Ecosystem
 
 How Michigan's research institutions, your lived experience, and policy advocacy created an integrated knowledge-to-action pipeline for digital equity.

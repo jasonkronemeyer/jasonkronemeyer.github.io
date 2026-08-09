@@ -1,3 +1,5 @@
+---
+---
 ## Lesson: Exploring Coordinates with CNC and Robots in Manufacturing
 
 ### Overview 

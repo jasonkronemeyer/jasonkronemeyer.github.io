@@ -1,3 +1,5 @@
+---
+---
 ## Short: Finding the Digital Divide with Bayesian Networks
 
 Author: Jason Kronemeyer - compiled from my data science course / project notes.

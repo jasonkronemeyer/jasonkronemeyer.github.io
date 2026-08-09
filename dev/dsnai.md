@@ -1,3 +1,5 @@
+---
+---
 The relationship between a data scientist and AI is like that between a skilled architect and a powerful construction crew. One designs and understands the blueprint (data), while the other builds intelligent systems that act on it. Here's how they connect:
 
 🧠 Data Science: The Foundation

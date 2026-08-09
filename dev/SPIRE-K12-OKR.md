@@ -1,3 +1,5 @@
+---
+---
 What it would mean for a K–12 school to achieve a SPIRE 5-star rating, and the key results that would be necessary:
 
 ---

@@ -1,3 +1,5 @@
+---
+---
 # private/
 
 This directory is intentionally ignored by Git and is intended for local-only files, drafts, sensitive material, or temporary work-in-progress files that should not be committed to the repository.

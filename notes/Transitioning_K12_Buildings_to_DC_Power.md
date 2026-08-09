@@ -1,3 +1,5 @@
+---
+---
 # Transitioning K–12 Buildings to DC Power: EPA & NIST Perspectives and Standards
 
 **K–12 schools are exploring a shift from traditional AC power distribution to *native direct current (DC) power* in building systems** – especially for LED lighting and the plethora of IoT and IT/OT devices (sensors, controls, networking gear, etc.). This emerging approach promises *significant energy savings and efficiency gains*, more seamless integration of **renewable energy and energy storage**, and potential improvements in **resilience** and **safety**. **The U.S. Environmental Protection Agency (EPA)** and the **National Institute of Standards and Technology (NIST)** both touch on aspects of this transition through their *energy efficiency policies, research, and standards initiatives*. Below is a comprehensive analysis of how *these agencies formally and informally address DC power in buildings*, including guidance, research, and how DC distribution aligns with standards and codes.

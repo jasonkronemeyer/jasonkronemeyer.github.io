@@ -12,17 +12,21 @@ find . \
   -not -path "./_site/*" \
   -not -path "./.git/*" \
   -not -path "./vendor/*" \
-  -not -path "./node_modules/*" | while read file; do
+  -not -path "./node_modules/*" | while read -r file; do
   
   # Check if file starts with front matter (---)
   if ! head -c 3 "$file" | grep -q "^---"; then
     echo "Adding front matter to: $file"
     
     # Create temporary file with front matter prepended
-    echo -e "---\n---\n$(cat "$file")" > "$file.tmp"
-    
+    tmp_file="$(mktemp)"
+    {
+      printf -- "---\n---\n"
+      cat "$file"
+    } > "$tmp_file"
+
     # Replace original file
-    mv "$file.tmp" "$file"
+    mv "$tmp_file" "$file"
   else
     echo "Skipping $file (already has front matter)"
   fi
