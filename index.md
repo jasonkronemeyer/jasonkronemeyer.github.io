@@ -1,113 +1,127 @@
 ---
-layout: default
-title: "Jason F. Kronemeyer - Resume"
+layout: page
+title: About Me
 permalink: /
 ---
 
-<div class="resume">
-  <header class="resume-header">
-    <h1>Jason F. Kronemeyer</h1>
-    <p class="resume-title"><strong>Veteran - United States Air Force</strong></p>
-    <p class="resume-title"><strong>Founder and CEO of Jason Kronemeyer LLC</strong></p>
-    <div class="contact-links">
-      <a href="https://www.linkedin.com/in/jasonkronemeyer">linkedin.com/in/jasonkronemeyer</a> | 
-      <a href="https://github.com/jasonkronemeyer/">github.com/jasonkronemeyer</a>
-    </div>
-  </header>
-  
-  <section class="resume-section">
-    <h2>Summary</h2>
-    <p>Innovative and strategic technology leader with over 25 years of experience in IT infrastructure, network systems, and educational technology. Recently completed a Master of Applied Data Science from the University of Michigan. Founder of Jason Kronemeyer LLC, offering Data Science and Cloud IT engineering / consulting services. Seeking to leverage extensive background in IT infrastructure and data science expertise to drive digital transformation and deliver data-driven solutions.</p>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Education</h2>
-    <ul class="resume-list">
-      <li><strong>Master of Applied Data Science (MADS)</strong>, University of Michigan School of Information, 2024
-        <ul class="resume-sublist">
-          <li>Course Electives: SIADS 602 - Math Methods II and SIADS 673 - Cloud Computing</li>
-          <li>Application Course Elective: SIADS 688 - Data Science for Social Good</li>
-          <li>Milestone 2 and Capstone projects focused on Digital Equity, sample work is available in my GitHub repositories linked above.</li>
-          <li><a href="https://www.si.umich.edu/programs/master-applied-data-science/curriculum">Link to Full MADS Curriculum Site</a></li>
-        </ul>
-      </li>
-      <li><strong>Bachelor of Science in Information Technology</strong>, University of Phoenix, 2006</li>
-      <li><strong>National Cryptologic School (NSA) / Community College of the Air Force</strong>, 1995-1999 – TS-SCI Security Clearance – Signals Intelligence Analyst</li>
-    </ul>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Highlights of Qualifications</h2>
-    <ul class="resume-list">
-      <li>Leadership in information technology innovation, infrastructure and integration to the rural school districts and communities with a focus on equitable digital connectivity and skilling.</li>
-      <li>Over twenty-five years' experience working as an integral part of an outstanding information technology team in support of nineteen constituent school districts and their communities.</li>
-      <li>Proven reputation of providing leadership and fiscal planning to build capacity for all aspects of information technology services and infrastructure in a vast geographic region.</li>
-      <li>Organizes implementation and support of regional educational network and data systems.</li>
-      <li>Team player with ability to prioritize and manage multiple large-scale concurrent projects.</li>
-      <li>Excellent verbal and written communicator of complex technical concepts to leverage community partnerships and to maximize accessibility by reducing the digital divide though grant awards.</li>
-    </ul>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Relevant Experience</h2>
-    <ul class="resume-list">
-      <li>Directed the creation of the EUPSchools' Data Center which virtualized our hosting environment, reducing redundancy and overall costs for hosting multiple educational data systems.</li>
-      <li>Leadership in support of creating and implementing regional information systems and support.</li>
-      <li>Managed multimillion-dollar budget for the regional technology consortium.</li>
-      <li>Co-designed and lead initiatives to provide computing devices to K-12 students throughout the region and created the EUPSchools' Cloud and fostering anytime, anywhere, any place learning.</li>
-      <li>Unified network user identification by creating and migrating to a regional directory to manage data system security.</li>
-      <li>Negotiated multi-year contracts and made recommendations K-12 school leadership to ensure high quality operation of information technology consortium.</li>
-      <li>Designed, implemented and managed mission critical educational data systems, connecting regional districts to shared technology services, regional network, and the Internet.</li>
-      <li>Provided leadership and consulting to state organizations, legislative leaders, county and township officials, and EUPISD staff and constituent district teachers and administrators.</li>
-    </ul>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span class="skill-tag">Dyslexic Thinker</span>
-      <span class="skill-tag">Data Science & Analytics</span>
-      <span class="skill-tag">IT Infrastructure & Network Systems</span>
-      <span class="skill-tag">Strategic Planning & Leadership</span>
-      <span class="skill-tag">Educational Technology & E-Learning</span>
-      <span class="skill-tag">Technical Communication & Consulting</span>
-    </div>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Professional Experience</h2>
-    <ul class="resume-list experience-list">
-      <li><span class="year">2024-Present:</span> <strong>Founder</strong>, Jason Kronemeyer LLC</li>
-      <li><span class="year">2024-Present:</span> <strong>Adjunct Faculty</strong>, Bay Mills Community College</li>
-      <li><span class="year">May 2025-Present:</span> <strong>Clerk</strong>, Bruce Township, Chippewa County, Michigan</li>
-      <li><span class="year">2021-2024:</span> <strong>Trustee</strong>, Bruce Township, Chippewa County, Michigan</li>
-      <li><span class="year">2021-2024:</span> <strong>Ex-Officio member</strong>, Bruce Township Planning Commission</li>
-      <li><span class="year">2021-2024:</span> <strong>Project Director</strong>, EUPConnect Collaborative</li>
-      <li><span class="year">2008-2024:</span> <strong>Director of Technology and REMC 22</strong>, EUPISD</li>
-      <li><span class="year">2000-2007:</span> <strong>Network Engineer</strong>, EUPISD</li>
-      <li><span class="year">1999-2000:</span> <strong>PC Client Technician</strong>, EUPISD</li>
-      <li><span class="year">1995-1999:</span> <strong>Signals Intelligence Analyst</strong>, United States Air Force</li>
-    </ul>
-  </section>
-  
-  <section class="resume-section">
-    <h2>Awards, Affiliations and Notable Presentations</h2>
-    <ul class="resume-list">
-      <li>Michigan State University 2022 Distinguished Partnership Award for Community-Engaged Service</li>
-      <li>Michigan Educational Technology Leadership (METL) Network Alumni</li>
-      <li>Michigan Data Hubs Advisory Member 2016 to 2024</li>
-      <li>Merit Network K-12 Advisory Committee Member 2016 to 2021</li>
-      <li>Voices from Michigan Legislative Summit, Microsoft selected Speaker-August 2014</li>
-      <li>REMC Association of Michigan Executive Committee Member at Large- 2011-2015</li>
-      <li>EUPISD Employee of the Year – 2003</li>
-      <li>Air Force Commendation Medal – January 1999</li>
-      <li>Air Force Achievement Medal – December 1998</li>
-      <li>692th Intelligence Group Technician of the Quarter – April 1998</li>
-      <li>324th Intelligence Squadron Technician of the Month – April 1998</li>
-    </ul>
-  </section>
+# Jason Kronemeyer
 
-  <div class="resume-image">
-    <img src="{{ '/images/netart.jpeg' | relative_url }}" alt="Net art image">
+{:.lead}
+**Veteran · Digital Transformation Leader · Data Scientist · Digital Equity Advocate**
+
+### Mantra: **LearnIT | BuildIT | TeachIT**
+
+> *"{{ site.data.brand.philosophy_tagline }}"*
+
+Welcome! I'm Jason Kronemeyer, a passionate data scientist and educator dedicated to exploring the transformative potential of technology in education and beyond. With over 25 years of experience in IT infrastructure, network systems, and educational technology, I use technology and data science to create equitable opportunities for all. My journey has spanned service in the U.S. Air Force, leadership in educational innovation, and earning a Master of Applied Data Science from the University of Michigan.
+
+## 🇺🇸 Air Force Service
+
+From 1995 to 1999, I served as an Air Defense / Signals Intelligence Analyst with the **324th Intelligence Squadron at Hickam Air Force Base, Hawaii**. My work centered on real‑time communications support for Pacific reconnaissance operations, where accuracy, timing, and calm under pressure directly shaped mission safety.
+
+- Reported **500+ mission‑status tippers** to theater and national consumers, ensuring decision‑makers had the information they needed when it mattered most.
+- Supported **200+ Air Force and Navy reconnaissance missions**, helping safeguard aircraft and crews while preventing potential international incidents.
+- **Led the rollout of a new computer‑based graphics reporting program**—a project that earned recognition from the Director of the National Security Agency.
+
+These experiences shaped my approach to technology and community work today: disciplined communication, systems thinking, and a deep respect for the people behind every mission—whether in national defense or rural broadband.
+
+## What Drives Me
+
+- **Digital Equity & Broadband Advocacy**: Much of my career has focused on closing the digital divide—ensuring rural schools and communities have the connectivity, skills, and resources to thrive. I am honored to be recognized as a **Broadband Champion** for my efforts to expand broadband access and digital opportunity.
+- **Data Science for Good**: I apply data science skills to address real-world problems, from analyzing spatial patterns to optimize community development to investigating smart building technologies that reduce energy consumption.
+- **Lifelong Learning**: From teaching my first computer "Hello World" in 1983 to collaborating with AI systems today, my journey is documented through hands-on practice and real-world applications.
+- **Ethical Leadership**: I strive to balance innovation with responsibility, ensuring my work is grounded in fairness, transparency, and community impact.
+
+## What I Do
+
+I specialize in the intersection of **data science**, **education technology**, and **community development**. My work focuses on:
+
+- **Knowledge Graphs & AI**: Harnessing the power of interconnected data and generative AI to enhance learning experiences
+- **Educational Innovation**: Developing data-driven approaches to personalize learning and improve educational outcomes  
+- **Spatial Data & Community Development**: Leveraging spatial data science to understand and support community growth, infrastructure planning, and equitable resource distribution
+- **Communications Systems & Passive Optical LAN**: Designing and implementing advanced network infrastructure solutions for educational institutions and communities
+- **Smart Buildings Research**: Currently investigating the intersection of information technology and energy systems in intelligent building management and optimization
+
+## Expertise Areas
+
+<div class="expertise-grid">
+  <div class="expertise-item">
+    <h3>🧠 Data Science</h3>
+    <p>Machine learning, statistical analysis, and data visualization with a focus on educational and community applications</p>
+  </div>
+  
+  <div class="expertise-item">
+    <h3>🎓 Educational Technology</h3>
+    <p>Designing and implementing technology solutions to enhance teaching and learning experiences</p>
+  </div>
+  
+  <div class="expertise-item">
+    <h3>🏘️ Spatial Data & Community Development</h3>
+    <p>Analyzing spatial relationships to inform community planning, infrastructure development, and equitable resource allocation</p>
+  </div>
+  
+  <div class="expertise-item">
+    <h3>🏢 Smart Infrastructure & Communications</h3>
+        <p>Designing advanced network infrastructure including passive optical LAN, and researching IT integration with energy management systems for intelligent building optimization</p>
   </div>
 </div>
+
+## Current Focus
+
+### Educational Innovation
+I'm exploring how **knowledge graphs** and **generative AI** can revolutionize education by:
+- Creating personalized learning pathways
+- Enhancing accessibility for diverse learners
+- Streamlining institutional operations
+- Unlocking new research possibilities through interconnected data
+
+### Community Development Through Spatial Data
+My work with **spatial data science** focuses on:
+- Understanding community growth patterns and infrastructure needs
+- Supporting equitable resource distribution and access
+- Analyzing the digital divide through geographic and demographic data
+- Informing policy decisions with data-driven community insights
+
+### Smart Infrastructure & Communications Research
+My work focuses on **advanced communications systems and intelligent building technologies**, including:
+- Designing high-performance network architectures with passive optical LAN solutions
+- Implementing scalable, future-proof connectivity for educational institutions
+- Optimizing network infrastructure to support digital equity initiatives
+- Investigating IoT sensors and data analytics for building energy optimization
+- Machine learning approaches to predictive energy management
+- Integration of renewable energy sources with intelligent building systems
+- Creating sustainable and efficient built environments through data-driven approaches
+
+{% include callout.html type="info" title="Current Research" content="I'm actively researching how information technology can optimize energy systems in smart buildings. This work explores the potential for data-driven approaches to reduce energy consumption, integrate renewable sources, and create more sustainable built environments through intelligent building management systems." %}
+
+
+## Recognition & Achievements
+
+- **Broadband Champion** — Recognized by Dr. Pierrette Renée Dagg in the Benton Institute’s *Could It Be Me? Should It Be Me?* series for leadership in broadband access and digital opportunity  
+- **Founder & CEO, Jason Kronemeyer LLC** — Advising communities, commercial, governmental, educational, and nonprofit organizations on future‑ready digital infrastructure and digital opportunities, shaped by accessibility, resilience, and long‑term local stewardship  
+- **Adjunct Instructor, Bay Mills Community College** — Teaching computer information systems to learners grounded in place, culture, and community relevance  
+- **Lead Community Technologist, EUPConnect Collaborative** — Guiding regional connectivity and digital opportunity across Michigan’s Eastern Upper Peninsula  
+- **Director of Technology, REMC 22 / EUPISD** — Built infrastructure and capacity for 19 rural school districts, strengthening learning environments across the region  
+- **Distinguished Partnership Award, Michigan State University** — Honored for community‑engaged service and collaborative impact  
+- **U.S. Air Force Veteran** — Signals Intelligence Analyst (TS‑SCI), 324th Intelligence Squadron, Hickam AFB — see [Air Force Service](#-air-force-service) above  
+- **Farm Boy from Pickford, Michigan** — Raised on a dairy farm, carrying forward the values of hard work, humility, and stewardship that shape every part of my community‑centered approach  
+
+
+## Values & Approach
+
+Technical expertise must be paired with ethical responsibility and thoughtful reflection. My work is informed by ongoing consideration of bias, fairness, and the broader societal impact of the tools and analyses I create. I believe that every line of code, every model, and every project can shape the world in positive or negative ways. With this awareness, I strive to act conscientiously—balancing innovation with care, and always seeking to ensure that my contributions benefit not just individuals, but society as a whole while doing no harm.
+
+## Get In Touch
+
+If your work touches education, digital equity, data science, community development, or smart infrastructure, I welcome the conversation. I value practical collaboration, shared learning, and projects that create measurable community impact.
+
+- **Email (best for direct collaboration inquiries)**: [jason@jasonkronemeyer.com](mailto:jason@jasonkronemeyer.com)
+- **LinkedIn (professional networking and partnership discussions)**: [linkedin.com/in/jasonkronemeyer](https://www.linkedin.com/in/jasonkronemeyer)
+- **GitHub (code, projects, and technical collaboration)**: [@jasonkronemeyer](https://github.com/jasonkronemeyer)
+- **Twitter/X (ideas, updates, and ongoing conversation)**: [@jasonkronemeyer](https://twitter.com/jasonkronemeyer)
+
+{% include callout.html type="info" title="Let's Build Something Meaningful together" content="I believe in the power of collaboration and knowledge sharing. Whether you're an educator, researcher, developer, or simply curious about the intersection of technology, community development, and sustainable energy systems, I'd love to connect and explore how we can work together to drive the growth of our communities." %}
+
+---
+
+*"The future of education lies in harnessing the collective intelligence of interconnected data and AI to create meaningful, personalized learning experiences for all."*
