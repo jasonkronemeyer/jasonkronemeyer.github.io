@@ -7,7 +7,7 @@ categories: [papers, knowledge-management]
 tags: [semantics, institutional-knowledge, seven-grandfather-teachings, indigenous-wisdom]
 image: /assets/images/institutional_knowledge_semantics_social.png
 excerpt: "By honoring the wisdom of those who came before and organizing knowledge in ways that can be understood by those who will follow, this living memory does more than inform decisions. Guided by the Seven Grandfather Teachings, semantics nurture belonging, responsibility, and vision."
-description: "How semantics preserves institutional knowledge and guides communities from meeting needs to fulfilling aspirations through the lens of the Seven Grandfather Teachings."
+description: "How semantics preserve institutional knowledge and guides communities from meeting needs to fulfilling aspirations through the lens of the Seven Grandfather Teachings."
 keywords: [knowledge preservation, cultural continuity, semantic web, organizational memory, indigenous knowledge systems, intergenerational knowledge transfer, community stewardship]
 ---
 
