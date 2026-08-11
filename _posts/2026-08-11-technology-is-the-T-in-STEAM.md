@@ -25,8 +25,6 @@ tags:
 excerpt: "The Eastern Upper Peninsula may be uniquely positioned to redefine what STEAM education looks like by connecting technology, agriculture, aquaculture, cybersecurity, robotics, community leadership, and workforce development into a single ecosystem of opportunity."
 ---
 
-# Technology Is the T in STEAM
-
 For years, conversations about innovation have tended to point in the same direction. If we want to talk about technology, we look toward Silicon Valley. If we want to talk about research, we look toward major universities and urban innovation districts. If we want to talk about the future, we often assume it is being invented somewhere else.
 
 Yet I have increasingly found myself asking a different question:
