@@ -10,13 +10,13 @@ Michigan faces a growing demand for workers who can install, maintain, secure, a
 
 Federal broadband investments, utility modernization initiatives, data center expansion, and smart-building deployment are accelerating demand for technicians, engineers, and infrastructure specialists with interdisciplinary skills spanning communications, information technology, and electrical systems. While many states are investing in broadband workforce development, few have established a comprehensive framework that integrates workforce training, applied research, industry certifications, apprenticeship pathways, and infrastructure deployment into a single regional ecosystem.
 
-The Eastern Upper Peninsula (EUP) is uniquely positioned to become Michigan's leader in this emerging field. The region possesses a rare combination of assets, including Bay Mills Community College, Lake Superior State University, Cloverland Electric Cooperative, tribal governments, regional broadband providers, EUPISD Career and Technical Education programs, and the EUPConnect Collaborative. Together, these organizations can establish Michigan's first Limited-Energy Infrastructure Workforce Center of Excellence.
+The Eastern Upper Peninsula (EUP) is uniquely positioned to become Michigan's leader in this emerging field. The region possesses a rare combination of assets, including Bay Mills Community College, Lake Superior State University, Cloverland Electric Cooperative, Bay Mills Indian Community, Sault Tribe of Chippewa Indians, regional broadband providers, EUPSchools Career and Technical Education programs, and the EUPConnect Collaborative. Together, these organizations can establish Michigan's first Limited-Energy Infrastructure Workforce Center of Excellence.
 
-Under this model, Bay Mills Community College would serve as the primary workforce entry point through certificates, industry credentials, pre-apprenticeships, and tribal workforce development programs. Lake Superior State University would provide advanced education, applied research, and innovation leadership in network engineering, cybersecurity, smart infrastructure, utility communications, and building automation. Cloverland Electric Cooperative's proposed Training and Technology Center would function as a regional living laboratory where students, apprentices, researchers, and employers can gain hands-on experience with fiber networks, smart-grid technologies, renewable energy systems, broadband infrastructure, and intelligent building systems.
+Under this model, Bay Mills Community College and EUPSchools would serve as the primary workforce entry point through certificates, industry credentials, pre-apprenticeships, and tribal workforce development programs. Lake Superior State University would provide advanced education, applied research, and innovation leadership in network engineering, cybersecurity, smart infrastructure, utility communications, and building automation. Cloverland Electric Cooperative's proposed Training and Technology Center would function as a regional living laboratory where students, apprentices, researchers, and employers can gain hands-on experience with fiber networks, smart-grid technologies, renewable energy systems, broadband infrastructure, and intelligent building systems.
 
 This integrated ecosystem would create stackable career pathways from K-12 career exploration through industry certifications, apprenticeships, associate degrees, bachelor's degrees, and high-wage employment opportunities. It would also strengthen workforce participation among rural, tribal, veteran, and underserved populations while supporting economic development across Michigan's Upper Peninsula.
 
-By aligning broadband deployment, workforce development, utility modernization, digital equity initiatives, and higher education, Michigan can establish the EUP as a national model for rural and tribal infrastructure workforce development. Rather than focusing solely on fiber technician training, the region can lead the development of a comprehensive limited-energy workforce ecosystem that supports the technologies powering the next generation of connected communities.
+By aligning broadband deployment, workforce development, utility modernization, digital opportunity initiatives, and higher education, Michigan can establish the EUP as a national model for rural and tribal infrastructure workforce development. Rather than focusing solely on fiber technician training, the region can lead the development of a comprehensive limited-energy workforce ecosystem that supports the technologies powering the next generation of connected communities.
 
 The result would be a sustainable pipeline of skilled workers, expanded economic opportunity, increased regional resilience, and a nationally recognized center of excellence that positions Michigan at the forefront of infrastructure innovation and workforce development.
 
@@ -37,9 +37,9 @@ The EUP possesses a unique combination of assets, including:
 - Bay Mills Community College (BMCC)
 - Lake Superior State University (LSSU)
 - Cloverland Electric Cooperative
-- Highline and regional broadband providers
+- Multiple regional broadband providers
 - Bay Mills Indian Community and Sault Tribe of Chippewa Indians
-- EUPISD and regional Career and Technical Education programs
+- EUPSchools and regional Career and Technical Education programs
 - EUPConnect Collaborative
 
 Together, these organizations can create a statewide model for rural, tribal, and infrastructure workforce development.
@@ -65,7 +65,7 @@ At the same time:
 - States are investing hundreds of millions of dollars in workforce development through BEAD-related initiatives.
 - Industry organizations such as the Fiber Broadband Association (FBA), Wireless Infrastructure Association (WIA), BICSI, FOA, and TIRAP are expanding training programs nationwide.
 
-Michigan can leverage these trends to create a comprehensive workforce ecosystem rather than a collection of disconnected training programs.
+Michigan can leverage these trends to create a comprehensive workforce development system rather than a collection of disconnected training programs.
 
 ---
 
@@ -113,7 +113,7 @@ Emerging Infrastructure
 
 ### Bay Mills Community College
 
-BMCC should serve as the region's workforce entry point.
+BMCC and EUPSchools CTE should serve as the region's workforce entry point.
 
 #### Primary Functions
 
@@ -326,4 +326,4 @@ Within five years, the EUP could:
 
 The EUP already possesses the essential ingredients required for leadership in limited-energy technology workforce development. By aligning BMCC's workforce mission, LSSU's research capacity, Cloverland's training center initiative, tribal partnerships, and regional employers, Michigan can create a nationally recognized Center of Excellence that addresses workforce shortages while driving economic growth across rural and tribal communities.
 
-The opportunity is not simply to train fiber technicians. The opportunity is to create the nation's premier rural and tribal workforce ecosystem for the infrastructure technologies that will power the next generation of connected communities.
+The opportunity is not simply to train fiber technicians. The opportunity is to create the nation's premier rural and tribal workforce development system for the infrastructure technologies that will power the next generation of connected communities.
