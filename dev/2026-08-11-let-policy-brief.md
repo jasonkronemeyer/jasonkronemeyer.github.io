@@ -1,6 +1,6 @@
 ---
 layout: post
-status: brainstorm
+status: brainstorming
 ---
 
 # Building Michigan’s First Limited-Energy Infrastructure Workforce Center of Excellence in the Eastern Upper Peninsula
