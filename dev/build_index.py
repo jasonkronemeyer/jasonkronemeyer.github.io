@@ -13,7 +13,7 @@ html = """<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Notes Index</title>
+  <title>Dev Index</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.5; }
     ul { padding-left: 1.2rem; }
