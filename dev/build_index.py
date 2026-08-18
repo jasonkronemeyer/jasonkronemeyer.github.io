@@ -21,7 +21,7 @@ html = """<!DOCTYPE html>
   </style>
 </head>
 <body>
-  <h1>Notes Index</h1>
+  <h1>Dev Index</h1>
   <p>Auto-generated list of files in this folder.</p>
   <ul>
 """
