@@ -11,9 +11,9 @@ Michigan faces a growing demand for workers who can install, maintain, secure, a
 
 Federal broadband investments, utility modernization initiatives, data center expansion, and smart-building deployment are accelerating demand for technicians, engineers, and infrastructure specialists with interdisciplinary skills spanning communications, information technology, and electrical systems. While many states are investing in broadband workforce development, few have established a comprehensive framework that integrates workforce training, applied research, industry certifications, apprenticeship pathways, and infrastructure deployment into a single regional ecosystem.
 
-The Eastern Upper Peninsula (EUP) is uniquely positioned to become Michigan's leader in this emerging field. The region possesses a rare combination of assets, including Bay Mills Community College, Lake Superior State University, Cloverland Electric Cooperative, Bay Mills Indian Community, Sault Tribe of Chippewa Indians, regional broadband providers, EUPSchools Career and Technical Education programs, and the EUPConnect Collaborative. Together, these organizations can establish Michigan's first Limited-Energy Infrastructure Workforce Center of Excellence.
+The Eastern Upper Peninsula (EUP) is uniquely positioned to become Michigan's leader in this emerging field. The region possesses a rare combination of assets, including Bay Mills Community College, Lake Superior State University, Cloverland Electric Cooperative, Bay Mills Indian Community, Sault Tribe of Chippewa Indians, regional broadband providers, EUPSchools Career and Technical Education programs, and the EUPConnect Collaborative. Together, these organizations can establish Michigan's first Limited-Energy Infrastructure Workforce Center of Excellence, with the Cloverland Training and Technology Center serving as the hub and host site for the region's training programs.
 
-Under this model, Bay Mills Community College and EUPSchools would serve as the primary workforce entry point through certificates, industry credentials, pre-apprenticeships, and tribal workforce development programs. Lake Superior State University would provide advanced education, applied research, and innovation leadership in network engineering, cybersecurity, smart infrastructure, utility communications, and building automation. Cloverland Electric Cooperative's proposed Training and Technology Center would function as a regional living laboratory where students, apprentices, researchers, and employers can gain hands-on experience with fiber networks, smart-grid technologies, renewable energy systems, broadband infrastructure, and intelligent building systems.
+Under this model, the Cloverland Training and Technology Center would function as the primary operational hub for hands-on instruction, applied learning, and industry-aligned skill development. Bay Mills Community College and EUPSchools would serve as the workforce entry point through certificates, industry credentials, pre-apprenticeships, and tribal workforce development programs. Lake Superior State University would provide advanced education, applied research, and innovation leadership in network engineering, cybersecurity, smart infrastructure, utility communications, and building automation. The center would serve as a regional living laboratory where students, apprentices, researchers, and employers can gain hands-on experience with fiber networks, smart-grid technologies, renewable energy systems, broadband infrastructure, and intelligent building systems.
 
 This integrated ecosystem would create stackable career pathways from K-12 career exploration through industry certifications, apprenticeships, associate degrees, bachelor's degrees, and high-wage employment opportunities. It would also strengthen workforce participation among rural, tribal, veteran, and underserved populations while supporting economic development across Michigan's Upper Peninsula.
 
@@ -175,26 +175,28 @@ LSSU should serve as the region's applied research and advanced education hub.
 
 ### Cloverland Electric Cooperative
 
-Cloverland's proposed Training and Technology Center should become the physical anchor of the ecosystem.
+The Cloverland Training and Technology Center should serve as the hub and host site for the region's workforce training ecosystem.
 
 #### Strategic Role
 
-Serve as a living laboratory for:
+As the central training campus, the center would provide a physical home for:
 
-- Fiber infrastructure
+- Fiber infrastructure training
 - Smart grid technologies
-- Building automation
-- Utility communications
-- Renewable energy integration
+- Building automation instruction
+- Utility communications education
+- Renewable energy integration labs
+- Hands-on workforce development for local employers and apprentices
 
 #### Recommended Expansion
 
-Develop the facility into the Midwest's first integrated training center focused on:
+Develop the center into the Midwest's first integrated regional training site focused on:
 
 - Broadband
 - Smart buildings
 - Grid modernization
 - Limited-energy systems
+- Applied technical instruction for rural and tribal communities
 
 ---
 
@@ -206,12 +208,14 @@ Partners:
 - EUPISD
 - Local school districts
 - Career and Technical Education programs
+- Cloverland Training and Technology Center
 
 Activities:
 - Fiber optics awareness
 - Networking fundamentals
 - Cybersecurity exploration
 - Smart infrastructure STEM programs
+- Early exposure to hands-on training at the regional hub site
 
 ---
 
@@ -220,10 +224,14 @@ Activities:
 Lead:
 - Bay Mills Community College
 
+Host site:
+- Cloverland Training and Technology Center
+
 Outcomes:
 - Industry-recognized certifications
 - Entry-level technician preparation
 - Pre-apprenticeships
+- Instructor-led lab work and applied instruction at the regional hub
 
 ---
 
@@ -234,11 +242,13 @@ Partners:
 - TIRAP
 - WIA
 - Regional employers
+- Cloverland Training and Technology Center
 
 Outcomes:
 - Earn-and-learn pathways
 - Workforce retention
 - Industry-recognized credentials
+- Structured training delivered through the host site
 
 ---
 
@@ -247,10 +257,14 @@ Outcomes:
 Lead:
 - Lake Superior State University
 
+Host site:
+- Cloverland Training and Technology Center
+
 Outcomes:
 - Bachelor's degrees
 - Applied research
 - Advanced technical specialization
+- Research-to-practice instruction connected to the regional training hub
 
 ---
 
@@ -262,11 +276,13 @@ Partners:
 - Peninsula Fiber Network
 - Tribal governments
 - Regional contractors
+- Cloverland Training and Technology Center
 
 Outcomes:
 - High-wage careers
 - Business creation
 - Regional talent retention
+- Training-to-employment pathways anchored at the regional hub
 
 ---
 
@@ -297,16 +313,16 @@ Coordinate workforce funding with:
 - Economic development projects
 
 ### Recommendation 5
-Develop a Living Laboratory
+Establish the Cloverland Training and Technology Center as the Regional Hub
 
-Support deployment of advanced infrastructure systems at:
+Support deployment of advanced infrastructure systems and training programs at:
+- Cloverland Training and Technology Center as the primary host site
 - LSSU
 - BMCC
-- Cloverland Training Center
 - Tribal facilities
 - Regional schools
 
-This would provide hands-on training while demonstrating emerging technologies.
+This would create a single training hub where hands-on learning, applied research, employer engagement, and workforce development are coordinated in one place.
 
 ---
 
@@ -325,6 +341,6 @@ Within five years, the EUP could:
 
 ## Conclusion
 
-The EUP already possesses the essential ingredients required for leadership in limited-energy technology workforce development. By aligning BMCC's workforce mission, LSSU's research capacity, Cloverland's training center initiative, tribal partnerships, and regional employers, Michigan can create a nationally recognized Center of Excellence that addresses workforce shortages while driving economic growth across rural and tribal communities.
+The EUP already possesses the essential ingredients required for leadership in limited-energy technology workforce development. By aligning BMCC's workforce mission, LSSU's research capacity, tribal partnerships, regional employers, and the Cloverland Training and Technology Center as the region's operational hub, Michigan can create a nationally recognized Center of Excellence that addresses workforce shortages while driving economic growth across rural and tribal communities.
 
-The opportunity is not simply to train fiber technicians. The opportunity is to create the nation's premier rural and tribal workforce development system for the infrastructure technologies that will power the next generation of connected communities.
+The opportunity is not simply to train fiber technicians. The opportunity is to create the nation's premier rural and tribal workforce development system for the infrastructure technologies that will power the next generation of connected communities, anchored by the Cloverland Training and Technology Center as the training home for the region.
