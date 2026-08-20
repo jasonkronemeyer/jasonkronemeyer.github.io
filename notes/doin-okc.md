@@ -1,0 +1,37 @@
+---
+layout: research-note
+status: note
+---
+
+Abstract
+
+The Digital Opportunities Intelligence Network (DOIN) Open Knowledge Commons builds on a growing body of research that views digital opportunity not as a collection of isolated programs or technologies, but as a complex, interconnected system of people, organizations, resources, institutions, and outcomes. Drawing inspiration from the Digital Opportunities Compass and the broader policy learning framework proposed by Johannes Bauer, Pierrette Dagg, Colin Rhinesmith, Greta Byrum, and Aaron Schill, this project seeks to advance the concept of a dynamic policy learning system capable of supporting continuous learning across communities.
+
+The premise is straightforward: communities generate enormous amounts of knowledge about what creates opportunity, yet that knowledge remains fragmented across sectors, organizations, and geographic boundaries. As a result, valuable lessons are difficult to preserve, discover, and apply. Existing approaches to monitoring and evaluation often provide snapshots of conditions but offer limited support for understanding the relationships, interdependencies, and feedback loops that shape long-term outcomes. Bauer and colleagues argue that effective policy requires mechanisms for continuous observation, interpretation, evaluation, and adaptation that allow communities to learn from both their own experiences and the experiences of peer communities.
+
+DOIN proposes an open-source, community-governed knowledge commons designed to support this vision. Through the development of a shared taxonomy, a cross-domain ontology, and provenance-aware knowledge graphs, the initiative seeks to create a common semantic framework for representing people, organizations, opportunity infrastructure, programs, resources, outcomes, and places. By connecting local knowledge, empirical evidence, and institutional memory within a shared structure, communities can better understand how opportunity is created, where barriers exist, and which interventions contribute to meaningful outcomes.
+
+A distinguishing feature of the framework is its commitment to community-informed semantics, knowledge provenance, and community sovereignty. Rather than treating communities as sources of data alone, DOIN positions them as active participants in defining concepts, validating relationships, and stewarding the knowledge systems used to represent them. This approach preserves the context and origins of knowledge while supporting transparency, trust, and accountability in both human and AI-assisted decision-making.
+
+Ultimately, DOIN seeks to operationalize the idea of policy learning as an ongoing civic capability. By combining open-source governance, shared semantic infrastructure, and continuous community participation, the project aims to create a durable foundation through which communities can preserve institutional memory, learn across sectors and geographies, and continuously improve their ability to expand opportunity. In this way, the DOIN Open Knowledge Commons extends the policy learning vision of the Digital Opportunities Compass into a practical, community-driven framework for collective intelligence and adaptive governance.
+
+
+Community as a Learning Network
+
+The vision for DOIN is grounded in a simple but powerful idea: communities learn best when they are able to learn from both their own experience and the experiences of others. Bauer, Dagg, Rhinesmith, Byrum, and Schill argue that effective digital opportunity policy requires moving beyond static planning and periodic evaluation toward a dynamic policy learning system that continuously integrates evidence, local knowledge, stakeholder input, and real-world outcomes into decision-making.
+
+Within this framework, communities are not passive recipients of policy interventions. They are active participants in the learning process. Local organizations, educators, libraries, workforce agencies, Tribal Nations, nonprofits, residents, and researchers all contribute valuable knowledge about what is working, what is not, and why. The challenge is creating a structure that allows those insights to be shared, connected, and applied across time and geography.
+
+DOIN proposes that structure.
+
+Rather than treating knowledge as a collection of reports, datasets, and disconnected observations, DOIN seeks to create a community learning network organized around a shared semantic framework. Through a common taxonomy, ontology, and knowledge graph, local experiences can be connected to broader patterns, allowing communities to learn from both their own actions and the experiences of peer communities. This directly reflects the Digital Opportunities Compass vision of a policy learning system in which continuous observation, evaluation, adaptation, and feedback improve future decisions.
+
+In practice, this means that knowledge generated in one community does not remain isolated within that community. A library developing a successful digital skills program, a school district improving student engagement, a workforce agency identifying effective training pathways, or a Tribal Nation advancing community-defined digital opportunity can contribute insights to a shared framework. Other communities facing similar challenges can then discover, evaluate, adapt, and build upon those experiences while accounting for differences in local context.
+
+The role of the open-source community is central to this process. The community serves not simply as software developers or users, but as a distributed network of practitioners, researchers, and community leaders who collectively steward the knowledge framework. Contributors participate in defining concepts, refining relationships, documenting evidence, validating assumptions, and preserving institutional memory. Through open governance, the framework evolves as communities learn.
+
+This approach also strengthens knowledge provenance and community sovereignty. As lessons, indicators, and relationships are added to the framework, their origins remain visible. Communities can understand not only what is known but who contributed the knowledge, what evidence supports it, and under what circumstances it was validated. In this way, learning remains connected to context rather than becoming detached from the people and places that generated it.
+
+The long-term aspiration is to create a living knowledge commons that supports continuous policy learning. Communities no longer need to begin from scratch every time leadership changes, funding priorities shift, or new challenges emerge. Instead, they can draw upon a growing body of shared knowledge while contributing their own experiences back to the network. Over time, the community itself becomes the learning system envisioned by Bauer, Dagg, Rhinesmith, Byrum, and Schill: a collaborative environment in which evidence, lived experience, and local knowledge are continuously integrated to improve decision-making and expand opportunity.
+
+In this sense, the DOIN Open Knowledge Commons is more than a repository of information. It is a community learning network designed to preserve institutional memory, connect local knowledge to broader understanding, and enable communities to learn with and from one another. The technology provides the infrastructure, but the community provides the intelligence.
