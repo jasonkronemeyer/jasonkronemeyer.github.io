@@ -17,7 +17,7 @@ tags:
   - cooperatives
   - digital opportunity
   - collaboration
-excerpt: "The most important network we have built in the Eastern Upper Peninsula may not be a physical network at all. It may be the civic infrastructure of relationships, institutions, governance, and shared knowledge that makes collective action possible."
+excerpt: "The most important network being built in the Eastern Upper Peninsula may not be a physical network at all. It may be the civic infrastructure of relationships, institutions, governance, and shared knowledge that makes collective action possible."
 status: review
 ---
 
