@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The Margin of Trust: Small Samples, Big Decisions, and the Ethics of Uncertainty"
 author: "Jason Kronemeyer"
 series: "Compass"
