@@ -1,6 +1,6 @@
 ---
 layout: post
-status: review
+status: draft
 author: "Jason F. Kronemeyer"
 title: "A School Reimagined: The Cloverland Training & Technology Center Inches Closer to Reality"
 date: 2026-08-25
