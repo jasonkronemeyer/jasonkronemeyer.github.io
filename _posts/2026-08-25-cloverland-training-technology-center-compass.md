@@ -21,8 +21,6 @@ tags:
 excerpt: "What began as a conversation about workforce development is gradually becoming a tangible reality. The proposed Cloverland Training & Technology Center at the former Washington Elementary School campus represents an investment in people, skills, and regional capacity."
 ---
 
-# A School Reimagined: The Cloverland Training & Technology Center Inches Closer to Reality
-
 For years, many of us in Michigan's Eastern Upper Peninsula have talked about a challenge that extends well beyond broadband, energy, education, or economic development. We simply do not have enough local pathways to train, attract, and retain the workforce needed to support the infrastructure that modern communities depend upon.
 
 The shortage is visible everywhere.
