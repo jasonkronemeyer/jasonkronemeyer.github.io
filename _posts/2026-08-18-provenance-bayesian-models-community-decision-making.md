@@ -9,8 +9,6 @@ excerpt: "Bayesian networks help communities reason under uncertainty. Provenanc
 status: draft
 ---
 
-# Why Provenance Matters: Building Trustworthy Bayesian Models for Community Decision-Making
-
 Most discussions about artificial intelligence, predictive analytics, and decision support focus on the power of the algorithms. We hear about machine learning models, causal inference, knowledge graphs, and large language models. What we hear less about is trust.
 
 For communities making decisions about broadband infrastructure, digital opportunity, workforce development, education, healthcare, and economic growth, trust matters as much as prediction accuracy. A county commissioner, superintendent, tribal council member, nonprofit leader, or economic developer is unlikely to act on a recommendation simply because an algorithm produced it. They want to know where the recommendation came from, what evidence supports it, and whether that evidence is reliable.
