@@ -20,16 +20,8 @@ tags:
   - Broadband
   - Energy Networks
 summary: "How participation in NASA's SunRISE Ground Radio Lab connects students to authentic scientific research while building awareness of the technologies, infrastructure, and workforce skills needed for resilient energy and communications networks."
-references:
-  - citation: "Akhavan-Tafti, M., Soni, S. L., Higgins, C., Fung, S., Lepri, S., Lux, J., Lazio, J., & Romero-Wolf, A. (2025). SunRISE Ground Radio Lab: Monitoring Solar Radio Bursts With an Expansive Array of Antennae at High Schools Nationwide. Earth and Space Science, 12, e2024EA004114."
-    doi: "https://doi.org/10.1029/2024EA004114"
-  - citation: "University of Michigan SunRISE Ground Radio Lab Program."
-    url: "https://sunrise.umich.edu/ground-radio-lab/"
-  - citation: "SunRISE Mission Overview."
-    url: "https://sunrise.umich.edu/"
-  - citation: "University of Michigan Climate and Space Sciences and Engineering. US High Schoolers Monitor Solar Storms with an Accessible Antenna Kit. June 25, 2025."
-    url: "https://clasp.engin.umich.edu/2025/06/25/us-high-schoolers-monitor-solar-storms-with-an-accessible-antenna
 ---
+
 
 When most people think of remote sensing, they imagine satellites observing Earth from space. Yet some of the most important remote sensing research occurring today focuses on the Sun itself. Through NASA's Sun Radio Interferometer Space Experiment (SunRISE) Ground Radio Lab (GRL), high school students across the country are helping scientists monitor solar radio activity that can influence critical technology systems here on Earth. [1](https://sunrise.umich.edu/ground-radio-lab/)[2](https://sunrise.umich.edu/)
 
@@ -99,3 +91,15 @@ In many ways, the antenna on the Sault Area High School campus lawn and the futu
 3. University of Michigan. *SunRISE Mission Overview*. https://sunrise.umich.edu/
 
 4. Climate and Space Sciences and Engineering, University of Michigan. *US High Schoolers Monitor Solar Storms with an Accessible Antenna Kit*. June 25, 2025. https://clasp.engin.umich.edu/2025/06/25/us-high-schoolers-monitor-solar-storms-with-an-accessible-antenna-kit/
+
+
+references:
+  - citation: "Akhavan-Tafti, M., Soni, S. L., Higgins, C., Fung, S., Lepri, S., Lux, J., Lazio, J., & Romero-Wolf, A. (2025). SunRISE Ground Radio Lab: Monitoring Solar Radio Bursts With an Expansive Array of Antennae at High Schools Nationwide. Earth and Space Science, 12, e2024EA004114."
+    doi: "https://doi.org/10.1029/2024EA004114"
+  - citation: "University of Michigan SunRISE Ground Radio Lab Program."
+    url: "https://sunrise.umich.edu/ground-radio-lab/"
+  - citation: "SunRISE Mission Overview."
+    url: "https://sunrise.umich.edu/"
+  - citation: "University of Michigan Climate and Space Sciences and Engineering. US High Schoolers Monitor Solar Storms with an Accessible Antenna Kit. June 25, 2025."
+    url: "https://clasp.engin.umich.edu/2025/06/25/us-high-schoolers-monitor-solar-storms-with-an-accessible-antenna
+
