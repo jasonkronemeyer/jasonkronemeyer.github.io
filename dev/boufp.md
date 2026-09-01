@@ -21,8 +21,6 @@ tags:
 excerpt: "A framework for understanding how communities become more resilient, innovative, and adaptive by intentionally connecting people, organizations, and institutions with different perspectives, expertise, and resources."
 ---
 
-# Birds of Unlike Feathers Need to Flock Together: A Principle for Community Capacity, Collective Intelligence, and Regional Resilience
-
 ## Abstract
 
 Communities increasingly face complex challenges that cannot be solved within the boundaries of a single sector, discipline, or institution. The *Birds of Unlike Feathers* principle proposes that resilient and innovative communities emerge when people with different backgrounds, expertise, perspectives, and resources intentionally connect, learn, and act together. While conventional approaches often rely on bringing together like-minded individuals and organizations, this paper argues that the greatest opportunities for innovation, adaptation, and long-term community development arise at the intersections between unlikely partners.
