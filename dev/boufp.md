@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: research
 status: draft
 title: "Birds of Unlike Feathers Need to Flock Together: A Principle for Community Capacity, Collective Intelligence, and Regional Resilience"
 author: "Jason F. Kronemeyer"
