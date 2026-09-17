@@ -25,6 +25,12 @@ One of the most persistent barriers to public policy is not a lack of funding, t
 
 Semantic friction increases transaction costs. It slows collaboration. It weakens coalition building. Most importantly, it shifts public attention away from outcomes and toward debates over terminology. In policy environments where government agencies, schools, libraries, healthcare providers, workforce organizations, businesses, and community groups must work together, language itself becomes a form of infrastructure.
 
+One useful way to understand semantic friction is through the concept of **legibility**.
+
+If semantic friction describes the resistance that occurs when people interpret the same words differently, legibility describes the extent to which people share a common understanding of a system, policy, or opportunity. The two concepts are closely related. As semantic friction increases, legibility declines. As legibility declines, coordination becomes more difficult.
+
+In this sense, semantic friction is not simply a communication problem. It is a governance problem. When stakeholders use the same words to mean different things, it becomes harder to build coalitions, align investments, evaluate outcomes, and sustain long-term action. Shared understanding becomes fragmented, even when participants broadly agree on the goals.
+
 I first encountered the concept of **legibility** through the work of Jean Hardy, whose research examines how rural communities become legible to opportunities in the high-tech economy (Hardy, 2026). Hardy argues that legibility is not a passive characteristic of a place. Rather, it is an active and ongoing process through which communities make themselves visible to opportunities while retaining agency over their own development choices.
 
 Hardy's work builds on a broader intellectual tradition. James C. Scott originally used the concept of legibility to describe how institutions simplify complex realities into forms that can be understood and administered (Scott, 1998). More recently, Melissa M. Lee and Nan Zhang extended the concept into the study of governance, arguing that legibility represents the informational foundation that enables effective coordination and state capacity (Lee & Zhang, 2017).
@@ -34,6 +40,10 @@ Taken together, these scholars describe an evolution:
 - Scott focused on administrative legibility.
 - Lee and Zhang focused on governance legibility.
 - Hardy focused on community legibility.
+
+The argument in this essay extends that progression one step further.
+
+If administrative systems require legibility to govern, and communities require legibility to participate in economic opportunity, then public policies require legibility to sustain the coalitions necessary for implementation. When policy language becomes ambiguous, politically overloaded, or disconnected from practical outcomes, semantic friction increases and policy legibility declines.
 
 The Digital Equity Act raises a fourth question:
 
