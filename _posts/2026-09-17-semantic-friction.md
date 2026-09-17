@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Semantic Friction and the Future of the Digital Equity Act"
 author: "Jason F. Kronemeyer"
 date: 2026-09-17
