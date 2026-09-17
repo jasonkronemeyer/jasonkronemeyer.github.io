@@ -88,7 +88,7 @@ This illustrates a broader governance principle: when one component of a system 
 
 ## Participation Is the Real Goal
 
-My own work through the Digital Opportunities Compass has increasingly centered on a simple observation: **broadband is not the destination; connectivity enables participation.** Infrastructure matters because it creates the conditions for individuals and communities to engage more fully in education, healthcare, employment, entrepreneurship, civic life, and community problem solving.
+My own work through the Digital Opportunities Intelligence Network (DOIN) has increasingly centered on a simple observation: **broadband is not the destination; connectivity enables participation.** Infrastructure matters because it creates the conditions for individuals and communities to engage more fully in education, healthcare, employment, entrepreneurship, civic life, and community problem solving.
 
 As I argued previously, digital opportunity can be understood as a progression:
 
