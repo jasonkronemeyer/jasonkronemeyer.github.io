@@ -1,4 +1,6 @@
 ---
+layout: post
+status: draft
 title: "Organize Before You Encode: Jessica Talisman's Ontology Pipeline as a Blueprint for Knowledge Infrastructure"
 subtitle: "A Compass Series Working Paper"
 author: "Jason Kronemeyer"
