@@ -1,7 +1,7 @@
 ---
 layout: post
 status: review
-title: "Building Trust in AI: What Superintendents Must Know About Privacy, Security, Governance, and Provenance"
+title: "Building Trust in AI: What School Leadership Must Know About Privacy, Security, Governance, and Provenance"
 date: 2026-09-24
 author: Jason F. Kronemeyer
 categories:
@@ -19,7 +19,6 @@ tags:
   - School Leadership
 excerpt: "As school districts evaluate AI solutions, the most important questions are not about features or efficiencies. They are about trust. Understanding the relationship between privacy, security, governance, and provenance is essential for district leaders navigating the future of educational technology."
 ---
-# Building Trust in AI: What Superintendents Must Know About Privacy, Security, Governance, and Provenance
 
 School districts are being flooded with AI vendors promising to reinvent education. Some promise personalized learning. Others promise administrative efficiency, automated communications, or an easier way to support students. The pitch is often polished, the demos are often convincing, and the urgency is often real.
 
