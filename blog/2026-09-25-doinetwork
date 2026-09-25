@@ -1,4 +1,6 @@
 ---
+layout: post
+status: review
 title: "Introducing the Digital Opportunities Intelligence Network (DOIN)"
 date: 2026-09-25
 author: Jason Kronemeyer
@@ -22,11 +24,9 @@ tags:
 excerpt: "The Digital Opportunities Intelligence Network (DOIN) is an open-source community project focused on transforming fragmented data into collective intelligence by connecting people, organizations, and communities around shared opportunity."
 ---
 
-# Introducing the Digital Opportunities Intelligence Network (DOIN)
-
 I'm developing the **Digital Opportunities Intelligence Network (DOIN)** as an open-source community project focused on helping communities move beyond measuring broadband access to understanding how opportunity, capacity, and collaboration develop over time.
 
-Grounded in my **"Birds of Unlike Feathers Need to Flock Together"** framework, DOIN combines semantic modeling, knowledge graphs, network analysis, and community intelligence to help people and organizations build shared understanding and coordinate action. The goal is to transform fragmented data into collective intelligence, expand equitable participation, strengthen regional resilience, and help communities create more inclusive, opportunity-rich futures by connecting people and organizations that might not otherwise work together.
+Grounded in my **"Birds of Unlike Feathers Need to Flock Together"** concept, DOIN combines semantic modeling, knowledge graphs, network analysis, and community intelligence to help people and organizations build shared understanding and coordinate action. The goal is to transform fragmented data into collective intelligence, expand equitable participation, strengthen regional resilience, and help communities create more inclusive, opportunity-rich futures by connecting people and organizations that might not otherwise work together.
 
 ## We're Looking for DOIN Network Members
 
@@ -46,7 +46,6 @@ Network members can help:
 
 Together, we can transform data into understanding, understanding into action, and action into collective intelligence.
 
-A fun addition could be a short section like this near the end:
 ## A Simple DOIN Equation
 
 One way to think about DOIN is that community opportunity is created through both capacity and connections.
@@ -88,8 +87,6 @@ Where:
 The lesson is simple: stronger communities are not built solely by increasing resources. They are built by increasing the number and quality of connections between people, organizations, and ideas.
 
 As I often say, meaningful innovation happens when **birds of unlike feathers flock together**.
-I like this because it's approachable, reinforces your theory, and gives readers a memorable "DOIN equation" without overwhelming them with the more advanced semantic-space math.
-
 
 ## Join the Network
 
