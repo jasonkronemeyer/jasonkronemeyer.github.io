@@ -23,28 +23,28 @@ Institution Building
     ↓
 Collective Intelligence
 Mathematically:
-\[ G(c) \in [0,1] \]
+<script type="math/tex; mode=display">G(c) \in [0,1]</script>
 Where:
-\(G(c)\) = community position on a developmental gradient
-\(0\) = no capacity
-\(1\) = transformational capacity
+<script type="math/tex">G(c)</script> = community position on a developmental gradient
+<script type="math/tex">0</script> = no capacity
+<script type="math/tex">1</script> = transformational capacity
 The goal is not classification, but progression.
 
-2. Community Opportunity Vector
+## 2. Community Opportunity Vector
 A community is represented as a multidimensional profile.
-\[ C=(B,S,T,P,K) \]
+<script type="math/tex; mode=display">C=(B,S,T,P,K)</script>
 Where:
-- \(B\) = Broadband & Infrastructure
-- \(S\) = Skills & Literacy
-- \(T\) = Trust & Social Capital
-- \(P\) = Participation & Engagement
-- \(K\) = Knowledge & Data Capacity
+- <script type="math/tex">B</script> = Broadband & Infrastructure
+- <script type="math/tex">S</script> = Skills & Literacy
+- <script type="math/tex">T</script> = Trust & Social Capital
+- <script type="math/tex">P</script> = Participation & Engagement
+- <script type="math/tex">K</script> = Knowledge & Data Capacity
 
 Example:
-\[ C=(0.8,0.6,0.4,0.5,0.7) \]
+<script type="math/tex; mode=display">C=(0.8,0.6,0.4,0.5,0.7)</script>
 This reveals opportunity gaps invisible to traditional broadband maps.
 
-3. Semantic Friction
+## 3. Semantic Friction
 Stakeholders often use the same words but mean different things.
 ISP ---------------------- Success = Service Available
 
@@ -54,19 +54,19 @@ School ------------------- Success = Student Participation
 
 Community ---------------- Success = Opportunity Creation
 Semantic friction is measurable.
-\[ F_{ij}=|S_i-S_j| \]
+<script type="math/tex; mode=display">F_{ij}=|S_i-S_j|</script>
 Where:
-\(F\) = semantic friction
-\(S_i,S_j\) = stakeholder positions
+<script type="math/tex">F</script> = semantic friction
+<script type="math/tex">S_i,S_j</script> = stakeholder positions
 The larger the distance, the harder collaboration becomes.
 
-4. Semantic Potential
+## 4. Semantic Potential
 DOIN replaces deficit thinking with growth thinking.
-\[ P=T-C \]
+<script type="math/tex; mode=display">P=T-C</script>
 Where:
-\(T\) = desired future state
-\(C\) = current state
-\(P\) = unrealized opportunity
+<script type="math/tex">T</script> = desired future state
+<script type="math/tex">C</script> = current state
+<script type="math/tex">P</script> = unrealized opportunity
 Rather than asking:
 
 What is wrong with this community?
@@ -75,11 +75,10 @@ DOIN asks:
 
 What potential exists and what conditions move the community forward?
 
-
-5. Community Motion
+## 5. Community Motion
 Most systems measure condition.
 DOIN measures trajectory.
-\[ \frac{dC}{dt} \]
+<script type="math/tex; mode=display">\frac{dC}{dt}</script>
 Questions become:
 Are we improving?
 At what rate?
@@ -87,7 +86,7 @@ Which interventions produce movement?
 Where are communities likely to be in five years?
 The objective is understanding direction, not merely status.
 
-6. Network Intelligence
+## 6. Network Intelligence
 Communities do not succeed alone.
 School ───── Library
     \           /
@@ -98,31 +97,30 @@ School ───── Library
      /         \
     ISP ───── Nonprofit
 Each relationship contributes value.
-\[ E_{ij} \]
+<script type="math/tex; mode=display">E_{ij}</script>
 Where:
-\(E_{ij}\) = collaboration strength between actors
+<script type="math/tex">E_{ij}</script> = collaboration strength between actors
 DOIN measures not only capacity, but connectivity.
 
-
-7. Collective Intelligence
+## 7. Collective Intelligence
 Traditional models:
-\[ R = \sum_i C_i \]
+<script type="math/tex; mode=display">R = \sum_i C_i</script>
 Regional success equals the sum of organizational capacity.
 
 DOIN model:
-\[ R = \sum_i C_i + \sum_{i,j} E_{ij} \]
+<script type="math/tex; mode=display">R = \sum_i C_i + \sum_{i,j} E_{ij}</script>
 Regional intelligence emerges from both:
 - Individual capabilities
 - Strength of relationships
 - The network itself as infrastructure
 
 ### The DOIN Equation
-\[ \text{Regional Transformation} = f(C,F,E,t) \]
+<script type="math/tex; mode=display">\text{Regional Transformation} = f(C,F,E,t)</script>
 Where:
-- \(C\) = Community Capacity
-- \(F\) = Semantic Friction
-- \(E\) = Network Relationships
-- \(t\) = Time
+- <script type="math/tex">C</script> = Community Capacity
+- <script type="math/tex">F</script> = Semantic Friction
+- <script type="math/tex">E</script> = Network Relationships
+- <script type="math/tex">t</script> = Time
 
 Transformation increases when:
 - Capacity grows
