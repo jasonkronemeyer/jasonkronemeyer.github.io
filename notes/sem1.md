@@ -1,3 +1,7 @@
+---
+layout: research-note
+---
+
 DOIN Framework
 The Digital Opportunities Intelligence Network
 From Data to Collective Intelligence
