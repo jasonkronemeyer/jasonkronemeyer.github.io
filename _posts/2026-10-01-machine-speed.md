@@ -1,5 +1,6 @@
 ---
 layout: post
+status: op-ed
 title: "The Problem Was Never AI. It Was Always Trust at Machine Speed."
 date: 2026-10-01
 author: Jason Kronemeyer
