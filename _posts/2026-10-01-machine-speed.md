@@ -17,6 +17,8 @@ tags:
 excerpt: "Cybersecurity has always been about humans using software against other humans. AI changes the degree of autonomy, but the real challenge remains governance and trust at machine speed."
 ---
 
+### AI is a signal, not the cause. The real challenge is trust, governance, and accountability at machine speed.
+
 > **"Teachers we trust. It's the other eight billion people on the planet that we don't."**
 
 When I served as an IT director in K–12 education, I often used that line when explaining network security to teachers and staff. It usually earned a laugh, but it also captured a fundamental reality. Schools are built on trust. We know our teachers, administrators, students, and families. We understand their roles, their responsibilities, and their intentions. The challenge was never securing a network against the people we knew. The challenge began the moment that trusted environment connected to a global network filled with strangers, competing interests, criminal actors, and software acting on their behalf.
