@@ -77,7 +77,7 @@ It allows experiences that might otherwise be dismissed as isolated or anecdotal
 
 In that sense, the research became our voice.
 
-## Acknowledgments
+### Acknowledgments
 
 The homework gap research was successful because it was built on genuine collaboration between researchers, educators, school districts, and community partners.
 
@@ -85,7 +85,7 @@ I am especially grateful to Dr. Johannes Bauer and Dr. Keith Hampton of the Quel
 
 I am equally grateful to Charlotte Bewersdorff and Dr. Pierrette Renée Dagg of Merit Network, whose commitment to the K–12 Citizen Science initiative helped create a model for collaboration between researchers, educators, and communities. Their work showed that research and education networks can do more than connect institutions. They can connect people, ideas, and experiences in ways that create meaningful change. [3](https://www.thequilt.net/quilt-circle-article/merit-partners-with-quello-center-on-groundbreaking-research-study/)[4](https://ippsr.msu.edu/sites/default/files/osr/broadband_student_performance_quello.pdf)
 
-I would also like to acknowledge the superintendents of EUPSchools. Throughout my career, I have had the privilege of working alongside educational leaders who understood that data is not collected for its own sake. It is collected to improve opportunities for students and strengthen communities. Their willingness to participate, collaborate, and share their districts' experiences made this work possible.
+I would also like to acknowledge the Superintendents of EUPSchools. Throughout my career, I have had the privilege of working alongside educational leaders who understood that data is not collected for its own sake. It is collected to improve opportunities for students and strengthen communities. Their willingness to participate, collaborate, and share their districts' experiences made this work possible.
 
 Most importantly, I want to recognize the teachers, students, families, and participating districts who contributed their time, data, and trust to the project. Research only becomes meaningful when communities are willing to share their stories. The findings belonged not only to the researchers who analyzed the data, but also to the communities that made the research possible.
 
