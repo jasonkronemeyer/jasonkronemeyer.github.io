@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 ---
 
 My contribution to the NSF-funded Internet Measurement Research (IMR) project was primarily in the area of research data infrastructure. I helped integrate FCC Broadband Data Collection (BDC) and Broadband Serviceable Location Fabric datasets, transforming complex and fragmented broadband data into research-ready resources that could support broadband measurement and statistical analysis. My work focused on data engineering, dataset integration, validation workflows, and the creation of scalable analytical foundations that enabled researchers to examine broadband availability and potential biases in observational broadband data. Through this effort, I contributed to the development and management of a research data infrastructure containing approximately one billion records, supporting the research conducted by Amy Stuyvesant, Stilian Stoev, and George Michailidis. While the paper's methodological and statistical contributions were developed by the authors, my role was to help ensure that the underlying data systems were accurate, accessible, and suitable for rigorous analysis. The experience strengthened my understanding of broadband measurement, statistical inference, and the critical role that data infrastructure plays in producing evidence-based research and informing broadband policy.
