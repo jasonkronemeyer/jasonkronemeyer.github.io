@@ -75,6 +75,8 @@ Gini Coefficient = Area between diagonal and Lorenz curve /
 
 **Sen's concern:** Average improvements can mask persistent inequalities.
 
+**Related measurement context:** Stuyvesant, Stoev, and Michailidis (2025) examine bias in observational speed-test data used to infer broadband availability. Availability estimates are distinct from the adoption and outcome measures discussed here, but reliable input data is foundational to equity analysis.
+
 **Example:**
 ```
 Country A (Infrastructure Focus):
@@ -683,6 +685,11 @@ Conclusion: Intervention reduced inequality with high confidence.
 - `TrainingCompassMetrics.md` - How Gini fits in Outcomes measurement
 - `TrainingCompassDagg.md` - Compass Outcomes component
 - `TrainingCompassPolicy.md` - Using Gini for budget allocation
+
+---
+
+**References:**
+- Stuyvesant, A., Stoev, S., & Michailidis, G. (2025). *Towards unbiased inference of Internet broadband availability based on observational speed test data* (SSRN Working Paper No. 5372801). NSF Public Access Repository. https://par.nsf.gov/servlets/purl/10668222
 
 ---
 
