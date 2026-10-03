@@ -97,3 +97,6 @@ Michigan should view TENs as part of a broader infrastructure strategy, not as a
 
 - [Policy Brief: Thermal Energy Networks in Michigan](https://www.jasonkronemeyer.com/dev/TEN.html)
 - [Smart Building Workforce for Clean Energy](https://www.jasonkronemeyer.com/policy/workforce/clean-energy/2025/12/04/our-smarts-are-in-our-buildings.html)
+- [Geothermal Energy Networks: Transforming Our Thermal Energy System (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/)
+- [Fundamentals of Energy in Buildings (MIT OpenCourseWare)](https://ocw.mit.edu/courses/4-42j-fundamentals-of-energy-in-buildings-fall-2010/)
+- [Environmental Technologies in Buildings (MIT OpenCourseWare)](https://ocw.mit.edu/courses/4-401-environmental-technologies-in-buildings-fall-2018/)
