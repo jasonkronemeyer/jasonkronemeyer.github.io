@@ -100,3 +100,5 @@ Michigan should view TENs as part of a broader infrastructure strategy, not as a
 - [Geothermal Energy Networks: Transforming Our Thermal Energy System (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/)
 - [Fundamentals of Energy in Buildings (MIT OpenCourseWare)](https://ocw.mit.edu/courses/4-42j-fundamentals-of-energy-in-buildings-fall-2010/)
 - [Environmental Technologies in Buildings (MIT OpenCourseWare)](https://ocw.mit.edu/courses/4-401-environmental-technologies-in-buildings-fall-2018/)
+- [HEET (Home Energy Efficiency Team)](https://www.heet.org/)
+- [Gas to Geo Resource Hub (HEET)](https://www.heet.org/gas-to-geo-transition)
