@@ -23,27 +23,71 @@ tags:
   - Reproducible Research
 ---
 
-Most of the work behind a statistical paper never appears in the paper. On the Internet Measurement Research (IMR) project, my work was the part that does not: designing the data infrastructure so that an analysis of broadband availability could run on nationwide infrastructure data, not on a single state or a convenient sample.
+Speed tests are an appealing way to measure broadband, because millions of people run them. They are also a biased one, because the people who run them are not a random sample. Some households test often and some never do, and traditional survey methods do not rescue the situation, since the link between a measurement and the person behind it is often missing. The paper *Towards Unbiased Inference of Internet Broadband Availability Based on Observational Speed Test Data* (Stuyvesant, Stoev, & Michailidis, 2025) addresses this by modeling the propensity of testing, the likelihood that a connected user runs a test, and correcting for it with inverse probability weighting. Applied to Ookla Open data, with covariates derived from the FCC Broadband Data Collection (BDC) and Fabric data, the framework produces nationwide maps of broadband density at the census tract, county, state, and ZIP code levels.
 
-The paper those authors produced, *Towards Unbiased Inference of Internet Broadband Availability Based on Observational Speed Test Data*, takes on a problem every crowd-sourced measurement faces: the people who run speed tests are not a random sample. Traditional survey methods do not apply, because the link between a measurement and the person behind it is often missing. The authors model the propensity of testing, the likelihood that a connected user runs a test, and use inverse probability weighting to correct for it. Applied to Ookla Open data with covariates derived from the FCC Broadband Data Collection (BDC) and Fabric data, the framework produces nationwide maps of broadband density at the census tract, county, state, and ZIP code levels.
+Most of the work behind a statistical paper never appears in it, and a method like that is only as national as the data beneath it. My part of the Internet Measurement Research (IMR) project was that data: designing the infrastructure so the analysis could run on nationwide infrastructure data, not on a single state or a convenient sample. The paper's methodological and statistical contributions belong to its authors, and I will not claim them. The paper does acknowledge "the technical support of Mr Jason Kronemeyer in part of the software pipeline used to join the FCC fabric and BDC data sets" (p. 43). That sentence is the documented, externally sourced part of my contribution.
 
-A method like that is only as national as the data beneath it. The methodological and statistical contributions belong to Amy Stuyvesant, Stilian Stoev, and George Michailidis, and I will not claim them. My job was to build the ground they stood on, and to build it so that it would still hold as the data grew.
-
-The paper acknowledges "the technical support of Mr Jason Kronemeyer in part of the software pipeline used to join the FCC fabric and BDC data sets" (Stuyvesant et al., 2025, p. 43). That sentence is the documented, externally sourced part of my contribution. This essay is my own account of the infrastructure around it, and of what I learned from the people I worked with: Dr. Stilian Stoev of the University of Michigan, who taught me the statistics behind the paper, and Amy Stuyvesant of Merit Network. The paper also recognizes the leadership of Dr. Pierrette Renée Dagg of Merit Network in supporting the broader effort.
+This essay is my own account of the infrastructure around that sentence, and of what I learned from the people I worked with: Dr. Stilian Stoev of the University of Michigan, who taught me the statistics behind the paper, and Amy Stuyvesant of Merit Network. The paper also recognizes the leadership of Dr. Pierrette Renée Dagg of Merit Network in supporting the broader effort. It starts with the data and ends with what the work taught me about the difference between data infrastructure and learning infrastructure.
 
 ## Two datasets that did not agree on what a place is
 
 The project joined two sources that describe the same country in incompatible ways. Ookla's open speed-test data records what people measured, aggregated to Bing tiles at zoom level 16. The FCC's Broadband Data Collection records what providers say they offer, attached to individual locations in the CostQuest Broadband Serviceable Location Fabric. One is a measurement of behavior. The other is a statement of availability. Neither is a clean version of the truth, which is exactly why comparing them is interesting.
 
-The bridge was the quadkey. Every Fabric location got a zoom-16 quadkey, which put the FCC's addresses on the same grid Ookla already used. That sounds like a one-line decision. In practice it meant splitting a very large national CSV by state, computing a tile for every location, dropping the address columns we did not need, and writing the result to a form that could be queried again without starting over.
+The bridge was the quadkey. Every Fabric location got a zoom-16 quadkey, which put the FCC's addresses on the same grid Ookla already used. That sounds like a one-line decision. In practice it meant splitting a very large national CSV by state, computing a tile for every location, dropping the address columns we did not need, and writing the result to a form that could be queried again without starting over. The core of it is a short function:
+
+```python
+import mercantile
+
+def latlon_to_quadkey(lat, lon, zoom=16):
+    tile = mercantile.tile(lon, lat, zoom)
+    return mercantile.quadkey(tile)
+
+df['quadkey'] = df.apply(lambda row: latlon_to_quadkey(row['latitude'], row['longitude']), axis=1)
+```
+
+The function is simple and correct. The row-by-row `apply` that calls it is what became slow across the full national Fabric.
 
 The choice served the statistics directly. A propensity-of-testing model needs a denominator: how many connections in a tile could have produced a test. Counts of connected locations per quadkey, derived from the FCC data, supplied it. The project notes define the raw testing propensity as devices divided by connected locations, and use a fitted model on those counts in practice. The covariates were the point of the infrastructure, not a by-product of it.
 
 ## From fragments to a working system
 
-The FCC releases had to be downloaded by hand from the FCC BDC website, one file for each state and each type of infrastructure, for every release. That produced folders of CSVs, one set per technology and filing period. I loaded them into a DuckDB database, one table per technology and release, covering cable, copper, fiber to the premises, and three kinds of fixed wireless. For each state and release, the pipeline flagged which technologies served each location. It then aggregated those flags by quadkey, weighting by the number of units at each location, to produce the covariates the analysis needed. Each Ookla quarter was joined to the nearest FCC release in time, because the two sources do not share a calendar.
+The FCC releases had to be downloaded by hand from the FCC BDC website, one file for each state and each type of infrastructure, for every release. That produced folders of CSVs, one set per technology and filing period. A notebook unzipped each release folder, read each technology's CSVs into a pandas DataFrame, and wrote one table per technology and release to a DuckDB database, covering cable, copper, fiber to the premises, and three kinds of fixed wireless. Dropping a table before recreating it made reruns safe:
 
-The pipeline ended in maps at several geographic scales: block, tract, zip code, and county. The paper reports nationwide results at the tract, county, state, and ZIP code levels. Every step was written to be rerun, and I kept notes on the order of operations because a process only one person can reproduce is not infrastructure. It is a habit.
+```python
+con = duckdb.connect('/data/results/infra_data.duckdb')
+
+for infra_type, df in infra_dfs.items():
+    for version in df['version'].unique():
+        table_name = f"{infra_type.lower()}_{version.lower()}"
+        con.execute(f"DROP TABLE IF EXISTS {table_name}")
+        con.register('temp_df', df[df['version'] == version])
+        con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM temp_df")
+```
+
+This was the one step that held a full release in memory at once, with a pandas DataFrame sitting between the CSVs and the database. After it, the work moved to the database file and to one state at a time. For each state and release, the pipeline flagged which technologies served each location. It then aggregated those flags by quadkey, weighting by the number of units at each location, to produce the covariates the analysis needed. Each Ookla quarter was joined to the nearest FCC release in time, because the two sources do not share a calendar.
+
+The pipeline ended in maps at several geographic scales: block, tract, zip code, and county. The paper reports nationwide results at the tract, county, state, and ZIP code levels. Every step was written to be rerun, and I kept notes on the order of operations because a process only one person can reproduce is not infrastructure. It is a habit. The order, condensed from those notes:
+
+```r
+# Step 1: build the FCC tables for every release, with a quadkey on each location
+source("/data/source/project-imr/R/duckdb_build_infrastructure_tables.R")
+con <- dbConnect(duckdb::duckdb(), dbdir = "/data/results/infra_data.duckdb")
+build_fcc_dataframes(con)
+dbDisconnect(con, shutdown = TRUE)
+
+# Step 2: aggregate the technology flags by quadkey
+source("/data/source/project-imr/R/create_infrastructure_covaraite_by_state.R")
+load_FCC_infrastructure_data_and_build_covariate()
+
+# Step 3: join Ookla with the covariates
+source("/data/source/project-imr/R/ookla_read_and_join_with_infrastructure_covariate.R")
+join_Ookla_and_FCC_covariate()
+```
+
+```bash
+# Step 4: build the maps for one quarter at a time
+Rscript /data/source/project-imr/R/script_for_building_all_maps.R <year> <quarter>
+```
 
 The finished system covers all 56 states and territories and holds roughly one billion records. At that size, small decisions became visible. Reading GEOIDs without declaring them as text silently dropped leading zeros. Computing quadkeys row by row across the full national Fabric was far slower than it needed to be. An early Python prototype of the aggregation step had a bug that computed several technology counts from the cable table instead of their own. The R pipeline did not carry that bug forward, but I only knew that because I had written down what went wrong the first time.
 
@@ -51,13 +95,60 @@ The finished system covers all 56 states and territories and holds roughly one b
 
 The design brief was nationwide from the start, and a billion records is not a number you can hold in memory on a shared research server. A workflow that works for one state and breaks for fifty is a prototype. So most of the design came down to one question: what does the analysis actually need to carry forward, and how do we keep every step cheap enough to repeat for the entire country?
 
-The first answer was *less*. The Fabric arrived as one giant national CSV. I trimmed it to the columns the analysis used, kept only active serviceable locations, dropped the address fields, and split the result by state. The Ookla side was already narrowed to fixed (not mobile) tests. The biggest reduction came from changing the unit of analysis. Locations were aggregated up to zoom-16 quadkeys, weighted by unit count, so the join with Ookla happened between two tile-level tables and never between a billion location rows and anything else.
+The first answer was *less*. The Fabric arrived as one giant national CSV. I trimmed it to the columns the analysis used, kept only active serviceable locations, dropped the address fields, and split the result by state. Two standard Linux commands did the trimming. The first lists the header's column numbers. The second keeps only the columns the analysis needed and streams the file, so the whole Fabric never has to fit in memory:
 
-The second answer was *do not load it*. The FCC releases lived in a DuckDB database file on disk, one table per technology and release, and the work was done by querying that file in place. Ookla's data sat as partitioned Parquet by type, year, and quarter, so a query for one quarter touched one slice of the files. DuckDB, as my research notes put it, reads only the columns a query needs and pushes filters down into the files, which is why a laptop-sized engine can work against data far larger than its memory.
+```bash
+# Find the column numbers in the header row
+head -n 1 FCC_Active_BSL_06302024_rel_5.csv | awk -F ',' '{for (i=1; i<=NF; i++) print i, $i}'
+
+# Keep only the columns the analysis uses
+cut -d ',' -f 1,4,5,7,8,9,10,12,13,14,15,16,17 FCC_Active_BSL_06302024_rel_5.csv > CUT_FCC_Active_BSL_06302024_rel_5.csv
+```
+
+The Ookla side was already narrowed to fixed (not mobile) tests. The biggest reduction came from changing the unit of analysis. Locations were aggregated up to zoom-16 quadkeys, weighted by unit count, so the join with Ookla happened between two tile-level tables and never between a billion location rows and anything else.
+
+The second answer was *do not load it*. The FCC releases lived in a DuckDB database file on disk, one table per technology and release, and the work was done by querying that file in place. Ookla's data sat as partitioned Parquet by type, year, and quarter, so a query for one quarter touched one slice of the files. DuckDB, as my research notes put it, reads only the columns a query needs and pushes filters down into the files, which is why a laptop-sized engine can work against data far larger than its memory. Two condensed examples from the project show the pattern. The first reads one state from the Parquet file without reading the rest. The second asks every table in the database file a question and never loads a table into memory.
+
+```python
+import pyarrow.dataset as ds
+
+dataset = ds.dataset('/data/results/USData.parquet', format='parquet')
+michigan = dataset.to_table(filter=ds.field('state') == 'MI').to_pandas()
+```
+
+```python
+con = duckdb.connect('/data/results/infra_data.duckdb')
+
+for table in con.execute("SHOW TABLES").fetchdf()['name']:
+    n = con.execute(
+        f"SELECT COUNT(DISTINCT location_id) FROM {table} "
+        "WHERE business_residential_code IN ('R', 'X')"
+    ).fetchone()[0]
+    print(f"{table}: {n:,} locations with residential service")
+```
 
 The third answer was *store it by column*. Parquet and DuckDB are both columnar, and that fits this data. The analysis asked narrow questions of wide tables, such as which technologies serve a quadkey or how many devices tested in it. Columnar storage compresses repeated values well, such as state codes, release labels, and technology flags, and it lets a query skip every column it does not touch. The quadkey step wrote its trimmed output to Parquet for that reason, with ZIP codes kept as strings so leading zeros survive.
 
-The last answer was *keep it portable*. DuckDB is a single file with no server to administer, and Parquet is an open format that R, Python, and other engines read without conversion. Raw files moved between a cloud drive and the analysis server with rclone. None of the pieces depended on a particular vendor or a particular machine.
+```python
+keepColumns = ['location_id', 'state', 'zip', 'unit_count', 'bsl_flag',
+               'building_type_code', 'land_use_code', 'county_geoid',
+               'block_geoid', 'fcc_rel', 'quadkey']
+
+gdf['zip'] = gdf['zip'].astype('str')
+gdf[keepColumns].to_parquet('/data/results/USData.parquet', engine='pyarrow', index=False)
+```
+
+The last answer was *keep it portable*. DuckDB is a single file with no server to administer, and Parquet is an open format that R, Python, and other engines read without conversion. Raw files moved between a cloud drive and the analysis server by mounting the drive with rclone, so the server could read it as a local folder. The Drive folder ID is omitted here.
+
+```bash
+mkdir -p /data/NSF_IMR_drive
+rclone mount jfkrone-gdrive: /data/NSF_IMR_drive --drive-root-folder-id <folder-id>
+
+# Unmount when finished
+fusermount3 -u /data/NSF_IMR_drive
+```
+
+None of the pieces depended on a particular vendor or a particular machine.
 
 ## Designed to keep scaling
 
@@ -65,7 +156,7 @@ The nationwide system as built is not the limit of the design. Three choices kee
 
 First, keep the unit of analysis coarse. Adding a new FCC release or Ookla quarter adds tiles, not locations, so growth is far slower than the raw record count suggests. Second, treat Parquet, partitioned by state and period, as the long-term storage layer, and let DuckDB query it directly. That is already how the Ookla data is laid out, and the pipeline's per-state RData outputs are the part most worth moving to the same pattern. RData ties the results to R, while Parquet does not. Third, if the data eventually needs versioning, concurrent writers, or cloud object storage, a table format such as DuckLake, which keeps metadata in a SQL database and the data in Parquet, is a natural next step. I have studied it but not used it on this project.
 
-Since IMR, I have started building a tool to automate the front of this pipeline, because downloading the FCC infrastructure data by hand with every version update is very time consuming. A national release is on the order of 11,000 files, and the API's rate limit means a full download takes many hours, which is far too long to babysit. `bdc-api-agent` detects new FCC BDC releases, downloads them within the rate limit, verifies each file's checksum, tracks every file in a resumable manifest, and loads the results into DuckDB. The download still takes as long, but it runs unattended and picks up where it left off if interrupted. During IMR, that step meant downloading each state's file for each type of infrastructure by hand from the FCC BDC website, once for every release. Automating it is meant to make adding a release routine instead of a project. The tool is still in development and covers only the BDC half. The Fabric needs a separate license and is not available through the API, so the Fabric split, the quadkey step, and the join remain separate.
+Since IMR, I have started building a tool to automate the front of this pipeline, because downloading the FCC infrastructure data by hand with every version update is very time consuming. A national release is on the order of 11,000 files, and the API's rate limit means a full download takes many hours, which is far too long to babysit. `bdc-api-agent` detects new FCC BDC releases, downloads them within the rate limit, verifies each file's checksum, tracks every file in a resumable manifest, and loads the results into DuckDB, reading each CSV directly with `read_csv_auto` instead of through an in-memory DataFrame. The download still takes as long, but it runs unattended and picks up where it left off if interrupted. During IMR, that step meant downloading each state's file for each type of infrastructure by hand from the FCC BDC website, once for every release. Automating it is meant to make adding a release routine instead of a project. The tool is still in development and covers only the BDC half. The Fabric needs a separate license and is not available through the API, so the Fabric split, the quadkey step, and the join remain separate.
 
 ## Judgment calls hidden inside the data
 
@@ -125,7 +216,7 @@ Hardy, J. (2026). Legibility & rural development in the American high-tech econo
 
 **My own note:** "What I Learned Building My First Billion-Record Research Data Infrastructure" (`papers/nsf-imr-contributions-stoev.md`). The acknowledgment quotation on p. 43, the page citations for the propensity, Hájek, and Gini material, and my account of what Dr. Stoev taught me come from this note. I verified the abstract of the paper and the Hardy citation, but not the page citations.
 
-**My own records:** Project notes in `project-imr/Notes/notes.md` and `project-imr/R/README.txt`, covering data sources, pipeline steps, definitions, and lessons learned. The column trimming, Parquet output, and partitioned Ookla layout come from these.
+**My own records:** Project notes in `project-imr/Notes/notes.md` and `project-imr/R/README.txt`, covering data sources, pipeline steps, definitions, and lessons learned. The column trimming, Parquet output, and partitioned Ookla layout come from these. The command and code samples are condensed from the project's `Py/` notebooks, its R scripts, and these notes. The rclone Drive folder ID is omitted.
 
 **My own research:** The points about columnar reads, predicate pushdown, and DuckLake come from my research notes, "Data Infrastructure Performance: DuckDB Extensions, DuckLake, and Bayesian Network Inference" (`notes/research/BayesDuck.md`). Its benchmark figures are from third-party sources cited there and are not reproduced here.
 
