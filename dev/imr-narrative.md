@@ -41,7 +41,7 @@ The choice served the statistics directly. A propensity-of-testing model needs a
 
 ## From fragments to a working system
 
-The FCC releases arrived as folders of CSVs, one set per technology and filing period. I loaded them into a DuckDB database, one table per technology and release, covering cable, copper, fiber to the premises, and three kinds of fixed wireless. For each state and release, the pipeline flagged which technologies served each location. It then aggregated those flags by quadkey, weighting by the number of units at each location, to produce the covariates the analysis needed. Each Ookla quarter was joined to the nearest FCC release in time, because the two sources do not share a calendar.
+The FCC releases had to be downloaded by hand from the FCC BDC website, one file for each state and each type of infrastructure, for every release. That produced folders of CSVs, one set per technology and filing period. I loaded them into a DuckDB database, one table per technology and release, covering cable, copper, fiber to the premises, and three kinds of fixed wireless. For each state and release, the pipeline flagged which technologies served each location. It then aggregated those flags by quadkey, weighting by the number of units at each location, to produce the covariates the analysis needed. Each Ookla quarter was joined to the nearest FCC release in time, because the two sources do not share a calendar.
 
 The pipeline ended in maps at several geographic scales: block, tract, zip code, and county. The paper reports nationwide results at the tract, county, state, and ZIP code levels. Every step was written to be rerun, and I kept notes on the order of operations because a process only one person can reproduce is not infrastructure. It is a habit.
 
@@ -64,6 +64,8 @@ The last answer was *keep it portable*. DuckDB is a single file with no server t
 The nationwide system as built is not the limit of the design. Three choices keep it extensible, and each one is a recommendation rather than a finished feature.
 
 First, keep the unit of analysis coarse. Adding a new FCC release or Ookla quarter adds tiles, not locations, so growth is far slower than the raw record count suggests. Second, treat Parquet, partitioned by state and period, as the long-term storage layer, and let DuckDB query it directly. That is already how the Ookla data is laid out, and the pipeline's per-state RData outputs are the part most worth moving to the same pattern. RData ties the results to R, while Parquet does not. Third, if the data eventually needs versioning, concurrent writers, or cloud object storage, a table format such as DuckLake, which keeps metadata in a SQL database and the data in Parquet, is a natural next step. I have studied it but not used it on this project.
+
+Since IMR, I have started building a tool to automate the front of this pipeline, because downloading the FCC infrastructure data by hand with every version update is very time consuming. A national release is on the order of 11,000 files, and the API's rate limit means a full download takes many hours, which is far too long to babysit. `bdc-api-agent` detects new FCC BDC releases, downloads them within the rate limit, verifies each file's checksum, tracks every file in a resumable manifest, and loads the results into DuckDB. The download still takes as long, but it runs unattended and picks up where it left off if interrupted. During IMR, that step meant downloading each state's file for each type of infrastructure by hand from the FCC BDC website, once for every release. Automating it is meant to make adding a release routine instead of a project. The tool is still in development and covers only the BDC half. The Fabric needs a separate license and is not available through the API, so the Fabric split, the quadkey step, and the join remain separate.
 
 ## Judgment calls hidden inside the data
 
@@ -89,7 +91,7 @@ I supported the data workflows that Dr. Stoev then used to produce the broadband
 
 The project also sharpened a worry about what data does to places. My use of legibility is influenced by Dr. Jean Hardy's research on rural development, which treats economic legibility as an ongoing relational process shaped by internal and external actors, not a passive inventory of assets (Hardy, 2026). A dataset makes some conditions visible and leaves out local knowledge, history, and relationships. More records can add statistical precision and still add a false sense of certainty if we forget that a model is not reality, a map is not the community, and a broadband index is not broadband opportunity.
 
-Applying Hardy's framing to broadband data infrastructure is my own extension of her work, not hers. The point I take from it is that communities should keep some say in which indicators define them and how the evidence is read. Legibility is best treated as a negotiated learning process, not a technical act of making a place readable.
+Applying Hardy's framing to broadband data infrastructure is my own extension of his work, not his. The point I take from it is that communities should keep some say in which indicators define them and how the evidence is read. Legibility is best treated as a negotiated learning process, not a technical act of making a place readable.
 
 ## From data infrastructure to learning infrastructure
 
@@ -130,3 +132,5 @@ Hardy, J. (2026). Legibility & rural development in the American high-tech econo
 **My own projection or inference:** The scaling recommendations in "Designed to keep scaling" are design recommendations, not measured results. I have not benchmarked the pipeline beyond its current size. The statement that the pattern applies to other nationwide infrastructure datasets is likewise my inference, not a tested result.
 
 **My own account:** The description of my role and the roughly one-billion-record scale come from my own summary of the work (`dev/imr.md`), and the nationwide design goal is my own framing of the project. None of it is independently sourced. The coverage of all 56 states and territories is from `project-imr/R/README.txt`.
+
+**My own project:** `bdc-api-agent` (https://github.com/jasonkronemeyer/bdc-api-agent), described from its README and documentation. It is work done after IMR and is still in development.
