@@ -74,15 +74,13 @@ Collective Intelligence
 Community Capacity + Community Connections
 Or, in mathematical form:
 
-\\[\
-CI = C + E\
-\\]
+<script type="math/tex; mode=display">CI = C + E</script>
 
 Where:
 
-- \\(CI\\) = Collective Intelligence
-- \\(C\\) = Community Capacity
-- \\(E\\) = Engagement and Connections
+- <script type="math/tex">CI</script> = Collective Intelligence
+- <script type="math/tex">C</script> = Community Capacity
+- <script type="math/tex">E</script> = Engagement and Connections
 
 The lesson is simple: stronger communities are not built solely by increasing resources. They are built by increasing the number and quality of connections between people, organizations, and ideas.
 
