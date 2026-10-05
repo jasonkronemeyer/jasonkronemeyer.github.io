@@ -1,7 +1,7 @@
 ---
 layout: post
 status: review
-title: "Introducing the Digital Opportunities Intelligence Network (DOIN)"
+title: "Join the Digital Opportunities Intelligence Network (DOIN)"
 date: 2026-09-25
 author: Jason Kronemeyer
 categories:
