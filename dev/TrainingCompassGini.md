@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Measuring Digital Inequality: The Gini Coefficient
 
 Why the Gini coefficient matters for digital equity, how to calculate it, and what Dr. Stoev's Hájek Estimator teaches us.
