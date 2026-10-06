@@ -1,43 +1,50 @@
 ---
 layout: post
+title: "Data Sovereignty: Who Has the Right to Govern Knowledge?"
 status: draft
 ---
 
-## Data Sovereignty and OCAP®: Who Has the Right to Govern Knowledge?
+From an Indigenous perspective, data is not merely a resource to be extracted, stored, and analyzed. Data represents people, relationships, histories, cultures, lands, and communities. Questions about data are therefore also questions about governance, responsibility, and sovereignty.
 
-From an Indigenous perspective, data is not merely a resource to be extracted, stored, and analyzed. Data represents people, relationships, histories, cultures, lands, and communities. Therefore, questions about data are also questions about governance, responsibility, and sovereignty.
+For Tribal Nations and First Nations, **data sovereignty** means that Indigenous peoples have the inherent right to govern the collection, ownership, interpretation, access, and use of data about their communities. Information concerning a Nation should not be controlled exclusively by outside institutions, governments, corporations, or researchers. Just as Nations exercise sovereignty over their lands, cultures, and governance systems, they also have a right to exercise sovereignty over their knowledge. This principle applies on both sides of the US–Canada border.
 
-For First Nations communities, **data sovereignty** means that Indigenous peoples have the inherent right to govern the collection, ownership, interpretation, access, and use of data about their communities. Information concerning a Nation should not be controlled exclusively by outside institutions, governments, corporations, or researchers. Just as communities exercise sovereignty over their lands, cultures, and governance systems, they also have a right to exercise sovereignty over their knowledge.
+## Frameworks for Exercising Data Sovereignty
 
-### OCAP® Principles
+Two complementary frameworks help put this right into practice.
 
-A practical framework for exercising First Nations data sovereignty is embodied in the **OCAP® Principles**: **Ownership, Control, Access, and Possession**.
+### OCAP®
 
-#### Ownership
+**OCAP®** (Ownership, Control, Access, and Possession) was developed by First Nations in Canada and is stewarded by the First Nations Information Governance Centre (FNIGC). OCAP® is a registered trademark of the FNIGC.
 
-First Nations collectively own information about their peoples, communities, cultures, and territories in the same way that an individual owns their personal information. Community knowledge remains the intellectual and cultural property of the Nation from which it originates.
+**Ownership.** A Nation collectively owns information about its people, culture, and territory, in the same way that an individual owns their personal information.
 
-#### Control
+**Control.** Nations have the right to control all aspects of research, data collection, management, and use involving their communities, including how data is gathered, interpreted, shared, and applied.
 
-First Nations have the right to control all aspects of research, data collection, management, and use involving their communities. This includes participation in decision-making regarding how data is gathered, interpreted, shared, and applied.
+**Access.** Nations must have access to data about themselves, regardless of where it is stored, and may determine who else can access it and under what conditions.
 
-#### Access
+**Possession.** Possession is the physical stewardship and custody of data. Ownership establishes rights; possession is the mechanism that protects them.
 
-First Nations must have access to information and data about themselves and their communities, regardless of where that information is physically stored. They also have the right to determine who else may access that information and under what conditions.
+### CARE Principles
 
-#### Possession
+The **CARE Principles for Indigenous Data Governance**, developed by the Global Indigenous Data Alliance (GIDA), are widely used by Tribal Nations and Indigenous communities in the United States and internationally. CARE stands for **Collective Benefit, Authority to Control, Responsibility, and Ethics**.
 
-Possession refers to the physical stewardship and custody of data. While ownership establishes rights, possession provides a mechanism to protect and exercise those rights through governance, infrastructure, and stewardship practices.
+**Collective Benefit.** Data ecosystems should be designed so that Indigenous peoples derive tangible benefit from the use of their data.
 
-Together, the OCAP® Principles ensure that Indigenous communities remain active participants and decision-makers rather than passive subjects of data collection. They move data governance from a model of extraction to a model of stewardship and reciprocity.
+**Authority to Control.** Indigenous peoples' rights and interests in their data must be recognized, and they must be able to govern how it is collected, accessed, and used.
 
-### The Seven Grandfather Teachings and Data Sovereignty
+**Responsibility.** Those working with Indigenous data must show how it is used to support self-determination and collective benefit, and must build the capacity of communities to govern it.
+
+**Ethics.** Indigenous rights and wellbeing should be the primary concern at every stage of the data life cycle.
+
+OCAP® centers governance and custody, while CARE centers benefit and ethics. Together they move data governance from a model of extraction to one of stewardship and reciprocity, keeping communities active decision-makers rather than passive subjects of data collection.
+
+## The Seven Grandfather Teachings and Data Sovereignty
 
 Viewed through the Seven Grandfather Teachings, data sovereignty becomes both a governance framework and an ethical responsibility.
 
 ### Wisdom (*Nbwaakaawin*)
 
-Knowledge should be managed in ways that strengthen the community and support future generations. Data systems should help communities make decisions that promote long-term well-being rather than short-term efficiency alone.
+Knowledge should be managed in ways that strengthen the community and support future generations. Data systems should promote long-term well-being rather than short-term efficiency alone. *(CARE: Collective Benefit)*
 
 ### Love (*Zaagi'idiwin*)
 
@@ -45,23 +52,23 @@ Community data represents real people and relationships, not merely records in a
 
 ### Respect (*Mnaadendimowin*)
 
-Respect requires honoring Indigenous ownership of cultural knowledge, stories, language, and community information. It also means respecting OCAP® rights and community-defined governance structures.
+Honor Indigenous ownership of cultural knowledge, stories, language, and community information, and respect community-defined governance structures. *(OCAP®: Ownership; CARE: Authority to Control)*
 
 ### Bravery (*Aakode'ewin*)
 
-Bravery calls institutions to challenge historical patterns in which Indigenous data was extracted without consent, context, or reciprocal benefit. It requires building new systems that share power and authority.
+Challenge historical patterns in which Indigenous data was extracted without consent, context, or reciprocal benefit, and build new systems that share power and authority.
 
 ### Honesty (*Gwekwaadziwin*)
 
-Honesty demands transparency about who collects data, who has access to it, how it is used, and who benefits from it. Responsible data governance requires openness regarding methodologies, assumptions, and limitations.
+Be transparent about who collects data, who has access to it, how it is used, and who benefits from it. *(OCAP®: Access; CARE: Responsibility)*
 
 ### Humility (*Dbaadendiziwin*)
 
-Humility recognizes that external organizations do not always understand the cultural context, lived experience, and meaning embedded within Indigenous knowledge. Communities themselves are often the most qualified interpreters of their own realities.
+External organizations do not always understand the cultural context and meaning embedded within Indigenous knowledge. Communities are often the most qualified interpreters of their own realities.
 
 ### Truth (*Debwewin*)
 
-Truth acknowledges that authentic understanding emerges when data, lived experience, cultural knowledge, and community voices are brought into relationship with one another.
+Authentic understanding emerges when data, lived experience, cultural knowledge, and community voices are brought into relationship with one another. *(CARE: Ethics)*
 
 ## Implications for Modern Data Ecosystems
 
@@ -77,68 +84,27 @@ A knowledge graph is especially powerful in this regard because it can model not
 - Cultural and contextual relationships
 - Community-defined meanings and classifications
 
-Such a system can answer not only:
+Such a system can answer not only *What do we know?* and *How are these things connected?*, but also:
 
-- **What do we know?**
-- **How are these things connected?**
 - **Whose knowledge is this?**
 - **Who has responsibility for it?**
 - **Who can access it?**
 - **Under what conditions should it be shared?**
-- **How do OCAP® principles apply to its use?**
+- **How do OCAP® and CARE apply to its use?**
 
 ## From Data Infrastructure to Self-Determination
 
-Ultimately, Indigenous data sovereignty reminds us that wisdom is not merely the ability to derive insights from information. Wisdom includes understanding our responsibilities to the people, communities, lands, and generations connected to that information.
+Ultimately, Indigenous data sovereignty reminds us that wisdom is not only the ability to derive insights from information. Wisdom includes understanding our responsibilities to the people, communities, lands, and generations connected to that information.
 
-The true value of a data ecosystem lies not in the volume of data it contains, but in its ability to strengthen relationships, support self-determination, and promote collective well-being.
+The true value of a data ecosystem lies in its ability to strengthen relationships, support self-determination, and promote collective well-being, not in the volume of data it holds.
 
-When guided by the Seven Grandfather Teachings and informed by OCAP® principles, a knowledge infrastructure becomes more than a repository of information. It becomes a framework for responsible stewardship, community empowerment, and shared learning—ensuring that communities remain not merely subjects of data, but sovereign stewards of their own stories and futures.
+When guided by the Seven Grandfather Teachings and informed by OCAP® and CARE, a knowledge infrastructure becomes a framework for responsible stewardship, community empowerment, and shared learning, one in which communities remain sovereign stewards of their own stories and futures.
 
+*This post offers a high-level framing. Each Tribal Nation and First Nation sets its own data governance policies and protocols, and those take precedence.*
 
+## References
 
-#V2
-
-## Data Sovereignty: Who Has the Right to Govern Knowledge?
-
-From an Indigenous perspective, data is not merely a resource to be extracted, stored, and analyzed. Data represents people, relationships, histories, cultures, lands, and communities. Therefore, questions about data are also questions about governance, responsibility, and sovereignty.
-
-For First Nations communities, **data sovereignty** means that Indigenous peoples have the inherent right to govern the collection, ownership, interpretation, access, and use of data about their communities. Information concerning a Nation should not be controlled exclusively by outside institutions, governments, corporations, or researchers. Just as communities exercise sovereignty over their lands, cultures, and governance systems, they also have a right to exercise sovereignty over their knowledge.
-
-Viewed through the Seven Grandfather Teachings, data sovereignty becomes an ethical responsibility:
-
-### Wisdom (*Nbwaakaawin*)
-Knowledge should be managed in ways that strengthen the community and support future generations.
-
-### Love (*Zaagi'idiwin*)
-Community data represents real people and relationships, not merely records in a database.
-
-### Respect (*Mnaadendimowin*)
-Honor Indigenous ownership of cultural knowledge, stories, language, and community information.
-
-### Bravery (*Aakode'ewin*)
-Challenge historical patterns in which Indigenous data was extracted without consent or reciprocal benefit.
-
-### Honesty (*Gwekwaadziwin*)
-Be transparent about who collects data, who has access to it, how it is used, and who benefits from it.
-
-### Humility (*Dbaadendiziwin*)
-Recognize that external organizations do not always understand the cultural context and meaning embedded within Indigenous knowledge.
-
-### Truth (*Debwewin*)
-Acknowledge that communities themselves are often the most authoritative interpreters of their own experiences and realities.
-
-Within a modern data ecosystem, success cannot be measured solely by how much information is integrated or how sophisticated the analytics become. Success must also be measured by whether communities retain agency over their knowledge and whether governance structures reflect their values and priorities.
-
-In the context of initiatives such as MiGreatDataLake, data sovereignty suggests that the system should function not as a centralized repository that extracts knowledge from communities, but as a shared learning ecosystem that respects community governance, supports local decision-making, and enables communities to determine how their information contributes to collective understanding.
-
-A knowledge graph is especially powerful in this regard because it can model not only data, but also the provenance, stewardship, permissions, and relationships associated with that data. The graph can answer not only:
-
-- **What do we know?**
-- **Whose knowledge is this?**
-- **Who has responsibility for it?**
-- **Under what conditions should it be shared?**
-
-Ultimately, Indigenous data sovereignty reminds us that wisdom is not merely the ability to derive insights from information. Wisdom includes understanding our responsibilities to the people, communities, and generations connected to that information.
-
-The most successful data systems will be those that strengthen both knowledge and self-determination, ensuring that communities remain not merely subjects of data, but stewards of their own stories.
+- First Nations Information Governance Centre (FNIGC). *The First Nations Principles of OCAP®.* <https://fnigc.ca/ocap-training/>
+- Global Indigenous Data Alliance (GIDA). *CARE Principles for Indigenous Data Governance.* <https://www.gida-global.org/care>
+- Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal, 19*(1), 43.
+- US Indigenous Data Sovereignty Network. <https://usindigenousdata.org/>
