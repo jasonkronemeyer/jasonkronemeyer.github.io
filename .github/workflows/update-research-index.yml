@@ -8,6 +8,9 @@ on:
       - 'research/**'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-index:
     runs-on: ubuntu-latest
@@ -26,12 +29,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet; then
+          git add research/dir.html
+          if git diff --cached --quiet; then
             echo "No changes detected"
           else
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            git add research/dir.html
             git commit -m "chore: update research index"
             git push
           fi
