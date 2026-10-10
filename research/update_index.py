@@ -13,7 +13,11 @@ files = sorted(
 )
 
 # Build HTML index with links
-html = """<!DOCTYPE html>
+html = """---
+layout: null
+permalink: /research/dir.html
+---
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
