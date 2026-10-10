@@ -1,3 +1,7 @@
+---
+layout: research-note
+---
+
 # Research Brief: From Data Infrastructure to Learning Infrastructure
 
 Connecting DIKW, MiGreatDataLake, the Digital Opportunities Compass, Project Compass, and DOIN
