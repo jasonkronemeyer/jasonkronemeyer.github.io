@@ -1,3 +1,8 @@
+---
+title: "Exploring Coordinates with Robots in Manufacturing"
+layout: page
+---
+
 ## Lesson: Exploring Coordinates with Robots in Manufacturing
 
 ### Overview 
