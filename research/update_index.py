@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Generate index.md for research directory."""
+"""Generate _index.html for research directory."""
 
 from pathlib import Path
-import re
 
 root = Path(__file__).resolve().parent
 
@@ -13,19 +12,38 @@ files = sorted(
     if p.is_file() and p.name != "index.md"
 )
 
-# Build markdown index with links
-markdown = """# Research
-
-Auto-generated index of research articles and papers.
-
+# Build HTML index with links
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Index</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.3rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Research</h1>
+  <p>Auto-generated index of research articles and papers.</p>
+  <ul>
 """
 
 for name in files:
-    # Convert filename to title (remove dashes, capitalize words)
+    # Convert filename to title (remove extension, replace dashes with spaces, title case)
     title = name.replace(".md", "").replace("-", " ").title()
-    markdown += f"- [{title}]({name})\n"
+    # Link to the markdown file (or .html if it's converted)
+    href = name.replace(".md", ".html")
+    html += f'    <li><a href="{href}">{title}</a></li>\n'
 
-# Write to index.md
-index_path = root / "index.md"
-index_path.write_text(markdown, encoding="utf-8")
-print(f"Generated {index_path}")
+html += """  </ul>
+</body>
+</html>
+"""
+
+# Write to _index.html
+output_path = root / "_index.html"
+output_path.write_text(html, encoding="utf-8")
+print(f"Generated {output_path}")
