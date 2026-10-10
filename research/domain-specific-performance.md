@@ -9,7 +9,7 @@ permalink: /research/domain-specific-performance/
 {:.lead}
 Research notes computational characteristics and suitability for targeted analytics workloads.
 
-**Author**: Jason Kronemeyer  
+**Author**: Jason F. Kronemeyer  
 **Date**: October 2025  
 **Research Area**: Data Science & Analytics
 
