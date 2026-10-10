@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate _index.html for research directory."""
+"""Generate dir.html for research directory."""
 
 from pathlib import Path
 
@@ -43,7 +43,7 @@ html += """  </ul>
 </html>
 """
 
-# Write to _index.html
-output_path = root / "_index.html"
+# Write to dir.html
+output_path = root / "dir.html"
 output_path.write_text(html, encoding="utf-8")
 print(f"Generated {output_path}")
