@@ -1,3 +1,8 @@
+---
+title: "Analyzing Internet Infrastructure Expansion with Xarray"
+layout: page
+---
+
 # Analyzing Internet Infrastructure Expansion with Xarray
 
 ## What is Xarray?
