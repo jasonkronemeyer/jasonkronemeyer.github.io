@@ -1,0 +1,47 @@
+name: Update Directory Indexes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'research/**'
+      - 'notes/**'
+      - 'papers/**'
+      - 'dev/**'
+      - 'scripts/build_dir.py'
+      - '!**/dir.html'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dir-indexes
+  cancel-in-progress: false
+
+jobs:
+  update-indexes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate dir.html files
+        run: python scripts/build_dir.py research notes papers dev
+
+      - name: Commit and push changes
+        run: |
+          git add research/dir.html notes/dir.html papers/dir.html dev/dir.html
+          if git diff --cached --quiet; then
+            echo "No changes detected"
+          else
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git commit -m "chore: update directory indexes"
+            git pull --rebase
+            git push
+          fi
