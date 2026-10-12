@@ -1,4 +1,6 @@
 ---
+layout: page
+status: draft
 title: "From Regional Innovation to Statewide Transformation"
 author: "Jason Kronemeyer's Digital Analyst"
 date: 2026-04-30
