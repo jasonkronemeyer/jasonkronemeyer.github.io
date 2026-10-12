@@ -34,13 +34,13 @@ That proposition is my synthesis. In the sections that follow, I use Pearl, Toyo
 
 ## Pearl: Seeing Something Is Not the Same as Causing It
 
-Judea Pearl's causal hierarchy distinguishes three levels: **association, intervention, and counterfactuals**—or, in his shorthand, seeing, doing, and imagining or retrospection. At the associational level, we ask what observing one thing tells us about another. At the interventional level, we ask what would happen if we deliberately changed something. At the counterfactual level, we ask whether *X* caused *Y* and what might have happened had we acted differently (Pearl, "Three Layer"). 【1-8472b9】
+Judea Pearl's causal hierarchy distinguishes three levels: **association, intervention, and counterfactuals**—or, in his shorthand, seeing, doing, and imagining or retrospection. At the associational level, we ask what observing one thing tells us about another. At the interventional level, we ask what would happen if we deliberately changed something. At the counterfactual level, we ask whether *X* caused *Y* and what might have happened had we acted differently (Pearl, "Three Layer").[^1]
 
 Imagine that students who use an AI tutor perform better academically. We have observed an association:
 
 > **AI use ↔ higher performance**
 
-But the observation alone does not establish that AI caused the improvement. Statistical analysis can describe associations under observed conditions, while causal analysis asks about changes produced by treatments or external interventions. Pearl argues that causal conclusions depend on assumptions that observational data alone cannot establish (Pearl, "Causal Inference" 99–101). 【2-88096b】 So the next question is not simply whether the association appears again:
+But the observation alone does not establish that AI caused the improvement. Statistical analysis can describe associations under observed conditions, while causal analysis asks about changes produced by treatments or external interventions. Pearl argues that causal conclusions depend on assumptions that observational data alone cannot establish (Pearl, "Causal Inference" 99–101).[^2] So the next question is not simply whether the association appears again:
 
 > **What happens if we deliberately change X?**
 
@@ -48,13 +48,13 @@ This moves the inquiry from observing to intervening. Pearl also gives us anothe
 
 > **Would Y have been different had X been different?**
 
-That is counterfactual reasoning. Pearl's hierarchy describes a progression toward increasingly powerful causal questions; higher-level answers cannot simply be recovered from lower-level observational information alone (Pearl, "Three Layer"). 【1-8472b9】 This distinction matters in the age of AI: a system can discover a pattern, a person can see one, and an organization can measure one, but none of those facts alone explains why it exists. That application to AI readiness is mine; Pearl provides the causal distinction, which I apply to what organizations need to understand before using AI to make or inform decisions.
+That is counterfactual reasoning. Pearl's hierarchy describes a progression toward increasingly powerful causal questions; higher-level answers cannot simply be recovered from lower-level observational information alone (Pearl, "Three Layer").[^1] This distinction matters in the age of AI: a system can discover a pattern, a person can see one, and an organization can measure one, but none of those facts alone explains why it exists. That application to AI readiness is mine; Pearl provides the causal distinction, which I apply to what organizations need to understand before using AI to make or inform decisions.
 
 ---
 
 ## Toyota: Understand the Work Before Putting It Into the Machine
 
-Toyota approaches the relationship between people, processes, and machines from a different direction. The Toyota Production System describes *jidoka* as "automation with a human touch." Toyota explains that creating such machines begins with people able to perform work smoothly and correctly by hand, identify abnormalities, implement *kaizen*, and eliminate waste and inconsistency before incorporating the appropriate understanding into machines ("Toyota Production System"). 【3-3fbcac】【4-f34b7e】 In short: **do the work, understand it, improve it, recognize abnormalities, and only then incorporate that understanding into a machine.**
+Toyota approaches the relationship between people, processes, and machines from a different direction. The Toyota Production System describes *jidoka* as "automation with a human touch." Toyota explains that creating such machines begins with people able to perform work smoothly and correctly by hand, identify abnormalities, implement *kaizen*, and eliminate waste and inconsistency before incorporating the appropriate understanding into machines ("Toyota Production System").[^3] In short: **do the work, understand it, improve it, recognize abnormalities, and only then incorporate that understanding into a machine.**
 
 Toyota describes these principles in manufacturing, not as an AI-readiness framework. The connection to AI is mine, and it leads me to restate the principle this way:
 
@@ -68,15 +68,15 @@ We might immediately diagnose the problem as insufficient AI training and respon
 
 > **Do we understand the instructional process well enough to determine what, if anything, should be delegated to or supported by AI?**
 
-The school example and the questions it raises are mine, not Toyota findings. Toyota contributes the more foundational philosophy: human understanding and improvement of work precede incorporating that understanding into machines. Toyota also emphasizes that machines, robots, and IT do not implement *kaizen* by themselves; human wisdom and ingenuity remain essential ("Toyota Production System"). 【3-3fbcac】 I see that as a profound idea for AI readiness.
+The school example and the questions it raises are mine, not Toyota findings. Toyota contributes the more foundational philosophy: human understanding and improvement of work precede incorporating that understanding into machines. Toyota also emphasizes that machines, robots, and IT do not implement *kaizen* by themselves; human wisdom and ingenuity remain essential ("Toyota Production System").[^3] I see that as a profound idea for AI readiness.
 
 ---
 
 ## Toyama: Look Beneath the Technology
 
-Kentaro Toyama gives us another way to look beneath a visible effect. In "Technology as Amplifier in International Development," he argues that information technology primarily magnifies existing human and institutional forces rather than operating as an independently transformative force. His amplification theory identifies three mechanisms associated with differences in **access, capacity, and motivation** (Toyama 75–82). 【5-0196c4】【6-a86409】
+Kentaro Toyama gives us another way to look beneath a visible effect. In "Technology as Amplifier in International Development," he argues that information technology primarily magnifies existing human and institutional forces rather than operating as an independently transformative force. His amplification theory identifies three mechanisms associated with differences in **access, capacity, and motivation** (Toyama 75–82).[^4]
 
-Toyama makes the argument particularly clear when describing the relationship between people and technology: people possess intent and capacity, while technology multiplies human capacity in the direction of human intent. From that premise, he argues that technology cannot substitute for missing human intent or capacity (Toyama 75–82). 【5-0196c4】
+Toyama makes the argument particularly clear when describing the relationship between people and technology: people possess intent and capacity, while technology multiplies human capacity in the direction of human intent. From that premise, he argues that technology cannot substitute for missing human intent or capacity (Toyama 75–82).[^4]
 
 This changes the question we ask when technology appears to explain an outcome. Instead of stopping with:
 
@@ -88,7 +88,7 @@ Toyama gives us reason to ask:
 
 Suppose two schools adopt similar technological capabilities, but one achieves meaningful improvements while the other struggles. Rather than assuming that the difference begins with the technology, I would ask what existing practices and organizational capacities each system has, and what human knowledge, motivation, relationships, and intent those capacities depend on. Toyama does not present this as a formal causal pathway; it is my application of his amplification argument.
 
-What Toyama establishes is that technology's effects are conditioned by underlying human and institutional forces, and technology cannot simply compensate for missing intent and capacity (Toyama 75–82). 【5-0196c4】 What I take from it is a diagnostic rule:
+What Toyama establishes is that technology's effects are conditioned by underlying human and institutional forces, and technology cannot simply compensate for missing intent and capacity (Toyama 75–82).[^4] What I take from it is a diagnostic rule:
 
 > **When technology appears to explain an effect, keep looking underneath the technology.**
 
@@ -96,7 +96,7 @@ What Toyama establishes is that technology's effects are conditioned by underlyi
 
 ## From Effects to Process Knowledge
 
-Pearl, Toyota, and Toyama did not jointly propose an effect-to-cause framework. I bring their ideas together because each helps answer a different part of the question. Pearl distinguishes observing an association from intervening and reasoning counterfactually; Toyota emphasizes understanding and improving work before incorporating that understanding into machines; Toyama explains how technology can amplify existing human and institutional intent and capacity. 【1-8472b9】【2-88096b】【3-3fbcac】【5-0196c4】
+Pearl, Toyota, and Toyama did not jointly propose an effect-to-cause framework. I bring their ideas together because each helps answer a different part of the question. Pearl distinguishes observing an association from intervening and reasoning counterfactually; Toyota emphasizes understanding and improving work before incorporating that understanding into machines; Toyama explains how technology can amplify existing human and institutional intent and capacity.[^1][^2][^3][^4]
 
 From those contributions, I propose a diagnostic sequence of my own:
 
@@ -112,9 +112,9 @@ This sequence is not a causal model supplied by any of the three sources, nor do
 
 The three perspectives converge on a question I think is missing from many conversations about AI readiness: **Do we understand what we do?** Organizations often begin with “What can AI do?” But knowing that a process exists is not the same as understanding it. A procedure may document expected steps, a workflow may show how information moves, and a dataset may record what happened; process knowledge goes further.
 
-To understand a process, we need to know what information people rely on, how decisions are made, where judgment and exceptions enter, what relationships matter, what outcomes we seek, and why the process behaves differently under different conditions. This is my framing of process knowledge. Pearl helps show why causal questions cannot be answered simply by extracting patterns from observed data (Pearl, "Causal Inference" 99–101). 【2-88096b】 Toyota offers a practical analogue in its emphasis on understanding and improving work before embedding capabilities in machinery ("Toyota Production System"). 【3-3fbcac】 Toyama adds that technology's contribution depends on the human and institutional intent and capacity it amplifies (Toyama 75–82). 【5-0196c4】 The sources establish those respective ideas; the connection I make among them is mine.
+To understand a process, we need to know what information people rely on, how decisions are made, where judgment and exceptions enter, what relationships matter, what outcomes we seek, and why the process behaves differently under different conditions. This is my framing of process knowledge. Pearl helps show why causal questions cannot be answered simply by extracting patterns from observed data (Pearl, "Causal Inference" 99–101).[^2] Toyota offers a practical analogue in its emphasis on understanding and improving work before embedding capabilities in machinery ("Toyota Production System").[^3] Toyama adds that technology's contribution depends on the human and institutional intent and capacity it amplifies (Toyama 75–82).[^4] The sources establish those respective ideas; the connection I make among them is mine.
 
-That connection matters to my **First Five Things to Teach a Computer**, my original framework. The First Five should not be attributed to Pearl, Toyota, or Toyama; their work helps me contextualize my own. The familiar question is, “What are the first things we should teach a computer?” The logically prior question is: **Do we understand the human system well enough to know what should be taught?**
+That connection matters to my **First Five Things to Teach a Computer**, my original framework.[^5] The First Five should not be attributed to Pearl, Toyota, or Toyama; their work helps me contextualize my own. The familiar question is, “What are the first things we should teach a computer?” The logically prior question is: **Do we understand the human system well enough to know what should be taught?**
 
 If we do not, we risk teaching machines patterns without understanding what produces them, encoding procedures without knowing why they exist, automating inherited practices without asking whether they still make sense, or treating statistical associations as causes. We might give AI access to vast organizational information without the process knowledge needed to interpret what that information means. These are implications I draw from the synthesis, not claims made by the cited sources.
 
@@ -151,3 +151,56 @@ Pearl, Judea. "The Three Layer Causal Hierarchy." *UCLA Computer Science*, https
 Toyota Motor Corporation. "Toyota Production System." *Toyota Motor Corporation*, https://global.toyota/en/company/vision-and-philosophy/production-system/. Accessed 12 Oct. 2026.
 
 Toyama, Kentaro. "Technology as Amplifier in International Development." *Proceedings of the 2011 iConference*, Association for Computing Machinery, 2011, pp. 75–82. https://doi.org/10.1145/1940761.1940772.
+
+---
+
+## Further Reading
+
+### The First Five and Related Writings
+
+The First Five is my original framework. These writings document its development from early programming experiences toward computational thinking, natural-language processing, AI literacy, and process knowledge.
+
+Kronemeyer, Jason. "The First 5 Things to Teach a Computer." *Jason Kronemeyer*, 30 Aug. 2024, [www.jasonkronemeyer.com/education/computer-science/programming/2024/08/30/first-5-things-to-teach-computer.html](https://www.jasonkronemeyer.com/education/computer-science/programming/2024/08/30/first-5-things-to-teach-computer.html).
+The original published articulation of the First Five: communication, music, art, mathematics, and gaming. It introduces the student-as-teacher relationship and identifies the five as building blocks of computational thinking.[^5]
+
+Kronemeyer, Jason. "Teaching Computers how to Communicate: spaCy, NLTK, and Stanford's NLP Textbook." *Jason Kronemeyer*, 4 Nov. 2025, [www.jasonkronemeyer.com/ai/nlp/education/tools/2025/11/04/NLP-Spacy.html](https://www.jasonkronemeyer.com/ai/nlp/education/tools/2025/11/04/NLP-Spacy.html).
+A later derivative of the First Five developing the distinction between producing output and interpreting human communication.[^6]
+
+Kronemeyer, Jason. "The First Five Things to Teach a Computer: Learning AI by Becoming the Teacher." *Jason Kronemeyer*, 23 Mar. 2026, [www.jasonkronemeyer.com/2026/03/23/ai-connect-curiosity.html](https://www.jasonkronemeyer.com/2026/03/23/ai-connect-curiosity.html).
+Extends the First Five into AI literacy and explores learning by teaching, curiosity, systems thinking, iteration, and the changing relationship between learner and intelligent system.[^7]
+
+Kronemeyer, Jason. "What Can a Student Learn by Teaching a Computer? From the First Five to STEAM, Systems Thinking, and AI Readiness." *Jason Kronemeyer*, 12 Oct. 2026, [www.jasonkronemeyer.com/2026/10/12/first-5.html](https://www.jasonkronemeyer.com/2026/10/12/first-5.html).
+A companion exploration connecting the First Five to STEAM, students as teachers, systems thinking, and the human capacities required for AI readiness.[^8]
+
+### Causal Inference, Process Knowledge, and Amplification
+
+These works provide external intellectual context for the foundational ideas brought into dialogue with the First Five. They did not originate the synthesis or framework developed here.
+
+Pearl, Judea, and Dana Mackenzie. *The Book of Why: The New Science of Cause and Effect*. Basic Books, 2018.
+An accessible exposition of the causal hierarchy, structural causal models, the do-operator, and counterfactuals, clarifying why statistical correlations cannot substitute for causal understanding.
+
+Toyama, Kentaro. *Geek Heresy: Rescuing Social Change from the Cult of Technology*. PublicAffairs, 2015.
+Expands the Law of Amplification across education, healthcare, and international development, demonstrating why technology magnifies underlying human and institutional intent and capacity rather than replacing them.
+
+Ohno, Taiichi. *Toyota Production System: Beyond Large-Scale Production*. Productivity Press, 1988.
+The seminal articulation of *jidoka* (autonomation / automation with a human touch) and *kaizen*, establishing why human understanding and manual mastery must precede mechanical encoding.
+
+---
+
+## Notes
+
+[^1]: Pearl's three-layer causal hierarchy distinguishes association (seeing / $P(y|x)$), intervention (doing / $P(y|do(x))$), and counterfactuals (imagining, retrospection / $P(y_x|x', y')$). Higher-level causal questions cannot be answered from lower-level associational data alone without causal assumptions.
+
+[^2]: In "Causal Inference in Statistics: An Overview" (2009, pp. 99–101), Pearl emphasizes that causal questions require causal models and assumptions; an association observed in data cannot substantiate causal claims without external structural knowledge.
+
+[^3]: In official documentation of the Toyota Production System, Toyota defines *jidoka* as "automation with a human touch" and describes a sequence where workers master the process by hand, identify abnormalities, implement *kaizen*, and only then embed that understanding into machines. Machines and automated systems do not perform *kaizen* independently.
+
+[^4]: Toyama's amplification theory ("Technology as Amplifier in International Development," 2011, pp. 75–82) identifies three primary mechanisms—access, capacity, and motivation—and argues that technology multiplies human capacity in the direction of human intent, but cannot substitute for missing intent or capacity.
+
+[^5]: The First Five Things to Teach a Computer is my original framework, first articulated on 30 Aug. 2024. It identifies communication, music, art, mathematics, and gaming as foundational experiences from teaching my first computer in 1983, positioning learners as teachers of digital pupils.
+
+[^6]: The 2025 *Teaching Computers how to Communicate* article examines the progression from generating mechanical output to understanding human communication through natural-language processing.
+
+[^7]: The 2026 *Learning AI by Becoming the Teacher* article applies the First Five specifically to AI literacy, establishing that teaching forces clarity and active evaluation.
+
+[^8]: The 12 Oct. 2026 companion article *What Can a Student Learn by Teaching a Computer?* traces the First Five through STEAM and systems thinking to show how learning by teaching prepares students for AI readiness.
