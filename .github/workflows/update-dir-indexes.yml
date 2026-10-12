@@ -9,6 +9,7 @@ on:
       - 'notes/**'
       - 'papers/**'
       - 'dev/**'
+      - 'blog/**'
       - 'scripts/build_dir.py'
       - '!**/dir.html'
   workflow_dispatch:
@@ -31,11 +32,11 @@ jobs:
           python-version: '3.11'
 
       - name: Generate dir.html files
-        run: python scripts/build_dir.py research notes papers dev
+        run: python scripts/build_dir.py research notes papers dev blog
 
       - name: Commit and push changes
         run: |
-          git add research/dir.html notes/dir.html papers/dir.html dev/dir.html
+          git add research/dir.html notes/dir.html papers/dir.html dev/dir.html blog/dir.html
           if git diff --cached --quiet; then
             echo "No changes detected"
           else
