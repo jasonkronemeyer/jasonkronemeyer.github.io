@@ -1,3 +1,10 @@
+---
+layout: research-note
+title: "The Critical Role of Qualitative Inquiry in Data Science"
+author: "Jason Kronemeyer"
+status: research
+---
+
 ### The Critical Role of Qualitative Inquiry in Data Science
 
 Author: Jason Kronemeyer 

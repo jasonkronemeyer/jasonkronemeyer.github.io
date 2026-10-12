@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Human Infrastructure Knowledge Graph Ontology"
+status: research
+---
+
 Here is an ontology description for a knowledge graph based on the document "Human Infrastructure of Broadband" by Amelia Bryne and Revati Prasad 1:
 Ontology Description for Knowledge Graph
 Classes:

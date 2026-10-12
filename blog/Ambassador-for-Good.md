@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Ambassadors for Good: Weaving the Seven Grandfather Teachings with 2 Corinthians"
+status: draft
+---
+
 # Ambassadors for Good. 
 
 

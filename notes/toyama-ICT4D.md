@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Key Insights from Toyama's 'From Needs to Aspirations in IT for Development'"
+status: research
+---
+
 Summary of **Kentaro Toyama’s “From Needs to Aspirations in Information Technology for Development”** based on well‑established scholarship and Toyama’s core arguments.
 
 ---

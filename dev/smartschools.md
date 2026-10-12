@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Smart Schools: Advanced Technologies for Energy Efficiency and Sustainability"
+status: research
+---
+
 # Smart Schools: Advanced Technologies for Energy Efficiency and Sustainability
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Blue Tech + Fiber Optics: A Freshwater Power Combo in the EUP"
+status: draft
+---
+
 ### 💧 Blue Tech + Fiber Optics: A Freshwater Power Combo in the EUP
 
 The Eastern Upper Peninsula is already making strides in freshwater innovation, but **fiber optic expansion is supercharging that momentum** in some powerful ways:

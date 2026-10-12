@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Lesson: Coordinate Reference Systems (CRS) and Distance Calculations with Python"
+status: research
+---
+
 ## Lesson: Coordinate Reference Systems (CRS) and Distance Calculations with Python
 ---
 ### Overview

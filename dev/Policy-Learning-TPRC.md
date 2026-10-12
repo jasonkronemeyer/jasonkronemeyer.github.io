@@ -1,5 +1,3 @@
-Here’s the requested summary of the most relevant TPRC report in Jekyll Markdown format:
-
 ---
 title: "Summary of TPRC Report: A Comprehensive Framework to Monitor, Evaluate, and Guide Broadband & Digital Equity Policy"
 author: "Johannes Bauer, Pierrette Renée Dagg, Colin Rhinesmith, Greta Byrum, Aaron Schill"

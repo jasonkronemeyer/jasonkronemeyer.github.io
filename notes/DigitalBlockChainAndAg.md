@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "American Innovation and the Future of Digital Assets: On-Chain Tools for an Off-Chain World"
 date: 2025-04-09
 author: Jason Kronemeyer

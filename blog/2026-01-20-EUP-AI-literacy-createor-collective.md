@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Modeling an EUP AI Literacy & Creator Collective"

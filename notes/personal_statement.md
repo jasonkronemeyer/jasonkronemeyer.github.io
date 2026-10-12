@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Personal Statement"
+date: 2021-05-21
+author: "Jason Kronemeyer"
+---
+
 Personal Statement 
 
 May 21, 2021

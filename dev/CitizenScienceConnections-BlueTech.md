@@ -1,4 +1,7 @@
 ---
+layout: research-note
+title: "Citizen Science Connections for Blue Tech Student Engagement"
+status: research
 ---
 
 # Citizen Science Connections for Blue Tech Student Engagement

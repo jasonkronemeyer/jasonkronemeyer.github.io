@@ -1,3 +1,10 @@
+---
+layout: research-note
+title: "Why DC-Powered Lighting Instead of PoE Lighting?"
+date: 2026-09-22
+status: research
+---
+
 **Why do I talk about DC-powered lighting instead of PoE lighting?**
 
 Because **DC-powered lighting is the destination. PoE is only one possible path.**

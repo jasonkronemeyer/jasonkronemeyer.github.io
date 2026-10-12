@@ -1,4 +1,5 @@
 ---
+layout: research-note
 title: "The DOIN Provenance Framework: Extending the Digital Opportunities Compass Toward a Verifiable Policy Learning Machine"
 subtitle: "Abstract and Acknowledgments"
 author: "Jason Kronemeyer"

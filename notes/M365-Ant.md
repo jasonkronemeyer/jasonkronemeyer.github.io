@@ -1,4 +1,7 @@
 ---
+layout: research-note
+title: "Today's Vibe: Anthropic Models come to M365"
+status: research
 ---
 
 ## Today's Vibe 

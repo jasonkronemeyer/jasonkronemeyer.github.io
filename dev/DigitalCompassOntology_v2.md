@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Digital Compass Ontology v2: Integrating Theory and Practice"
+status: research
+---
+
 # Digital Compass Ontology v2: Integrating Theory and Practice
 
 This document represents the **Version 2.0** evolution of the Digital Compass Ontology. It expands the initial operational model (Navigators & Populations) to include the **theoretical foundations** (Sen, Appadurai, Dweck) and the **causal mechanisms** required for the Bayesian Intelligence Network.

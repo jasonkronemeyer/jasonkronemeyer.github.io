@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Lesson: Exploring Coordinates with CNC and Robots in Manufacturing"
+status: research
+---
+
 ## Lesson: Exploring Coordinates with CNC and Robots in Manufacturing
 
 ### Overview 

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Ladder Logic: Foundations for Industrial Automation and K-12 STEM"
+status: draft
+---
+
 ### Ladder Logic 
 
 #### What is Ladder Logic?

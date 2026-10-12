@@ -1,1 +1,7 @@
-#### Practice Notebooks
+---
+layout: default
+title: "Practice Notebooks"
+---
+
+# Practice Notebooks
+

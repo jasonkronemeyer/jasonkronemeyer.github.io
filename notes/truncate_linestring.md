@@ -1,3 +1,10 @@
+---
+layout: research-note
+title: "Function to Truncate LineStrings within a Polygon"
+author: "Jason Kronemeyer"
+status: research
+---
+
 ### Function to Truncate LineStrings within a Polygon
 
 By: Jason Kronemeyer 

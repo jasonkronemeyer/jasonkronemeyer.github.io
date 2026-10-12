@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Digital Compass Ontologies: Navigator, Infrastructure, and Skills Feedback"
+status: research
+---
+
 The development of the Digital Compass Navigator, Infrastructure, and Skills ontologies and associated knowledge graphs involves the following steps and suggestions for improvement:
 
 ### Key Components

@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Voice & Method Style Guide"
 author: "Jason F. Kronemeyer"
 purpose: "A reusable guide for replicating a candid, evidence-tiered, essayist voice across op-eds, briefs, filings, and email, with context-specific mini-templates drawn from Jason's own published structures."

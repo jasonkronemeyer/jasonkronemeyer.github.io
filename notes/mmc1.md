@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Universities as Regional Anchor Institutions: The Bayh–Dole Multiplier in Place‑Based Economies"
+status: research
+---
+
 Below is a regionally aligned anchor‑institution framing, written in a Compass voice and professional, universal language, and grounded strictly in the concepts and figures you provided—without introducing new claims or external data.
 
 ACT 04 — Universities as Regional Anchor Institutions

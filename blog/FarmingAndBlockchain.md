@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Blockchain Meets the Barn: How Taylor Creek Farm Is Embracing the Future of Dairy"
+author: "Jason Kronemeyer"
+status: draft
+---
+
 # Blockchain Meets the Barn: How Taylor Creek Farm Is Embracing the Future of Dairy - A future look.
 
 DRAFT

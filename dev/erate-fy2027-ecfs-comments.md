@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Comments of Jason Kronemeyer on the Draft FY2027 Eligible Services List and E-Rate Modernization"
 filer: "Jason Kronemeyer"
 filer_role: "Community Technologist, EUPConnect Collaborative"

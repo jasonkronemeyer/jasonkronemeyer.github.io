@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "What is Markdown? Benefits, Syntax, and Guide"
+status: research
+---
+
 
 ### What is Markdown?
 

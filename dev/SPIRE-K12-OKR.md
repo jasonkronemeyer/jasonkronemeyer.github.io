@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "SPIRE 5-Star Key Results for a K–12 School"
+status: research
+---
+
 What it would mean for a K–12 school to achieve a SPIRE 5-star rating, and the key results that would be necessary:
 
 ---

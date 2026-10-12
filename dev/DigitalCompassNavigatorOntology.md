@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Developing the Ontology for The Digital Compass Navigator and the Populations they Serve"
+status: research
+---
+
 # Developing the Ontology for The Digital Compass Navigator and the Populations they Serve
 
 The following is towards developing an ontology and assocated knowledge graph for Digital Compass Navigators and the Populations they serve. 

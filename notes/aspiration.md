@@ -1,3 +1,9 @@
+---
+layout: research-note
+title: "Community Aspiration Indicators Framework"
+status: research
+---
+
 # Community Aspiration Indicators Framework
 
 > **Community Aspiration** is the collective belief, desire, and willingness of a community to pursue a different future through action, investment, learning, and civic engagement.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Setting the Bearings: What E-Rate's FY2027 Eligible Services List Is Missing — and How to Modernize It for the ICET Era"
 subtitle: "The frontier is no longer reaching the schoolhouse door. It's rebuilding what happens inside the walls."
 author: "Jason Kronemeyer"

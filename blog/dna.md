@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Building a Community Based Distributed Digital Infrastructure Platform: Concept Paper"
+status: draft
+---
+
 # Concept Paper  
 ## Building a Community Based Distributed Digital Infrastructure Platform
 

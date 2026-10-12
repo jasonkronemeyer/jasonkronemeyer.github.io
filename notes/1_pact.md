@@ -1,4 +1,7 @@
 ---
+layout: research-note
+title: "How Do You Eat an Elephant? One 'Pact' at a Time"
+status: research
 ---
 
 ## How Do You Eat an Elephant? One "Pact" at a Time
