@@ -138,7 +138,7 @@ That is a different starting point from **data → model → AI**. It begins wit
 
 ## About the Author
 
-**Jason Kronemeyer** is a community technologist and advisor working at the intersection of broadband, data infrastructure, artificial intelligence, knowledge management, intelligent infrastructure, and community development. His work focuses on how communities and institutions build the human, technical, and organizational capacity needed to use emerging technologies meaningfully. He is the originator of the **First Five Things to Teach a Computer** framework and is developing **Compass Next** as part of his broader work on AI readiness, process knowledge, organizational learning, and the relationship between human and machine intelligence.
+**Jason Kronemeyer** is a community technologist and advisor working at the intersection of broadband, data infrastructure, artificial intelligence, knowledge management, intelligent infrastructure, and community development. His work focuses on how communities and institutions build the human, technical, and organizational capacity needed to use emerging technologies meaningfully. He is the originator of the **First Five Things to Teach a Computer** framework and is developing the **Digital Opportunities Intelligence Network (DOIN)** as part of his broader work on AI readiness, process knowledge, organizational learning, and the relationship between human and machine intelligence.
 
 ---
 
