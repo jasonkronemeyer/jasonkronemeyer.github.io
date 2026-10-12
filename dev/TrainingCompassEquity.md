@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Equality vs. Equity: Why the Framework Focuses on Equity
 
 Understanding the crucial distinction between equal treatment and equitable outcomes—and why Sen's framework prioritizes equity.

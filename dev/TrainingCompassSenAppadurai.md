@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Sen + Appadurai: The Complete Capability Framework
 
 How Amartya Sen's **Capabilities Approach** and Arjun Appadurai's **Capacity to Aspire** work together to explain digital equity—and why you need BOTH in your framework.

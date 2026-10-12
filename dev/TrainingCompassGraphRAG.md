@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # GraphRAG: From Data to Decisions
 
 GraphRAG (Graph Retrieval-Augmented Generation) provides the **AI question-answering interface** that grounds LLM responses in evidence from your knowledge graph, enabling policy-relevant queries with traceable reasoning.

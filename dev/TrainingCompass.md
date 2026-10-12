@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 Using "Fetch Web Page"
 
 Fetched https://quello.msu.edu/digital-opportunities-compass-metrics-to-monitor-evaluate-and-guide-broadband-and-digital-equity-policy/

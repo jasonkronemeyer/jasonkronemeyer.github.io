@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Measuring What Matters: From Theory to Data
 
 How to operationalize the framework into actual measurements that drive policy decisions.

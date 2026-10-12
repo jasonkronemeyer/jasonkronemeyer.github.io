@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Proving What Works: Causal Inference in Digital Equity
 
 How to establish that interventions CAUSE outcomes, not just correlate—the science of proving your policy works.

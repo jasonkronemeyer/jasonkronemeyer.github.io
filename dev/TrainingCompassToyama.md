@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Kentaro Toyama - The Amplification Thesis
 
 Kentaro Toyama is a computer scientist and technology researcher whose **Law of Amplification** explains why technology alone doesn't solve social problems—and why your digital equity framework's focus on human capacity is essential.

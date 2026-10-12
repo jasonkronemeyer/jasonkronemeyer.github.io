@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Project Compass: Digital Opportunities Intelligence Network (DOIN)
 **Status:** Working draft for Project Compass (Merit Network)
 ## Complete Framework Overview

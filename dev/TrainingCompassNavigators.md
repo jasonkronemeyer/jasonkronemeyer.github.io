@@ -1,3 +1,8 @@
+---
+layout: research-note
+status: research
+---
+
 # Digital Navigator Role: Theory to Practice
 
 How digital navigators operationalize Sen, Appadurai, Dweck, and Toyama theories to build digital equity at the community level.
