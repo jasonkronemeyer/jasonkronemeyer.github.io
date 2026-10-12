@@ -25,6 +25,7 @@ tags:
   - NECA 726-2026
 excerpt: "A five-part series exploring Fault Managed Power (FMP) and Class 4 power systems across workforce development, smart school campuses, rural infrastructure strategy, cross-discipline convergence, and lessons from twenty years of broadband expansion."
 ---
+
 # Fault Managed Power and the Future of Community Infrastructure
 ### Five Perspectives on the Convergence of Energy, Communications, and Community Capacity
 
@@ -53,119 +54,89 @@ When new technologies emerge, the conversation often begins with products, stand
 
 Fault Managed Power presents an opportunity to rethink not only how power is distributed within buildings but also how communities prepare for increasingly interconnected infrastructure. As broadband, information technology, building automation, physical security, lighting controls, and intelligent energy systems continue to converge, the workforce supporting these systems must evolve as well.
 
-Throughout my career, I have observed that successful infrastructure adoption rarely begins with technology. It begins with people. Communities that seek to benefit from emerging technologies must first build the human capacity necessary to understand, deploy, operate, and sustain them.
-
-Future technicians may need to understand fiber optics, networking, structured cabling, cybersecurity, intelligent building controls, and power distribution as components of a single integrated ecosystem. The traditional boundaries between these disciplines are becoming less distinct every year.
+Throughout my career, I have observed that successful infrastructure adoption rarely begins with technology. It begins with people. Communities that seek to benefit from emerging technologies must first build the human capacity necessary to understand, deploy, operate, and sustain them. Future technicians may need to understand fiber optics, networking, structured cabling, cybersecurity, intelligent building controls, and power distribution as components of a single integrated ecosystem. The traditional boundaries between these disciplines are becoming less distinct every year.
 
 Fault Managed Power is particularly interesting because it sits directly at this intersection. It creates opportunities for electricians, communications technicians, facility managers, and information technology professionals to work together in new ways. More importantly, it encourages educational institutions and workforce organizations to think about infrastructure holistically rather than through isolated technical silos.
 
-Many rural communities face a familiar challenge. They know change is coming, but they often struggle to determine when to invest in preparation. Waiting until widespread demand arrives can place communities in a reactive position. Building workforce capacity beforehand creates options.
+Many rural communities face a familiar challenge: they know change is coming, but they often struggle to determine when to invest in preparation. Waiting until widespread demand arrives can place communities in a reactive position, whereas building workforce capacity beforehand creates options. The broadband experience offers an instructive example—communities that invested early in digital literacy, technical education, and workforce readiness were often better positioned to benefit when broadband infrastructure expanded. The same lesson applies directly to Fault Managed Power.
 
-The broadband experience offers an instructive example. Communities that invested early in digital literacy, technical education, and workforce readiness were often better positioned to benefit when broadband infrastructure expanded. The same lesson may apply to Fault Managed Power.
-
-The future of Fault Managed Power will depend on more than technical specifications and deployment projects. It will depend on whether communities prepare people to understand and leverage its capabilities.
-
-In the end, workforce development is infrastructure development.
+The future of Fault Managed Power will depend on more than technical specifications and deployment projects; it will depend on whether communities prepare people to understand and leverage its capabilities. In the end, workforce development is infrastructure development.
 
 ---
 ## Article 2: From Broadband to Building Infrastructure
 ### Reimagining the Smart Campus
 
-For decades, educational facilities treated power systems and communication systems as separate infrastructures. Electricians handled electrical systems. Technology departments managed networks. Building automation systems operated independently. Security systems occupied their own domain.
+For decades, educational facilities treated power systems and communication systems as separate infrastructures. Electricians handled electrical systems, technology departments managed networks, building automation systems operated independently, and security systems occupied their own domain. That model increasingly reflects the past rather than the future.
 
-That model increasingly reflects the past rather than the future.
+Modern educational facilities rely on interconnected systems that support learning, safety, operations, and community engagement. Wireless networks, security cameras, access controls, environmental sensors, intelligent lighting, emergency communications, and instructional technologies now function as components of a larger ecosystem. As communities plan the next generation of school facilities, they have an opportunity to think differently about the infrastructure that supports these systems.
 
-Modern educational facilities rely on interconnected systems that support learning, safety, operations, and community engagement. Wireless networks, security cameras, access controls, environmental sensors, intelligent lighting, emergency communications, and instructional technologies now function as components of a larger ecosystem.
+Fault Managed Power offers an intriguing framework for that discussion. Combined with fiber-optic networks and modern communications technologies, FMP can help support infrastructure architectures designed around adaptability and scalability. Imagine a future school campus where learning spaces, security systems, environmental monitoring, and building controls operate on a common infrastructure designed for change. As educational needs evolve, the infrastructure can evolve with them.
 
-As communities plan the next generation of school facilities, they have an opportunity to think differently about the infrastructure that supports these systems. Fault Managed Power offers an intriguing framework for that discussion. Combined with fiber-optic networks and modern communications technologies, FMP can help support infrastructure architectures designed around adaptability and scalability.
+This concept is especially vital in rural communities, where facilities routinely serve multiple purposes. Schools frequently function as educational institutions, workforce development centers, emergency response locations, meeting venues, athletic complexes, and community gathering spaces. Infrastructure decisions made today will influence these community anchors for decades.
 
-Imagine a future school campus where learning spaces, security systems, environmental monitoring, and building controls operate on a common infrastructure designed for change. As educational needs evolve, the infrastructure can evolve with them.
+The benefits extend well beyond technical performance. Integrated infrastructure planning improves operational efficiency, simplifies ongoing management, enhances structural flexibility, and supports future innovation. The conversation surrounding Fault Managed Power should therefore focus on outcomes rather than technology alone. Communities do not invest in power distribution systems simply because they are interesting—they invest in capabilities that improve learning, safety, resilience, and opportunity.
 
-This concept is especially important in rural communities, where facilities often serve multiple purposes. Schools frequently function as educational institutions, workforce development centers, emergency response locations, meeting venues, athletic complexes, and community gathering spaces. Infrastructure decisions made today may influence these facilities for decades.
-
-The benefits extend beyond technical performance. Integrated infrastructure planning can improve operational efficiency, simplify management, enhance flexibility, and support future innovation.
-
-The conversation surrounding Fault Managed Power should therefore focus on outcomes rather than technology alone. Communities are not investing in power distribution systems because they are interesting. They are investing in capabilities that improve learning, safety, resilience, and opportunity.
-
-The smart campus of the future will not be defined by any single technology. It will be defined by how effectively multiple technologies work together. Fault Managed Power may become an important part of that story.
+The smart campus of the future will not be defined by any single technology. It will be defined by how effectively multiple technologies work together, and Fault Managed Power may become an essential part of that story.
 
 ---
 ## Article 3: Why Rural America Should Care About Fault Managed Power
 ### The Next Infrastructure Conversation
 
-Twenty years ago, many rural communities questioned whether broadband would ever become essential infrastructure. Today, that debate has largely disappeared. Broadband transformed communities because it connected people to education, healthcare, economic opportunity, government services, and information. What once appeared optional became foundational.
+Twenty years ago, many rural communities questioned whether broadband would ever become essential infrastructure. Today, that debate has largely disappeared. Broadband transformed communities because it connected people to education, healthcare, economic opportunity, government services, and information. What once appeared optional became foundational. Fault Managed Power may represent the beginning of a similar conversation.
 
-Fault Managed Power may represent the beginning of a similar conversation.
+Across the country, buildings are steadily becoming more intelligent. Sensors continuously monitor environmental conditions, security systems provide real-time awareness, artificial intelligence increasingly supports facility operations, and connected technologies help organizations improve efficiency and responsiveness. Every one of these systems requires both connectivity and power: broadband delivers information, while power delivers capability. Historically, we have discussed these infrastructures separately; increasingly, they must be considered together.
 
-Across the country, buildings are becoming more intelligent. Sensors continuously monitor environmental conditions. Security systems provide real-time awareness. Artificial intelligence increasingly supports facility operations. Connected technologies help organizations improve efficiency and responsiveness.
+For rural communities, this convergence presents both a challenge and an opportunity. Communities that understand emerging infrastructure trends can make informed investments, develop workforce competencies, and position themselves for future growth. Communities that wait risk becoming passive consumers of innovation rather than active participants in it.
 
-These systems require both connectivity and power. Broadband delivers information. Power delivers capability. Historically, we have often discussed these infrastructures separately. Increasingly, they must be considered together.
+Fault Managed Power offers a valuable lens through which to view this transformation. Rather than treating power distribution solely as an electrical trade function, FMP encourages us to rethink how intelligent systems are supported and sustained. The implications extend far beyond individual buildings: smarter schools create better learning environments, more capable public facilities improve community service delivery, and more adaptable infrastructure supports economic development and innovation.
 
-For rural communities, this convergence presents both a challenge and an opportunity. Communities that understand emerging infrastructure trends can make informed investments, develop workforce competencies, and position themselves for future growth. Communities that wait risk becoming consumers of innovation rather than participants in it.
-
-Fault Managed Power offers a valuable lens through which to view this transformation. Rather than treating power distribution solely as an electrical function, FMP encourages us to think about how intelligent systems are supported and sustained.
-
-The implications extend far beyond individual buildings. Smarter schools create better learning environments. More capable public facilities improve service delivery. More adaptable infrastructure supports economic development and innovation.
-
-The real story is not about electricity. It is about possibility.
-
-Just as broadband expanded access to information and opportunity, Fault Managed Power may help create the physical infrastructure necessary to support increasingly intelligent and connected environments. That is a conversation worth having in every rural community.
+The real story is not about electricity—it is about possibility. Just as broadband expanded access to information and opportunity, Fault Managed Power can help create the physical infrastructure necessary to support increasingly intelligent and connected environments. That is a conversation worth having in every rural community.
 
 ---
 ## Article 4: The Great Convergence
 ### When Information Infrastructure and Energy Infrastructure Become One Conversation
 
-For most of modern history, communications infrastructure and electrical infrastructure evolved along separate paths. One industry focused on moving information. The other focused on moving energy.
+For most of modern history, communications infrastructure and electrical infrastructure evolved along separate paths. One industry focused on moving information; the other focused on moving energy. Today, those paths are rapidly intersecting.
 
-Today those paths are beginning to intersect. Connected lighting systems rely on networks. Security systems generate and consume data. Building controls continuously exchange information. Environmental sensors support operational decision-making. Intelligent devices increasingly occupy every corner of our built environment. As a result, information infrastructure and energy infrastructure are becoming increasingly interconnected.
+Connected lighting systems rely on networks, security systems generate and consume continuous data streams, building controls exchange information across facilities, and environmental sensors inform operational decision-making. As intelligent devices occupy every corner of our built environment, information infrastructure and energy infrastructure are becoming inseparable.
 
-Fault Managed Power arrives at a particularly important moment in this evolution. While discussions often focus on technical capabilities, FMP may ultimately be most significant because it encourages collaboration across traditionally separate disciplines. Network engineers, electricians, systems integrators, cybersecurity professionals, facilities managers, and communications specialists increasingly find themselves participating in shared conversations.
+Fault Managed Power arrives at a pivotal moment in this evolution. While technical discussions often focus on electrical parameters and cable distances, FMP may ultimately be most significant because it forces collaboration across traditionally separate disciplines. Network engineers, electricians, systems integrators, cybersecurity professionals, facilities managers, and communications specialists increasingly find themselves sitting at the same table, participating in shared planning conversations.
 
-This convergence creates opportunities to rethink infrastructure planning from the ground up. Rather than viewing power, communications, security, controls, and sensors as independent systems, organizations can begin viewing them as components of a larger ecosystem supporting common objectives.
+This convergence creates opportunities to rethink facility planning from the ground up. Rather than treating power, communications, security, controls, and sensors as independent systems, organizations can begin viewing them as unified components of a larger ecosystem supporting shared institutional goals.
 
-In many ways, this resembles the transformation that occurred when voice, video, and data converged onto shared communications networks. Once distinct technologies became integrated platforms that enabled entirely new capabilities. The same process may now be unfolding within buildings and campuses.
+In many ways, this resembles the transformation that occurred when voice, video, and data converged onto shared IP communications networks. Once-distinct technologies became integrated platforms that enabled entirely new capabilities. The same process is now unfolding within buildings and campuses. As facilities become more intelligent, the distinction between information infrastructure and energy infrastructure becomes less meaningful—organizations need both working together as a unified foundation for innovation.
 
-As facilities become more intelligent, the distinction between information infrastructure and energy infrastructure becomes less meaningful. Organizations increasingly need both working together as a unified foundation for innovation. The future belongs to systems that collaborate rather than operate in isolation.
-
-Viewed through that lens, Fault Managed Power is more than a power distribution technology. It is part of a broader infrastructure transition that is reshaping how communities, institutions, and organizations think about connectivity, capability, and resilience. The story of Fault Managed Power is ultimately a story about convergence. And convergence has a long history of creating possibilities that once seemed impossible.
+The future belongs to systems that collaborate rather than operate in isolation. Viewed through that lens, Fault Managed Power is more than a novel power distribution technology. It is part of a broader infrastructure transition reshaping how communities, institutions, and organizations approach connectivity, capability, and long-term resilience. The story of Fault Managed Power is ultimately a story about convergence, and convergence has a long history of turning the improbable into everyday reality.
 
 ---
 ## Article 5: Infrastructure Is Destiny
 ### What Broadband Taught Me About the Future of Fault Managed Power
 
-Growing up on a farm near Pickford, Michigan, infrastructure was not an abstract concept. Infrastructure determined what was possible. It determined whether crops made it to market, whether equipment could be repaired, whether roads remained passable, and whether family members could reach help when something went wrong. Most importantly, it taught me that infrastructure is often invisible when it works and impossible to ignore when it doesn't.
+Growing up on a farm near Pickford, Michigan, infrastructure was never an abstract concept. Infrastructure determined what was possible: whether crops made it to market, whether equipment could be repaired, whether roads remained passable in winter, and whether family members could reach help when something went wrong. Most importantly, it taught me that infrastructure is often invisible when it works and impossible to ignore when it does not.
 
-Years later, while serving in the U.S. Air Force and then working in K-12 education, I would encounter the same lesson repeatedly. Technology was seldom the actual problem. The real challenge was whether people and communities possessed the foundational systems necessary to accomplish what they wanted to achieve.
+Years later, while serving in the U.S. Air Force and then working in K-12 education, I encountered the exact same lesson repeatedly. Technology was seldom the actual problem. The real challenge was whether people and communities possessed the foundational systems necessary to accomplish what they set out to achieve.
 
-Over the last two decades, broadband became one of those foundational systems. I spent much of my career helping schools, communities, and organizations navigate the transition from a world where connectivity was viewed as a convenience to one where connectivity became a necessity. Early conversations about broadband often focused on speed. Later conversations focused on access. Eventually the discussion evolved into something much larger: opportunity.
+Over the last two decades, broadband became one of those foundational systems. I spent much of my career helping schools, communities, and regional organizations navigate the transition from a world where connectivity was viewed as a convenience to one where connectivity became a necessity. Early conversations about broadband often focused narrowly on speed, later shifting toward basic access, and eventually maturing into a discussion about opportunity. Broadband was never really about bandwidth. It was about education, healthcare, economic development, public safety, civic participation, workforce development, and community resilience. Connectivity enabled those outcomes, but connectivity itself was not the destination.
 
-Broadband was never really about bandwidth. It was about education, healthcare, economic development, public safety, civic participation, workforce development, and community resilience. Connectivity enabled those outcomes, but connectivity itself was not the outcome.
+That distinction matters because Fault Managed Power is entering a similar stage of its evolution. Today, many discussions about Fault Managed Power focus heavily on technical specifications, system architectures, safety standards, cabling classes, and deployment models. Those conversations are necessary and important. However, the most consequential conversations may not be about technology at all—they are about what becomes possible when energy infrastructure and information infrastructure become deeply interconnected.
 
-That distinction matters because I believe Fault Managed Power is entering a similar stage of its evolution. Today, many discussions about Fault Managed Power focus on technical specifications, architectures, standards, cabling systems, and deployment models. Those conversations are important. However, some of the most important conversations may not be about technology at all.
+As broadband networks expanded, communities discovered they were building far more than communications systems; they were creating platforms for innovation. Once foundational connectivity existed, entrepreneurs created businesses, educators developed new instructional models, healthcare providers expanded rural access, and communities unlocked uses nobody had anticipated when the fiber was first placed in the ground.
 
-They may be about what becomes possible when energy infrastructure and information infrastructure become increasingly interconnected. As broadband networks expanded, communities discovered they were building more than communications systems. They were creating platforms for innovation. Once connectivity existed, entrepreneurs created businesses, educators developed new instructional models, healthcare providers expanded access, and communities discovered uses nobody had imagined when the infrastructure was first deployed.
+Infrastructure creates possibility, and the same principle applies directly to Fault Managed Power. Buildings are becoming increasingly intelligent: sensors monitor environmental conditions, security systems generate real-time awareness, building automation platforms continuously adapt operations, and artificial intelligence is beginning to influence how facilities are managed and optimized. Every one of these capabilities depends on reliable, simultaneous access to both information and energy.
 
-Infrastructure creates possibility. The same principle may apply to Fault Managed Power.
+Historically, we treated those systems separately. Network engineers focused on moving data, electricians focused on delivering branch power, facilities managers focused on mechanical operations, and security professionals focused on physical life safety. Fault Managed Power sits directly at the point where those disciplines converge.
 
-Buildings are becoming increasingly intelligent. Sensors monitor environmental conditions. Security systems generate real-time awareness. Building automation systems continuously adapt operations. Artificial intelligence is beginning to influence how facilities are managed and optimized. Every one of these capabilities depends upon reliable sources of both information and energy.
+What excites me most about the future of Fault Managed Power is not simply the technology itself. It is the opportunity to rethink how communities prepare for the next generation of infrastructure. Just as broadband required new skills, new workforce pathways, and new forms of institutional collaboration, Fault Managed Power has the potential to bring together professionals who have traditionally worked inside separate silos.
 
-Historically, we treated those systems separately. Network engineers focused on moving information. Electricians focused on delivering power. Facilities managers focused on operations. Security professionals focused on safety. Increasingly, those disciplines are converging. Fault Managed Power sits directly within that convergence.
+Throughout my work with schools, broadband initiatives, workforce programs, and community partnerships, I have learned that technology adoption rarely fails because of technology. It fails when communities lack the knowledge, relationships, workforce capacity, or institutional readiness necessary to support it. The communities that benefit most from innovation are consistently those that begin preparing before innovation becomes mainstream.
 
-What excites me most about the future of Fault Managed Power is not simply the technology itself. It is the opportunity to rethink how communities prepare for the next generation of infrastructure. Just as broadband required new skills, new workforce pathways, and new forms of collaboration, Fault Managed Power has the potential to bring together professionals who have traditionally worked within separate domains.
+That is why workforce development matters. It is why partnerships matter. It is why education matters. And it is why conversations about Fault Managed Power should extend beyond product sheets and vendor deployments to include schools, community colleges, workforce agencies, economic development organizations, builders, network professionals, and community leaders. The future infrastructure of our communities will not consist of isolated systems; it will consist of interconnected platforms that support learning, commerce, public safety, healthcare, energy management, communications, and innovation simultaneously.
 
-Throughout my work with schools, broadband initiatives, workforce programs, and community partnerships, I have learned that technology adoption rarely fails because of technology. It fails when communities lack the knowledge, relationships, workforce capacity, or institutional readiness necessary to support it. The communities that benefit most from innovation are often the communities that begin preparing before innovation becomes mainstream.
+Broadband taught us that infrastructure is not simply about connecting networks—it is about connecting people to opportunity. Fault Managed Power may teach us a similar lesson: the real story is not about delivering electricity, but about enabling human capability.
 
-That is why workforce development matters. It is why partnerships matter. It is why education matters. And it is why conversations about Fault Managed Power should extend beyond products and deployments to include schools, community colleges, workforce agencies, economic development organizations, builders, network professionals, and community leaders.
+Looking back, I can trace a direct line from a family farm in Michigan, to military service, to classrooms, data centers, regional broadband networks, community partnerships, and now conversations about the future of intelligent buildings and integrated infrastructure. The technologies have changed; the fundamental lesson has not. Infrastructure shapes what communities can become. It influences which opportunities are available, which innovations are possible, and which futures are attainable.
 
-The future infrastructure of our communities will not consist of isolated systems. It will consist of interconnected platforms that support learning, commerce, public safety, healthcare, energy management, communications, and innovation simultaneously.
-
-Broadband taught us that infrastructure is not simply about connecting networks. It is about connecting people to opportunity. Fault Managed Power may teach us a similar lesson.
-
-The real story is not about delivering electricity. The real story is about enabling capability.
-
-Looking back, I can trace a line from a family farm in Michigan, to military service, to classrooms, data centers, broadband networks, community partnerships, and now conversations about the future of intelligent buildings and integrated infrastructure. The technologies have changed. The lesson has not.
-
-Infrastructure shapes what communities can become. Infrastructure influences which opportunities are available, which innovations are possible, and which futures are attainable. In that sense, infrastructure is more than a collection of physical assets.
+In that sense, infrastructure is more than a collection of physical assets—it is the foundation of community self-determination and human capability.
 
 ---
 ## Provenance and Reference Materials
