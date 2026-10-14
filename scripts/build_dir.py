@@ -13,7 +13,33 @@ SKIP = {"index.md", "index.html", "dir.html"}
 EXTENSIONS = {".md", ".html", ".pdf"}
 
 
+def front_matter_permalink(path: Path):
+    """Return the permalink from a file's YAML front matter, or None."""
+    if path.suffix not in {".md", ".html"}:
+        return None
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except (OSError, UnicodeDecodeError):
+        return None
+    if not lines or lines[0].strip() != "---":
+        return None
+    for line in lines[1:]:
+        if line.strip() in ("---", "..."):
+            break
+        key, sep, value = line.partition(":")
+        if sep and key.strip().lower() == "permalink":
+            value = value.strip().strip("\"'")
+            return value or None
+    return None
+
+
 def href_and_title(path: Path):
+    permalink = front_matter_permalink(path)
+    if permalink:
+        # Use the full permalink; root-relative so it works from any folder.
+        if not permalink.startswith(("/", "http://", "https://")):
+            permalink = "/" + permalink
+        return permalink, path.stem
     # Jekyll converts .md to .html; other files are served as-is.
     if path.suffix == ".md":
         return path.stem + ".html", path.stem
