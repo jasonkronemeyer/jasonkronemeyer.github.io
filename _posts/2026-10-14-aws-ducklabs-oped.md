@@ -24,8 +24,6 @@ tags:
 description: "AWS's move toward DuckDB and DuckLake may signal something larger than another database acquisition: a shift toward open storage, lightweight compute, and agent-ready knowledge infrastructure."
 ---
 
-# AWS, DuckDB, and the Quiet Reinvention of the Data Lake
-
 *Why I Think the DuckLabs Deal Is About More Than a Faster Database*
 
 I don't think AWS is interested in DuckLabs simply because DuckDB is fast. That would be the obvious explanation, and there is certainly plenty to admire about DuckDB as an analytical engine. It has become extraordinarily useful for working directly with Parquet files, spatial data, research datasets, and the growing volume of information stored in cloud object storage. But speed alone doesn't explain why I find the relationship between AWS and DuckLabs so interesting. What interests me is the architecture underneath it and what that architecture might tell us about where data infrastructure is going next.
