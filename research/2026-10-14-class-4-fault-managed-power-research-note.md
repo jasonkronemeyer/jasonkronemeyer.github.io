@@ -1,7 +1,7 @@
-——-
+---
 layout: research-note
 status: research
-——-
+---
 
 # Research Note: From “Digital Electricity” to Class 4 Fault-Managed Power
 
