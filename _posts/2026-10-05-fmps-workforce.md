@@ -19,14 +19,14 @@ tags:
   - Intelligent Infrastructure
   - Broadband
   - Fiber Optics
-excerpt: "NECA 726-2026 is more than an installation standard. It is an early signal that the electrical, communications, networking, and automation industries are converging, creating new opportunities for workforce development and career pathways."
+excerpt: "NECA 726-2026 Standard for Installing and Maintaining Class 4 Fault-Managed Power (FMP) Systems is more than an installation standard. It is an early signal that the electrical, communications, networking, and automation industries are converging, creating new opportunities for workforce development and career pathways."
 ---
 
 Over the past several years, I have spent a considerable amount of time researching the future of digital infrastructure. That work has spanned broadband networks, fiber optics, structured cabling, distributed antenna systems (DAS), smart buildings, edge computing, educational technology, and workforce development. Through school modernization projects, broadband planning work, intelligent infrastructure design, and emerging technologies such as Passive Optical LAN and Fault-Managed Power Systems, I have repeatedly encountered the same pattern: technologies that were once separate are increasingly becoming interconnected.
 
 My research has consistently pointed to a future where power, communications, automation, data, and cybersecurity are no longer isolated disciplines. Schools are becoming digital campuses. Buildings are becoming intelligent systems. Utilities are becoming data platforms. Broadband networks are becoming critical infrastructure. The workforce needed to design, install, operate, and maintain these systems is beginning to change as well.
 
-That is why I purchased a copy of the NECA 726-2026 standard. I expected to find a technical installation document. Instead, I found a clear signal about the future workforce needs of the infrastructure industry.
+That is why I purchased a copy of the NECA 726-2026  Standard for Installing and Maintaining Class 4 Fault-Managed Power (FMP) Systems. I expected to find a technical installation document. Instead, I found a clear signal about the future workforce needs of the infrastructure industry.
 
 ## More Than an Installation Standard
 
