@@ -1,4 +1,5 @@
 ---
+layout: research-note
 title: "From Data to Digital-Opportunity Intelligence: A Learning Roadmap for Query Languages, Knowledge Graphs, and Network Science"
 author: "Jason F. Kronemeyer"
 date: 2026-10-19
