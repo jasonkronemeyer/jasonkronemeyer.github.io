@@ -29,7 +29,7 @@ jobs:
     - name: Install system deps (Chromium for Puppeteer)
       run: |
         sudo apt-get update
-        sudo apt-get install -y chromium ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libnspr4 libxss1
+        sudo apt-get install -y chromium ca-certificates fonts-liberation libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libns3 libnspr4 libxss1 xdg-utils
 
     - name: Install mermaid-cli
       run: npm install --no-save @mermaid-js/mermaid-cli
@@ -65,3 +65,9 @@ jobs:
         gem install html-proofer
         # Ignore flaky or frequently-blocked external hosts to reduce false positives
         htmlproofer _site --allow-hash-href --disable-external
+
+    - name: Deploy to GitHub Pages
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: actions/deploy-pages@v2
+      with:
+        artifact_name: site
