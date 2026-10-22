@@ -26,7 +26,7 @@ tags:
   - relationality
 ---
 
-I teach Responsive Web Design at the community college level. On paper, it is an introductory course in HTML, CSS, and JavaScript. By the end of the course, students can also use a framework such as Bootstrap to quickly frame up a website.
+I teach Responsive Web Design at Bay Mills Community College. On paper, it is an introductory course in HTML, CSS, and JavaScript. By the end of the course, students can also use a framework such as Bootstrap to quickly frame up a website.
 
 But over the years, I have realized that one of the biggest barriers to learning web development often appears before we write the first line of HTML. It is the filesystem.
 
