@@ -36,7 +36,7 @@ This has made me think differently about something I have been developing called
 
 But there is another side to that argument. **Before we teach computers how our information relates, we may need to teach people how computers organize information in the first place.** I am increasingly convinced that this is a foundational form of digital literacy.
 
-Living and teaching in the Great Lakes region also makes me wonder whether we can broaden that lesson. Anishinaabe ways of knowing offer a powerful reminder that knowledge is not simply a collection of isolated objects. It is relational, experiential, connected to language, place, community, and the living world. The Great Lakes Indian Fish & Wildlife Commission describes Anishinaabe Ways of Knowing as encompassing understandings of landscape ecology, fish and wildlife, medicinal plants, seasonal change, and harvest traditions. Anton Treuer similarly describes Ojibwe knowledge as observational, experiential, and relational. I do not want to collapse those teachings into a computer metaphor. They deserve respect on their own terms. But they can challenge us to notice something computing education sometimes forgets: **information only becomes meaningful when we understand relationships and context.**
+Living and teaching in the Great Lakes region also makes me wonder whether we can broaden that lesson. Anishinaabe ways of knowing offer a powerful reminder that knowledge is not simply a collection of isolated objects. It is relational, experiential, connected to language, place, community, and the living world (Treuer). The Great Lakes Indian Fish & Wildlife Commission describes Anishinaabe Ways of Knowing as encompassing understandings of landscape ecology, fish and wildlife, medicinal plants, seasonal change, and harvest traditions (Great Lakes Indian Fish & Wildlife Commission). Anton Treuer similarly describes Ojibwe knowledge as observational, experiential, and relational (Treuer). I do not want to collapse those teachings into a computer metaphor. They deserve respect on their own terms. But they can challenge us to notice something computing education sometimes forgets: **information only becomes meaningful when we understand relationships and context.**
 
 ## Before Data Comes Organization
 
@@ -50,7 +50,7 @@ Those sound like simple questions. In reality, they are some of the fundamental 
 
 That is why I think filesystem literacy deserves much more attention in introductory computing education.
 
-That emphasis on relationship has a meaningful regional resonance. Anishinaabe communities are not a single, uniform culture, and teachings vary among Tribal Nations, communities, families, and generations. Still, relationality is an important theme in many descriptions of Anishinaabe knowledge. Rather than treating knowledge as detached facts, these traditions can situate knowing within relationships among people, language, place, other living beings, experience, and responsibility. That provides an important counterpoint to the way computers tend to make us think about information as discrete files, records, rows, or objects.
+That emphasis on relationship has a meaningful regional resonance. Anishinaabe communities are not a single, uniform culture, and teachings vary among Tribal Nations, communities, families, and generations. Still, relationality is an important theme in many descriptions of Anishinaabe knowledge (Treuer). Rather than treating knowledge as detached facts, these traditions can situate knowing within relationships among people, language, place, other living beings, experience, and responsibility. That provides an important counterpoint to the way computers tend to make us think about information as discrete files, records, rows, or objects.
 
 ## A Website Is an Information System
 
@@ -88,7 +88,7 @@ Before learning very much HTML at all, a student should be able to look at this 
 
 Some files contain structure. Some contain presentation. Some contain behavior. Some contain images or other media. The directories provide organization. The names provide clues about meaning. The paths describe relationships. The files have to be able to find one another.
 
-This is also how MDN Web Docs approaches the problem in its introductory material on dealing with files: a website consists of multiple kinds of files that need to be assembled into a sensible structure locally before being placed on a server.
+This is also how MDN Web Docs approaches the problem in its introductory material on dealing with files: a website consists of multiple kinds of files that need to be assembled into a sensible structure locally before being placed on a server (Mozilla Developer Network, “Dealing with Files”).
 
 That leads to a simple statement I want my students to understand:
 
@@ -173,7 +173,7 @@ The same thing happens with CSS:
 
 The `src` and `href` attributes are no longer arbitrary pieces of HTML syntax to memorize. We are telling the computer: **Starting from where you are, follow this path until you find the resource I want.** That is a much stronger mental model.
 
-MDN Web Docs explicitly includes file paths alongside file and folder manipulation, naming conventions, website directory structure, and file extensions among the things students should understand when getting started.
+MDN Web Docs explicitly includes file paths alongside file and folder manipulation, naming conventions, website directory structure, and file extensions among the things students should understand when getting started (Mozilla Developer Network, “Dealing with Files”).
 
 Eventually, students can learn to interpret expressions such as:
 
@@ -227,7 +227,7 @@ server/public_html/index.html
 
 has changed.
 
-This distinction gives us a foundation for understanding upload, download, synchronization, SFTP, hosting, Git, GitHub, repositories, deployment, and cloud storage. GitHub's documentation describes a repository as containing a project's code, files, and revision history. Once a student understands a directory tree, a Git repository becomes far less mysterious. It is an organized project whose files and changes can be tracked.
+This distinction gives us a foundation for understanding upload, download, synchronization, SFTP, hosting, Git, GitHub, repositories, deployment, and cloud storage. GitHub's documentation describes a repository as containing a project's code, files, and revision history (GitHub). Once a student understands a directory tree, a Git repository becomes far less mysterious. It is an organized project whose files and changes can be tracked.
 
 ## Naming Is Part of Information Architecture
 
@@ -253,7 +253,7 @@ MainNavigationNEW!!!!.js
 
 Both might technically contain the information we need. But they are not equally maintainable. The second example is the beginning of technical debt.
 
-MDN Web Docs recommends establishing predictable naming habits for web projects, including lowercase filenames, avoiding spaces, and using hyphens between words. It also makes students aware that web-server environments can be case-sensitive.
+MDN Web Docs recommends establishing predictable naming habits for web projects, including lowercase filenames, avoiding spaces, and using hyphens between words. It also makes students aware that web-server environments can be case-sensitive (Mozilla Developer Network, “Dealing with Files”).
 
 For beginning web students, I would reduce this to five rules:
 
@@ -285,7 +285,7 @@ This is more than housekeeping. **Naming something is an act of information arch
 
 One of the risks of teaching computing is that we can make abstraction seem like the final goal. We turn something in the world into a filename, then a record, then a field, then perhaps a node in a graph. Abstraction is tremendously useful, but every abstraction leaves something behind.
 
-Anishinaabe Ways of Knowing give me another way to talk with students about that problem. <External>Great Lakes Indian Fish & Wildlife Commission</External> describes Indigenous knowledge in the Great Lakes region as a philosophy and worldview reflecting Indigenous language and lifeways, grounded in knowledge accumulated through relationships with landscape, plants, animals, seasons, and harvest traditions. citeturn4search36 <External>Anton Treuer</External> describes Ojibwe knowledge systems as observational, experiential, and relational, and emphasizes that knowledge is embedded in life rather than separated from it. citeturn4search31
+Anishinaabe Ways of Knowing give me another way to talk with students about that problem. Great Lakes Indian Fish & Wildlife Commission describes Indigenous knowledge in the Great Lakes region as a philosophy and worldview reflecting Indigenous language and lifeways, grounded in knowledge accumulated through relationships with landscape, plants, animals, seasons, and harvest traditions (Great Lakes Indian Fish & Wildlife Commission). Anton Treuer describes Ojibwe knowledge systems as observational, experiential, and relational, and emphasizes that knowledge is embedded in life rather than separated from it (Treuer).
 
 That suggests a useful question to place next to **Where is the file?**
 
@@ -299,7 +299,7 @@ This becomes increasingly important as students eventually encounter databases a
 
 This also changes how I think about naming. In computing, naming often appears to be purely functional. We ask whether the name is valid, unique, predictable, and easy for software to process. Those are important concerns. But language carries much more than identifiers.
 
-<External>Sault Ste. Marie Tribe of Chippewa Indians</External> describes its Anishinaabemowin work as part of preserving Anishinaabe Bimaadiziwin, or Anishinaabe ways of life, and explicitly connects language teaching with protecting lifeways inherited from ancestors. citeturn4search43turn4search44 That is an important reminder that words can carry relationships, histories, ways of seeing, and cultural knowledge that a literal database label may not capture.
+Sault Ste. Marie Tribe of Chippewa Indians describes its Anishinaabemowin work as part of preserving Anishinaabe Bimaadiziwin, or Anishinaabe ways of life, and explicitly connects language teaching with protecting lifeways inherited from ancestors. That is an important reminder that words can carry relationships, histories, ways of seeing, and cultural knowledge that a literal database label may not capture.
 
 So when I teach students to replace `IMG_5837.JPG` with `blue-sky.jpg`, I can still teach the practical lesson about useful filenames. But I can also introduce a deeper question: **Who gets to name the thing, and what knowledge is carried or lost in that name?**
 
@@ -424,7 +424,7 @@ Once a student can answer that question, relative paths become much easier to un
 
 There is another lesson I would borrow carefully from Anishinaabe teachings: organizing knowledge is not value-neutral. Once we collect, name, classify, copy, publish, or share information, we have taken an action that can affect other people and relationships.
 
-The Seven Grandfather Teachings provide one useful ethical vocabulary for thinking about those responsibilities. The <External>Sault Ste. Marie Tribe of Chippewa Indians</External> describes the teachings as Wisdom, Love, Respect, Bravery, Truth, Humility, and Honesty, and presents them as guidance for ethical conduct. citeturn4search40 Other Anishinaabe communities may express or teach them differently, a point worth preserving rather than presenting any single interpretation as universal. <External>United Tribes of Michigan</External>, for example, explicitly notes that cultural teachings can be understood, shared, and practiced differently across Tribal Nations, communities, families, and generations. citeturn4search41
+The **Seven Sacred Teachings** provide one useful ethical vocabulary for thinking about those responsibilities. At Bay Mills Community College, where I teach, the teachings are presented as Courage (*Aakide'ewin*), Honesty (*Gwe'ekwaadiziwin*), Humility (*Dibaadendiziwin*), Love (*Gaazhwenimowin*), Respect (*Minaadendimowin*), Truth (*Debwewin*), and Wisdom (*Nibwaakaawin*). BMCC has made these teachings part of the physical and educational environment of the college through its Seven Sacred Teachings mural in the Michael C. Parish Administration Building. The mural incorporates recordings of BMCC faculty pronouncing the Anishinaabemowin words and BMCC students explaining what the teachings mean to them (Bay Mills Community College, “Culture”). I would still be careful not to present a single published description as the only interpretation across all Anishinaabe communities.
 
 I would not turn those teachings into seven rules for naming computer files. That would trivialize them. But I do think they raise an important educational question: **What responsibilities come with the information we organize?**
 
@@ -480,25 +480,21 @@ For educators who want to incorporate this into an introductory computing or web
 
 Then start HTML. At that point, `href` and `src` are not just syntax. They have meaning.
 
-## References and Further Reading
+### Works Cited
 
-- Mozilla Developer Network. ["Dealing with Files."](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files) *MDN Web Docs*. An introductory resource covering file and folder manipulation, naming practices, standard website structures, file paths, and extensions.
+Bay Mills Community College. “Culture.” *Bay Mills Community College*, https://bmcc.edu/community/culture/index.html. Accessed 21 Oct. 2026.
 
-- Mozilla Developer Network. ["Resolving Relative References to a URL."](https://developer.mozilla.org/en-US/docs/Web/API/URL_API/Resolving_relative_references) *MDN Web Docs*. Useful for understanding relative URL references and how references are resolved against a base URL.
+GitHub. “Repositories Documentation.” *GitHub Docs*, https://docs.github.com/en/repositories. Accessed 21 Oct. 2026.
 
-- Learn the Web. ["Naming & Paths Cheat Sheet."](https://learntheweb.courses/topics/naming-paths-cheat-sheet/) A concise reference for web naming and path conventions.
+Great Lakes Indian Fish & Wildlife Commission. “Indigenous Knowledge.” *Great Lakes Indian Fish & Wildlife Commission*, https://glifwc.org/language-culture/indigenous-knowledge. Accessed 21 Oct. 2026.
 
-- GitHub. ["Repositories Documentation."](https://docs.github.com/en/repositories) *GitHub Docs*. Documentation for understanding repositories and the project files and revision history they contain.
+Mozilla Developer Network. “Dealing with Files.” *MDN Web Docs*, https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files. Accessed 21 Oct. 2026.
+
+Mozilla Developer Network. “Resolving Relative References to a URL.” *MDN Web Docs*, https://developer.mozilla.org/en-US/docs/Web/API/URL_API/Resolving_relative_references. Accessed 21 Oct. 2026.
+
+Sault Ste. Marie Tribe of Chippewa Indians. “Anishinaabemowin.” *Sault Ste. Marie Tribe of Chippewa Indians*, 21 Feb. 2024, https://www.saulttribe.com/membership-services/culture/language-department/. Accessed 21 Oct. 2026.
+
+Sault Ste. Marie Tribe of Chippewa Indians. “Language & Culture.” *Sault Ste. Marie Tribe of Chippewa Indians*, 24 May 2024, https://www.saulttribe.com/membership-services/culture. Accessed 21 Oct. 2026.
 
 
-## Additional Anishinaabe and Ojibwe Resources
-
-- <External>Great Lakes Indian Fish & Wildlife Commission</External>. ["Indigenous Knowledge."](https://glifwc.org/language-culture/indigenous-knowledge) An introduction to Anishinaabe Ways of Knowing in the Great Lakes region and the relationships among language, culture, ecology, and contemporary science and policy. citeturn4search36
-
-- <External>Sault Ste. Marie Tribe of Chippewa Indians</External>. ["Language & Culture."](https://www.saulttribe.com/membership-services/culture) Information about Anishinaabeg Bimaadziwin, language, cultural programming, and the Tribe's work to protect and preserve lifeways passed down by ancestors. citeturn4search43
-
-- <External>Sault Ste. Marie Tribe of Chippewa Indians</External>. ["Anishinaabemowin."](https://www.saulttribe.com/membership-services/culture/language-department/) Language-learning resources and information about the Tribe's Anishinaabemowin program. citeturn4search44
-
-- <External>Sault Ste. Marie Tribe of Chippewa Indians</External>. ["Seven Grandfathers."](https://www.saulttribe.com/history-a-culture/our-culture/100-seven-grandfathers) The Tribe's presentation of Wisdom, Love, Respect, Bravery, Truth, Humility, and Honesty. citeturn4search40
-
-- <External>Seven Generations Education Institute</External>. ["Seven Grandfather Teachings."](https://www.7generations.org/seven-grandfather-teachings/) A discussion of the teachings, including Anishinaabemowin terminology and the principle that the teachings guide living in relationship with others and Creation. citeturn4search37
+Treuer, Anton. “Indigenous Ways of Knowing: Ojibwe Knowledge, Science, and the Value of Different Worldviews.” *Anton Treuer*, 8 Apr. 2026, https://antontreuer.com/insights/2026/4/8/indigenous-ways-of-knowing-ojibwe-knowledge-science-and-the-value-of-different-worldviews. Accessed 21 Oct. 2026.
