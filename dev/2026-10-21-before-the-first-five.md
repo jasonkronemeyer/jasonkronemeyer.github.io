@@ -38,6 +38,8 @@ But there is another side to that argument. **Before we teach computers how our 
 
 Living and teaching in the Great Lakes region also makes me wonder whether we can broaden that lesson. Anishinaabe ways of knowing offer a powerful reminder that knowledge is not simply a collection of isolated objects. It is relational, experiential, connected to language, place, community, and the living world (Treuer). The Great Lakes Indian Fish & Wildlife Commission describes Anishinaabe Ways of Knowing as encompassing understandings of landscape ecology, fish and wildlife, medicinal plants, seasonal change, and harvest traditions (Great Lakes Indian Fish & Wildlife Commission). Anton Treuer similarly describes Ojibwe knowledge as observational, experiential, and relational (Treuer). I do not want to collapse those teachings into a computer metaphor. They deserve respect on their own terms. But they can challenge us to notice something computing education sometimes forgets: **information only becomes meaningful when we understand relationships and context.**
 
+![Diagram illustrating the relationship between filesystem literacy, information organization, Anishinaabe ways of knowing, and the First Five framework]({{ '/assets/images/before-first-five.png' | relative_url }})
+
 ## Before Data Comes Organization
 
 We talk a lot today about data literacy. We want students to understand data. We want them to analyze information, use artificial intelligence, build websites, write programs, query databases, create visualizations, and eventually make informed decisions. But there is a more fundamental question: **Where is the information?**
