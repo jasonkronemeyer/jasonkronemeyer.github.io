@@ -1,5 +1,6 @@
 ---
 layout: post
+status: brainstorming
 title: "Before the First Five: What Anishinaabe Ways of Knowing Can Teach Us About Organizing Information"
 date: 2026-10-21
 author: Jason F. Kronemeyer
