@@ -7,37 +7,72 @@ permalink: /research/
 # Research & Publications
 
 {:.lead}
-Exploring the intersection of data science, spatial analytics, and intelligent infrastructure through rigorous research and practical applications.
+Research on how communities and institutions can build trustworthy, connected infrastructure—and use evidence to learn, make decisions, and expand opportunity.
 
 ## Current Research Focus
 
 <div class="research-highlights">
   <div class="research-item">
-    <h3>🏗️ Smart Infrastructure & Energy Systems</h3>
-    <p>Investigating the integration of information technology with energy management systems, passive optical networks, and intelligent building optimization.</p>
+    <h3>Knowledge & Learning Infrastructure</h3>
+    <p>Connecting data infrastructure, the DIKW tradition, the Digital Opportunities Compass, community knowledge, and provenance to explore how institutions can learn from evidence and outcomes.</p>
   </div>
   
   <div class="research-item">
-    <h3>🗺️ Spatial Data for Community Development</h3>
-    <p>Analyzing spatial relationships to inform equitable community planning, infrastructure development, and resource allocation strategies.</p>
+    <h3>Converged Buildings & Intelligent Infrastructure</h3>
+    <p>Examining how fiber, networks, fault-managed power, DC systems, controls, and computing can be designed as connected infrastructure in buildings and communities.</p>
   </div>
   
   <div class="research-item">
-    <h3>🎓 Educational Technology Innovation</h3>
-    <p>Developing knowledge graphs and AI-enhanced approaches to personalize learning and improve educational outcomes.</p>
+    <h3>Digital Opportunity & Community Learning</h3>
+    <p>Using spatial analysis, community context, and the Digital Opportunities Compass to understand local needs, infrastructure, skills, and outcomes.</p>
+  </div>
+
+  <div class="research-item">
+    <h3>Workforce & Trustworthy Technology</h3>
+    <p>Exploring workforce pathways for connected infrastructure and the governance, provenance, and accountability needed as AI-enabled systems operate at machine speed.</p>
   </div>
 </div>
 
 ---
 
-## Featured Research
+## Recent Research
 
-### Domain-Specific Performance Analysis
-{% include callout.html type="info" title="Recent Publication" content="**Domain‑Specific Performance: DuckDB Extensions, DuckLake, and Bayesian Network Inference** - A comprehensive technical comparison of modern data analytics technologies and their computational efficiency characteristics." %}
+<div class="research-list">
+  <div class="research-paper">
+    <h4><a href="/research/research-brief-dikw-learning-infrastructure.html">From Data Infrastructure to Learning Infrastructure</a></h4>
+    <p class="research-meta">Research Brief • October 2026</p>
+    <p>Connects DIKW, MiGreatDataLake, the Digital Opportunities Compass, Project Compass, and DOIN in a proposed learning loop that links evidence, understanding, action, and outcomes.</p>
+  </div>
 
-[View Full Paper →](/research/domain-specific-performance/)
+  <div class="research-paper">
+    <h4><a href="/research/converged-building-series.html">The Converged Building</a></h4>
+    <p class="research-meta">Research & Writing Series • October 2026</p>
+    <p>Explores the emerging relationship among fiber, fault-managed power, DC distribution, building systems, workforce, and intelligent infrastructure.</p>
+  </div>
 
-**Abstract**: This report provides a technical comparison of four distinct technologies: the DuckDB spatial extension, DuckDB inet extension, DuckLake, and Bayesian network analysis. Each technology is evaluated for performance benefits, use cases, and computational efficiency in targeted analytics workloads.
+  <div class="research-paper">
+    <h4><a href="/research/2026-10-14-class-4-fault-managed-power-research-note.html">From “Digital Electricity” to Class 4 Fault-Managed Power</a></h4>
+    <p class="research-meta">Research Note • Updated October 2026</p>
+    <p>Reviews how Class 4 fault-managed power has evolved from a vendor-specific proposition into a broader standards-based infrastructure category.</p>
+  </div>
+
+  <div class="research-paper">
+    <h4><a href="/workforce%20development/infrastructure/smart%20buildings/broadband/2026/10/21/connected-infrastructure-technicians-op-ed.html">Stop Training Low-Voltage Installers. Start Training Connected Infrastructure Technicians.</a></h4>
+    <p class="research-meta">Workforce Development • October 2026</p>
+    <p>Makes the case for an entry-level workforce pathway spanning connectivity, power, controls, and cybersecurity.</p>
+  </div>
+</div>
+
+### Related Recent Writing
+
+Recent essays extend this work into AI governance and trust:
+
+<div class="research-list">
+  <div class="research-paper">
+    <h4><a href="/artificial%20intelligence/cybersecurity/governance/2026/10/01/machine-speed.html">The Problem Was Never AI. It Was Always Trust at Machine Speed.</a></h4>
+    <p>Examines how governance, accountability, and human intent must keep pace with increasingly autonomous software.</p>
+  </div>
+</div>
 
 ---
 
