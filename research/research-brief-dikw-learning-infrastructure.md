@@ -37,7 +37,7 @@ October 2026
 
 ## Executive Summary
 
-Michigan is building increasingly sophisticated infrastructure for bringing previously fragmented data together. MiGreatDataLake, led through the Michigan Association of Intermediate School Administrators (MAISA), provides a particularly important example. MAISA describes the initiative as a statewide effort to unify data management, storage, and advanced analytics across Michigan's educational landscape through a modernized cloud platform downstream from MiDataHub (Michigan Association of Intermediate School Administrators, Annual Report). But a data platform raises a larger question:
+Michigan is building increasingly sophisticated infrastructure for bringing previously fragmented data together. MiGreatDataLake, led through the Michigan Association of Intermediate School Administrators (MAISA), provides a particularly important example. MAISA describes the initiative as a statewide effort to unify data management, storage, and advanced analytics across Michigan's educational landscape through a modernized cloud platform downstream from MiDataHub (Michigan Association of Intermediate School Administrators, *MiGreatDataLake 12c-Consolidation Grant 2025–26 Annual Report*). But a data platform raises a larger question:
 
 > What happens after the data have been integrated?
 
@@ -53,7 +53,7 @@ This adaptation helps connect three bodies of work that have increasingly conver
 
 ## 1. The Problem Has Changed
 
-For much of the digital transformation era, the problem was access to data. Information existed in different systems, used different formats, followed different governance practices, and often required significant technical effort before it could be combined meaningfully. MiGreatDataLake demonstrates how that problem is beginning to change in Michigan education. MAISA describes the initiative as a statewide strategic effort to unify data management, storage, and analytics across Michigan's educational landscape. Its 2025-26 annual report says the architecture operates downstream from MiDataHub and is intended to integrate structured Student Information System data with unstructured assets such as student artifacts and teacher observations. The report also identifies predictive analytics, early-warning interventions, and automated reporting among the intended uses of the resulting environment (Michigan Association of Intermediate School Administrators, Annual Report).
+For much of the digital transformation era, the problem was access to data. Information existed in different systems, used different formats, followed different governance practices, and often required significant technical effort before it could be combined meaningfully. MiGreatDataLake demonstrates how that problem is beginning to change in Michigan education. MAISA describes the initiative as a statewide strategic effort to unify data management, storage, and analytics across Michigan's educational landscape. Its 2025–26 annual report says the architecture operates downstream from MiDataHub and is intended to integrate structured Student Information System data with unstructured assets such as student artifacts and teacher observations. The report also identifies predictive analytics, early-warning interventions, and automated reporting among the intended uses of the resulting environment (Michigan Association of Intermediate School Administrators, *MiGreatDataLake 12c-Consolidation Grant 2025–26 Annual Report*).
 
 MAISA separately describes MiGreatDataLake as an extension of earlier MiDataExchange work involving MiRead, MiEWIMS, and student information systems (Michigan Association of Intermediate School Administrators, "MiGreatDataLake"). These are important data-infrastructure developments. But they also expose the next problem. Once information becomes integrated, governed, and accessible, how do we convert it into understanding that improves decisions?
 
@@ -67,13 +67,13 @@ The familiar DIKW sequence is often represented as:
 
 > Data → Information → Knowledge → Wisdom
 
-Its history, however, is more complicated. Frické's review of the DIKW literature identifies strands leading to the model through Cleveland, Mortimer Adler, Milan Zeleny, and Ackoff. Frické identifies the work of Zeleny in 1987 and Ackoff in 1989 among the traditional sources of the model (Frické 33-35). Nikhil Sharma's historical reconstruction identifies Cleveland's 1982 "Information as Resource" as an important information-science precursor and traces still earlier conceptual antecedents while recognizing that these earlier formulations were not identical to the modern four-level DIKW model (Sharma).
+Its history, however, is more complicated. Frické's review of the DIKW literature identifies strands leading to the model through Cleveland, Mortimer Adler, Milan Zeleny, and Ackoff. Frické identifies the work of Zeleny in 1987 and Ackoff in 1989 among the traditional sources of the model (Frické 33–35). Nikhil Sharma's historical reconstruction identifies Cleveland's 1982 "Information as Resource" as an important information-science precursor and traces still earlier conceptual antecedents while recognizing that these earlier formulations were not identical to the modern four-level DIKW model (Sharma).
 
 Zeleny's 1987 work explicitly developed a data-information-knowledge-wisdom hierarchy. Sharma describes Zeleny's treatment as associating its levels with progressively different kinds of knowing (Sharma). Ackoff's 1988 presidential address, published the following year as "From Data to Wisdom," introduced a particularly useful variation:
 
 > Data → Information → Knowledge → Understanding → Wisdom (Ackoff 3).
 
-Ackoff distinguished data as representations of observable properties, information as data transformed into useful form, and knowledge as know-how. Importantly for the argument developed here, he separated understanding from knowledge and connected it with explanation, learning, and adaptation. Wisdom went further, concerning effectiveness, values, judgment, and consequences (Ackoff 3-5). DIKW should nevertheless not be treated as settled theory. Frické describes the hierarchy as widespread in information science and knowledge management while also reviewing substantial theoretical criticisms of the model and disagreement over the meanings of its underlying concepts (33-35).
+Ackoff distinguished data as representations of observable properties, information as data transformed into useful form, and knowledge as know-how. Importantly for the argument developed here, he separated understanding from knowledge and connected it with explanation, learning, and adaptation. Wisdom went further, concerning effectiveness, values, judgment, and consequences (Ackoff 3–5). DIKW should nevertheless not be treated as settled theory. Frické describes the hierarchy as widespread in information science and knowledge management while also reviewing substantial theoretical criticisms of the model and disagreement over the meanings of its underlying concepts (33–35).
 
 That limitation is important. I use DIKW here as a conceptual scaffold, not as a literal architecture or claim that data automatically transforms into wisdom.
 
@@ -144,7 +144,7 @@ That movement from retrieval toward relationships is where I see knowledge infra
 
 There is a consequence to connecting more data, community knowledge, analytical methods, and AI. The resulting system must also become more accountable for what it claims to know. If an AI-assisted learning system produces a recommendation, we should be able to investigate where its supporting evidence originated, who contributed it, what methodology produced it, what transformations occurred, what limitations accompany it, and how the recommendation relates to the evidence. My developing DOIN provenance framework treats this chain from evidence through interpretation and outcomes as part of the knowledge system itself (Kronemeyer, "DOIN Provenance Framework").
 
-This sits alongside, rather than replaces, technical data lineage. Cloudwick documents metadata, lineage, access-control, governance, and observability capabilities within Amorphic (Cloudwick). I distinguish that kind of technical lineage from knowledge provenance. Technical lineage can help answer:
+This sits alongside, rather than replaces, technical data lineage. Cloudwick documents metadata, lineage, access control, governance, and observability capabilities within Amorphic (Cloudwick). I distinguish that kind of technical lineage from knowledge provenance. Technical lineage can help answer:
 
 > Where did this data come from and how did it move?
 
@@ -160,7 +160,7 @@ The convergence of data infrastructure, semantic technologies, AI, community kno
 
 A third concerns **community evidence**. How can qualitative and place-based knowledge participate in a computational knowledge system without being stripped of the people, circumstances, and uncertainty that give it meaning? A fourth concerns **policy learning**. The Compass authors envision communities learning from interventions and peer communities (Bauer et al.). How could the conditions surrounding an intervention, the intervention itself, its observed outcomes, and subsequent interpretation remain connected as evidence for future decisions?
 
-And finally, there is the question of **human judgment**. Ackoff's distinction between knowledge, understanding, and wisdom becomes especially relevant here. His framework places values and judgment at the level of wisdom rather than treating greater quantities of information as sufficient (Ackoff 3-5). That suggests an important design principle for future knowledge infrastructure:
+And finally, there is the question of **human judgment**. Ackoff's distinction between knowledge, understanding, and wisdom becomes especially relevant here. His framework places values and judgment at the level of wisdom rather than treating greater quantities of information as sufficient (Ackoff 3–5). That suggests an important design principle for future knowledge infrastructure:
 
 > The objective should not be to automate wisdom. It should be to improve the evidence, context, memory, and feedback available to people exercising judgment.
 
@@ -168,9 +168,9 @@ That final statement is my proposed principle, grounded in but not claimed by Ac
 
 ## 10. Conclusion: The Infrastructure That Helps Us Learn
 
-We have spent decades building networks that move bits. Then we built systems that move and integrate data. Now platforms such as MiGreatDataLake demonstrate the possibility of creating shared environments in which information from previously disconnected sources can support analytics and applications across Michigan education (Michigan Association of Intermediate School Administrators, Annual Report). The Digital Opportunities Compass gives us a framework for examining relationships among contexts, governance, connectivity, skills, applications, and outcomes (Rhinesmith et al.).
+We have spent decades building networks that move bits. Then we built systems that move and integrate data. Now platforms such as MiGreatDataLake demonstrate the possibility of creating shared environments in which information from previously disconnected sources can support analytics and applications across Michigan education (Michigan Association of Intermediate School Administrators, *MiGreatDataLake 12c-Consolidation Grant 2025–26 Annual Report*). The Digital Opportunities Compass gives us a framework for examining relationships among contexts, governance, connectivity, skills, applications, and outcomes (Rhinesmith et al.).
 
-Project Compass takes that framework into rural Michigan communities through local engagement, digital-skills work, infrastructure planning, and technical assistance (Merit Network, "Projects"; Merit Network, "Project Compass"). The Compass authors' subsequent research points toward continuous policy learning from data, interventions, and peer communities (Bauer et al.). DOIN asks what infrastructure might help make that kind of learning durable, connected, explainable, and auditable. The DIKW tradition provides a useful conceptual starting point, provided that we also recognize its contested history and theoretical limitations.
+Project Compass takes that framework into rural Michigan communities through local engagement, digital-skills work, infrastructure planning, and technical assistance (Merit Network, "Projects"; Merit Network, "Project Compass"). The Digital Opportunities Compass authors' subsequent research points toward continuous policy learning from data, interventions, and peer communities (Bauer et al.). DOIN asks what infrastructure might help make that kind of learning durable, connected, explainable, and auditable. The DIKW tradition provides a useful conceptual starting point, provided that we also recognize its contested history and theoretical limitations.
 
 I would take it one step further. Data gives us observations. Information places observations into usable form. Knowledge connects what we know.
 
@@ -186,9 +186,9 @@ Infrastructure that helps us remember what we knew, understand why we believed i
 
 ## Provenance Note
 
-This brief intentionally distinguishes sourced findings from synthesis. MAISA supports the statements about MiGreatDataLake; Cloudwick's documentation supports the capabilities it claims for Amorphic; the Compass authors support the Digital Opportunities Compass and policy-learning concepts; Merit Network supports the descriptions of Project Compass; and the DIKW discussion separates historical formulations from my adaptation.
+This brief intentionally distinguishes sourced findings from synthesis. MAISA supports the statements about MiGreatDataLake; Cloudwick's documentation supports the capabilities it claims for Amorphic; the Digital Opportunities Compass authors support the framework and its policy learning concepts; Merit Network supports the descriptions of Project Compass; and the DIKW discussion separates historical formulations from my adaptation.
 
-The learning-loop formulation, the distinction between data infrastructure and knowledge infrastructure, the extension from technical lineage to knowledge provenance, and the proposed convergence of MiGreatDataLake, the Compass, Project Compass, and DOIN are my synthesis. They should be read as a research direction, not as claims that the organizations or original authors cited here have adopted this architecture.
+The learning-loop formulation, the distinction between data infrastructure and knowledge infrastructure, the extension from technical lineage to knowledge provenance, and the proposed convergence of MiGreatDataLake, the Digital Opportunities Compass, Project Compass, and DOIN are my synthesis. They should be read as a research direction, not as claims that the organizations or original authors cited here have adopted this architecture.
 
 ## Works Cited
 
