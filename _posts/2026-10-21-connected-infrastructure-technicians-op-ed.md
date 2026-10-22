@@ -1,5 +1,6 @@
 ---
 layout: post
+status: op-ed
 title: "Stop Training Low-Voltage Installers. Start Training Connected Infrastructure Technicians."
 date: 2026-10-21
 author: Jason Kronemeyer
@@ -19,8 +20,6 @@ tags:
   - fault-managed power
 excerpt: "As connectivity, power, sensing, controls, and cybersecurity converge inside buildings, workforce development needs a new entry-level pathway: the Connected Infrastructure Technician."
 ---
-
-# Stop Training Low-Voltage Installers. Start Training Connected Infrastructure Technicians.
 
 For decades, we have divided the infrastructure inside a building into relatively neat occupational categories. Electricians handled power. Telecommunications installers pulled cable. Network technicians configured switches and routers. AV specialists installed displays and sound systems. Security contractors handled cameras and access control. Those distinctions made sense when the systems themselves were more separate. They make less sense every year.
 
