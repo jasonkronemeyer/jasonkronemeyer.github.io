@@ -745,3 +745,383 @@ That moves the problem from **data integration toward knowledge governance**, fr
 [^4]: Merit Network. “Project Compass.” https://www.merit.edu/research/project-compass/
 What changed
 The revised section distinguishes digital participation from community participation in planning. It introduces a five-level model of reach, engagement, influence, continuity, and outcomes, maps participation to all six Compass components, and treats culture as an interpretive layer rather than another demographic field. It also introduces participation provenance, which gives DOIN a concrete role: connecting participation measurements to the people, methods, relationships, cultural conditions, limitations, and decisions that give those measurements meaning.
+
+
+Below is a copy-ready Markdown extension for the research note. I treated “pepper” as Seymour Papert, connected the research specifically to participation, culture, the Digital Opportunities Compass, and DOIN, and distinguished Papert’s ideas from your application of them to community knowledge infrastructure.
+## From Participation to Construction: A Papert-Informed Extension
+
+### Prompt
+
+> **What does Seymour Papert's research say about this?**
+
+Seymour Papert's research offers another way to interpret the relationship among technology, culture, participation, and community knowledge. Papert's work was primarily concerned with learning, children, computers, and educational environments. He did not propose a digital-equity measurement framework, the Digital Opportunities Compass, or a community knowledge infrastructure such as DOIN.
+
+His research nevertheless provides a useful theoretical lens for this inquiry. In particular, Papert's constructionism helps distinguish between giving people access to technology, observing their use of technology, and creating conditions in which people can use technology to construct, share, revise, and govern things that are meaningful to them.
+
+That distinction strengthens the argument that participation should not be measured only by attendance, access, adoption, or frequency of use.
+
+## Constructionism and Active Participation
+
+Papert developed constructionism from the constructivist proposition that people actively construct knowledge rather than simply receive it. Constructionism adds that this process can be especially powerful when people are consciously engaged in constructing something public and shareable, such as a computer program, model, theory, story, design, or other artifact.[^5]
+
+In *Mindstorms: Children, Computers, and Powerful Ideas*, Papert contrasts computer-aided instruction that uses computers to “program” children with an environment in which children program computers. Programming allows learners to manipulate ideas, build models, test assumptions, encounter errors, and revise their thinking.[^6]
+
+Papert's point was not simply that programming is a useful technical skill. The computer could become an expressive material through which learners developed and examined ideas. Learners were not merely recipients or users of a system. They became constructors.
+
+Applied to digital participation, this suggests an important progression:
+
+- **Access:** A person can reach a technology or resource.
+- **Use:** A person can perform an activity with it.
+- **Participation:** A person takes part in an activity, program, or community.
+- **Construction:** A person creates something through that participation.
+- **Appropriation:** A person or community makes the technology or resource its own and directs it toward a meaningful purpose.
+- **Influence:** The resulting contribution affects a shared environment or decision.
+- **Governance:** Participants have authority over how their contributions and knowledge are represented and used.
+
+This progression is an application of constructionism to digital opportunity and community knowledge infrastructure. It should not be presented as a participation model developed by Papert himself.
+
+## From Use to Appropriation
+
+Michigan's Digital Participation Score provides evidence that people are engaging in activities such as online learning, telehealth, employment searches, government services, communication, financial services, commerce, and content creation.[^1] These measures go beyond broadband availability because they show whether connectivity is being translated into observable activity.
+
+A constructionist perspective adds another question:
+
+> **Can people and communities make a technology, application, or knowledge resource their own and use it for purposes that they recognize as meaningful?**
+
+Use and appropriation are related, but they are not identical.
+
+A resident may use a patient portal because a healthcare provider requires it. Appropriation occurs when the resident gains enough understanding and control to use digital health resources confidently, combine them with other practices, help someone else use them, evaluate their limitations, and decide when the technology is appropriate.
+
+A student may complete an assigned online course. Appropriation occurs when the student begins using digital tools to investigate personally meaningful questions, build projects, collaborate with others, or create resources for a community.
+
+A community organization may enter information into a funding portal. Appropriation occurs when the organization can use digital infrastructure to identify priorities, organize evidence, build partnerships, represent local conditions, pursue resources, and retain the resulting knowledge for future work.
+
+This distinction matters because adoption can occur without agency. A person can use a system while having little influence over its purpose, configuration, language, data practices, or definition of success.
+
+Appropriation asks whether people have enough control to turn a system designed elsewhere into a resource for locally meaningful action.
+
+## Mathland and the Cultural Conditions of Participation
+
+One of Papert's influential ideas in *Mindstorms* is the imagined possibility of a “Mathland,” a cultural environment in which mathematical thinking could be learned more naturally because it was embedded in meaningful activity. Papert compared this to the way people learn languages by living in cultures where those languages are used.[^6]
+
+The importance of this idea for digital opportunity is not that every community must become a technological equivalent of Mathland. The more useful insight is that learning and participation occur within cultural environments.
+
+Connectivity can exist.
+
+Devices can exist.
+
+Digital skills training can exist.
+
+Applications can exist.
+
+Participation can nevertheless remain limited if the surrounding environment does not make an activity trusted, relevant, intelligible, supported, or worth doing.
+
+This suggests a stronger account of culture:
+
+> **Culture does not merely influence participation after an opportunity has been created. Culture helps create the environment in which particular forms of participation become meaningful, learnable, legitimate, shareable, and possible.**
+
+This is more than a demographic claim. Culture should not be represented only through fields such as language, identity, age, geography, or group membership. Culture is also expressed through relationships, practices, stories, institutions, expectations, trusted sources, definitions of expertise, experiences with outside organizations, and assumptions about the purposes technology should serve.
+
+## The Samba School as a Model of Participatory Culture
+
+Papert was also interested in Brazilian samba schools as examples of social learning environments. These were not “schools” in the conventional institutional sense. They brought together people of different ages and levels of experience around a shared cultural production connected to Carnival.[^7]
+
+In the samba-school model, learning was woven into participation in a larger community practice. Beginners and experts occupied the same environment. People learned through observation, apprenticeship, interaction, rehearsal, contribution, feedback, and participation in a project that held shared cultural meaning.[^7]
+
+The environment combined several characteristics:
+
+- people of different ages and experience levels participated together;
+- learning occurred through practice rather than being separated from practice;
+- participants learned from one another;
+- the work contributed to a shared public production;
+- individual development occurred within a larger cultural and social experience; and
+- participation was connected to purposes that community members cared about.[^7]
+
+The samba-school example is particularly relevant to the role of culture in participation. Participation was not produced merely by making instruction available. The learning environment worked because activity, identity, relationships, history, performance, and shared purpose were connected.
+
+This has direct implications for digital-opportunity work.
+
+A digital-skills class offered as an isolated instructional intervention differs from a community project in which participants use digital tools to document local history, map community assets, monitor water quality, build a small-business network, preserve language, analyze broadband conditions, or develop evidence for a grant application.
+
+Both may teach digital skills. The second also places those skills inside a culturally and socially meaningful practice.
+
+## A Papert-Informed Participation Framework
+
+The earlier participation framework identified five levels:
+
+1. Reach
+2. Engagement
+3. Influence
+4. Continuity
+5. Outcomes
+
+A constructionist interpretation suggests extending the framework:
+
+1. **Reach**
+2. **Engagement**
+3. **Use**
+4. **Contribution**
+5. **Construction**
+6. **Appropriation**
+7. **Influence**
+8. **Continuity**
+9. **Outcomes**
+10. **Governance**
+
+These levels should not necessarily be treated as a rigid sequence. Participation can move among them, and an initiative may support some dimensions while neglecting others.
+
+### Reach
+
+**Question:** Did the opportunity reach the people and communities it was intended to serve?
+
+Possible measures include the number and distribution of residents contacted, representation of covered populations, accessibility of engagement formats, and participation through trusted community organizations.
+
+### Engagement
+
+**Question:** Did people actively take part?
+
+Measures may include attendance, responses, return participation, completion of activities, requests for assistance, participation in discussions, and involvement in setting priorities.
+
+### Use
+
+**Question:** Did participants use the technology or resource for the intended activity?
+
+Measures may include use of telehealth, online learning, job-search tools, government services, financial applications, communication platforms, or community data resources.
+
+### Contribution
+
+**Question:** Did participants contribute knowledge, ideas, relationships, evidence, or labor?
+
+Measures may include stories shared, local assets identified, data contributed, priorities proposed, errors corrected, relationships documented, and community knowledge added to a shared resource.
+
+### Construction
+
+**Question:** Did participants create something through their participation?
+
+The construction might be:
+
+- a digital artifact;
+- a community map;
+- a local dataset;
+- a story or media project;
+- a shared vocabulary;
+- a locally defined indicator;
+- a grant proposal;
+- a training resource;
+- a policy recommendation;
+- a knowledge graph;
+- a new partnership; or
+- a revised understanding of a community problem.
+
+### Appropriation
+
+**Question:** Could participants make the technology, method, or resulting knowledge resource their own?
+
+Evidence of appropriation might include participants adapting a tool, choosing new purposes for it, teaching others to use it, integrating it into existing community practices, challenging its assumptions, or continuing to use it without dependence on the original project team.
+
+### Influence
+
+**Question:** Did participants' contributions change a decision, program, representation, or distribution of resources?
+
+Measures may include recommendations adopted, programs modified, funding priorities changed, community-defined indicators added, and formal explanations given when recommendations were not adopted.
+
+### Continuity
+
+**Question:** Did participation and knowledge persist beyond the original event, grant, or pilot?
+
+Measures may include repeat participation, continuing working groups, sustained relationships, retained local capacity, preservation of artifacts, and access to knowledge after project personnel change.
+
+### Outcomes
+
+**Question:** What changed because participation occurred?
+
+Outcomes may include improvements in education, employment, health, civic engagement, social connection, delivery of essential services, digital safety, or community capacity.
+
+### Governance
+
+**Question:** Could participants influence how their contributions and resulting knowledge were represented, interpreted, shared, corrected, and used?
+
+Possible measures include:
+
+- community authority to correct records or interpretations;
+- documented consent and use conditions;
+- community representation in governance bodies;
+- transparent decisions about access and reuse;
+- the ability to withdraw sensitive contributions;
+- acknowledgment of contributors and source communities;
+- mechanisms to contest conclusions; and
+- continuing access to the resulting knowledge infrastructure.
+
+Construction and appropriation deepen participation. Governance protects the agency connected to that participation.
+
+## Relating Constructionism to the Digital Opportunities Compass
+
+Papert's work and the Digital Opportunities Compass serve different purposes. The Compass is a framework for understanding the conditions and outcomes of digital opportunity. Constructionism is a theory of learning and knowledge construction.
+
+They should therefore be treated as complementary lenses rather than collapsed into a single framework.
+
+| Compass component | Constructionist question | Community-knowledge implication |
+|---|---|---|
+| **Contexts** | Does the environment connect participation to people's experiences, interests, identities, relationships, and purposes? | Context should be preserved as part of the meaning of community knowledge. |
+| **Governance** | Who determines what can be created, changed, shared, or evaluated? | Communities need authority over how contributed knowledge is represented and used. |
+| **Connectivity** | Can participants reliably reach the tools, people, and materials required to create and collaborate? | Connectivity supports not only consumption but also contribution and collective construction. |
+| **Skills** | Can participants explore, make, test, debug, modify, and teach rather than only follow instructions? | Skills should include the capacity to revise systems and representations, not merely operate them. |
+| **Applications** | Can applications function as expressive materials for locally meaningful activity? | Applications should support local adaptation, creation, and interoperability rather than prescribe a single use. |
+| **Outcomes** | What did people learn, create, appropriate, influence, and sustain? | Outcomes should include community capacity, durable artifacts, stronger relationships, and increased agency. |
+
+This relationship helps explain why participation sits at the intersection of all six Compass components.
+
+Connectivity makes participation technically possible.
+
+Skills increase the forms of participation available.
+
+Applications provide spaces and materials for action.
+
+Contexts shape meaning and legitimacy.
+
+Governance distributes authority.
+
+Outcomes show what participation changes.
+
+Constructionism adds questions about what participants make, how they develop understanding through making, whether they can revise what they make, and whether their constructions become part of a wider community practice.
+
+## From Pipeline Engagement to Community Knowledge Construction
+
+Papert and Idit Harel caution against treating knowledge as something that can simply be transmitted through a pipeline. In *Situating Constructionism*, they argue that learners construct knowledge and that this process is especially productive when learners construct public entities that can be examined and shared.[^5]
+
+A conventional community-engagement process can unintentionally reproduce a pipeline:
+
+**Institution → question → resident response → dataset → institutional decision**
+
+In that model, residents serve primarily as sources of information. The institution defines the categories, collects the responses, interprets the results, and controls the resulting representation.
+
+A constructionist community-knowledge process would be more reciprocal:
+
+**Community members ↔ local organizations ↔ tools ↔ evidence ↔ artifacts ↔ relationships ↔ institutions**
+
+Residents and community organizations would not merely supply answers. Participants could help:
+
+- define the questions;
+- determine what counts as relevant evidence;
+- identify missing perspectives;
+- create representations;
+- examine and correct interpretations;
+- connect quantitative data with lived experience;
+- establish conditions for appropriate use;
+- apply the resulting knowledge to locally defined purposes; and
+- revise the knowledge as circumstances change.
+
+This is not a model proposed by Papert. It is an extension of constructionist principles into community engagement and knowledge infrastructure.
+
+The distinction in provenance is important:
+
+- **Papert and Harel's contribution:** Knowledge is actively constructed, with particular value placed on constructing public and shareable entities rather than relying on pipeline models of transmission.[^5]
+- **The application developed here:** Community knowledge infrastructure should enable communities to participate in constructing, revising, contextualizing, and governing representations of what they know.
+
+## What Did Participants Construct?
+
+A constructionist perspective introduces an additional question that cuts across participation metrics:
+
+> **What did participants construct?**
+
+An initiative may report that 80 residents attended meetings, 45 completed training, and 30 used a digital service. These are useful measures, but they do not reveal whether participants helped create anything durable.
+
+A more complete account might also ask:
+
+- Did participants construct new knowledge?
+- Did participants create artifacts that others can use?
+- Did participants define new indicators?
+- Did participants identify relationships that were previously invisible?
+- Did participants develop a shared vocabulary?
+- Did participants build local capacity?
+- Did participants change how a problem was understood?
+- Did participants create something that remained accessible after the project ended?
+- Could participants revise or govern what they created?
+
+These questions connect participation directly to knowledge infrastructure.
+
+The relevant measure is no longer only how many people participated. It includes whether participation increased the community's capacity to understand, represent, and act upon its own conditions.
+
+## Implications for DOIN
+
+Papert's work points toward two possible versions of DOIN.
+
+The first is a system that collects community knowledge, encodes it, relates it to other evidence, and presents the resulting representation back to a community.
+
+That approach could still be useful, but it risks reproducing the pipeline model:
+
+**Community knowledge → institutional system → formal representation**
+
+A more constructionist DOIN would operate as an environment in which communities can:
+
+> **explore → create → relate → contextualize → contest → revise → share → apply → govern**
+
+Such an environment would need to support more than data ingestion and semantic integration. It would need tools and governance processes through which communities could:
+
+- create and modify representations;
+- connect evidence to local stories and explanations;
+- preserve disagreements and multiple perspectives;
+- identify the provenance of assertions;
+- specify use conditions;
+- correct errors;
+- examine how categories affect interpretation;
+- create locally meaningful artifacts;
+- reuse knowledge for community-defined purposes; and
+- retain influence over subsequent interpretation and use.
+
+This changes DOIN from:
+
+> **a system that represents community knowledge**
+
+into:
+
+> **an environment in which communities participate in constructing and governing representations of what they know.**
+
+## A Revised Synthesis
+
+The relationship among the frameworks can now be stated as follows:
+
+| Layer | Core question |
+|---|---|
+| **Broadband infrastructure** | Can people connect? |
+| **Digital equity** | Can people afford, access, and meaningfully use digital resources? |
+| **Digital participation** | What are people doing with those resources? |
+| **Digital Opportunities Compass** | What interacting conditions turn connectivity and participation into meaningful individual and community outcomes? |
+| **Constructionism** | What can people construct, appropriate, share, examine, and learn through participation? |
+| **Culture** | What makes those activities meaningful, legitimate, learnable, valuable, and shareable in this community? |
+| **Community knowledge infrastructure** | How can community-constructed knowledge be preserved, connected, interpreted, governed, and used without separating it from its context and provenance? |
+| **DOIN** | How can these processes and relationships become durable infrastructure while preserving community agency? |
+
+This produces a fourth line for the emerging distinction:
+
+> **Data infrastructure connects evidence.**
+>
+> **Knowledge infrastructure preserves meaning.**
+>
+> **Community knowledge infrastructure preserves meaning while preserving community agency over that meaning.**
+>
+> **Constructionist community knowledge infrastructure gives communities the means to construct, revise, share, apply, and govern that meaning.**
+
+## Revised Research Proposition
+
+The integration of participation metrics, cultural context, the Digital Opportunities Compass, and constructionism suggests a broader research proposition:
+
+> **A digital-opportunity measurement framework can tell us that communities differ. Participation metrics can show where those differences appear in practice. Cultural context can help explain why participation takes the form it does. Constructionism can help us ask what people create, appropriate, and learn through participation. Community knowledge infrastructure may help communities preserve, connect, revise, and govern that knowledge without reducing participation, culture, or community identity to another score.**
+
+The resulting research question is therefore broader than how culture should be represented in a data model:
+
+> **How can we build community knowledge infrastructure that enables communities to construct representations of what they know, preserve the cultural context and provenance of that knowledge, connect it to other forms of evidence, apply it toward locally meaningful purposes, and retain agency over how it is interpreted and used?**
+
+That moves the problem from data integration toward knowledge governance, from counting participation toward understanding what participation produces, and from building infrastructure *about* communities toward constructing knowledge infrastructure *with* them.
+
+## Additional References
+
+[^5]: Harel, Idit, and Seymour Papert. “Situating Constructionism.” In *Constructionism*, edited by Idit Harel and Seymour Papert. Ablex Publishing Corporation, 1991. The chapter describes constructionism as building knowledge structures and adds that this process occurs especially productively when learners consciously construct public entities. It also cautions against pipeline models of transmitting knowledge. Available through the [MIT Media Lab](https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf).
+
+[^6]: Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books, 1980. Papert presents computers as materials learners can control, program, and use to encounter powerful ideas rather than as machines that merely deliver instruction. A public lending copy is available through the [Internet Archive](https://archive.org/details/MINDSTORMS).
+
+[^7]: MIT Open Learning Library. “Samba Schools.” *Collaborative & Group Learning*, MITx 11.132x. The resource discusses Papert's interest in Brazilian samba schools as mixed-age communities in which people learn from one another through apprenticeship, practice, interaction, and work on shared projects connected to their interests. Available through the [MIT Open Learning Library](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+11.132x_3+1T2017/jump_to/block-v1:MITx+11.132x_3+1T2017+type@sequential+block@90e4da47c0c3438ab7ae40a4607a6bae).
+The extension grounds the central constructionist claims in Seymour Papert and Harel while explicitly labeling the DOIN participation model as your application and synthesis, not something that should be attributed directly to Papert. Situating Constructionism supports the public-artifact and anti-pipeline arguments, while Mindstorms supports the shift from technology delivering instruction to people controlling and constructing with technology. 123
+The samba-school discussion adds the cultural and community dimension: mixed experience levels, apprenticeship, interaction, shared purpose, and learning embedded in a larger cultural practice. That makes it especially useful for your claim that culture does not merely affect participation but helps create the conditions under which participation becomes meaningful. 45
+
+
