@@ -389,3 +389,25 @@ For DOIN, that may represent both a warning and an opportunity.
 The goal should not simply be to build a better database about digital opportunity. It should be to build a knowledge infrastructure capable of preserving the relationship between **evidence, place, culture, context, provenance, and community voice**.
 
 That may be necessary if community intelligence is ultimately going to become community action.
+
+# Five Whys
+
+Using the “Five Whys” method on your Culture, Context, and Community Knowledge: A Missing Dimension in Digital Opportunity note, I’d start with its central claim: data about a community is not necessarily community knowledge. 1
+Five Whys
+1. Why isn’t data about a community sufficient to understand that community?  Because conventional indicators can describe population, income, broadband, education, infrastructure, and other conditions while failing to capture what those conditions mean to the people who live there. 1
+2. Why does meaning matter for digital opportunity?  Because apparently similar communities can respond very differently to the same broadband, workforce, telehealth, or engagement intervention. Your note suggests the difference may lie partly in culture, context, relationships, history, and trust, dimensions not readily visible in conventional datasets. 1
+3. Why don't our existing information systems capture those dimensions well?  Because they are generally designed to represent measurable attributes rather than relational knowledge. Your examples make the distinction particularly clear: systems readily store population or broadband adoption, but struggle with relationships such as trusts → Organization, hasHistoryWith → Institution, reliesOn → CommunityLeader, or expresses → CommunityPriority. 1
+4. Why should DOIN attempt to represent those relationships instead of simply adding more datasets?  Because adding datasets can increase the amount of information without increasing understanding. Your provenance example demonstrates this well: “Community X has low interest in workforce training” means something very different once we know who was surveyed, who was excluded, how the survey was conducted, and that the response rate was 14 percent. 1
+5. Why does that distinction ultimately matter?  Because decisions based on information stripped of culture, context, provenance, relationships, and community voice can misunderstand the very communities they are intended to help. That leads directly to the deeper purpose emerging from the note:
+
+DOIN should not merely become infrastructure for data about communities. It should become infrastructure through which communities can preserve, contextualize, relate, and responsibly use knowledge about themselves. 1
+
+What the fifth “why” reveals
+I think your Five Whys exercise exposes something deeper than the note's explicit research question.
+You're beginning with “How do we account for culture?”, but following the problem downward eventually produces a more fundamental question:
+Who gets to determine what counts as knowledge about a place?
+That reframes DOIN from primarily a data-modeling problem into a knowledge-governance problem.
+And that makes one of the questions you already included in the note especially consequential: How can community members define cultural context rather than having outside institutions define it for them? 1
+So I might push the emerging DOIN principle one step further:
+Data infrastructure connects evidence.  Knowledge infrastructure preserves meaning.  Community knowledge infrastructure preserves meaning while also preserving the community's agency over that meaning.
+That third statement may be where this note is ultimately heading.
