@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research-note
 title: "Digital Navigation & Maslow's Hierarchy: A Community Development Framework"
 permalink: /research/digital-navigation-maslow/
 ---
