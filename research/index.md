@@ -109,7 +109,7 @@ Recent essays extend this work into AI governance and trust:
   
   <div class="research-paper">
     <h4><a href="/research/digital-navigation-maslow/">Digital Navigation & Maslow's Hierarchy</a></h4>
-    <p class="research-meta">Research Paper • Community Development</p>
+    <p class="research-meta">Research Note • Community Development</p>
     <p>Examining the intersection of digital accessibility and human needs hierarchy in community development contexts.</p>
   </div>
   
