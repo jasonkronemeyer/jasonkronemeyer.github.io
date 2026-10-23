@@ -206,9 +206,11 @@ Render it from site defaults, page front matter, and discoverable repository met
 Insert the component into the lowest appropriate shared layout so it appears after substantive content and before the global footer. Do not edit hundreds of Markdown files individually.
 
 ```liquid
+{% raw %}
 {% unless page.contributions.enabled == false %}
   {% include contribution-panel.html %}
 {% endunless %}
+{% endraw %}
 ```
 
 ### FR-3: Contribution actions
