@@ -1,8 +1,9 @@
 ---
+layout: page
 title: "DOIN Continuous Open Courseware Pilot"
 subtitle: "Building Reproducible, Interoperable Learning Infrastructure on MiGreatDataLake"
 author: "Jason Kronemeyer"
-status: "Proposal"
+status: brainstorm
 date: 2026-10-24
 ---
 
