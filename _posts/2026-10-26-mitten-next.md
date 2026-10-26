@@ -2,7 +2,7 @@
 layout: post
 title: "The Most Important Word in MITTEN Is Network"
 subtitle: "What Network Science Can Teach Us About the Next Generation of Digital Opportunity and Community Development"
-author: "Jason Kronemeyer"
+author: "Jason F. Kronemeyer"
 date: 2026-10-26
 type: "Op-Ed"
 status: draft
@@ -19,8 +19,6 @@ keywords:
   - knowledge commons
   - Michigan
 ---
-
-# The Most Important Word in MITTEN Is Network
 
 *By Jason F. Kronemeyer*
 
