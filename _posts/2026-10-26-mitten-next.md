@@ -6,6 +6,7 @@ author: "Jason Kronemeyer"
 date: 2026-10-26
 type: "Op-Ed"
 status: draft
+math: true
 keywords:
   - MITTEN
   - digital opportunity
@@ -43,9 +44,9 @@ Network science gives us a way to understand these relationships, and I believe 
 
 At its simplest, network science represents a network as a graph:
 
-$$
+\[
 G = (V,E)
-$$
+\]
 
 where $V$ represents nodes and $E$ represents the relationships, or edges, between them. Network scientist M. E. J. Newman showed how community structure can be characterized mathematically through modularity: networks can contain groups with relatively dense internal connections and comparatively sparse connections between groups. [^3]
 
@@ -191,7 +192,7 @@ Putting people in the same room is not the same as creating a network.
 
 A more meaningful theory of regional capacity is:
 
-$$
+\[
 \text{Investment}
 \rightarrow
 \text{Network Formation}
@@ -203,7 +204,7 @@ $$
 \text{Opportunity}
 \rightarrow
 \text{New Relationships}
-$$
+\]
 
 Those new relationships then become infrastructure for whatever comes next.
 
@@ -225,7 +226,7 @@ Every branch opens into another network.
 
 The Curiosity Library connects:
 
-$$
+\[
 \text{People}
 \leftrightarrow
 \text{Interests}
@@ -241,7 +242,7 @@ $$
 \text{Projects}
 \leftrightarrow
 \text{Opportunities}
-$$
+\]
 
 Workforce development has another network.
 
@@ -269,29 +270,29 @@ If the regional Hub helps build the network, DOIN can help us understand it.
 
 Conceptually:
 
-$$
+\[
 \text{Digital Opportunities Hub}
 =
 \text{Network Building}
-$$
+\]
 
-$$
+\[
 \text{DOIN}
 =
 \text{Network Intelligence}
-$$
+\]
 
-$$
+\[
 \text{Knowledge Commons}
 =
 \text{What Flows Through the Network}
-$$
+\]
 
-$$
+\[
 \text{Curiosity Library}
 =
 \text{One Way People Enter the Network}
-$$
+\]
 
 DOIN could eventually help communities ask questions that traditional program databases cannot easily answer.
 
@@ -323,9 +324,9 @@ This distinction matters because network development should never become a conte
 
 For an undirected graph with $N$ nodes and $E$ edges, network density can be expressed as:
 
-$$
+\[
 D = \frac{2E}{N(N-1)}
-$$
+\]
 
 But maximizing $D$ would be a poor community-development strategy. Real networks often contain meaningful community structure, with dense relationships inside modules and fewer connections between them. That structure itself contains information about how the system functions. [^3]
 
@@ -351,23 +352,23 @@ There is also a useful way to think about maturity.
 
 At first, almost everything may depend on the Hub:
 
-$$
+\[
 A \rightarrow H \leftarrow B
-$$
+\]
 
 The Hub knows A. The Hub knows B. The Hub makes the introduction.
 
 Later, the Hub begins facilitating direct relationships:
 
-$$
+\[
 A \leftrightarrow H \leftrightarrow B
-$$
+\]
 
 Eventually:
 
-$$
+\[
 A \leftrightarrow B
-$$
+\]
 
 The introduction persists without continued mediation.
 
@@ -413,7 +414,7 @@ Instead of repeatedly paying the cost of rediscovering what somebody else alread
 
 The cycle becomes:
 
-$$
+\[
 \text{Discover}
 \rightarrow
 \text{Learn}
@@ -425,7 +426,7 @@ $$
 \text{Share}
 \rightarrow
 \text{Reuse}
-$$
+\]
 
 And reuse creates another discovery event.
 
