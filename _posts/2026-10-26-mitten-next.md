@@ -133,6 +133,34 @@ An entrepreneur connected to someone with access to capital.
 
 The question is not whether every participant is connected to everybody else. The question is whether valuable pathways exist across the boundaries that ordinarily separate communities, professions, institutions, and opportunities.
 
+## Birds of Unlike Feathers
+
+We often say that birds of a feather flock together. Networks behave that way too. People tend to form relationships within familiar circles: their professions, institutions, communities, industries, and interests.
+
+Those relationships matter. Strong ties create trust, mutual support, and the ability to coordinate. But strong regional networks also need **birds of unlike feathers**.
+
+I use that phrase to describe useful relationships among people, organizations, disciplines, and communities that would be unlikely to encounter one another through their normal networks.
+
+A farmer meets a university researcher. A student meets an engineer. A township official meets a data scientist. A librarian meets a workforce developer.
+
+The value is not difference for its own sake. It is **complementarity across difference**.
+
+A connection becomes valuable when someone's knowledge, capability, experience, resources, or curiosity becomes useful in combination with what someone else brings. An unlikely connection can create possibilities that neither network could easily produce on its own.
+
+Network theory helps explain why. Granovetter's work on weak ties shows how relationships beyond our closest circles can carry novel information and opportunity. Burt's work on structural holes explains the value of bridging otherwise separated groups. Birds of Unlike Feathers turns those insights toward a practical community-development question:
+
+> **Who should know whom, but does not yet?**
+
+That shifts our attention from counting participation to discovering missing relationships.
+
+A Digital Opportunities Hub can help those relationships form by understanding what people know, what they need, what problems they are solving, and what resources they can contribute. It can create purposeful connections across sectors, professions, institutions, generations, and communities.
+
+A network can contain tremendous diversity and still be fragmented. What matters is whether useful relationships exist **between** its different parts.
+
+**Difference → Discovery → Complementarity → Connection → Collaboration**
+
+The goal is not to make everyone know everyone else. It is to help the region recognize **which unlikely connections could matter** and create the conditions for those relationships to take root.
+
 ## Weak Ties Can Carry Opportunity
 
 The idea that connections beyond our closest relationships can provide access to novel information has deep empirical roots.
