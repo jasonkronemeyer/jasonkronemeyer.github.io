@@ -24,8 +24,6 @@ layout: post
 status: draft
 ---
 
-# Beyond Public vs. Private: Why the AI Economy Needs a Cooperative Dividend
-
 As artificial intelligence reshapes the global economy, communities increasingly find themselves confronting a familiar question: who benefits when new infrastructure becomes essential to economic and civic life?
 
 The discussion surrounding data centers and AI infrastructure is often framed as a choice between public ownership and private investment. Advocates of municipal compute argue for public control of critical digital infrastructure. Investors point to the enormous capital requirements needed to build the next generation of computing capacity.
