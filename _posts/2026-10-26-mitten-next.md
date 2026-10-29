@@ -503,9 +503,9 @@ Economic networks move opportunity.
 
 ## References
 
-https://www.michigan.gov/leo/news/2025/02/28/mihi-awards-10m-to-13-organizations-across-michigan-to-improve-digital-access-statewide.
+[^1]: https://www.michigan.gov/leo/news/2025/02/28/mihi-awards-10m-to-13-organizations-across-michigan-to-improve-digital-access-statewide.
 
-https://www.michigan.gov/leo/bureaus-agencies/mihi/michigan-digital-inclusion-resources.
+[^2]: https://www.michigan.gov/leo/bureaus-agencies/mihi/michigan-digital-inclusion-resources.
 
 [^3]: Newman, M. E. J. "Modularity and Community Structure in Networks." *Proceedings of the National Academy of Sciences* 103, no. 23 (2006): 8577–8582. https://doi.org/10.1073/pnas.0601602103.
 
