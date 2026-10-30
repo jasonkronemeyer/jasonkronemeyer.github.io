@@ -15,7 +15,7 @@ tags:
   - organizational strategy
   - artificial intelligence
   - IT and OT convergence
-description: "I help organizations understand how people, information, technology, infrastructure, and data fit together so they can put computers to work for people and accelerate the work they exist to do."
+description: "I help organizations understand how people, information, technology, infrastructure, and data fit together so they can put computers to work for their staff and accelerate the work the organization exists to do."
 status: published
 ---
 
