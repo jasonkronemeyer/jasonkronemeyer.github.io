@@ -19,8 +19,6 @@ description: "I help organizations understand how people, information, technolog
 status: published
 ---
 
-# The Work Is the Objective: What I Bring to the Table
-
 *Why my path from the farm to signals intelligence, information technology, infrastructure, and data science shapes how I advise organizations today.*
 
 I grew up on a dairy farm near Pickford, Michigan. Looking back, I think that is where I began developing the way I approach technology, organizations, and complex systems.
