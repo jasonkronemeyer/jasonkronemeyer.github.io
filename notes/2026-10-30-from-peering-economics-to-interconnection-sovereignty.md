@@ -26,8 +26,6 @@ tags:
 description: "A research note examining new global evidence on the economics of Internet Exchange Points and connecting it to carrier neutrality, local economic development, traffic localization, regional resilience, and an emerging concept of interconnection sovereignty."
 ---
 
-# From Peering Economics to Interconnection Sovereignty
-
 ## Internet Exchange Points as Local Economic and Civic Infrastructure
 
 ### Executive Summary
