@@ -23,7 +23,7 @@ status: published
 
 I grew up on a dairy farm near Pickford, Michigan. Looking back, I think that is where I began developing the way I approach technology, organizations, and complex systems.
 
-On a farm, everything is connected. Equipment, electricity, weather, animals, crops, time, money, and people all have to work together. When something breaks, the problem is rarely confined to one piece of equipment. You have to understand how the failure affects everything around it, determine what matters most, and decide what needs to happen next because the work still has to get done.
+On a farm, everything is connected. Equipment, electricity, weather, animals, crops, time, money, and people all have to work together. When something breaks, the problem is rarely confined to one piece of equipment. You have to understand how the failure affects everything around it, determine what matters most, and decide what needs to happen next because the work still has to get done. This can be summarized in the term **seeing work**, which is a lesson I learned from my Dad growing up.
 
 That experience taught me something I have carried throughout my career: technology is valuable only when it helps accomplish the work.
 
@@ -67,7 +67,7 @@ That last part is what matters to me.
 
 I am not interested in technology for technology's sake. I am interested in putting computers to work for people.
 
-That might mean using automation to eliminate repetitive work that consumes staff time every year. It might mean connecting information that currently exists in separate systems so employees do not spend their days searching for it. It could mean using data science to identify patterns that would otherwise remain invisible or building an AI application on top of trusted organizational knowledge so employees can ask questions instead of hunting through folders, email, spreadsheets, and databases.
+That might mean using automation to eliminate repetitive work that consumes staff time every day. It might mean connecting information that currently exists in separate systems so employees do not spend their days searching for it. It could mean using data science to identify patterns that would otherwise remain invisible or building an AI application on top of trusted organizational knowledge so employees can ask questions instead of hunting through folders, email, spreadsheets, and databases.
 
 Sometimes it means something more fundamental: improving the infrastructure beneath those capabilities so the organization can reliably and securely do what it is already trying to do.
 
