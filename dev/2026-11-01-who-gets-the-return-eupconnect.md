@@ -86,13 +86,13 @@ regional economic development should also ask:
 
 A conceptual model of Holistic ROI can be expressed as:
 
-\[
+$$
 ROI_H = \frac{V_O + V_U + V_C + V_A + V_F - C}{C}
-\]
+$$
 
 where:
 
-- \(V_O\) = **Owner Value:** the financial and operational return captured by the infrastructure owner;
+- $V_O$ = **Owner Value:** the financial and operational return captured by the infrastructure owner;
 - \(V_U\) = **User Value:** the benefits captured by households, businesses, schools, healthcare organizations, governments, and other users;
 - \(V_C\) = **Community Value:** the wider economic and institutional effects generated through those uses;
 - \(V_A\) = **Avoided Cost and Risk:** avoided duplication, travel, outages, inefficiency, service disruption, and foregone opportunity;
