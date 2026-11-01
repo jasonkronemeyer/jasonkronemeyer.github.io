@@ -93,11 +93,11 @@ $$
 where:
 
 - $V_O$ = **Owner Value:** the financial and operational return captured by the infrastructure owner;
-- \(V_U\) = **User Value:** the benefits captured by households, businesses, schools, healthcare organizations, governments, and other users;
-- \(V_C\) = **Community Value:** the wider economic and institutional effects generated through those uses;
-- \(V_A\) = **Avoided Cost and Risk:** avoided duplication, travel, outages, inefficiency, service disruption, and foregone opportunity;
-- \(V_F\) = **Future or Option Value:** the value of capabilities, applications, relationships, and opportunities made possible later;
-- \(C\) = **Total Cost:** public, private, philanthropic, institutional, and community resources invested.
+- $V_U$ = **User Value:** the benefits captured by households, businesses, schools, healthcare organizations, governments, and other users;
+- $V_C$ = **Community Value:** the wider economic and institutional effects generated through those uses;
+- $V_A$ = **Avoided Cost and Risk:** avoided duplication, travel, outages, inefficiency, service disruption, and foregone opportunity;
+- $V_F$ = **Future or Option Value:** the value of capabilities, applications, relationships, and opportunities made possible later;
+- $C$ = **Total Cost:** public, private, philanthropic, institutional, and community resources invested.
 
 This equation is primarily conceptual. It should not become an excuse to assign arbitrary dollar values to every desirable outcome. Some returns can be monetized reliably. Others should be expressed using physical, economic, educational, institutional, or network indicators.
 
@@ -155,11 +155,11 @@ It can, however, be evaluated as **external value mobilized around a collaborati
 
 A useful indicator is:
 
-\[
+$$
 Regional\ Leverage\ Ratio =
 \frac{Verified\ External\ Resources\ Mobilized}
 {EUPConnect\ Resources\ Committed}
-\]
+$$
 
 The numerator can include verified public, private, philanthropic, partner, and in-kind resources associated with initiatives in which EUPConnect played a documented role.
 
