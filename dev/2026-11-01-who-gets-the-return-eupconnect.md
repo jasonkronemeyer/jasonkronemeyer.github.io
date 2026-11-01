@@ -23,10 +23,8 @@ tags:
   - resource pooling
   - community capacity
   - Eastern Upper Peninsula
-status: draft
+math: true
 ---
-
-# Who Gets the Return?
 
 ## A Holistic ROI Thesis for EUPConnect
 
