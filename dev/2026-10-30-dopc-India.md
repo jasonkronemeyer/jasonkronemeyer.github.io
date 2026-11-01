@@ -1,0 +1,53 @@
+——-
+layout: post
+——-
+
+### Question 1
+
+**Describe your organization, your current role, and how it connects to digital equity. Please include the communities you primarily serve and how they are impacted by access to affordable broadband, reliable devices, and digital skills.**
+
+I am a co-founder and leadership team member of EUPConnect Collaborative, serving as a Community Technologist, Strategic Advisor, and Regional Network Convener. EUPConnect is a cross-sector partnership advancing digital opportunity across Michigan’s rural Eastern Upper Peninsula, primarily serving communities in Chippewa, Luce, and Mackinac counties, including tribal and other rural communities. My role is to connect community needs with technology, education, research, workforce development, and public policy.
+
+In our region, digital equity is about more than broadband availability. Affordability, reliable devices, digital skills, technical support, and confidence using technology can determine whether residents can fully participate in education, employment, healthcare, public services, and civic life. Our goal is to turn connectivity into meaningful opportunity while ensuring that the communities most affected by the digital divide have a voice in shaping the solutions.
+
+---
+
+### Question 2
+
+**How have you previously engaged in advocacy, community organizing or policy-related work in this position or in prior roles? Please describe your experiences, initiative, and/or activities.**
+
+My advocacy and community-organizing work has focused on ensuring rural and tribal communities have a meaningful voice in decisions about broadband and digital opportunity. Through EUPConnect Collaborative, I have helped bring together tribal nations, schools and colleges, local governments, libraries, broadband providers, community organizations, and research partners around shared regional priorities. My work has included community engagement, broadband and digital-equity planning, data-informed advocacy, grant development, and building partnerships with organizations such as Merit Network and Michigan State University’s Quello Center.
+
+I approach advocacy as both coalition-building and translation, connecting community experience and local knowledge with policymakers, researchers, funders, and infrastructure providers. My goal is not simply to advocate for communities, but to help build their capacity to participate directly in shaping the policies, investments, and programs that affect them.
+
+---
+
+### Question 3
+
+**Please describe how you participate. Include any roles and responsibilities you have, and the frequency of meetings or other activities.**
+
+I participate actively in Michigan’s digital inclusion ecosystem through my leadership role with EUPConnect Collaborative, regularly engaging in regional meetings, partner working sessions, community outreach, and policy discussions focused on broadband, digital skills, workforce development, and digital opportunity. I help convene and connect schools, tribal communities, local governments, libraries, broadband providers, higher education, and community organizations, while maintaining ongoing partnerships with Merit Network, Michigan State University and the Quello Center, and MSU Extension. My participation occurs throughout the month through formal EUPConnect meetings as well as project development, research, partnership building, and state and regional digital inclusion advocacy.
+
+---
+
+### Question 4
+
+**Why are you interested in joining our Digital Opportunity Policy Corps and what skills, knowledge, or connections do you hope to gain from this experience?**
+
+I am interested in joining the Digital Opportunity Policy Corps to strengthen my ability to translate rural and tribal community experience into effective broadband and digital opportunity policy. Through EUPConnect, I have learned that communities need more than representation in data or funding programs; they need meaningful opportunities to inform the policies that shape their future. I hope to deepen my understanding of state and federal broadband policy, strengthen my advocacy and policy-communication skills, and learn how to more effectively bring community knowledge and evidence into policymaking. Just as importantly, I want to build relationships with digital inclusion leaders from across the country, learn from approaches that are working in other communities, and bring those lessons and connections back to Michigan’s Eastern Upper Peninsula.
+
+---
+
+### Question 5
+
+**How do you see yourself applying what you have learned from this program to influence local, state, or federal broadband policy and how would your participation strengthen your organization or community?**
+
+I would apply what I learn through the Digital Opportunity Policy Corps by helping translate the experiences of rural and tribal communities into evidence, stories, and policy recommendations that can inform local, state, and federal broadband decisions. Through EUPConnect Collaborative, my affiliation with Michigan State University’s Quello Center, and my work with the Digital Opportunities Intelligence Network (DOIN), I have opportunities to connect community knowledge with research, data, and policy learning. I would bring the Policy Corps’ training, advocacy strategies, and national connections into these networks, strengthening our ability to elevate rural and tribal perspectives, respond to emerging policy issues, and help communities participate directly in shaping broadband and digital opportunity policy.
+
+---
+
+### Question 6
+
+**Is there anything else you’d like us to know about your interest and readiness to join this cohort?**
+
+I am ready to contribute both practical experience and curiosity to this cohort. My work sits at the intersection of rural and tribal communities, broadband infrastructure, digital opportunity, education, research, and public policy, giving me a perspective that I believe can add value to the Policy Corps. I am particularly interested in learning from peers working in very different communities while sharing what we are learning in Michigan’s Eastern Upper Peninsula. I see this as a two-way exchange: bringing our region’s experiences into national conversations and bringing new relationships, ideas, and advocacy capacity home to strengthen the communities and partnerships I serve.
