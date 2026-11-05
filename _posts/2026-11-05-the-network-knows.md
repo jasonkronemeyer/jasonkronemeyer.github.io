@@ -5,7 +5,6 @@ subtitle: "What a Career in Signals Intelligence, Networking, and Connected Infr
 date: 2026-11-05 08:32:00 -0500
 author: Jason F. Kronemeyer
 status: draft
-published: false
 categories:
   - Connected Data Intelligence
   - Intelligent Infrastructure
