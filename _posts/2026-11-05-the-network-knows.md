@@ -2,7 +2,7 @@
 layout: post
 title: "The Network Knows"
 subtitle: "What a Career in Signals Intelligence, Networking, and Connected Infrastructure Taught Me About Listening to the Systems We Already Have"
-date: 2026-11-05 08:32:00 -0500
+date: 2026-11-05
 author: Jason F. Kronemeyer
 status: draft
 categories:
