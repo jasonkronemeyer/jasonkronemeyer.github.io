@@ -2,7 +2,7 @@
 layout: post
 title: "The Student Isn't the Problem"
 subtitle: "What Chronic Absenteeism Teaches Us About Connected Data Intelligence"
-date: 2026-11-07 11:50:00 -0500
+date: 2026-11-07
 author: Jason F. Kronemeyer
 categories:
   - connected data intelligence
@@ -22,8 +22,7 @@ tags:
   - Eastern Upper Peninsula
   - institutional knowledge
 description: "Chronic absenteeism shows why institutions must stop confusing where data is recorded with where outcomes are produced. Better intelligence requires connecting student signals to the overlapping systems, geographies, and community conditions surrounding them."
-permalink: /connected-data-intelligence/education/data-science/digital-opportunity/community-development/2026/11/07/the-student-isnt-the-problem.html
-published: false
+status: draft
 ---
 
 A student misses school.
