@@ -21,7 +21,7 @@ tags:
   - rural communities
   - Eastern Upper Peninsula
   - institutional knowledge
-description: "Chronic absenteeism shows why institutions must stop confusing where data is recorded with where outcomes are produced. Better intelligence requires connecting student signals to the overlapping systems, geographies, and community conditions surrounding them."
+description: "Chronic absenteeism shows why institutions must stop confusing where data is recorded with where outcomes are produced. Better intelligence requires connecting student signals to the overlapping systems, geographies, and  community conditions surrounding them."
 status: draft
 ---
 
