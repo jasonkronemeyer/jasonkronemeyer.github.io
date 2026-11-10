@@ -4,10 +4,9 @@ title: "From Connections to Capacity: Systems Thinking, Network Science, and the
 subtitle: "How DOIN can connect evidence, local knowledge, education, and policy as a continuing community learning system"
 date: 2026-11-10
 author: "Jason Kronemeyer"
-status: draft
-published: false
+status: research
 lang: en-US
-description: "An APA-formatted article examining how systems thinking, network science, education, and public policy inform the Digital Opportunities Intelligence Network as a community-centered policy-learning system."
+description: "An article examining how systems thinking, network science, education, and public policy inform the Digital Opportunities Intelligence Network as a community-centered policy-learning system."
 excerpt: "The Digital Opportunities Intelligence Network applies systems thinking and network science to help communities connect fragmented evidence, local knowledge, and institutional relationships in support of shared learning and coordinated action."
 categories:
   - Digital Opportunity
@@ -41,8 +40,6 @@ keywords:
   - community capacity
   - K-12 systems education
   - community intelligence
-canonical_url: null
-permalink: /digital-opportunity/connections-to-capacity-doin/
 license: "All rights reserved"
 citation_style: APA 7th edition
 provenance:
@@ -50,8 +47,6 @@ provenance:
   project: "Digital Opportunities Intelligence Network"
   evidence_note: "Published sources support the conceptual foundations. Descriptions of DOIN are based on the author's project documents. Educational pathways, implementation examples, and evaluation criteria are presented as proposals rather than demonstrated outcomes."
 ---
-
-# From Connections to Capacity: Systems Thinking, Network Science, and the Digital Opportunities Intelligence Network
 
 Community development is often organized around individual projects: expanding broadband, improving schools, developing workforce programs, or modernizing public services. Systems thinking asks how these efforts interact and how their relationships shape outcomes over time. Meadows (1999) identifies feedback loops, delays, information flows, rules, and goals as important features of systems and potential points of intervention. This perspective shifts attention from improving isolated components toward understanding the conditions that influence the whole.
 
