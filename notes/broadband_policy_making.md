@@ -1,5 +1,6 @@
 ---
 layout: post
+status: research
 title: "The Map Says Served. The Household Says Not Yet."
 subtitle: "What a New BEAD Affordability Study Means for Michigan's Digital Opportunity Future"
 date: 2026-08-07
