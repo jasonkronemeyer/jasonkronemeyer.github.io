@@ -21,8 +21,6 @@ tags:
 excerpt: "A new TPRC study of more than 60,000 BEAD-eligible locations reveals that broadband availability and affordability often do not align. For Michigan, the findings suggest that the next phase of digital opportunity must focus not only on infrastructure, but also on sustainable adoption and community capacity."
 ---
 
-# The Map Says Served. The Household Says Not Yet.
-
 ## Executive Summary
 
 As the Broadband Equity, Access, and Deployment (BEAD) program moves from planning into implementation, a new study from researchers at the University of California Santa Barbara and the University of Southern California offers an important reminder: broadband infrastructure alone does not guarantee digital opportunity.
