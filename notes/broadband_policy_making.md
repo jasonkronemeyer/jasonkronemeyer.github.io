@@ -187,7 +187,7 @@ The household may still be saying **not yet**.
 
 [^2]: Galperin, Hernan, François Bar, Arpit Gupta, Elizabeth Belding, and Laasya Koduru. *Broadband Affordability and the BEAD Program: Analysis and Policy Recommendations*. USC Annenberg Research Network on International Communication, 2026. Available via the [Policy Brief](https://arnicusc.org/wp-content/uploads/2026/02/Policy-Brief-BEAD-3.pdf) and [USC Annenberg announcement](https://arnicusc.org/news/new-policy-brief-broadband-affordability-and-the-bead-program-analysis-and-policy-recommendations/).
 
-[^3]: https://broadbandusa.ntia.gov/funding-programs/broadband-equity-access-and-deployment-bead-program.
+https://broadbandusa.ntia.gov/funding-programs/broadband-equity-access-and-deployment-bead-program.
 
 [^4]: Federal Communications Commission. [National Broadband Map](https://broadbandmap.fcc.gov/).
 
