@@ -30,6 +30,7 @@ This is where I share discoveries, challenges, and insights from the frontier of
   <article class="post-preview">
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.status == "brainstorming" %}<span style="background-color: #7b1fa2; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">💡 BRAINSTORMING</span>{% endif %}
       {% if post.status == "research" %}<span style="background-color: #ff9800; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">🔍 RESEARCH</span>{% endif %}
       {% if post.status == "draft" %}<span style="background-color: #ffc107; color: #000; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📝 DRAFT</span>{% endif %}
       {% if post.status == "review" %}<span style="background-color: #2196f3; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.75em; margin-left: 8px;">📋 REVIEW</span>{% endif %}
