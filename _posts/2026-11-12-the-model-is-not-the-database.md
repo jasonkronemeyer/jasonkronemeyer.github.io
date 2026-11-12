@@ -1,5 +1,6 @@
 ---
 layout: post
+status: brainstorming 
 title: "The Model Is Not the Database: Why Learning Systems Should Think in Graphs Before They Store Them"
 date: 2026-11-12
 author: Jason Kronemeyer
