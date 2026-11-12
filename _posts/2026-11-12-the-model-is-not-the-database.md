@@ -19,7 +19,6 @@ tags:
   - RDF
   - PostgreSQL
   - Neo4j
-permalink: /the-model-is-not-the-database/
 ---
 
 # The Model Is Not the Database: Why Learning Systems Should Think in Graphs Before They Store Them
@@ -131,8 +130,6 @@ Course-001  --CONTAINS--->  Lesson-101
 ```
 
 Those relationships constitute a graph whether or not they are stored in a graph database.
-
-That distinction matters.
 
 ## JSON Can Contain a Graph
 
