@@ -21,8 +21,6 @@ tags:
   - Neo4j
 ---
 
-# The Model Is Not the Database: Why Learning Systems Should Think in Graphs Before They Store Them
-
 As I have been thinking through the architecture for a Common Cartridge importer for the Digital Opportunities Intelligence Network, one distinction keeps becoming more important: **a graph model and a graph database are not the same thing**. Confusing the two can lead either to premature technical complexity or, in the opposite direction, to a data model that cannot express the relationships we eventually want the system to understand.
 
 The distinction is fairly simple. A **graph model is a way of representing knowledge**. A **graph database is a technology for storing, querying, and traversing knowledge represented as a graph**. That means we can, and I think should, begin modeling learning content as a graph long before we decide that DOIN needs a dedicated graph database.
