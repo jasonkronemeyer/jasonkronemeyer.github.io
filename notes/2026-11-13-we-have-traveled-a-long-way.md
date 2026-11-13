@@ -22,8 +22,6 @@ description: "A reflective learning note tracing the evolution from an early Dig
 excerpt: "We began by asking what a Digital Navigator needs to know. Eighteen months later, the larger question is how communities can continuously construct, validate, connect, learn from, and act on knowledge about digital opportunity."
 ---
 
-# We Have Traveled a Long Way
-
 ## Executive Summary
 
 Over roughly the last 18 months, our work has moved from designing an ontology around the knowledge needs of a Digital Navigator toward a much larger question: **How can a community continuously construct, connect, validate, learn from, and act upon knowledge about its own digital opportunities?** The early ontology organized concepts such as people, devices, connectivity, resources, and skills. That work remains valuable, but it now looks less like the whole system and more like a Digital Navigation domain ontology within a larger knowledge architecture.
