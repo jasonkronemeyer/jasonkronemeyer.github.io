@@ -1,9 +1,9 @@
 ---
-layout: note
+layout: post
 title: "OneDrive, Copilot, and the Emerging Knowledge Infrastructure Stack"
 date: 2026-11-14
 author: Jason F. Kronemeyer
-status: draft
+status: research
 categories:
   - Knowledge Infrastructure
   - Artificial Intelligence
