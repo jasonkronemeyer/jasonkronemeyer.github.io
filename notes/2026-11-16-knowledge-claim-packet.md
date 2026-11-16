@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: research-note
 title: "Knowledge Claim Packets: A Governance and Verification Architecture for Portable, Provenance-Aware Knowledge"
 subtitle: "Toward verifiable, contextual, and community-governed knowledge infrastructure"
 author: Jason Kronemeyer
@@ -39,7 +39,7 @@ keywords:
   - SCITT
   - W3C PROV
   - DOIN
-status: working-paper
+status: brainstorming
 version: 0.1
 license: CC BY 4.0
 ---
