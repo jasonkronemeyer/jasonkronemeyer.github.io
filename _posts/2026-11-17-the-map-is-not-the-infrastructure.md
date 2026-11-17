@@ -1,5 +1,6 @@
 ---
 layout: post
+status: op-ed
 title: "The Map Is Not the Infrastructure"
 subtitle: "Why Cloud-Native Geospatial Data Matters for Communities Like Ours"
 date: 2026-11-17 07:29:00 -0500
