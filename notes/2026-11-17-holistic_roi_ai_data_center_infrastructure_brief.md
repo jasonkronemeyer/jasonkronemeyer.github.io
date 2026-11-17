@@ -1,10 +1,11 @@
 ---
+layout: research-note
 title: "Holistic ROI for AI and Data-Center Infrastructure"
 subtitle: "From Who Pays? to Who Benefits?"
 author: "Jason Kronemeyer"
 date: 2026-11-17
 type: "briefing paper"
-status: "draft"
+status: brief
 description: "Applies the Holistic ROI framework—Owner Return, User Return, Community Return, and Opportunity Value—to emerging policy for data-center electricity demand, grid investment, and community benefit."
 keywords:
   - Holistic ROI
