@@ -1,7 +1,8 @@
 ---
 layout: post
+status: op-ed
 title: "Economic Development Starts Before the Economic Developer Arrives"
-date: 2026-11-18 13:12:00 -0500
+date: 2026-11-18
 author: Jason Kronemeyer
 categories:
   - economic development
