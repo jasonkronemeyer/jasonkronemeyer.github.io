@@ -1,7 +1,8 @@
 ---
 layout: post
+status: brief
 title: "The Bipartisan American Affordability and Jobs Act of 2026: A Holistic ROI Perspective for the Eastern Upper Peninsula"
-date: 2026-11-20 13:56:00 -0500
+date: 2026-11-20
 author: "EUPConnect Collaborative"
 description: "An EUPConnect policy brief applying the Holistic ROI framework to federal permitting, transmission, large-load development, ratepayer affordability, and regional infrastructure opportunity."
 excerpt: "EUPConnect evaluates the Bipartisan American Affordability and Jobs Act of 2026 through Owner Return, User Return, Community Return, and Opportunity Value."
