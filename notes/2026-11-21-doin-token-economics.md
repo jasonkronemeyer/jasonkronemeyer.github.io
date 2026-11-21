@@ -17,8 +17,7 @@ tags:
 summary: "An illustrative model of how DOIN can reduce token consumption by replacing repeated document-centric retrieval with reusable knowledge objects, selective provenance, and delta processing."
 description: "A research note estimating first-transaction and lifecycle token savings from the DOIN knowledge-development architecture."
 status: draft
-published: false
-permalink: /research/doin-token-economics/
+published: true
 ---
 
 # DOIN Token Economics: Quantifying Transaction-Cost Savings
