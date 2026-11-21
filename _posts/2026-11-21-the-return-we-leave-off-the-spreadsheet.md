@@ -1,8 +1,9 @@
 ---
 layout: post
+status: draft
 title: "The Return We Leave Off the Spreadsheet"
 subtitle: "Why Infrastructure Requires a More Holistic Definition of ROI"
-date: 2026-11-21 12:24:00 -0500
+date: 2026-11-21
 author: Jason Kronemeyer
 categories:
   - infrastructure
