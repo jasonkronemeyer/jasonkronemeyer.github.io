@@ -20,8 +20,6 @@ tags:
 math: true
 ---
 
-# The Snowflake Model in Network Science Terms
-
 In network-science terms, the proposed **snowflake is not really a hub-and-spoke network**, even though a visual representation can initially look like one. A better description is a **multilayer, person-centered network whose communities correspond to opportunity domains and whose purpose is to increase each resident's reachable opportunities**.
 
 That distinction is important for DOIN and MITTEN.
@@ -51,7 +49,7 @@ where $V$ contains multiple node types:
 - evidence; and
 - outcomes.
 
-The Digital Citizen shown at the center of the snowflake is an **ego node**. The diagram is therefore an **ego-network view** of a much larger regional graph.
+The Digital Citizen shown at the center of the snowflake is an **focal node**. The diagram is therefore an **focal-network view** of a much larger regional graph.
 
 That citizen does not control the network. The citizen is simply the node from whose perspective we are asking:
 
