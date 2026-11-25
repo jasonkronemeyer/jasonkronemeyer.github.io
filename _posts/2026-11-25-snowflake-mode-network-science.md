@@ -9,6 +9,7 @@ categories:
   - digital-opportunity
   - community-development
   - network-science
+  - EUPConnect
 tags:
   - snowflake-model
   - digital-citizenship
