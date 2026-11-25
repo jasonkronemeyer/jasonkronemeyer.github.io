@@ -1,5 +1,6 @@
 ---
 layout: post
+status: brainstorming
 title: "The Snowflake Model in Network Science Terms"
 date: 2026-11-25
 author: Jason Kronemeyer
