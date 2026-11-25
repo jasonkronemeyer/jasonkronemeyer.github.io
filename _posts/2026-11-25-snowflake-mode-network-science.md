@@ -89,13 +89,24 @@ $$
 These communities have relatively dense internal connections. For example, the health community might contain:
 
 $$
-\text{Resident} \leftrightarrow \text{Navigator} \leftrightarrow \text{Library} \leftrightarrow \text{Health System} \leftrightarrow \text{Specialist} \leftrightarrow \text{Telehealth Service} \leftrightarrow \text{Remote Monitoring Service}
+\begin{aligned}
+&\text{Resident} \leftrightarrow \text{Navigator} \\
+&\leftrightarrow \text{Library} \leftrightarrow \text{Health System} \\
+&\leftrightarrow \text{Specialist} \leftrightarrow \text{Telehealth Service} \\
+&\leftrightarrow \text{Remote Monitoring Service}
+\end{aligned}
 $$
 
 The employment community could contain:
 
 $$
-\text{Resident} \leftrightarrow \text{Navigator} \leftrightarrow \text{Michigan Works!} \leftrightarrow \text{Employer} \leftrightarrow \text{Training Provider} \leftrightarrow \text{Credential} \leftrightarrow \text{Job}
+\begin{aligned}
+&\text{Resident} \leftrightarrow \text{Navigator} \\
+&\leftrightarrow \text{Michigan Works!} \\
+&\leftrightarrow \text{Employer} \\
+&\leftrightarrow \text{Training Provider} \\
+&\leftrightarrow \text{Credential} \leftrightarrow \text{Job}
+\end{aligned}
 $$
 
 But these communities should **not be isolated**. Health connects to employment. Employment connects to transportation. Education connects to employment. Financial capability connects to housing. Libraries touch nearly all of them. Those cross-branch relationships are extremely important.
@@ -118,7 +129,10 @@ They are not simply eight topics in a curriculum. They affect the individual's a
 Suppose an opportunity exists three steps away:
 
 $$
-\text{Citizen} \rightarrow \text{Portal} \rightarrow \text{Provider} \rightarrow \text{Specialist}
+\begin{aligned}
+&\text{Citizen} \rightarrow \text{Portal} \\
+&\rightarrow \text{Provider} \rightarrow \text{Specialist}
+\end{aligned}
 $$
 
 The path technically exists. But if the citizen cannot authenticate to the portal, the path is functionally broken.
@@ -150,19 +164,28 @@ In network science, the Digital Navigator is especially interesting. Navigators 
 Consider:
 
 $$
-\text{Citizen} \rightarrow \text{Navigator} \rightarrow \text{Health System}
+\begin{aligned}
+&\text{Citizen} \rightarrow \text{Navigator} \\
+&\rightarrow \text{Health System}
+\end{aligned}
 $$
 
 or:
 
 $$
-\text{Citizen} \rightarrow \text{Navigator} \rightarrow \text{Michigan Works!}
+\begin{aligned}
+&\text{Citizen} \rightarrow \text{Navigator} \\
+&\rightarrow \text{Michigan Works!}
+\end{aligned}
 $$
 
 or:
 
 $$
-\text{Citizen} \rightarrow \text{Navigator} \rightarrow \text{Government Service}
+\begin{aligned}
+&\text{Citizen} \rightarrow \text{Navigator} \\
+&\rightarrow \text{Government Service}
+\end{aligned}
 $$
 
 The navigator may have high **betweenness centrality** because many paths initially pass through that navigator. For a node $v$, betweenness centrality can be expressed as:
@@ -236,7 +259,10 @@ $$
 $$
 
 $$
-\text{Tribal Health System} \leftrightarrow \text{Community Navigator}
+\begin{aligned}
+&\text{Tribal Health System} \\
+&\leftrightarrow \text{Community Navigator}
+\end{aligned}
 $$
 
 $$
@@ -286,7 +312,10 @@ MITTEN helps **change the graph**. DOIN helps us **observe and understand the gr
 Conceptually, DOIN records assertions such as:
 
 $$
-\text{Organization A} \xrightarrow{\text{PROVIDES}} \text{Service X}
+\begin{aligned}
+&\text{Organization A} \\
+&\xrightarrow{\text{PROVIDES}} \text{Service X}
+\end{aligned}
 $$
 
 $$
@@ -294,7 +323,10 @@ $$
 $$
 
 $$
-\text{Navigator B} \xrightarrow{\text{SUPPORTS}} \text{Capability Y}
+\begin{aligned}
+&\text{Navigator B} \\
+&\xrightarrow{\text{SUPPORTS}} \text{Capability Y}
+\end{aligned}
 $$
 
 $$
@@ -302,7 +334,10 @@ $$
 $$
 
 $$
-\text{Intervention D} \xrightarrow{\text{PRODUCED}} \text{Outcome E}
+\begin{aligned}
+&\text{Intervention D} \\
+&\xrightarrow{\text{PRODUCED}} \text{Outcome E}
+\end{aligned}
 $$
 
 And, importantly:
@@ -338,7 +373,10 @@ $$
 $$
 
 $$
-\text{Resident} \rightarrow \text{Health Center} \rightarrow \text{Service}
+\begin{aligned}
+&\text{Resident} \rightarrow \text{Health Center} \\
+&\rightarrow \text{Service}
+\end{aligned}
 $$
 
 $$
@@ -372,19 +410,33 @@ Those relationships create trust.
 But opportunity often comes from **bridging relationships** that connect one community to another. Examples include:
 
 $$
-\text{Local Resident} \leftrightarrow \text{Library} \leftrightarrow \text{University}
+\begin{aligned}
+&\text{Local Resident} \leftrightarrow \text{Library} \\
+&\leftrightarrow \text{University}
+\end{aligned}
 $$
 
 $$
-\text{Tribal Health System} \leftrightarrow \text{Regional Hospital} \leftrightarrow \text{Distant Specialist}
+\begin{aligned}
+&\text{Tribal Health System} \\
+&\leftrightarrow \text{Regional Hospital} \\
+&\leftrightarrow \text{Distant Specialist}
+\end{aligned}
 $$
 
 $$
-\text{Student} \leftrightarrow \text{School} \leftrightarrow \text{Regional Employer}
+\begin{aligned}
+&\text{Student} \leftrightarrow \text{School} \\
+&\leftrightarrow \text{Regional Employer}
+\end{aligned}
 $$
 
 $$
-\text{Entrepreneur} \leftrightarrow \text{Local Organization} \leftrightarrow \text{Statewide Capital Network}
+\begin{aligned}
+&\text{Entrepreneur} \\
+&\leftrightarrow \text{Local Organization} \\
+&\leftrightarrow \text{Statewide Capital Network}
+\end{aligned}
 $$
 
 MITTEN should therefore value both:
@@ -429,7 +481,10 @@ where:
 Effective distance might combine time, cost, physical distance, skill requirements, trust, administrative friction, and the number of intermediaries:
 
 $$
-d_{io}^{*} = \alpha T_{io} + \beta C_{io} + \gamma D_{io} + \delta S_{io} + \epsilon F_{io} + \zeta H_{io}
+\begin{aligned}
+d_{io}^{*} &= \alpha T_{io} + \beta C_{io} + \gamma D_{io} \\
+&\quad + \delta S_{io} + \epsilon F_{io} + \zeta H_{io}
+\end{aligned}
 $$
 
 where the coefficients represent the relative importance of travel time, monetary cost, geographic distance, skill burden, administrative friction, and number of network hops.
