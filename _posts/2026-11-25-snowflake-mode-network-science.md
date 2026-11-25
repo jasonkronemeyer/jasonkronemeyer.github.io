@@ -26,6 +26,8 @@ In network-science terms, the proposed **snowflake is not really a hub-and-spoke
 
 That distinction is important for DOIN and MITTEN.
 
+![Snowflake model diagram]({{ '/assets/images/IMG_4307.png' | relative_url }})
+
 ## 1. The Digital Citizen Is the Focal Node, Not the Hub
 
 Let the regional network be:
