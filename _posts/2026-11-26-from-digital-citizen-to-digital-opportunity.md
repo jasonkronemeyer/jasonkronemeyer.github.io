@@ -1,6 +1,6 @@
 ---
-layout: brainstorming 
-status: draft
+layout: post
+status: brainstorming
 title: "From Digital Citizen to Digital Opportunity"
 subtitle: "Aligning an Individualized Competency Model with Michigan’s Digital Equity Plan and the Digital Opportunities Compass"
 author: "Jason F. Kronemeyer"
