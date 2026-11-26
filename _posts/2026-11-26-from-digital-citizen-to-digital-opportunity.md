@@ -3,7 +3,7 @@ layout: post
 status: brainstorming
 title: "From Digital Citizen to Digital Opportunity"
 subtitle: "Aligning an Individualized Competency Model with Michigan’s Digital Equity Plan and the Digital Opportunities Compass"
-author: "Jason F. Kronemeyer"
+author: "Jason F. Kronemeyer, EUPConnect Collaborative"
 date: 2026-11-26
 description: "A follow-up to the Digital Citizen framework that connects individual competencies and personalized learning resources to Michigan’s digital-equity indicators and the six dimensions of the Digital Opportunities Compass."
 categories:
