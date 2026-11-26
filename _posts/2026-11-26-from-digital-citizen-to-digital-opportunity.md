@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: brainstorming 
 status: draft
 title: "From Digital Citizen to Digital Opportunity"
 subtitle: "Aligning an Individualized Competency Model with Michigan’s Digital Equity Plan and the Digital Opportunities Compass"
