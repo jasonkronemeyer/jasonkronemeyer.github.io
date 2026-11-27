@@ -50,7 +50,7 @@ where $V$ contains multiple node types:
 - evidence; and
 - outcomes.
 
-The Digital Citizen shown at the center of the snowflake is an **focal node**. The diagram is therefore an **focal-network view** of a much larger regional graph.
+The Digital Citizen shown at the center of the snowflake is a **focal node**. The diagram is therefore an **focal-network view** of a much larger regional graph.
 
 That citizen does not control the network. The citizen is simply the node from whose perspective we are asking:
 
@@ -155,7 +155,9 @@ where:
 
 A broadband connection might physically exist, but the effective edge weight could still be poor because the person lacks a suitable device, cannot authenticate, distrusts the platform, cannot navigate it, or cannot afford the service.
 
-Digital Citizenship therefore increases the **effective strength and traversability of network connections**.
+Here, $w_{ij}$ is a conceptual **traversability score**: a larger value means that the relationship is more usable for this person and purpose. The function $f$ is not a standard network-science formula; it is a reminder that physical access alone does not determine whether an edge works in practice. Its inputs would need consistent definitions and scales before calculating a score. In particular, $w_{ij}$ is a measure of effective strength, not a path length or cost. A shortest-path model needs a separate cost for each edge.
+
+Digital Citizenship can improve the effective traversability of some connections. It does not necessarily change the underlying physical network: it may instead change whether a person can use a path that already exists.
 
 ## 4. Navigators Are Brokers
 
@@ -188,13 +190,13 @@ $$
 \end{aligned}
 $$
 
-The navigator may have high **betweenness centrality** because many paths initially pass through that navigator. For a node $v$, betweenness centrality can be expressed as:
+The navigator may have high **betweenness centrality** because many shortest paths initially pass through that navigator. For a node $v$, the unnormalized betweenness centrality is:
 
 $$
-C_B(v) = \sum_{s \ne v \ne t} \frac{\sigma_{st}(v)}{\sigma_{st}}
+B(v) = \sum_{\substack{s,t \in V \setminus \{v\} \\ s \ne t}} \frac{\sigma_{st}(v)}{\sigma_{st}}
 $$
 
-where $\sigma_{st}$ is the number of shortest paths from $s$ to $t$, and $\sigma_{st}(v)$ is the number of those paths that pass through $v$.
+Here, $\sigma_{st}$ is the number of shortest paths from $s$ to $t$, and $\sigma_{st}(v)$ is the number of those paths on which $v$ is an **intermediate** node, not an endpoint. This version counts ordered pairs $(s,t)$; in an undirected graph, one can instead count each unordered pair once. If several shortest paths tie, a pair contributes a fraction: for example, if 2 of 4 shortest paths pass through $v$, that pair contributes $2/4=0.5$. Normalized betweenness divides this total by the number of eligible pairs, using a convention that depends on whether the graph is directed or undirected.
 
 High betweenness can be useful, but it also presents a danger. If every pathway permanently requires the navigator, we have unintentionally created a **bottleneck**.
 
@@ -277,7 +279,7 @@ Community development becomes partly the intentional act of **creating valuable 
 
 ## 6. Structural Holes Represent Opportunity Gaps
 
-A **structural hole** occurs where two potentially valuable parts of the network are not adequately connected.
+A **structural hole**, in the sense used in social-network analysis, is a gap between otherwise disconnected or weakly connected contacts or groups. It can create an opportunity for a broker to connect them. Not every missing edge is a structural hole: the gap matters when connecting the sides could provide value.
 
 For example:
 
@@ -478,16 +480,26 @@ where:
 - $d_{io}^{*}(t)$ is the effective distance from person $i$ to opportunity $o$ at time $t$; and
 - $\tau$ is an acceptable threshold of burden.
 
+The threshold turns a continuous burden score into a practical yes/no rule: an opportunity is counted as reachable if its score is at or below $\tau$. For comparisons over time, use the same definition of an opportunity, scoring method, and threshold; otherwise a change in the count may reflect a changed measurement rule rather than a changed network. The threshold is a policy choice, so it is useful to check whether conclusions hold for nearby values of $\tau$.
+
 Effective distance might combine time, cost, physical distance, skill requirements, trust, administrative friction, and the number of intermediaries:
 
 $$
 \begin{aligned}
-d_{io}^{*} &= \alpha T_{io} + \beta C_{io} + \gamma D_{io} \\
-&\quad + \delta S_{io} + \epsilon F_{io} + \zeta H_{io}
+d_{io}^{*} &= \alpha \widetilde{T}_{io} + \beta \widetilde{C}_{io} + \gamma \widetilde{D}_{io} \\
+&\quad + \delta \widetilde{S}_{io} + \epsilon \widetilde{U}_{io} + \zeta \widetilde{F}_{io} + \eta \widetilde{H}_{io}
 \end{aligned}
 $$
 
-where the coefficients represent the relative importance of travel time, monetary cost, geographic distance, skill burden, administrative friction, and number of network hops.
+The tildes indicate that each factor has been put on a comparable scale (for example, normalized to the range $0$ to $1$). Here, $\widetilde{U}_{io}$ is a **trust deficit**: higher values mean less trust, and therefore greater burden. The coefficients are nonnegative weights representing the relative importance of travel time, monetary cost, geographic distance, skill burden, trust deficit, administrative friction, and network hops. One possible convention is to make the weights sum to $1$; that makes the result a weighted average on the same scale. The choices of scales and weights are modeling decisions, not universal constants. They should be selected with residents and validated against whether people can actually use the opportunities. Without normalization, adding minutes, dollars, miles, and hops directly would not have a meaningful interpretation.
+
+For example, suppose a path to telehealth has normalized burdens of $0.2$ for time, $0.1$ for cost, $0.0$ for geographic distance, $0.4$ for skill, $0.1$ for trust deficit, $0.2$ for administrative friction, and $0.3$ for hops. With weights $(0.15,0.15,0.05,0.15,0.25,0.15,0.10)$ in that same order, the effective distance is:
+
+$$
+d_{io}^{*} = 0.15(0.2)+0.15(0.1)+0.05(0.0)+0.15(0.4)+0.25(0.1)+0.15(0.2)+0.10(0.3)=0.19
+$$
+
+If the acceptable threshold is $\tau=0.25$, this path qualifies under the chosen model. This is an illustration of the method, not a claim that these particular scores or weights are appropriate for a real community.
 
 This gives us a practical interpretation of rural development:
 
@@ -563,25 +575,29 @@ $$
 k_i = \sum_j A_{ij}
 $$
 
-where $A$ is the graph's adjacency matrix.
+For a simple, undirected, unweighted graph, $A_{ij}=1$ when $i$ and $j$ have a direct relationship and $0$ otherwise; the diagonal is $0$, so a node is not counted as connected to itself. For example, if a resident has direct ties to a navigator, library, and clinic, then $k_i=3$. The formula counts ties, not their quality or usefulness; those need to be defined in the data. In a directed graph, distinguish in-degree from out-degree. In a weighted graph, $\sum_j A_{ij}$ is usually called strength rather than degree.
 
 ### Betweenness Centrality
 
 Which navigators or organizations are becoming bottlenecks or critical brokers?
 
 $$
-C_B(v) = \sum_{s \ne v \ne t} \frac{\sigma_{st}(v)}{\sigma_{st}}
+B(v) = \sum_{\substack{s,t \in V \setminus \{v\} \\ s \ne t}} \frac{\sigma_{st}(v)}{\sigma_{st}}
 $$
+
+This is the same unnormalized measure described above: it counts how often a node lies between other nodes on shortest paths. High betweenness can indicate brokerage, but it does not by itself prove that a node is a bottleneck or that removing it would disrupt service. To assess that risk, examine what reachable paths remain if the node or relationship is unavailable. Also specify whether shortest paths mean fewest hops or lowest total cost.
 
 ### Path Length
 
 How many steps must a resident traverse to reach a resource?
 
-For reachable pairs of nodes, average path length can be represented as:
+For a connected graph with $N$ nodes, the average path length over ordered pairs is:
 
 $$
 L = \frac{1}{N(N-1)} \sum_{i \ne j} d(i,j)
 $$
+
+Here, $d(i,j)$ is the length of a shortest path from $i$ to $j$. In an unweighted graph, length is the number of edges; in a weighted graph, it is the minimum sum of edge costs. For example, in a three-node chain $A-B-C$, the ordered-pair distances are $1,1,2,2,1,1$, so $L=8/6=4/3$ edges. If the graph is disconnected, some distances are infinite, so this all-pairs formula is not a finite average. One option is to average only over reachable ordered pairs, dividing by the number of such pairs; another is to report averages for each connected component. State which convention is used, since the results answer different questions.
 
 ### Network Density
 
@@ -593,6 +609,8 @@ $$
 D = \frac{2|E|}{|V|(|V|-1)}
 $$
 
+This is the fraction of all possible distinct node pairs that have an edge, ranging from $0$ (no edges) to $1$ (every pair is connected). It assumes a simple undirected graph with no self-loops. Density says how many direct ties exist, not whether they are accessible, trusted, or resilient. For directed, weighted, or multilayer networks, use a definition appropriate to the layer and edge type rather than combining unlike relationships into one denominator.
+
 ### Modularity
 
 Are health, education, workforce, and other domains becoming isolated silos, or are meaningful cross-domain bridges emerging?
@@ -603,7 +621,7 @@ $$
 Q = \frac{1}{2m}\sum_{i,j}\left(A_{ij}-\frac{k_i k_j}{2m}\right)\delta(c_i,c_j)
 $$
 
-where $m$ is the number of edges, $k_i$ and $k_j$ are node degrees, and $\delta(c_i,c_j)$ indicates whether nodes $i$ and $j$ belong to the same community.
+Here, $A_{ij}$ is the binary adjacency matrix, $m$ is the number of edges, $k_i$ and $k_j$ are node degrees, and $\delta(c_i,c_j)=1$ when $i$ and $j$ are assigned to the same community and $0$ otherwise. The sum considers all ordered pairs; the factor $1/(2m)$ accounts for each undirected edge appearing twice. The term $k_i k_j/(2m)$ is the expected connection under a degree-based random-graph baseline. Thus, $Q$ compares the number of within-community edges with what that baseline would predict. A higher value indicates stronger-than-expected within-community clustering for that particular partition; it does not automatically mean the network is healthier. This expression is for an undirected, unweighted graph; directed and weighted networks use variants.
 
 ### Bridges
 
@@ -631,7 +649,7 @@ $$
 G_t \rightarrow G_{t+1}
 $$
 
-The practical question is:
+This notation means the graph observed at one time is compared with the graph observed later. It is descriptive, not by itself evidence that an intervention caused the change: other events may also have changed the network. The practical question is:
 
 > **How did the community network change because we intervened?**
 
