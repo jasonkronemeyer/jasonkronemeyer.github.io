@@ -4,7 +4,7 @@ status: brainstorming
 title: "The Snowflake Model in Network Science Terms"
 date: 2026-11-25
 author: Jason Kronemeyer
-description: "A network-science explanation of the Digital Opportunity Snowflake and its relationship to Digital Citizenship, Michigan's Inclusive Training, Technology, and Equity Network (MITTEN), the Digital Opportunities Intelligence Network (DOIN), Compass, the Knowledge Commons, and Holistic Return on Investment (ROI)."
+description: "A network-science explanation of the Digital Opportunity Snowflake and its relationship to Digital Citizenship, Michigan's Inclusive Training, Technology, and Equity Network (MITTEN), the Digital Opportunities Intelligence Network (DOIN), Digital Opportunities Compass, the Knowledge Commons, and Holistic Return on Investment (ROI)."
 categories:
   - digital-opportunity
   - community-development
