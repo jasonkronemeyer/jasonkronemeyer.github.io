@@ -659,7 +659,7 @@ The overall model can be summarized in network-science terms:
 
 | Model element | Network-science interpretation |
 |---|---|
-| Digital Citizen | Ego node whose opportunity set we want to expand |
+| Digital Citizen | Ego (focal) node whose opportunity set we want to expand |
 | Snowflake branches | Modular opportunity communities |
 | Digital skills | Capabilities affecting edge traversability |
 | Navigator | Broker who helps establish and strengthen edges |
