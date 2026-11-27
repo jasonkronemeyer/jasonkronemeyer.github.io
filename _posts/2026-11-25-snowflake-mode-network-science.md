@@ -1,3 +1,4 @@
+---
 layout: post
 status: brainstorming
 title: "The Snowflake Model in Network Science Terms"
