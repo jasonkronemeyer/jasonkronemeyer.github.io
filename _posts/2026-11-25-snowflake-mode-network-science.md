@@ -3,7 +3,7 @@ status: brainstorming
 title: "The Snowflake Model in Network Science Terms"
 date: 2026-11-25
 author: Jason Kronemeyer
-description: "A network-science explanation of the Digital Opportunity Snowflake and its relationship to Digital Citizenship, MITTEN, DOIN, Compass, the Knowledge Commons, and Holistic ROI."
+description: "A network-science explanation of the Digital Opportunity Snowflake and its relationship to Digital Citizenship, Michigan's Inclusive Training, Technology, and Equity Network (MITTEN), the Digital Opportunities Intelligence Network (DOIN), Compass, the Knowledge Commons, and Holistic Return on Investment (ROI)."
 categories:
   - digital-opportunity
   - community-development
@@ -22,7 +22,7 @@ math: true
 
 In network-science terms, the proposed **snowflake is not really a hub-and-spoke network**, even though a visual representation can initially look like one. A better description is a **multilayer, person-centered network whose communities correspond to opportunity domains and whose purpose is to increase each resident's reachable opportunities**.
 
-That distinction is important for DOIN and MITTEN.
+That distinction is important for the Digital Opportunities Intelligence Network (DOIN) and Michigan's Inclusive Training, Technology, and Equity Network (MITTEN).
 
 
 ![Snowflake model diagram]({{ '/assets/images/IMG_4307.png' | relative_url }})
@@ -449,7 +449,7 @@ One purpose of the snowflake is to create **bridges between branches**.
 
 ## 10. Opportunity Value Becomes Measurable as Network Expansion
 
-This relates directly to the fourth Holistic ROI category: **Opportunity Value**.
+This relates directly to the fourth category in the Holistic Return on Investment (ROI) framework: **Opportunity Value**.
 
 In network terms, an intervention creates Opportunity Value when it increases the set of meaningful things reachable by a person or community.
 
@@ -684,13 +684,13 @@ That is more than a metaphor. It supplies a network model that DOIN can represen
 - **Broker / brokerage**: A node or role that connects otherwise weakly connected people, organizations, or network communities.
 - **Degree**: The number of direct edges connected to a node in a simple, unweighted graph. For weighted graphs, the sum of edge weights is generally called strength.
 - **Digital Citizenship**: The digital capabilities discussed in this article—Connect, Identify, Navigate, Communicate, Create, Evaluate, Protect, and Participate—that help people use digital resources and relationships.
-- **DOIN**: The network-observation and understanding layer described in the article. It represents relationships and their supporting evidence, context, and provenance.
+- **DOIN (Digital Opportunities Intelligence Network)**: The network-observation and understanding layer described in the article. It represents relationships and their supporting evidence, context, and provenance.
 - **Edge**: A relationship or connection between two nodes in a graph.
 - **Effective distance**: A modeled measure of the burden of reaching an opportunity, combining factors such as time, cost, skills, trust, administrative friction, and network hops.
 - **Focal (ego) network**: The network viewed from one focal person or node and the relationships and opportunities reachable from that perspective.
 - **Graph**: A representation of entities as nodes and their relationships as edges.
 - **Modularity**: A measure of how strongly a network is divided into communities, compared with a chosen random-graph baseline. A higher score is not automatically better.
-- **MITTEN**: The network-weaving intervention system described in the article; it helps create or strengthen valuable connections among regional assets.
+- **MITTEN (Michigan's Inclusive Training, Technology, and Equity Network)**: The network-weaving intervention system described in the article; it helps create or strengthen valuable connections among regional assets.
 - **Network density**: The proportion of possible direct connections that actually exist in a network, under a specified graph definition.
 - **Network weaving**: The intentional work of connecting existing people, organizations, services, and other assets so opportunity can flow between them.
 - **Node**: An entity represented in a graph, such as a person, organization, service, skill, resource, or opportunity.
