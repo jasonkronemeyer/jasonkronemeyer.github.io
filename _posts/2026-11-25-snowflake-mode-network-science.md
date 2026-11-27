@@ -1,4 +1,3 @@
----
 layout: post
 status: brainstorming
 title: "The Snowflake Model in Network Science Terms"
@@ -675,3 +674,29 @@ The snowflake model can therefore be stated concisely:
 > **The snowflake model treats community development as the intentional expansion, strengthening, and diversification of the pathways through which people can reach meaningful opportunities.**
 
 That is more than a metaphor. It supplies a network model that DOIN can represent, MITTEN can intentionally change, Compass can help analyze, the Knowledge Commons can resource, and Holistic ROI can evaluate.
+
+## Glossary
+
+- **Adjacency matrix**: A table representing which pairs of nodes have direct connections; in a simple unweighted graph, a cell is 1 when an edge exists and 0 otherwise.
+- **Betweenness centrality**: A measure of how often a node lies on shortest paths between other nodes. It can indicate brokerage, but does not alone establish that the node is a bottleneck.
+- **Bonding capital**: Trust and support created by strong relationships within a community or group.
+- **Bridging capital**: Relationships that connect people or groups to other communities and opportunities.
+- **Broker / brokerage**: A node or role that connects otherwise weakly connected people, organizations, or network communities.
+- **Degree**: The number of direct edges connected to a node in a simple, unweighted graph. For weighted graphs, the sum of edge weights is generally called strength.
+- **Digital Citizenship**: The digital capabilities discussed in this article—Connect, Identify, Navigate, Communicate, Create, Evaluate, Protect, and Participate—that help people use digital resources and relationships.
+- **DOIN**: The network-observation and understanding layer described in the article. It represents relationships and their supporting evidence, context, and provenance.
+- **Edge**: A relationship or connection between two nodes in a graph.
+- **Effective distance**: A modeled measure of the burden of reaching an opportunity, combining factors such as time, cost, skills, trust, administrative friction, and network hops.
+- **Focal (ego) network**: The network viewed from one focal person or node and the relationships and opportunities reachable from that perspective.
+- **Graph**: A representation of entities as nodes and their relationships as edges.
+- **Modularity**: A measure of how strongly a network is divided into communities, compared with a chosen random-graph baseline. A higher score is not automatically better.
+- **MITTEN**: The network-weaving intervention system described in the article; it helps create or strengthen valuable connections among regional assets.
+- **Network density**: The proportion of possible direct connections that actually exist in a network, under a specified graph definition.
+- **Network weaving**: The intentional work of connecting existing people, organizations, services, and other assets so opportunity can flow between them.
+- **Node**: An entity represented in a graph, such as a person, organization, service, skill, resource, or opportunity.
+- **Path / path length**: A sequence of edges connecting nodes; path length is the number of edges or, in a weighted graph, the total edge cost.
+- **Provenance**: Information about the origin, timing, and evidentiary support for a claim or relationship in the network.
+- **Reachability**: Whether a person or community can practically access a node or opportunity through available paths, not merely whether a theoretical connection exists.
+- **Redundancy / resilience**: Multiple viable routes to important resources, allowing access to continue when a node, relationship, or channel is unavailable.
+- **Structural hole**: A meaningful gap between otherwise disconnected or weakly connected contacts or groups; connecting its sides may create value.
+- **Traversability**: How usable a particular edge is for a person and purpose, given factors such as access, capability, trust, cost, and reliability.
